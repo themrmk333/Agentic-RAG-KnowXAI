@@ -1,0 +1,332 @@
+[
+  {
+    "faq_id": "FAQ-PRJ-003-001",
+    "question": "What is the architecture of PRJ-003?",
+    "short_answer": "Incoming tickets are classified by category/severity using a fine-tuned classifier; a retrieval layer surfaces the top matching Knowledge Base articles; a draft-response generator ",
+    "detailed_answer": "Incoming tickets are classified by category/severity using a fine-tuned classifier; a retrieval layer surfaces the top matching Knowledge Base articles; a draft-response generator produces a suggested reply for the Support Associate to review and send, keeping a human in the loop.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-002",
+    "question": "Who is the project manager and technical lead for Intelligent Customer Support Automation?",
+    "short_answer": "The Project Manager is Karan Pillai and the Technical Lead is Naveen Menon.",
+    "detailed_answer": "The Project Manager is Karan Pillai and the Technical Lead is Naveen Menon.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-003",
+    "question": "What technologies are being used in Intelligent Customer Support Automation?",
+    "short_answer": "Technologies used: Python microservice; MK-SupportDesk API integration; MK-DataLake for ticket analytics; Internal classification model; Internal draft-generation model",
+    "detailed_answer": "Technologies used: Python microservice; MK-SupportDesk API integration; MK-DataLake for ticket analytics; Internal classification model; Internal draft-generation model",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-004",
+    "question": "What is the current status of Intelligent Customer Support Automation?",
+    "short_answer": "Intelligent Customer Support Automation is currently: In Progress - Pilot. Current sprint: Sprint 7: Improving billing-ticket severity classification accuracy.",
+    "detailed_answer": "Intelligent Customer Support Automation is currently: In Progress - Pilot. Current sprint: Sprint 7: Improving billing-ticket severity classification accuracy.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-005",
+    "question": "What is the deployment procedure for Intelligent Customer Support Automation?",
+    "short_answer": "Rolled out to one support pod at a time, expanding as accuracy metrics hold.",
+    "detailed_answer": "Rolled out to one support pod at a time, expanding as accuracy metrics hold.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-006",
+    "question": "Which database does Intelligent Customer Support Automation use?",
+    "short_answer": "MK-SupportDesk's ticket database (read access) plus a dedicated analytics store in MK-DataLake.",
+    "detailed_answer": "MK-SupportDesk's ticket database (read access) plus a dedicated analytics store in MK-DataLake.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-007",
+    "question": "What is the current sprint goal for Intelligent Customer Support Automation?",
+    "short_answer": "Sprint 7: Improving billing-ticket severity classification accuracy.",
+    "detailed_answer": "Sprint 7: Improving billing-ticket severity classification accuracy.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-008",
+    "question": "What are the known issues in Intelligent Customer Support Automation?",
+    "short_answer": "Known issues: Severity classification for billing-related tickets is less accurate than for technical tickets.; Draft responses occasionally suggest a deprecated KB article that ne",
+    "detailed_answer": "Known issues: Severity classification for billing-related tickets is less accurate than for technical tickets.; Draft responses occasionally suggest a deprecated KB article that needs manual correction.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-009",
+    "question": "What are the key risks for Intelligent Customer Support Automation?",
+    "short_answer": "Risks: Over-reliance on drafts reducing Support Associates' own troubleshooting skill over time.; Classification drift as new product features change the shape of incoming tickets.",
+    "detailed_answer": "Risks: Over-reliance on drafts reducing Support Associates' own troubleshooting skill over time.; Classification drift as new product features change the shape of incoming tickets.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-010",
+    "question": "How is security handled in Intelligent Customer Support Automation?",
+    "short_answer": "Draft responses are never sent automatically; a Support Associate must review and approve every suggested reply before it reaches a customer.",
+    "detailed_answer": "Draft responses are never sent automatically; a Support Associate must review and approve every suggested reply before it reaches a customer.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-011",
+    "question": "What departments are involved in Intelligent Customer Support Automation?",
+    "short_answer": "Departments involved: Customer Support / Helpdesk, Engineering, Data & Analytics",
+    "detailed_answer": "Departments involved: Customer Support / Helpdesk, Engineering, Data & Analytics",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-012",
+    "question": "What is the CI/CD process for Intelligent Customer Support Automation?",
+    "short_answer": "MK-CI pipeline with classification-accuracy gating (must exceed 90% on the validation set).",
+    "detailed_answer": "MK-CI pipeline with classification-accuracy gating (must exceed 90% on the validation set).",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-013",
+    "question": "What is on the backlog for Intelligent Customer Support Automation?",
+    "short_answer": "Backlog items: Add sentiment detection to prioritize frustrated customers; Auto-suggest churn-risk flags to Sales",
+    "detailed_answer": "Backlog items: Add sentiment detection to prioritize frustrated customers; Auto-suggest churn-risk flags to Sales",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-014",
+    "question": "What is the future roadmap for Intelligent Customer Support Automation?",
+    "short_answer": "Extend automation to proactively detect emerging issues from ticket clusters before they become widespread.",
+    "detailed_answer": "Extend automation to proactively detect emerging issues from ticket clusters before they become widespread.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-003-015",
+    "question": "What is the testing workflow for Intelligent Customer Support Automation?",
+    "short_answer": "QA validates classification accuracy against a labeled historical ticket set before each release.",
+    "detailed_answer": "QA validates classification accuracy against a labeled historical ticket set before each release.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Intelligent Customer Support Automation",
+      "PRJ-003"
+    ],
+    "related_documents": [
+      "PRJ-003"
+    ],
+    "escalation_path": "Naveen Menon -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  }
+]

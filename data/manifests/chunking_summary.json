@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-08-26T19:32:29.380335+00:00",
+  "total_files_scanned": 5134,
+  "total_files_processed": 5134,
+  "total_files_failed": 0,
+  "total_chunks": 12730,
+  "total_chunk_words": 6960479,
+  "total_chunk_characters": 51981435,
+  "estimated_tokens": 9048553,
+  "average_tokens_per_chunk": 710.81,
+  "min_tokens_per_chunk": 30,
+  "max_tokens_per_chunk": 3401,
+  "estimated_pages": 15468.0,
+  "per_batch": {
+    "batch_01": {
+      "total_files": 503,
+      "total_chunks": 919,
+      "total_words": 502079,
+      "total_tokens": 652702,
+      "avg_chunk_tokens": 710.23
+    },
+    "batch_02": {
+      "total_files": 1468,
+      "total_chunks": 3406,
+      "total_words": 1860773,
+      "total_tokens": 2419004,
+      "avg_chunk_tokens": 710.22
+    },
+    "batch_03": {
+      "total_files": 3163,
+      "total_chunks": 8405,
+      "total_words": 4597627,
+      "total_tokens": 5976915,
+      "avg_chunk_tokens": 711.11
+    }
+  },
+  "duplicate_chunks": 3360
+}

@@ -1,0 +1,788 @@
+[
+  {
+    "faq_id": "FAQ-PROC-001",
+    "question": "How do I complete: New Hardware/Equipment Request Procedure?",
+    "short_answer": "Follow the 7-step New Hardware/Equipment Request Procedure procedure in MK-ProcureX, starting with the SOP-PROC-001 SOP.",
+    "detailed_answer": "The New Hardware/Equipment Request Procedure process (SOP-PROC-001) is owned by the Procurement / Purchasing department. The employee initiates the request in MK-ProcureX and Procurement Lead is responsible for approval/sign-off. Requests above INR 1,00,000 require Procurement Manager approval.",
+    "step_by_step": [
+      "the employee logs into MK-ProcureX and navigates to the 'Purchase Requisition' section.",
+      "the employee selects 'New Purchase Requisition' and enters the required details, including item specification, quantity, and cost centre.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Purchase Requisition; MK-ProcureX automatically routes it to the Procurement Lead for review.",
+      "The Procurement Lead reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ProcureX updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Purchase Requisition is processed and the record is retained in MK-ProcureX for audit purposes. Requests above INR 1,00,000 require Procurement Manager approval."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Requisitioning",
+    "role_applicability": [
+      "employee",
+      "Procurement Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "New Hardware/Equipment Request Procedure",
+      "Requisitioning",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-001"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-002",
+    "question": "How do I complete: Vendor Selection and Onboarding Procedure?",
+    "short_answer": "Follow the 7-step Vendor Selection and Onboarding Procedure procedure in MK-ProcureX, starting with the SOP-PROC-002 SOP.",
+    "detailed_answer": "The Vendor Selection and Onboarding Procedure process (SOP-PROC-002) is owned by the Procurement / Purchasing department. The procurement specialist initiates the request in MK-ProcureX and Procurement Manager is responsible for approval/sign-off. Sole-sourcing without competitive quotes requires Director approval with justification.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProcureX.",
+      "the Procurement Specialist gathers the required data and documents, including comparing at least 3 quotes on price, quality, and delivery timeline.",
+      "The review team examines the Vendor Selection against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Procurement Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProcureX with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Sole-sourcing without competitive quotes requires Director approval with justification."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Vendor Management",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Selection and Onboarding Procedure",
+      "Vendor Management",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-002"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROC-003",
+    "question": "How do I complete: Purchase Order Issuance Procedure?",
+    "short_answer": "Follow the 7-step Purchase Order Issuance Procedure procedure in MK-ProcureX, starting with the SOP-PROC-003 SOP.",
+    "detailed_answer": "The Purchase Order Issuance Procedure process (SOP-PROC-003) is owned by the Procurement / Purchasing department. The procurement executive initiates the request in MK-ProcureX and Procurement Lead is responsible for approval/sign-off. POs are not issued until Finance confirms budget availability.",
+    "step_by_step": [
+      "the Procurement Executive confirms eligibility and prerequisites: matching the PO to the approved requisition and negotiated price.",
+      "the Procurement Executive raises a request in MK-ProcureX specifying exactly which Purchase Order is required.",
+      "The Procurement Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Purchase Order in the relevant system.",
+      "the Procurement Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProcureX and corrected before sign-off.",
+      "MK-ProcureX marks the request 'Complete' and the configuration is logged for audit and future reference. POs are not issued until Finance confirms budget availability."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Purchase Orders",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Purchase Order Issuance Procedure",
+      "Purchase Orders",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-003"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-004",
+    "question": "How do I complete: Vendor Contract Renewal Procedure?",
+    "short_answer": "Follow the 7-step Vendor Contract Renewal Procedure procedure in MK-ProcureX, starting with the SOP-PROC-004 SOP.",
+    "detailed_answer": "The Vendor Contract Renewal Procedure process (SOP-PROC-004) is owned by the Procurement / Purchasing department. The vendor manager initiates the request in MK-ProcureX and Procurement Manager is responsible for approval/sign-off. Underperforming vendors are flagged for a formal improvement plan before renewal.",
+    "step_by_step": [
+      "the Vendor Manager logs into MK-ProcureX and navigates to the 'Vendor Contract Renewal' section.",
+      "the Vendor Manager selects 'New Vendor Contract Renewal' and enters the required details, including performance review and renegotiated pricing where applicable.",
+      "the Vendor Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Vendor Manager submits the Vendor Contract Renewal; MK-ProcureX automatically routes it to the Procurement Manager for review.",
+      "The Procurement Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ProcureX updates the status to 'Approved' and notifies the Vendor Manager by email/in-app notification.",
+      "The approved Vendor Contract Renewal is processed and the record is retained in MK-ProcureX for audit purposes. Underperforming vendors are flagged for a formal improvement plan before renewal."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Vendor Management",
+    "role_applicability": [
+      "Vendor Manager",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Renewal Procedure",
+      "Vendor Management",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-004"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-005",
+    "question": "How do I complete: Goods Receipt and Inspection Procedure?",
+    "short_answer": "Follow the 7-step Goods Receipt and Inspection Procedure procedure in MK-ProcureX, starting with the SOP-PROC-005 SOP.",
+    "detailed_answer": "The Goods Receipt and Inspection Procedure process (SOP-PROC-005) is owned by the Procurement / Purchasing department. The procurement executive initiates the request in MK-ProcureX and Procurement Lead is responsible for approval/sign-off. Damaged or short-shipped goods trigger an immediate vendor claim.",
+    "step_by_step": [
+      "the Procurement Executive confirms eligibility and prerequisites: checking quantity and condition against the purchase order.",
+      "the Procurement Executive raises a request in MK-ProcureX specifying exactly which Goods Receipt is required.",
+      "The Procurement Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Goods Receipt in the relevant system.",
+      "the Procurement Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProcureX and corrected before sign-off.",
+      "MK-ProcureX marks the request 'Complete' and the configuration is logged for audit and future reference. Damaged or short-shipped goods trigger an immediate vendor claim."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Receiving",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Goods Receipt and Inspection Procedure",
+      "Receiving",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-005"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROC-006",
+    "question": "How do I complete: Procurement Budget Tracking Procedure?",
+    "short_answer": "Follow the 7-step Procurement Budget Tracking Procedure procedure in MK-ProcureX, starting with the SOP-PROC-006 SOP.",
+    "detailed_answer": "The Procurement Budget Tracking Procedure process (SOP-PROC-006) is owned by the Procurement / Purchasing department. The procurement lead initiates the request in MK-ProcureX and Procurement Director is responsible for approval/sign-off. Categories trending over budget are frozen pending review.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProcureX.",
+      "the Procurement Lead gathers the required data and documents, including committed vs actual spend by category.",
+      "The review team examines the Procurement Budget Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Procurement Director discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProcureX with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Categories trending over budget are frozen pending review."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Budget Management",
+    "role_applicability": [
+      "Procurement Lead",
+      "Procurement Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Procurement Budget Tracking Procedure",
+      "Budget Management",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-006"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-007",
+    "question": "How do I complete: Vendor Performance Review Procedure?",
+    "short_answer": "Follow the 7-step Vendor Performance Review Procedure procedure in MK-ProcureX, starting with the SOP-PROC-007 SOP.",
+    "detailed_answer": "The Vendor Performance Review Procedure process (SOP-PROC-007) is owned by the Procurement / Purchasing department. The vendor manager initiates the request in MK-ProcureX and Procurement Manager is responsible for approval/sign-off. Vendors scoring below threshold for two consecutive cycles are placed under review.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProcureX.",
+      "the Vendor Manager gathers the required data and documents, including on-time delivery rate, quality issues, and responsiveness.",
+      "The review team examines the Vendor Performance Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Procurement Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProcureX with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Vendors scoring below threshold for two consecutive cycles are placed under review."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Vendor Management",
+    "role_applicability": [
+      "Vendor Manager",
+      "Procurement Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Performance Review Procedure",
+      "Vendor Management",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-007"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-008",
+    "question": "How do I complete: Emergency/Urgent Procurement Procedure?",
+    "short_answer": "Follow the 7-step Emergency/Urgent Procurement Procedure procedure in MK-ProcureX, starting with the SOP-PROC-008 SOP.",
+    "detailed_answer": "The Emergency/Urgent Procurement Procedure process (SOP-PROC-008) is owned by the Procurement / Purchasing department. The requester initiates the request in MK-ProcureX and Procurement Manager is responsible for approval/sign-off. Emergency purchases are retroactively reviewed within 5 business days.",
+    "step_by_step": [
+      "the requester logs into MK-ProcureX and navigates to the 'Urgent Purchase Request' section.",
+      "the requester selects 'New Urgent Purchase Request' and enters the required details, including business justification for bypassing the standard 3-quote process.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Urgent Purchase Request; MK-ProcureX automatically routes it to the Procurement Manager for review.",
+      "The Procurement Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ProcureX updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Urgent Purchase Request is processed and the record is retained in MK-ProcureX for audit purposes. Emergency purchases are retroactively reviewed within 5 business days."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Requisitioning",
+    "role_applicability": [
+      "requester",
+      "Procurement Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Emergency/Urgent Procurement Procedure",
+      "Requisitioning",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-008"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROC-009",
+    "question": "How do I complete: Software License Procurement Procedure?",
+    "short_answer": "Follow the 7-step Software License Procurement Procedure procedure in MK-ProcureX, starting with the SOP-PROC-009 SOP.",
+    "detailed_answer": "The Software License Procurement Procedure process (SOP-PROC-009) is owned by the Procurement / Purchasing department. The requester initiates the request in MK-ProcureX and Procurement Lead is responsible for approval/sign-off. All new software licenses require IT and Security sign-off before purchase.",
+    "step_by_step": [
+      "the requester logs into MK-ProcureX and navigates to the 'Software License Request' section.",
+      "the requester selects 'New Software License Request' and enters the required details, including number of seats, license term, and IT/Security review status.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Software License Request; MK-ProcureX automatically routes it to the Procurement Lead for review.",
+      "The Procurement Lead reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ProcureX updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Software License Request is processed and the record is retained in MK-ProcureX for audit purposes. All new software licenses require IT and Security sign-off before purchase."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Software Procurement",
+    "role_applicability": [
+      "requester",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Software License Procurement Procedure",
+      "Software Procurement",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-009"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-010",
+    "question": "How do I complete: Vendor Dispute Resolution Procedure?",
+    "short_answer": "Follow the 7-step Vendor Dispute Resolution Procedure procedure in MK-ProcureX, starting with the SOP-PROC-010 SOP.",
+    "detailed_answer": "The Vendor Dispute Resolution Procedure process (SOP-PROC-010) is owned by the Procurement / Purchasing department. The procurement specialist initiates the request in MK-ProcureX and Procurement Manager is responsible for approval/sign-off. Disputes unresolved after 15 days are escalated to Legal.",
+    "step_by_step": [
+      "the Procurement Specialist confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Procurement Specialist performs the standard first-line check: documenting the discrepancy against the PO and contract terms.",
+      "If the issue persists, the Procurement Specialist applies the documented workaround for this issue type.",
+      "the Procurement Specialist checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Procurement Specialist raises a ticket in MK-ProcureX categorised under 'Vendor Dispute', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Procurement Specialist confirms the fix works; the ticket is closed in MK-ProcureX with the root cause logged. Disputes unresolved after 15 days are escalated to Legal."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Vendor Management",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Vendor Dispute Resolution Procedure",
+      "Vendor Management",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-010"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-011",
+    "question": "How do I complete: Procurement Onboarding Procedure?",
+    "short_answer": "Follow the 7-step Procurement Onboarding Procedure procedure in MK-ProcureX, starting with the SOP-PROC-011 SOP.",
+    "detailed_answer": "The Procurement Onboarding Procedure process (SOP-PROC-011) is owned by the Procurement / Purchasing department. The procurement lead initiates the request in MK-ProcureX and Procurement Manager is responsible for approval/sign-off. New team members do not approve POs until certified after 30 days.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-ProcureX owner ahead of the employee's start or end date.",
+      "the Procurement Lead prepares the required Procurement Onboarding, including MK-ProcureX access and vendor master data training.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Procurement Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Procurement Manager for same-day resolution.",
+      "MK-ProcureX is updated to reflect the completed status and the record is archived. New team members do not approve POs until certified after 30 days."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Procurement Lead",
+      "Procurement Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Procurement Onboarding Procedure",
+      "Onboarding",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-011"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROC-012",
+    "question": "How do I complete: Sustainable/Ethical Sourcing Review?",
+    "short_answer": "Follow the 7-step Sustainable/Ethical Sourcing Review procedure in MK-ProcureX, starting with the SOP-PROC-012 SOP.",
+    "detailed_answer": "The Sustainable/Ethical Sourcing Review process (SOP-PROC-012) is owned by the Procurement / Purchasing department. The procurement specialist initiates the request in MK-ProcureX and Procurement Director is responsible for approval/sign-off. Vendors failing the ethical sourcing checklist are not onboarded.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProcureX.",
+      "the Procurement Specialist gathers the required data and documents, including vendor labour practices and environmental compliance declarations.",
+      "The review team examines the Sourcing Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Procurement Director discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProcureX with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Vendors failing the ethical sourcing checklist are not onboarded."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Vendor Compliance",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Sustainable/Ethical Sourcing Review",
+      "Vendor Compliance",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-012"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-013",
+    "question": "How do I complete: Asset Disposal Procedure?",
+    "short_answer": "Follow the 7-step Asset Disposal Procedure procedure in MK-ProcureX, starting with the SOP-PROC-013 SOP.",
+    "detailed_answer": "The Asset Disposal Procedure process (SOP-PROC-013) is owned by the Procurement / Purchasing department. The procurement executive initiates the request in MK-ProcureX and Procurement Lead is responsible for approval/sign-off. Disposal records are retained for 3 years for audit purposes.",
+    "step_by_step": [
+      "the Procurement Executive confirms eligibility and prerequisites: data wipe confirmation from IT before disposal of any IT asset.",
+      "the Procurement Executive raises a request in MK-ProcureX specifying exactly which Asset Disposal Request is required.",
+      "The Procurement Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Asset Disposal Request in the relevant system.",
+      "the Procurement Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProcureX and corrected before sign-off.",
+      "MK-ProcureX marks the request 'Complete' and the configuration is logged for audit and future reference. Disposal records are retained for 3 years for audit purposes."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Asset Management",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Asset Disposal Procedure",
+      "Asset Management",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-013"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-014",
+    "question": "How do I complete: Recurring Vendor Payment Setup?",
+    "short_answer": "Follow the 7-step Recurring Vendor Payment Setup procedure in MK-ProcureX, starting with the SOP-PROC-014 SOP.",
+    "detailed_answer": "The Recurring Vendor Payment Setup process (SOP-PROC-014) is owned by the Procurement / Purchasing department. The procurement executive initiates the request in MK-ProcureX and Finance Manager is responsible for approval/sign-off. Recurring payments are reviewed annually to confirm continued business need.",
+    "step_by_step": [
+      "the Procurement Executive confirms eligibility and prerequisites: contract terms confirming the recurring billing cycle and amount.",
+      "the Procurement Executive raises a request in MK-ProcureX specifying exactly which Recurring Payment Setup is required.",
+      "The Finance Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Recurring Payment Setup in the relevant system.",
+      "the Procurement Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProcureX and corrected before sign-off.",
+      "MK-ProcureX marks the request 'Complete' and the configuration is logged for audit and future reference. Recurring payments are reviewed annually to confirm continued business need."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Vendor Payments",
+    "role_applicability": [
+      "Procurement Executive",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Recurring Vendor Payment Setup",
+      "Vendor Payments",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-014"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROC-015",
+    "question": "How do I complete: Procurement Policy Exception Request?",
+    "short_answer": "Follow the 7-step Procurement Policy Exception Request procedure in MK-ProcureX, starting with the SOP-PROC-015 SOP.",
+    "detailed_answer": "The Procurement Policy Exception Request process (SOP-PROC-015) is owned by the Procurement / Purchasing department. The requester initiates the request in MK-ProcureX and Procurement Director is responsible for approval/sign-off. Exceptions are logged and reviewed by Procurement leadership quarterly.",
+    "step_by_step": [
+      "the requester logs into MK-ProcureX and navigates to the 'Procurement Policy Exception' section.",
+      "the requester selects 'New Procurement Policy Exception' and enters the required details, including the specific policy clause and business justification for exception.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Procurement Policy Exception; MK-ProcureX automatically routes it to the Procurement Director for review.",
+      "The Procurement Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ProcureX updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Procurement Policy Exception is processed and the record is retained in MK-ProcureX for audit purposes. Exceptions are logged and reviewed by Procurement leadership quarterly."
+    ],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Governance",
+    "role_applicability": [
+      "requester",
+      "Procurement Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Procurement Policy Exception Request",
+      "Governance",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-015"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-016",
+    "question": "What is the Vendor Onboarding Policy?",
+    "short_answer": "New vendors require at least 3 competitive quotes unless a documented sole-source justification is approved.",
+    "detailed_answer": "New vendors require at least 3 competitive quotes unless a documented sole-source justification is approved. Vendors handling company or customer data must complete a Security Assessment before onboarding. Vendor master data (PAN, GST, bank details) must be independently verified before the first payment.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Vendor Management",
+    "role_applicability": [
+      "Procurement"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Vendor Onboarding Policy",
+      "Vendor Management",
+      "PROC"
+    ],
+    "related_documents": [
+      "POL-PROC-001"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROC-017",
+    "question": "What is the Purchase Requisition Policy?",
+    "short_answer": "All non-standard purchases must be requested via MK-ProcureX rather than direct vendor contact.",
+    "detailed_answer": "All non-standard purchases must be requested via MK-ProcureX rather than direct vendor contact. Requisitions must reference an approved budget line before submission. Emergency purchases bypassing standard quoting are retroactively reviewed within 5 business days.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Requisitioning",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Purchase Requisition Policy",
+      "Requisitioning",
+      "PROC"
+    ],
+    "related_documents": [
+      "POL-PROC-002"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-018",
+    "question": "Who do I contact in the Procurement / Purchasing department for help?",
+    "short_answer": "Reach out to: Yash Kapoor (Procurement Director, yash.kapoor@mkinfinite-ai.com); Simran Verma (Procurement Manager, simran.verma@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Procurement / Purchasing, use MK-ProcureX to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Yash Kapoor (Procurement Director, yash.kapoor@mkinfinite-ai.com); Simran Verma (Procurement Manager, simran.verma@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Procurement / Purchasing",
+      "contact",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-019",
+    "question": "What system does the Procurement / Purchasing department use?",
+    "short_answer": "Procurement / Purchasing primarily uses MK-ProcureX for its workflows.",
+    "detailed_answer": "MK-ProcureX is the system of record for Procurement / Purchasing. All requests, approvals, and records for this department's processes should go through MK-ProcureX rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MK-ProcureX",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-020",
+    "question": "What are the key performance indicators (KPIs) for the Procurement / Purchasing department?",
+    "short_answer": "Cost savings versus initial vendor quote (target: above 8% average)",
+    "detailed_answer": "Cost savings versus initial vendor quote (target: above 8% average) Purchase order cycle time (target: under 3 business days) Vendor on-time delivery rate (target: above 90%) Percentage of spend under managed contracts (target: above 75%)",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-021",
+    "question": "What is the escalation path within the Procurement / Purchasing department?",
+    "short_answer": "Escalate in this order: Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director.",
+    "detailed_answer": "If a request or issue with Procurement / Purchasing is not addressed within the expected timeframe, escalate step by step through: Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-022",
+    "question": "What are common mistakes employees make when working with Procurement / Purchasing?",
+    "short_answer": "Contacting vendors directly for purchases instead of routing through MK-ProcureX.",
+    "detailed_answer": "Contacting vendors directly for purchases instead of routing through MK-ProcureX. Skipping the 3-quote requirement without documented sole-source justification. Not verifying updated vendor bank details before releasing payment.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "mistakes",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-023",
+    "question": "What does 'MK-ProcureX' mean in the context of Procurement / Purchasing?",
+    "short_answer": "The internal procurement and purchase order platform.",
+    "detailed_answer": "The internal procurement and purchase order platform. This term is commonly used in Procurement / Purchasing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-ProcureX",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-024",
+    "question": "What does 'PO' mean in the context of Procurement / Purchasing?",
+    "short_answer": "Purchase Order.",
+    "detailed_answer": "Purchase Order. This term is commonly used in Procurement / Purchasing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "PO",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-025",
+    "question": "What does 'RFQ' mean in the context of Procurement / Purchasing?",
+    "short_answer": "Request for Quotation sent to multiple vendors for competitive pricing.",
+    "detailed_answer": "Request for Quotation sent to multiple vendors for competitive pricing. This term is commonly used in Procurement / Purchasing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "RFQ",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-026",
+    "question": "What does 'Sole Source' mean in the context of Procurement / Purchasing?",
+    "short_answer": "A justified exception to competitive bidding for a single approved vendor.",
+    "detailed_answer": "A justified exception to competitive bidding for a single approved vendor. This term is commonly used in Procurement / Purchasing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Sole Source",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-027",
+    "question": "What does 'Vendor Master' mean in the context of Procurement / Purchasing?",
+    "short_answer": "The verified record of a vendor's legal, tax, and banking details.",
+    "detailed_answer": "The verified record of a vendor's legal, tax, and banking details. This term is commonly used in Procurement / Purchasing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Master",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROC-028",
+    "question": "Can an employee from a different department ask a Procurement / Purchasing question?",
+    "short_answer": "Yes. Procurement / Purchasing knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Procurement / Purchasing question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Procurement / Purchasing",
+      "PROC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  }
+]

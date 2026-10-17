@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-08-27T16:46:01.407907+00:00",
+  "TOTAL_SOURCE_FILES": 5134,
+  "TOTAL_REGENERATED_CHUNKS": 12730,
+  "PROCESSING_ERRORS": 0,
+  "per_batch": {
+    "batch_01": {
+      "files": 503,
+      "chunks": 919
+    },
+    "batch_02": {
+      "files": 1468,
+      "chunks": 3406
+    },
+    "batch_03": {
+      "files": 3163,
+      "chunks": 8405
+    }
+  }
+}

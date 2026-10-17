@@ -1,0 +1,756 @@
+[
+  {
+    "faq_id": "FAQADV-ENG-001",
+    "question": "Feature Branch Creation and Naming: What happens if Tech Lead is unavailable to approve a feature branch?",
+    "short_answer": "Route it to the Tech Lead's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Tech Lead is notified on return an",
+    "detailed_answer": "Route it to the Tech Lead's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Tech Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Feature Branch Creation and Naming",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-001-EDGE-A"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-002",
+    "question": "Feature Branch Creation and Naming: Can a feature branch be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Tech Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Tech Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Feature Branch Creation and Naming",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-001-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-003",
+    "question": "Feature Branch Creation and Naming: What do I do if MK-CodeForge is down and I need to submit a feature branch?",
+    "short_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Tech Lead directly with the request details; once MK-CodeForge is back, enter",
+    "detailed_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Tech Lead directly with the request details; once MK-CodeForge is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Feature Branch Creation and Naming",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-001-EDGE-C"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-004",
+    "question": "Feature Branch Creation and Naming: What happens if my feature branch request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconci",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Feature Branch Creation and Naming",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-001-EDGE-D"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-005",
+    "question": "Feature Branch Creation and Naming: What happens if my feature branch submission is missing required documentation?",
+    "short_answer": "The Tech Lead returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct an",
+    "detailed_answer": "The Tech Lead returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Feature Branch Creation and Naming",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-001-EDGE-E"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-006",
+    "question": "Code Review Process: What happens if Tech Lead is unavailable to approve a pull request?",
+    "short_answer": "Route it to the Tech Lead's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Tech Lead is notified on return an",
+    "detailed_answer": "Route it to the Tech Lead's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Tech Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Code Review Process",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-002-EDGE-A"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-007",
+    "question": "Code Review Process: Can a pull request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Tech Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Tech Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Code Review Process",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-002-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-008",
+    "question": "Code Review Process: What do I do if MK-CodeForge is down and I need to submit a pull request?",
+    "short_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Tech Lead directly with the request details; once MK-CodeForge is back, enter",
+    "detailed_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Tech Lead directly with the request details; once MK-CodeForge is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Code Review Process",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-002-EDGE-C"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-009",
+    "question": "Code Review Process: What happens if my pull request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconci",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Code Review Process",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-002-EDGE-D"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-010",
+    "question": "Code Review Process: What happens if my pull request submission is missing required documentation?",
+    "short_answer": "The Tech Lead returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct an",
+    "detailed_answer": "The Tech Lead returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Code Review Process",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-002-EDGE-E"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-011",
+    "question": "New Repository Setup: What happens if Engineering Manager is unavailable to approve a repository?",
+    "short_answer": "Route it to the Engineering Manager's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Engineering Manager is n",
+    "detailed_answer": "Route it to the Engineering Manager's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Engineering Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Repository Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-003-EDGE-A"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-012",
+    "question": "New Repository Setup: Can a repository be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Engineering Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Engineering Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Repository Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-003-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-013",
+    "question": "New Repository Setup: What do I do if MK-CodeForge is down and I need to submit a repository?",
+    "short_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Engineering Manager directly with the request details; once MK-CodeForge is b",
+    "detailed_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Engineering Manager directly with the request details; once MK-CodeForge is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Repository Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-003-EDGE-C"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-014",
+    "question": "New Repository Setup: What happens if my repository request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconci",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Repository Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-003-EDGE-D"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-015",
+    "question": "New Repository Setup: What happens if my repository submission is missing required documentation?",
+    "short_answer": "The Engineering Manager returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to ",
+    "detailed_answer": "The Engineering Manager returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Repository Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-003-EDGE-E"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-016",
+    "question": "Production Hotfix Deployment: What happens if Engineering Manager is unavailable to approve a hotfix request?",
+    "short_answer": "Route it to the Engineering Manager's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Engineering Manager is n",
+    "detailed_answer": "Route it to the Engineering Manager's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Engineering Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Production Hotfix Deployment",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-004-EDGE-A"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-017",
+    "question": "Production Hotfix Deployment: Can a hotfix request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Engineering Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Engineering Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Production Hotfix Deployment",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-004-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-018",
+    "question": "Production Hotfix Deployment: What do I do if MK-CodeForge is down and I need to submit a hotfix request?",
+    "short_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Engineering Manager directly with the request details; once MK-CodeForge is b",
+    "detailed_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Engineering Manager directly with the request details; once MK-CodeForge is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Production Hotfix Deployment",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-004-EDGE-C"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-019",
+    "question": "Production Hotfix Deployment: What happens if my hotfix request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconci",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Production Hotfix Deployment",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-004-EDGE-D"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-020",
+    "question": "Production Hotfix Deployment: What happens if my hotfix request submission is missing required documentation?",
+    "short_answer": "The Engineering Manager returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to ",
+    "detailed_answer": "The Engineering Manager returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Production Hotfix Deployment",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-004-EDGE-E"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-021",
+    "question": "Local Development Environment Setup: What happens if Tech Lead is unavailable to approve a dev environment?",
+    "short_answer": "Route it to the Tech Lead's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Tech Lead is notified on return an",
+    "detailed_answer": "Route it to the Tech Lead's delegate (typically the next role up the escalation chain) via MK-CodeForge, tagged 'Delegate Approval Required'; the Tech Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "new Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Local Development Environment Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-005-EDGE-A"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-022",
+    "question": "Local Development Environment Setup: Can a dev environment be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Tech Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Tech Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CodeForge within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "new Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Local Development Environment Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-005-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-023",
+    "question": "Local Development Environment Setup: What do I do if MK-CodeForge is down and I need to submit a dev environment?",
+    "short_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Tech Lead directly with the request details; once MK-CodeForge is back, enter",
+    "detailed_answer": "Non-urgent requests should wait for MK-CodeForge to be restored. For genuinely urgent cases, email the Tech Lead directly with the request details; once MK-CodeForge is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "new Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Local Development Environment Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-005-EDGE-C"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-024",
+    "question": "Local Development Environment Setup: What happens if my dev environment request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconci",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CodeForge — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "new Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Local Development Environment Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-005-EDGE-D"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-025",
+    "question": "Local Development Environment Setup: What happens if my dev environment submission is missing required documentation?",
+    "short_answer": "The Tech Lead returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct an",
+    "detailed_answer": "The Tech Lead returns the request in MK-CodeForge with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "new Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Local Development Environment Setup",
+      "what-if",
+      "edge case",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-005-EDGE-E"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-026",
+    "question": "If I find an old reference to the Code Review Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-ENG-001, is always authoritative going forward. If an older cached or printed copy of the Code Review Policy disagrees with it, treat the current document ",
+    "detailed_answer": "The current version, POL-ENG-001, is always authoritative going forward. If an older cached or printed copy of the Code Review Policy disagrees with it, treat the current document as correct and check the POL-ENG-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Engineering"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Code Review Policy",
+      "version",
+      "policy interpretation",
+      "ENG"
+    ],
+    "related_documents": [
+      "POL-ENG-001",
+      "POL-ENG-001-HISTORY"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-027",
+    "question": "What's the difference between the standard Feature Branch Creation and Naming process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-ENG-001) goes through Tech Lead via MK-CodeForge in the normal order. The expedited path (SOP-ENG-001-EDGE-B) is only for genuine emergencies: it requires ve",
+    "detailed_answer": "The standard path (SOP-ENG-001) goes through Tech Lead via MK-CodeForge in the normal order. The expedited path (SOP-ENG-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Comparison",
+    "role_applicability": [
+      "Software Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Feature Branch Creation and Naming",
+      "comparison",
+      "emergency",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-001",
+      "SOP-ENG-001-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-028",
+    "question": "What's the difference between the standard Code Review Process process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-ENG-002) goes through Tech Lead via MK-CodeForge in the normal order. The expedited path (SOP-ENG-002-EDGE-B) is only for genuine emergencies: it requires ve",
+    "detailed_answer": "The standard path (SOP-ENG-002) goes through Tech Lead via MK-CodeForge in the normal order. The expedited path (SOP-ENG-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Comparison",
+    "role_applicability": [
+      "Software Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Code Review Process",
+      "comparison",
+      "emergency",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-002",
+      "SOP-ENG-002-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ENG-029",
+    "question": "What's the difference between the standard New Repository Setup process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-ENG-003) goes through Engineering Manager via MK-CodeForge in the normal order. The expedited path (SOP-ENG-003-EDGE-B) is only for genuine emergencies: it r",
+    "detailed_answer": "The standard path (SOP-ENG-003) goes through Engineering Manager via MK-CodeForge in the normal order. The expedited path (SOP-ENG-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Comparison",
+    "role_applicability": [
+      "Software Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Repository Setup",
+      "comparison",
+      "emergency",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-003",
+      "SOP-ENG-003-EDGE-B"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  }
+]

@@ -1,0 +1,764 @@
+[
+  {
+    "faq_id": "FAQ-RND-001",
+    "question": "How do I complete: Research Proposal Submission Procedure?",
+    "short_answer": "Follow the 7-step Research Proposal Submission Procedure procedure in MK-Labs, starting with the SOP-RND-001 SOP.",
+    "detailed_answer": "The Research Proposal Submission Procedure process (SOP-RND-001) is owned by the Research & Development department. The research associate initiates the request in MK-Labs and R&D Manager is responsible for approval/sign-off. Proposals requiring more than 2 headcount-months require R&D Director approval.",
+    "step_by_step": [
+      "the Research Associate logs into MK-Labs and navigates to the 'Research Proposal' section.",
+      "the Research Associate selects 'New Research Proposal' and enters the required details, including hypothesis, expected impact, and required resources.",
+      "the Research Associate attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Research Associate submits the Research Proposal; MK-Labs automatically routes it to the R&D Manager for review.",
+      "The R&D Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-Labs updates the status to 'Approved' and notifies the Research Associate by email/in-app notification.",
+      "The approved Research Proposal is processed and the record is retained in MK-Labs for audit purposes. Proposals requiring more than 2 headcount-months require R&D Director approval."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Research Planning",
+    "role_applicability": [
+      "Research Associate",
+      "R&D Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Research Proposal Submission Procedure",
+      "Research Planning",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-001"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-002",
+    "question": "How do I complete: Experiment Design and Tracking Procedure?",
+    "short_answer": "Follow the 7-step Experiment Design and Tracking Procedure procedure in MK-Labs, starting with the SOP-RND-002 SOP.",
+    "detailed_answer": "The Experiment Design and Tracking Procedure process (SOP-RND-002) is owned by the Research & Development department. The ai research engineer initiates the request in MK-Labs and Research Lead is responsible for approval/sign-off. Experiments are never run against production customer data without anonymization.",
+    "step_by_step": [
+      "the AI Research Engineer confirms eligibility and prerequisites: logging hyperparameters, dataset version, and evaluation metrics in MK-Labs.",
+      "the AI Research Engineer raises a request in MK-Labs specifying exactly which Research Experiment is required.",
+      "The Research Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Research Experiment in the relevant system.",
+      "the AI Research Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-Labs and corrected before sign-off.",
+      "MK-Labs marks the request 'Complete' and the configuration is logged for audit and future reference. Experiments are never run against production customer data without anonymization."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Experimentation",
+    "role_applicability": [
+      "AI Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Experiment Design and Tracking Procedure",
+      "Experimentation",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-002"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-RND-003",
+    "question": "How do I complete: Model Evaluation and Benchmarking Procedure?",
+    "short_answer": "Follow the 7-step Model Evaluation and Benchmarking Procedure procedure in MK-Labs, starting with the SOP-RND-003 SOP.",
+    "detailed_answer": "The Model Evaluation and Benchmarking Procedure process (SOP-RND-003) is owned by the Research & Development department. The senior research engineer initiates the request in MK-Labs and Research Lead is responsible for approval/sign-off. Models must beat baseline by a statistically significant margin to be considered.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-Labs.",
+      "the Senior Research Engineer gathers the required data and documents, including comparing against the current production baseline on the standard eval suite.",
+      "The review team examines the Model Benchmark against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Research Lead discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-Labs with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Models must beat baseline by a statistically significant margin to be considered."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Model Evaluation",
+    "role_applicability": [
+      "Senior Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Model Evaluation and Benchmarking Procedure",
+      "Model Evaluation",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-003"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-004",
+    "question": "How do I complete: Research-to-Production Handover Procedure?",
+    "short_answer": "Follow the 7-step Research-to-Production Handover Procedure procedure in MK-Labs, starting with the SOP-RND-004 SOP.",
+    "detailed_answer": "The Research-to-Production Handover Procedure process (SOP-RND-004) is owned by the Research & Development department. The research lead initiates the request in MK-Labs and Engineering Manager is responsible for approval/sign-off. Handovers without a documented limitations section are returned to R&D.",
+    "step_by_step": [
+      "the Research Lead logs into MK-Labs and navigates to the 'Research Handover' section.",
+      "the Research Lead selects 'New Research Handover' and enters the required details, including model artifacts, evaluation results, and known limitations documentation.",
+      "the Research Lead attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Research Lead submits the Research Handover; MK-Labs automatically routes it to the Engineering Manager for review.",
+      "The Engineering Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-Labs updates the status to 'Approved' and notifies the Research Lead by email/in-app notification.",
+      "The approved Research Handover is processed and the record is retained in MK-Labs for audit purposes. Handovers without a documented limitations section are returned to R&D."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Technology Transfer",
+    "role_applicability": [
+      "Research Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research-to-Production Handover Procedure",
+      "Technology Transfer",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-004"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-005",
+    "question": "How do I complete: Dataset Acquisition and Licensing Procedure?",
+    "short_answer": "Follow the 7-step Dataset Acquisition and Licensing Procedure procedure in MK-Labs, starting with the SOP-RND-005 SOP.",
+    "detailed_answer": "The Dataset Acquisition and Licensing Procedure process (SOP-RND-005) is owned by the Research & Development department. The research associate initiates the request in MK-Labs and Legal Manager is responsible for approval/sign-off. Datasets with unclear licensing are not used until Legal confirms permissibility.",
+    "step_by_step": [
+      "the Research Associate logs into MK-Labs and navigates to the 'Dataset Acquisition Request' section.",
+      "the Research Associate selects 'New Dataset Acquisition Request' and enters the required details, including the dataset source, licence terms, and intended use.",
+      "the Research Associate attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Research Associate submits the Dataset Acquisition Request; MK-Labs automatically routes it to the Legal Manager for review.",
+      "The Legal Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-Labs updates the status to 'Approved' and notifies the Research Associate by email/in-app notification.",
+      "The approved Dataset Acquisition Request is processed and the record is retained in MK-Labs for audit purposes. Datasets with unclear licensing are not used until Legal confirms permissibility."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Data Acquisition",
+    "role_applicability": [
+      "Research Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Dataset Acquisition and Licensing Procedure",
+      "Data Acquisition",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-005"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-RND-006",
+    "question": "How do I complete: Research Publication Approval Procedure?",
+    "short_answer": "Follow the 7-step Research Publication Approval Procedure procedure in MK-Labs, starting with the SOP-RND-006 SOP.",
+    "detailed_answer": "The Research Publication Approval Procedure process (SOP-RND-006) is owned by the Research & Development department. The research engineer initiates the request in MK-Labs and R&D Director is responsible for approval/sign-off. External publications require Legal review for IP protection ahead of submission.",
+    "step_by_step": [
+      "the Research Engineer logs into MK-Labs and navigates to the 'Publication Request' section.",
+      "the Research Engineer selects 'New Publication Request' and enters the required details, including checking for any confidential or IP-sensitive content before submission.",
+      "the Research Engineer attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Research Engineer submits the Publication Request; MK-Labs automatically routes it to the R&D Director for review.",
+      "The R&D Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-Labs updates the status to 'Approved' and notifies the Research Engineer by email/in-app notification.",
+      "The approved Publication Request is processed and the record is retained in MK-Labs for audit purposes. External publications require Legal review for IP protection ahead of submission."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Publications",
+    "role_applicability": [
+      "Research Engineer",
+      "R&D Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Research Publication Approval Procedure",
+      "Publications",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-006"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-007",
+    "question": "How do I complete: Compute Resource Request for Research?",
+    "short_answer": "Follow the 7-step Compute Resource Request for Research procedure in MK-Labs, starting with the SOP-RND-007 SOP.",
+    "detailed_answer": "The Compute Resource Request for Research process (SOP-RND-007) is owned by the Research & Development department. The ai research engineer initiates the request in MK-Labs and R&D Manager is responsible for approval/sign-off. Large compute requests above the monthly quota require R&D Director approval.",
+    "step_by_step": [
+      "the AI Research Engineer logs into MK-Labs and navigates to the 'Compute Request' section.",
+      "the AI Research Engineer selects 'New Compute Request' and enters the required details, including GPU/TPU hours required and expected experiment duration.",
+      "the AI Research Engineer attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the AI Research Engineer submits the Compute Request; MK-Labs automatically routes it to the R&D Manager for review.",
+      "The R&D Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-Labs updates the status to 'Approved' and notifies the AI Research Engineer by email/in-app notification.",
+      "The approved Compute Request is processed and the record is retained in MK-Labs for audit purposes. Large compute requests above the monthly quota require R&D Director approval."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Infrastructure",
+    "role_applicability": [
+      "AI Research Engineer",
+      "R&D Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Compute Resource Request for Research",
+      "Infrastructure",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-007"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-008",
+    "question": "How do I complete: Responsible AI / Ethics Review Procedure?",
+    "short_answer": "Follow the 7-step Responsible AI / Ethics Review Procedure procedure in MK-Labs, starting with the SOP-RND-008 SOP.",
+    "detailed_answer": "The Responsible AI / Ethics Review Procedure process (SOP-RND-008) is owned by the Research & Development department. The research lead initiates the request in MK-Labs and R&D Director is responsible for approval/sign-off. Research involving sensitive use cases requires a documented ethics sign-off.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-Labs.",
+      "the Research Lead gathers the required data and documents, including assessing bias, fairness, and potential misuse of the research direction.",
+      "The review team examines the Ethics Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The R&D Director discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-Labs with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Research involving sensitive use cases requires a documented ethics sign-off."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Responsible AI",
+    "role_applicability": [
+      "Research Lead",
+      "R&D Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Responsible AI / Ethics Review Procedure",
+      "Responsible AI",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-008"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-RND-009",
+    "question": "How do I complete: Patent Disclosure Procedure?",
+    "short_answer": "Follow the 7-step Patent Disclosure Procedure procedure in MK-Labs, starting with the SOP-RND-009 SOP.",
+    "detailed_answer": "The Patent Disclosure Procedure process (SOP-RND-009) is owned by the Research & Development department. The research engineer initiates the request in MK-Labs and General Counsel is responsible for approval/sign-off. Disclosures are filed before any public discussion of the invention.",
+    "step_by_step": [
+      "the Research Engineer logs into MK-Labs and navigates to the 'Invention Disclosure' section.",
+      "the Research Engineer selects 'New Invention Disclosure' and enters the required details, including a technical description and novelty assessment of the invention.",
+      "the Research Engineer attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Research Engineer submits the Invention Disclosure; MK-Labs automatically routes it to the General Counsel for review.",
+      "The General Counsel reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-Labs updates the status to 'Approved' and notifies the Research Engineer by email/in-app notification.",
+      "The approved Invention Disclosure is processed and the record is retained in MK-Labs for audit purposes. Disclosures are filed before any public discussion of the invention."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Intellectual Property",
+    "role_applicability": [
+      "Research Engineer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Patent Disclosure Procedure",
+      "Intellectual Property",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-009"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-010",
+    "question": "How do I complete: Research Onboarding Procedure?",
+    "short_answer": "Follow the 7-step Research Onboarding Procedure procedure in MK-Labs, starting with the SOP-RND-010 SOP.",
+    "detailed_answer": "The Research Onboarding Procedure process (SOP-RND-010) is owned by the Research & Development department. The r&d manager initiates the request in MK-Labs and R&D Director is responsible for approval/sign-off. New researchers present an initial literature review in their first two weeks.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-Labs owner ahead of the employee's start or end date.",
+      "the R&D Manager prepares the required R&D Onboarding, including MK-Labs access, compute allocation, and a literature review assignment.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The R&D Director verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the R&D Director for same-day resolution.",
+      "MK-Labs is updated to reflect the completed status and the record is archived. New researchers present an initial literature review in their first two weeks."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Onboarding",
+    "role_applicability": [
+      "R&D Manager",
+      "R&D Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Research Onboarding Procedure",
+      "Onboarding",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-010"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-RND-011",
+    "question": "How do I complete: Proof-of-Concept (PoC) Evaluation Procedure?",
+    "short_answer": "Follow the 7-step Proof-of-Concept (PoC) Evaluation Procedure procedure in MK-Labs, starting with the SOP-RND-011 SOP.",
+    "detailed_answer": "The Proof-of-Concept (PoC) Evaluation Procedure process (SOP-RND-011) is owned by the Research & Development department. The research lead initiates the request in MK-Labs and R&D Director is responsible for approval/sign-off. PoCs not meeting the go/no-go criteria are archived with documented learnings.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-Labs.",
+      "the Research Lead gathers the required data and documents, including technical feasibility, cost, and business value assessment.",
+      "The review team examines the PoC Evaluation against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The R&D Director discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-Labs with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. PoCs not meeting the go/no-go criteria are archived with documented learnings."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Innovation",
+    "role_applicability": [
+      "Research Lead",
+      "R&D Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Proof-of-Concept (PoC) Evaluation Procedure",
+      "Innovation",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-011"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQ-RND-012",
+    "question": "How do I complete: Research Data Retention Procedure?",
+    "short_answer": "Follow the 7-step Research Data Retention Procedure procedure in MK-Labs, starting with the SOP-RND-012 SOP.",
+    "detailed_answer": "The Research Data Retention Procedure process (SOP-RND-012) is owned by the Research & Development department. The research associate initiates the request in MK-Labs and R&D Manager is responsible for approval/sign-off. Model checkpoints beyond the retention window are archived, not deleted, unless flagged.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-Labs.",
+      "the Research Associate gathers the required data and documents, including reviewing experiment artifacts against the retention schedule.",
+      "The review team examines the Research Data Retention against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The R&D Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-Labs with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Model checkpoints beyond the retention window are archived, not deleted, unless flagged."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Data Governance",
+    "role_applicability": [
+      "Research Associate",
+      "R&D Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Research Data Retention Procedure",
+      "Data Governance",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-012"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-013",
+    "question": "How do I complete: External Research Collaboration Procedure?",
+    "short_answer": "Follow the 7-step External Research Collaboration Procedure procedure in MK-Labs, starting with the SOP-RND-013 SOP.",
+    "detailed_answer": "The External Research Collaboration Procedure process (SOP-RND-013) is owned by the Research & Development department. The r&d manager initiates the request in MK-Labs and General Counsel is responsible for approval/sign-off. Collaborations involving customer data require an additional Security review.",
+    "step_by_step": [
+      "the R&D Manager logs into MK-Labs and navigates to the 'Collaboration Agreement' section.",
+      "the R&D Manager selects 'New Collaboration Agreement' and enters the required details, including IP ownership terms and confidentiality provisions with the external party.",
+      "the R&D Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the R&D Manager submits the Collaboration Agreement; MK-Labs automatically routes it to the General Counsel for review.",
+      "The General Counsel reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-Labs updates the status to 'Approved' and notifies the R&D Manager by email/in-app notification.",
+      "The approved Collaboration Agreement is processed and the record is retained in MK-Labs for audit purposes. Collaborations involving customer data require an additional Security review."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Partnerships",
+    "role_applicability": [
+      "R&D Manager",
+      "General Counsel"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "External Research Collaboration Procedure",
+      "Partnerships",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-013"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-014",
+    "question": "How do I complete: Internal Research Seminar Procedure?",
+    "short_answer": "Follow the 7-step Internal Research Seminar Procedure procedure in MK-Labs, starting with the SOP-RND-014 SOP.",
+    "detailed_answer": "The Internal Research Seminar Procedure process (SOP-RND-014) is owned by the Research & Development department. The research lead initiates the request in MK-Labs and R&D Manager is responsible for approval/sign-off. Seminar recordings are stored in MK-Labs for employees who could not attend.",
+    "step_by_step": [
+      "the Research Lead confirms eligibility and prerequisites: scheduling a monthly seminar slot and circulating pre-read material.",
+      "the Research Lead raises a request in MK-Labs specifying exactly which Research Seminar is required.",
+      "The R&D Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Research Seminar in the relevant system.",
+      "the Research Lead is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-Labs and corrected before sign-off.",
+      "MK-Labs marks the request 'Complete' and the configuration is logged for audit and future reference. Seminar recordings are stored in MK-Labs for employees who could not attend."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Knowledge Sharing",
+    "role_applicability": [
+      "Research Lead",
+      "R&D Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Internal Research Seminar Procedure",
+      "Knowledge Sharing",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-014"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-RND-015",
+    "question": "How do I complete: Research Risk Assessment Procedure?",
+    "short_answer": "Follow the 7-step Research Risk Assessment Procedure procedure in MK-Labs, starting with the SOP-RND-015 SOP.",
+    "detailed_answer": "The Research Risk Assessment Procedure process (SOP-RND-015) is owned by the Research & Development department. The research lead initiates the request in MK-Labs and R&D Director is responsible for approval/sign-off. High-risk projects are reviewed monthly instead of quarterly.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-Labs.",
+      "the Research Lead gathers the required data and documents, including technical risk, timeline risk, and dependency on external data/tools.",
+      "The review team examines the Research Risk Assessment against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The R&D Director discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-Labs with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. High-risk projects are reviewed monthly instead of quarterly."
+    ],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Risk Management",
+    "role_applicability": [
+      "Research Lead",
+      "R&D Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Research Risk Assessment Procedure",
+      "Risk Management",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-015"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-016",
+    "question": "What is the Responsible AI Policy?",
+    "short_answer": "All research involving customer-facing model behaviour requires a documented bias and fairness assessment.",
+    "detailed_answer": "All research involving customer-facing model behaviour requires a documented bias and fairness assessment. Research must not use production customer data without anonymization and Security approval. Research with potential dual-use or safety implications requires an Ethics Review before proceeding.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Responsible AI",
+    "role_applicability": [
+      "R&D"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Responsible AI Policy",
+      "Responsible AI",
+      "RND"
+    ],
+    "related_documents": [
+      "POL-RND-001"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-RND-017",
+    "question": "Who do I contact in the Research & Development department for help?",
+    "short_answer": "Reach out to: Nidhi Pillai (R&D Director, nidhi.pillai@mkinfinite-ai.com); Vivek Sharma (Research Lead, vivek.sharma@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Research & Development, use MK-Labs to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Nidhi Pillai (R&D Director, nidhi.pillai@mkinfinite-ai.com); Vivek Sharma (Research Lead, vivek.sharma@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Research & Development",
+      "contact",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-018",
+    "question": "What system does the Research & Development department use?",
+    "short_answer": "Research & Development primarily uses MK-Labs for its workflows.",
+    "detailed_answer": "MK-Labs is the system of record for Research & Development. All requests, approvals, and records for this department's processes should go through MK-Labs rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-Labs",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-019",
+    "question": "What are the key performance indicators (KPIs) for the Research & Development department?",
+    "short_answer": "Research-to-production conversion rate (target: above 20% of PoCs)",
+    "detailed_answer": "Research-to-production conversion rate (target: above 20% of PoCs) Experiment throughput (target: defined per research quarter) Publication/patent output (target: reviewed quarterly against research goals) Ethics review completion for applicable projects (target: 100%)",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "KPI",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-020",
+    "question": "What is the escalation path within the Research & Development department?",
+    "short_answer": "Escalate in this order: Research Associate -> Research Lead -> R&D Manager -> R&D Director.",
+    "detailed_answer": "If a request or issue with Research & Development is not addressed within the expected timeframe, escalate step by step through: Research Associate -> Research Lead -> R&D Manager -> R&D Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-021",
+    "question": "What are common mistakes employees make when working with Research & Development?",
+    "short_answer": "Using production customer data in experiments without anonymization.",
+    "detailed_answer": "Using production customer data in experiments without anonymization. Skipping the ethics review for research with sensitive use-case implications. Handing research over to Engineering without documenting known limitations.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "mistakes",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-022",
+    "question": "What does 'MK-Labs' mean in the context of Research & Development?",
+    "short_answer": "The internal research environment and experiment tracking platform.",
+    "detailed_answer": "The internal research environment and experiment tracking platform. This term is commonly used in Research & Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-Labs",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-023",
+    "question": "What does 'PoC' mean in the context of Research & Development?",
+    "short_answer": "Proof of Concept, an early feasibility test of a research idea.",
+    "detailed_answer": "Proof of Concept, an early feasibility test of a research idea. This term is commonly used in Research & Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "PoC",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-024",
+    "question": "What does 'Baseline' mean in the context of Research & Development?",
+    "short_answer": "The current production model or method used as a comparison benchmark.",
+    "detailed_answer": "The current production model or method used as a comparison benchmark. This term is commonly used in Research & Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Baseline",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-025",
+    "question": "What does 'Fine-tuning' mean in the context of Research & Development?",
+    "short_answer": "Further training a pre-trained model on a specific dataset or task.",
+    "detailed_answer": "Further training a pre-trained model on a specific dataset or task. This term is commonly used in Research & Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Fine-tuning",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-026",
+    "question": "What does 'Ablation Study' mean in the context of Research & Development?",
+    "short_answer": "An experiment removing components to measure their individual contribution.",
+    "detailed_answer": "An experiment removing components to measure their individual contribution. This term is commonly used in Research & Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Ablation Study",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-RND-027",
+    "question": "Can an employee from a different department ask a Research & Development question?",
+    "short_answer": "Yes. Research & Development knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Research & Development question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Research & Development",
+      "RND"
+    ],
+    "related_documents": [],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "general"
+  }
+]

@@ -1,0 +1,797 @@
+[
+  {
+    "faq_id": "FAQ-SALES-001",
+    "question": "How do I complete: New Lead Qualification Procedure?",
+    "short_answer": "Follow the 7-step New Lead Qualification Procedure procedure in MK-CRM, starting with the SOP-SALES-001 SOP.",
+    "detailed_answer": "The New Lead Qualification Procedure process (SOP-SALES-001) is owned by the Sales department. The sales development representative initiates the request in MK-CRM and Sales Manager is responsible for approval/sign-off. Unqualified leads are recycled to Marketing for further nurturing.",
+    "step_by_step": [
+      "the Sales Development Representative confirms eligibility and prerequisites: budget, authority, need, and timeline (BANT) criteria.",
+      "the Sales Development Representative raises a request in MK-CRM specifying exactly which Lead Qualification is required.",
+      "The Sales Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Lead Qualification in the relevant system.",
+      "the Sales Development Representative is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CRM and corrected before sign-off.",
+      "MK-CRM marks the request 'Complete' and the configuration is logged for audit and future reference. Unqualified leads are recycled to Marketing for further nurturing."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Lead Management",
+    "role_applicability": [
+      "Sales Development Representative",
+      "Sales Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "New Lead Qualification Procedure",
+      "Lead Management",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-001"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-002",
+    "question": "How do I complete: Opportunity Creation and Pipeline Entry?",
+    "short_answer": "Follow the 7-step Opportunity Creation and Pipeline Entry procedure in MK-CRM, starting with the SOP-SALES-002 SOP.",
+    "detailed_answer": "The Opportunity Creation and Pipeline Entry process (SOP-SALES-002) is owned by the Sales department. The account executive initiates the request in MK-CRM and Sales Team Lead is responsible for approval/sign-off. Opportunities without an updated stage for 30 days are flagged as stale.",
+    "step_by_step": [
+      "the Account Executive confirms eligibility and prerequisites: deal size, expected close date, and stage in MK-CRM.",
+      "the Account Executive raises a request in MK-CRM specifying exactly which Sales Opportunity is required.",
+      "The Sales Team Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Sales Opportunity in the relevant system.",
+      "the Account Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CRM and corrected before sign-off.",
+      "MK-CRM marks the request 'Complete' and the configuration is logged for audit and future reference. Opportunities without an updated stage for 30 days are flagged as stale."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Pipeline Management",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Team Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Opportunity Creation and Pipeline Entry",
+      "Pipeline Management",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-002"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SALES-003",
+    "question": "How do I complete: Discount Approval Procedure?",
+    "short_answer": "Follow the 7-step Discount Approval Procedure procedure in MK-CRM, starting with the SOP-SALES-003 SOP.",
+    "detailed_answer": "The Discount Approval Procedure process (SOP-SALES-003) is owned by the Sales department. The account executive initiates the request in MK-CRM and Sales Director is responsible for approval/sign-off. Discounts above 25% require Finance Director co-approval.",
+    "step_by_step": [
+      "the Account Executive logs into MK-CRM and navigates to the 'Discount Request' section.",
+      "the Account Executive selects 'New Discount Request' and enters the required details, including deal size, competitive context, and margin impact.",
+      "the Account Executive attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Account Executive submits the Discount Request; MK-CRM automatically routes it to the Sales Director for review.",
+      "The Sales Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CRM updates the status to 'Approved' and notifies the Account Executive by email/in-app notification.",
+      "The approved Discount Request is processed and the record is retained in MK-CRM for audit purposes. Discounts above 25% require Finance Director co-approval."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Deal Approval",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Discount Approval Procedure",
+      "Deal Approval",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-003"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-004",
+    "question": "How do I complete: Contract/Quote Generation Procedure?",
+    "short_answer": "Follow the 7-step Contract/Quote Generation Procedure procedure in MK-CRM, starting with the SOP-SALES-004 SOP.",
+    "detailed_answer": "The Contract/Quote Generation Procedure process (SOP-SALES-004) is owned by the Sales department. The account executive initiates the request in MK-CRM and Sales Manager is responsible for approval/sign-off. Custom clauses require Legal review before the quote is sent.",
+    "step_by_step": [
+      "the Account Executive confirms eligibility and prerequisites: pricing tier, contract term, and any custom clauses.",
+      "the Account Executive raises a request in MK-CRM specifying exactly which Sales Quote is required.",
+      "The Sales Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Sales Quote in the relevant system.",
+      "the Account Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CRM and corrected before sign-off.",
+      "MK-CRM marks the request 'Complete' and the configuration is logged for audit and future reference. Custom clauses require Legal review before the quote is sent."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Quoting",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract/Quote Generation Procedure",
+      "Quoting",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-004"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-005",
+    "question": "How do I complete: Deal Closure and Handover to Customer Support?",
+    "short_answer": "Follow the 7-step Deal Closure and Handover to Customer Support procedure in MK-CRM, starting with the SOP-SALES-005 SOP.",
+    "detailed_answer": "The Deal Closure and Handover to Customer Support process (SOP-SALES-005) is owned by the Sales department. The account executive initiates the request in MK-CRM and Sales Manager is responsible for approval/sign-off. Handover must occur within 3 business days of contract signature.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-CRM owner ahead of the employee's start or end date.",
+      "the Account Executive prepares the required Customer Handover, including account details, agreed SLAs, and key contacts.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Sales Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Sales Manager for same-day resolution.",
+      "MK-CRM is updated to reflect the completed status and the record is archived. Handover must occur within 3 business days of contract signature."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Customer Handover",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Deal Closure and Handover to Customer Support",
+      "Customer Handover",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-005"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SALES-006",
+    "question": "How do I complete: Sales Forecast Submission Procedure?",
+    "short_answer": "Follow the 7-step Sales Forecast Submission Procedure procedure in MK-CRM, starting with the SOP-SALES-006 SOP.",
+    "detailed_answer": "The Sales Forecast Submission Procedure process (SOP-SALES-006) is owned by the Sales department. The account executive initiates the request in MK-CRM and Sales Manager is responsible for approval/sign-off. Forecast accuracy is reviewed monthly against actual closed deals.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CRM.",
+      "the Account Executive gathers the required data and documents, including committed, best-case, and pipeline-weighted forecast figures.",
+      "The review team examines the Sales Forecast against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Sales Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CRM with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Forecast accuracy is reviewed monthly against actual closed deals."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Forecasting",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Sales Forecast Submission Procedure",
+      "Forecasting",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-006"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-007",
+    "question": "How do I complete: Customer Renewal Procedure?",
+    "short_answer": "Follow the 7-step Customer Renewal Procedure procedure in MK-CRM, starting with the SOP-SALES-007 SOP.",
+    "detailed_answer": "The Customer Renewal Procedure process (SOP-SALES-007) is owned by the Sales department. The account executive initiates the request in MK-CRM and Sales Manager is responsible for approval/sign-off. At-risk renewals are flagged to the Customer Experience Director 90 days ahead.",
+    "step_by_step": [
+      "the Account Executive logs into MK-CRM and navigates to the 'Renewal Request' section.",
+      "the Account Executive selects 'New Renewal Request' and enters the required details, including usage history, satisfaction indicators, and proposed renewal terms.",
+      "the Account Executive attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Account Executive submits the Renewal Request; MK-CRM automatically routes it to the Sales Manager for review.",
+      "The Sales Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CRM updates the status to 'Approved' and notifies the Account Executive by email/in-app notification.",
+      "The approved Renewal Request is processed and the record is retained in MK-CRM for audit purposes. At-risk renewals are flagged to the Customer Experience Director 90 days ahead."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Renewals",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Customer Renewal Procedure",
+      "Renewals",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-007"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-008",
+    "question": "How do I complete: Sales Territory Assignment Procedure?",
+    "short_answer": "Follow the 7-step Sales Territory Assignment Procedure procedure in MK-CRM, starting with the SOP-SALES-008 SOP.",
+    "detailed_answer": "The Sales Territory Assignment Procedure process (SOP-SALES-008) is owned by the Sales department. The sales manager initiates the request in MK-CRM and Sales Director is responsible for approval/sign-off. Territory disputes are resolved by the Sales Director within 5 business days.",
+    "step_by_step": [
+      "the Sales Manager logs into MK-CRM and navigates to the 'Territory Assignment' section.",
+      "the Sales Manager selects 'New Territory Assignment' and enters the required details, including account list, geography, and capacity balancing.",
+      "the Sales Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Sales Manager submits the Territory Assignment; MK-CRM automatically routes it to the Sales Director for review.",
+      "The Sales Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CRM updates the status to 'Approved' and notifies the Sales Manager by email/in-app notification.",
+      "The approved Territory Assignment is processed and the record is retained in MK-CRM for audit purposes. Territory disputes are resolved by the Sales Director within 5 business days."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Territory Management",
+    "role_applicability": [
+      "Sales Manager",
+      "Sales Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Sales Territory Assignment Procedure",
+      "Territory Management",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-008"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SALES-009",
+    "question": "How do I complete: Competitive Deal Support Request?",
+    "short_answer": "Follow the 7-step Competitive Deal Support Request procedure in MK-CRM, starting with the SOP-SALES-009 SOP.",
+    "detailed_answer": "The Competitive Deal Support Request process (SOP-SALES-009) is owned by the Sales department. The account executive initiates the request in MK-CRM and Product Manager is responsible for approval/sign-off. Battlecards are updated quarterly based on recurring competitive themes.",
+    "step_by_step": [
+      "the Account Executive logs into MK-CRM and navigates to the 'Competitive Intel Request' section.",
+      "the Account Executive selects 'New Competitive Intel Request' and enters the required details, including the competitor name and specific objection raised by the prospect.",
+      "the Account Executive attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Account Executive submits the Competitive Intel Request; MK-CRM automatically routes it to the Product Manager for review.",
+      "The Product Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CRM updates the status to 'Approved' and notifies the Account Executive by email/in-app notification.",
+      "The approved Competitive Intel Request is processed and the record is retained in MK-CRM for audit purposes. Battlecards are updated quarterly based on recurring competitive themes."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Competitive Intelligence",
+    "role_applicability": [
+      "Account Executive",
+      "Product Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Competitive Deal Support Request",
+      "Competitive Intelligence",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-009"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-010",
+    "question": "How do I complete: Sales Onboarding Procedure for New Hires?",
+    "short_answer": "Follow the 7-step Sales Onboarding Procedure for New Hires procedure in MK-CRM, starting with the SOP-SALES-010 SOP.",
+    "detailed_answer": "The Sales Onboarding Procedure for New Hires process (SOP-SALES-010) is owned by the Sales department. The sales manager initiates the request in MK-CRM and Sales Director is responsible for approval/sign-off. New AEs do not carry a full quota until certification is complete.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-CRM owner ahead of the employee's start or end date.",
+      "the Sales Manager prepares the required Sales Onboarding, including MK-CRM access, product certification, and shadow calls with a senior AE.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Sales Director verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Sales Director for same-day resolution.",
+      "MK-CRM is updated to reflect the completed status and the record is archived. New AEs do not carry a full quota until certification is complete."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Sales Manager",
+      "Sales Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Sales Onboarding Procedure for New Hires",
+      "Onboarding",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-010"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SALES-011",
+    "question": "How do I complete: Customer Reference Request Procedure?",
+    "short_answer": "Follow the 7-step Customer Reference Request Procedure procedure in MK-CRM, starting with the SOP-SALES-011 SOP.",
+    "detailed_answer": "The Customer Reference Request Procedure process (SOP-SALES-011) is owned by the Sales department. The account executive initiates the request in MK-CRM and Marketing Manager is responsible for approval/sign-off. Reference customers are never contacted more than once per quarter.",
+    "step_by_step": [
+      "the Account Executive logs into MK-CRM and navigates to the 'Reference Request' section.",
+      "the Account Executive selects 'New Reference Request' and enters the required details, including the target prospect profile and requested reference customer.",
+      "the Account Executive attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Account Executive submits the Reference Request; MK-CRM automatically routes it to the Marketing Manager for review.",
+      "The Marketing Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CRM updates the status to 'Approved' and notifies the Account Executive by email/in-app notification.",
+      "The approved Reference Request is processed and the record is retained in MK-CRM for audit purposes. Reference customers are never contacted more than once per quarter."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Customer References",
+    "role_applicability": [
+      "Account Executive",
+      "Marketing Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Customer Reference Request Procedure",
+      "Customer References",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-011"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SALES-012",
+    "question": "How do I complete: Sales Commission Calculation Procedure?",
+    "short_answer": "Follow the 7-step Sales Commission Calculation Procedure procedure in MK-CRM, starting with the SOP-SALES-012 SOP.",
+    "detailed_answer": "The Sales Commission Calculation Procedure process (SOP-SALES-012) is owned by the Sales department. The sales manager initiates the request in MK-CRM and Finance Manager is responsible for approval/sign-off. Commission disputes are resolved jointly by Sales and Finance within one pay cycle.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CRM.",
+      "the Sales Manager gathers the required data and documents, including closed-won deals, quota attainment, and accelerator tiers.",
+      "The review team examines the Commission Calculation against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Finance Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CRM with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Commission disputes are resolved jointly by Sales and Finance within one pay cycle."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Compensation",
+    "role_applicability": [
+      "Sales Manager",
+      "Finance Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Sales Commission Calculation Procedure",
+      "Compensation",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-012"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-013",
+    "question": "How do I complete: Lost Deal Analysis Procedure?",
+    "short_answer": "Follow the 7-step Lost Deal Analysis Procedure procedure in MK-CRM, starting with the SOP-SALES-013 SOP.",
+    "detailed_answer": "The Lost Deal Analysis Procedure process (SOP-SALES-013) is owned by the Sales department. The account executive initiates the request in MK-CRM and Sales Manager is responsible for approval/sign-off. Recurring loss reasons are shared with Product Management monthly.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CRM.",
+      "the Account Executive gathers the required data and documents, including the primary loss reason and competitor won, if applicable.",
+      "The review team examines the Lost Deal Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Sales Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CRM with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Recurring loss reasons are shared with Product Management monthly."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Deal Analysis",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Lost Deal Analysis Procedure",
+      "Deal Analysis",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-013"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-014",
+    "question": "How do I complete: Sales Enablement Content Request?",
+    "short_answer": "Follow the 7-step Sales Enablement Content Request procedure in MK-CRM, starting with the SOP-SALES-014 SOP.",
+    "detailed_answer": "The Sales Enablement Content Request process (SOP-SALES-014) is owned by the Sales department. The account executive initiates the request in MK-CRM and Marketing Manager is responsible for approval/sign-off. High-priority requests are turned around within 5 business days.",
+    "step_by_step": [
+      "the Account Executive logs into MK-CRM and navigates to the 'Enablement Content Request' section.",
+      "the Account Executive selects 'New Enablement Content Request' and enters the required details, including the use case and target audience for the requested material.",
+      "the Account Executive attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Account Executive submits the Enablement Content Request; MK-CRM automatically routes it to the Marketing Manager for review.",
+      "The Marketing Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CRM updates the status to 'Approved' and notifies the Account Executive by email/in-app notification.",
+      "The approved Enablement Content Request is processed and the record is retained in MK-CRM for audit purposes. High-priority requests are turned around within 5 business days."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Sales Enablement",
+    "role_applicability": [
+      "Account Executive",
+      "Marketing Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Sales Enablement Content Request",
+      "Sales Enablement",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-014"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SALES-015",
+    "question": "How do I complete: Key Account Planning Procedure?",
+    "short_answer": "Follow the 7-step Key Account Planning Procedure procedure in MK-CRM, starting with the SOP-SALES-015 SOP.",
+    "detailed_answer": "The Key Account Planning Procedure process (SOP-SALES-015) is owned by the Sales department. The senior account executive initiates the request in MK-CRM and Sales Director is responsible for approval/sign-off. Key account plans are reviewed quarterly with the Sales Director.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CRM.",
+      "the Senior Account Executive gathers the required data and documents, including whitespace analysis, stakeholder map, and growth targets.",
+      "The review team examines the Account Plan against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Sales Director discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CRM with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Key account plans are reviewed quarterly with the Sales Director."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Account Management",
+    "role_applicability": [
+      "Senior Account Executive",
+      "Sales Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Key Account Planning Procedure",
+      "Account Management",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-015"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-016",
+    "question": "How do I complete: Sales Order Booking Procedure?",
+    "short_answer": "Follow the 7-step Sales Order Booking Procedure procedure in MK-CRM, starting with the SOP-SALES-016 SOP.",
+    "detailed_answer": "The Sales Order Booking Procedure process (SOP-SALES-016) is owned by the Sales department. The account executive initiates the request in MK-CRM and Finance Lead is responsible for approval/sign-off. Discrepancies between contract and order block invoicing until resolved.",
+    "step_by_step": [
+      "the Account Executive confirms eligibility and prerequisites: confirming signed contract terms match the order entered in MK-CRM.",
+      "the Account Executive raises a request in MK-CRM specifying exactly which Sales Order is required.",
+      "The Finance Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Sales Order in the relevant system.",
+      "the Account Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CRM and corrected before sign-off.",
+      "MK-CRM marks the request 'Complete' and the configuration is logged for audit and future reference. Discrepancies between contract and order block invoicing until resolved."
+    ],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Order Management",
+    "role_applicability": [
+      "Account Executive",
+      "Finance Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Sales Order Booking Procedure",
+      "Order Management",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-016"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-017",
+    "question": "What is the Discount Authorization Policy?",
+    "short_answer": "Discounts up to 10% may be approved by the Sales Team Lead.",
+    "detailed_answer": "Discounts up to 10% may be approved by the Sales Team Lead. Discounts between 11% and 25% require Sales Director approval. Discounts above 25% require Finance Director co-approval in addition to Sales Director.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Deal Approval",
+    "role_applicability": [
+      "Sales"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Discount Authorization Policy",
+      "Deal Approval",
+      "SALES"
+    ],
+    "related_documents": [
+      "POL-SALES-001"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SALES-018",
+    "question": "Who do I contact in the Sales department for help?",
+    "short_answer": "Reach out to: Harsh Bose (Sales Director, harsh.bose@mkinfinite-ai.com); Shreya Gupta (Sales Manager, shreya.gupta@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Sales, use MK-CRM to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Harsh Bose (Sales Director, harsh.bose@mkinfinite-ai.com); Shreya Gupta (Sales Manager, shreya.gupta@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Sales",
+      "contact",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-019",
+    "question": "What system does the Sales department use?",
+    "short_answer": "Sales primarily uses MK-CRM for its workflows.",
+    "detailed_answer": "MK-CRM is the system of record for Sales. All requests, approvals, and records for this department's processes should go through MK-CRM rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MK-CRM",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-020",
+    "question": "What are the key performance indicators (KPIs) for the Sales department?",
+    "short_answer": "Quota attainment rate (target: above 90% of team on quota)",
+    "detailed_answer": "Quota attainment rate (target: above 90% of team on quota) Sales cycle length (target: under 60 days average) Forecast accuracy (target: within 10% of actuals) Customer renewal rate (target: above 90%)",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-021",
+    "question": "What is the escalation path within the Sales department?",
+    "short_answer": "Escalate in this order: Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director.",
+    "detailed_answer": "If a request or issue with Sales is not addressed within the expected timeframe, escalate step by step through: Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-022",
+    "question": "What are common mistakes employees make when working with Sales?",
+    "short_answer": "Leaving opportunity stages outdated in MK-CRM, distorting forecast accuracy.",
+    "detailed_answer": "Leaving opportunity stages outdated in MK-CRM, distorting forecast accuracy. Offering discounts beyond authorised limits without required approval. Not documenting the loss reason on closed-lost deals, losing valuable insight.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "mistakes",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-023",
+    "question": "What does 'MK-CRM' mean in the context of Sales?",
+    "short_answer": "The internal customer relationship management system.",
+    "detailed_answer": "The internal customer relationship management system. This term is commonly used in Sales SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-CRM",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-024",
+    "question": "What does 'BANT' mean in the context of Sales?",
+    "short_answer": "Budget, Authority, Need, Timeline — a lead qualification framework.",
+    "detailed_answer": "Budget, Authority, Need, Timeline — a lead qualification framework. This term is commonly used in Sales SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "BANT",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-025",
+    "question": "What does 'ACV' mean in the context of Sales?",
+    "short_answer": "Annual Contract Value.",
+    "detailed_answer": "Annual Contract Value. This term is commonly used in Sales SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "ACV",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-026",
+    "question": "What does 'Pipeline' mean in the context of Sales?",
+    "short_answer": "The set of open opportunities being worked by the sales team.",
+    "detailed_answer": "The set of open opportunities being worked by the sales team. This term is commonly used in Sales SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Pipeline",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-027",
+    "question": "What does 'Whitespace' mean in the context of Sales?",
+    "short_answer": "Untapped upsell/cross-sell opportunity within an existing account.",
+    "detailed_answer": "Untapped upsell/cross-sell opportunity within an existing account. This term is commonly used in Sales SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Whitespace",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SALES-028",
+    "question": "Can an employee from a different department ask a Sales question?",
+    "short_answer": "Yes. Sales knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Sales question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Sales",
+      "SALES"
+    ],
+    "related_documents": [],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "general"
+  }
+]

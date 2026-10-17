@@ -1,0 +1,58 @@
+[
+  {
+    "role": "DevOps Intern",
+    "level": 1,
+    "department": "DevOps & Cloud",
+    "department_code": "DEVOPS",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "DevOps Engineer",
+    "level": 2,
+    "department": "DevOps & Cloud",
+    "department_code": "DEVOPS",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior DevOps Engineer",
+    "level": 3,
+    "department": "DevOps & Cloud",
+    "department_code": "DEVOPS",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Site Reliability Engineer",
+    "level": 4,
+    "department": "DevOps & Cloud",
+    "department_code": "DEVOPS",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Cloud Architect",
+    "level": 5,
+    "department": "DevOps & Cloud",
+    "department_code": "DEVOPS",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "DevOps Manager",
+    "level": 6,
+    "department": "DevOps & Cloud",
+    "department_code": "DEVOPS",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "DevOps Director",
+    "level": 7,
+    "department": "DevOps & Cloud",
+    "department_code": "DEVOPS",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

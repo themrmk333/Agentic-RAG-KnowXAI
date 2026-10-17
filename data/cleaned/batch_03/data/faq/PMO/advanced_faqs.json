@@ -1,0 +1,757 @@
+[
+  {
+    "faq_id": "FAQADV-PMO-001",
+    "question": "Project Creation and Charter Approval Procedure: What happens if PMO Director is unavailable to approve a project charter?",
+    "short_answer": "Route it to the PMO Director's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the PMO Director is notified on retur",
+    "detailed_answer": "Route it to the PMO Director's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the PMO Director is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Creation and Charter Approval Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-001-EDGE-A"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-002",
+    "question": "Project Creation and Charter Approval Procedure: Can a project charter be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the PMO Director directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the PMO Director directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Creation and Charter Approval Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-001-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-003",
+    "question": "Project Creation and Charter Approval Procedure: What do I do if MK-PMTrack is down and I need to submit a project charter?",
+    "short_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the PMO Director directly with the request details; once MK-PMTrack is back, enter ",
+    "detailed_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the PMO Director directly with the request details; once MK-PMTrack is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Creation and Charter Approval Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-001-EDGE-C"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-004",
+    "question": "Project Creation and Charter Approval Procedure: What happens if my project charter request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Creation and Charter Approval Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-001-EDGE-D"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-005",
+    "question": "Project Creation and Charter Approval Procedure: What happens if my project charter submission is missing required documentation?",
+    "short_answer": "The PMO Director returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct a",
+    "detailed_answer": "The PMO Director returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Creation and Charter Approval Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-001-EDGE-E"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-006",
+    "question": "Project Risk Register Update Procedure: What happens if PMO Lead is unavailable to approve a risk register?",
+    "short_answer": "Route it to the PMO Lead's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the PMO Lead is notified on return and ca",
+    "detailed_answer": "Route it to the PMO Lead's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the PMO Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Risk Register Update Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-002-EDGE-A"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-007",
+    "question": "Project Risk Register Update Procedure: Can a risk register be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the PMO Lead directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24 hou",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the PMO Lead directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Risk Register Update Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-002-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-008",
+    "question": "Project Risk Register Update Procedure: What do I do if MK-PMTrack is down and I need to submit a risk register?",
+    "short_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the PMO Lead directly with the request details; once MK-PMTrack is back, enter the ",
+    "detailed_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the PMO Lead directly with the request details; once MK-PMTrack is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Risk Register Update Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-002-EDGE-C"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-009",
+    "question": "Project Risk Register Update Procedure: What happens if my risk register request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Risk Register Update Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-002-EDGE-D"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-010",
+    "question": "Project Risk Register Update Procedure: What happens if my risk register submission is missing required documentation?",
+    "short_answer": "The PMO Lead returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and r",
+    "detailed_answer": "The PMO Lead returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Risk Register Update Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-002-EDGE-E"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-011",
+    "question": "Project Status Reporting Procedure: What happens if Program Manager is unavailable to approve a status report?",
+    "short_answer": "Route it to the Program Manager's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the Program Manager is notified on",
+    "detailed_answer": "Route it to the Program Manager's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the Program Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Status Reporting Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-003-EDGE-A"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-012",
+    "question": "Project Status Reporting Procedure: Can a status report be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Program Manager directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Program Manager directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Status Reporting Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-003-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-013",
+    "question": "Project Status Reporting Procedure: What do I do if MK-PMTrack is down and I need to submit a status report?",
+    "short_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the Program Manager directly with the request details; once MK-PMTrack is back, ent",
+    "detailed_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the Program Manager directly with the request details; once MK-PMTrack is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Status Reporting Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-003-EDGE-C"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-014",
+    "question": "Project Status Reporting Procedure: What happens if my status report request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Status Reporting Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-003-EDGE-D"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-015",
+    "question": "Project Status Reporting Procedure: What happens if my status report submission is missing required documentation?",
+    "short_answer": "The Program Manager returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Program Manager returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Status Reporting Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-003-EDGE-E"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-016",
+    "question": "Change Request Procedure: What happens if PMO Lead is unavailable to approve a change request?",
+    "short_answer": "Route it to the PMO Lead's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the PMO Lead is notified on return and ca",
+    "detailed_answer": "Route it to the PMO Lead's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the PMO Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Change Request Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-004-EDGE-A"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-017",
+    "question": "Change Request Procedure: Can a change request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the PMO Lead directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24 hou",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the PMO Lead directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Change Request Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-004-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-018",
+    "question": "Change Request Procedure: What do I do if MK-PMTrack is down and I need to submit a change request?",
+    "short_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the PMO Lead directly with the request details; once MK-PMTrack is back, enter the ",
+    "detailed_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the PMO Lead directly with the request details; once MK-PMTrack is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Change Request Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-004-EDGE-C"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-019",
+    "question": "Change Request Procedure: What happens if my change request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Change Request Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-004-EDGE-D"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-020",
+    "question": "Change Request Procedure: What happens if my change request submission is missing required documentation?",
+    "short_answer": "The PMO Lead returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and r",
+    "detailed_answer": "The PMO Lead returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "PMO Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Change Request Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-004-EDGE-E"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-021",
+    "question": "Project Escalation Procedure: What happens if Program Manager is unavailable to approve a project escalation?",
+    "short_answer": "Route it to the Program Manager's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the Program Manager is notified on",
+    "detailed_answer": "Route it to the Program Manager's delegate (typically the next role up the escalation chain) via MK-PMTrack, tagged 'Delegate Approval Required'; the Program Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Escalation Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-005-EDGE-A"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-022",
+    "question": "Project Escalation Procedure: Can a project escalation be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Program Manager directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Program Manager directly, proceed with the minimum necessary action, then file the formal request in MK-PMTrack within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Escalation Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-005-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-023",
+    "question": "Project Escalation Procedure: What do I do if MK-PMTrack is down and I need to submit a project escalation?",
+    "short_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the Program Manager directly with the request details; once MK-PMTrack is back, ent",
+    "detailed_answer": "Non-urgent requests should wait for MK-PMTrack to be restored. For genuinely urgent cases, email the Program Manager directly with the request details; once MK-PMTrack is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Escalation Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-005-EDGE-C"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-024",
+    "question": "Project Escalation Procedure: What happens if my project escalation request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-PMTrack — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Escalation Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-005-EDGE-D"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-025",
+    "question": "Project Escalation Procedure: What happens if my project escalation submission is missing required documentation?",
+    "short_answer": "The Program Manager returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Program Manager returns the request in MK-PMTrack with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Project Manager",
+      "Program Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Escalation Procedure",
+      "what-if",
+      "edge case",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-005-EDGE-E"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-026",
+    "question": "If I find an old reference to the Project Change Management Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-PMO-001, is always authoritative going forward. If an older cached or printed copy of the Project Change Management Policy disagrees with it, treat the cur",
+    "detailed_answer": "The current version, POL-PMO-001, is always authoritative going forward. If an older cached or printed copy of the Project Change Management Policy disagrees with it, treat the current document as correct and check the POL-PMO-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "PMO",
+      "Project Managers"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Project Change Management Policy",
+      "version",
+      "policy interpretation",
+      "PMO"
+    ],
+    "related_documents": [
+      "POL-PMO-001",
+      "POL-PMO-001-HISTORY"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-027",
+    "question": "What's the difference between the standard Project Creation and Charter Approval Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-PMO-001) goes through PMO Director via MK-PMTrack in the normal order. The expedited path (SOP-PMO-001-EDGE-B) is only for genuine emergencies: it requires v",
+    "detailed_answer": "The standard path (SOP-PMO-001) goes through PMO Director via MK-PMTrack in the normal order. The expedited path (SOP-PMO-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Comparison",
+    "role_applicability": [
+      "Project Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Project Creation and Charter Approval Procedure",
+      "comparison",
+      "emergency",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-001",
+      "SOP-PMO-001-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-028",
+    "question": "What's the difference between the standard Project Risk Register Update Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-PMO-002) goes through PMO Lead via MK-PMTrack in the normal order. The expedited path (SOP-PMO-002-EDGE-B) is only for genuine emergencies: it requires verba",
+    "detailed_answer": "The standard path (SOP-PMO-002) goes through PMO Lead via MK-PMTrack in the normal order. The expedited path (SOP-PMO-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Comparison",
+    "role_applicability": [
+      "Project Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Project Risk Register Update Procedure",
+      "comparison",
+      "emergency",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-002",
+      "SOP-PMO-002-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PMO-029",
+    "question": "What's the difference between the standard Project Status Reporting Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-PMO-003) goes through Program Manager via MK-PMTrack in the normal order. The expedited path (SOP-PMO-003-EDGE-B) is only for genuine emergencies: it require",
+    "detailed_answer": "The standard path (SOP-PMO-003) goes through Program Manager via MK-PMTrack in the normal order. The expedited path (SOP-PMO-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "category": "Comparison",
+    "role_applicability": [
+      "Project Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Project Status Reporting Procedure",
+      "comparison",
+      "emergency",
+      "PMO"
+    ],
+    "related_documents": [
+      "SOP-PMO-003",
+      "SOP-PMO-003-EDGE-B"
+    ],
+    "escalation_path": "Project Coordinator -> Project Manager -> PMO Lead -> PMO Director",
+    "access_level": "employee"
+  }
+]

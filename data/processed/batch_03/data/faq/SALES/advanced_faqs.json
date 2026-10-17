@@ -1,0 +1,756 @@
+[
+  {
+    "faq_id": "FAQADV-SALES-001",
+    "question": "New Lead Qualification Procedure: What happens if Sales Manager is unavailable to approve a lead qualification?",
+    "short_answer": "Route it to the Sales Manager's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Manager is notified on return ",
+    "detailed_answer": "Route it to the Sales Manager's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Sales Development Representative",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Lead Qualification Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-001-EDGE-A"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-002",
+    "question": "New Lead Qualification Procedure: Can a lead qualification be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 ho",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Sales Development Representative",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Lead Qualification Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-001-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-003",
+    "question": "New Lead Qualification Procedure: What do I do if MK-CRM is down and I need to submit a lead qualification?",
+    "short_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Manager directly with the request details; once MK-CRM is back, enter the req",
+    "detailed_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Manager directly with the request details; once MK-CRM is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Sales Development Representative",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Lead Qualification Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-001-EDGE-C"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-004",
+    "question": "New Lead Qualification Procedure: What happens if my lead qualification request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Sales Development Representative",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Lead Qualification Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-001-EDGE-D"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-005",
+    "question": "New Lead Qualification Procedure: What happens if my lead qualification submission is missing required documentation?",
+    "short_answer": "The Sales Manager returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and ",
+    "detailed_answer": "The Sales Manager returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Sales Development Representative",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Lead Qualification Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-001-EDGE-E"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-006",
+    "question": "Opportunity Creation and Pipeline Entry: What happens if Sales Team Lead is unavailable to approve a sales opportunity?",
+    "short_answer": "Route it to the Sales Team Lead's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Team Lead is notified on ret",
+    "detailed_answer": "Route it to the Sales Team Lead's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Team Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Opportunity Creation and Pipeline Entry",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-002-EDGE-A"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-007",
+    "question": "Opportunity Creation and Pipeline Entry: Can a sales opportunity be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Opportunity Creation and Pipeline Entry",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-002-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-008",
+    "question": "Opportunity Creation and Pipeline Entry: What do I do if MK-CRM is down and I need to submit a sales opportunity?",
+    "short_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Team Lead directly with the request details; once MK-CRM is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Team Lead directly with the request details; once MK-CRM is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Opportunity Creation and Pipeline Entry",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-002-EDGE-C"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-009",
+    "question": "Opportunity Creation and Pipeline Entry: What happens if my sales opportunity request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Opportunity Creation and Pipeline Entry",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-002-EDGE-D"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-010",
+    "question": "Opportunity Creation and Pipeline Entry: What happens if my sales opportunity submission is missing required documentation?",
+    "short_answer": "The Sales Team Lead returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct an",
+    "detailed_answer": "The Sales Team Lead returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Opportunity Creation and Pipeline Entry",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-002-EDGE-E"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-011",
+    "question": "Discount Approval Procedure: What happens if Sales Director is unavailable to approve a discount request?",
+    "short_answer": "Route it to the Sales Director's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Director is notified on retur",
+    "detailed_answer": "Route it to the Sales Director's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Director is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Discount Approval Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-003-EDGE-A"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-012",
+    "question": "Discount Approval Procedure: Can a discount request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Director directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 h",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Director directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Discount Approval Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-003-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-013",
+    "question": "Discount Approval Procedure: What do I do if MK-CRM is down and I need to submit a discount request?",
+    "short_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Director directly with the request details; once MK-CRM is back, enter the re",
+    "detailed_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Director directly with the request details; once MK-CRM is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Discount Approval Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-003-EDGE-C"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-014",
+    "question": "Discount Approval Procedure: What happens if my discount request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Discount Approval Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-003-EDGE-D"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-015",
+    "question": "Discount Approval Procedure: What happens if my discount request submission is missing required documentation?",
+    "short_answer": "The Sales Director returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and",
+    "detailed_answer": "The Sales Director returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Discount Approval Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-003-EDGE-E"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-016",
+    "question": "Contract/Quote Generation Procedure: What happens if Sales Manager is unavailable to approve a sales quote?",
+    "short_answer": "Route it to the Sales Manager's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Manager is notified on return ",
+    "detailed_answer": "Route it to the Sales Manager's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract/Quote Generation Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-004-EDGE-A"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-017",
+    "question": "Contract/Quote Generation Procedure: Can a sales quote be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 ho",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract/Quote Generation Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-004-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-018",
+    "question": "Contract/Quote Generation Procedure: What do I do if MK-CRM is down and I need to submit a sales quote?",
+    "short_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Manager directly with the request details; once MK-CRM is back, enter the req",
+    "detailed_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Manager directly with the request details; once MK-CRM is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract/Quote Generation Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-004-EDGE-C"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-019",
+    "question": "Contract/Quote Generation Procedure: What happens if my sales quote request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract/Quote Generation Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-004-EDGE-D"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-020",
+    "question": "Contract/Quote Generation Procedure: What happens if my sales quote submission is missing required documentation?",
+    "short_answer": "The Sales Manager returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and ",
+    "detailed_answer": "The Sales Manager returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract/Quote Generation Procedure",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-004-EDGE-E"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-021",
+    "question": "Deal Closure and Handover to Customer Support: What happens if Sales Manager is unavailable to approve a customer handover?",
+    "short_answer": "Route it to the Sales Manager's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Manager is notified on return ",
+    "detailed_answer": "Route it to the Sales Manager's delegate (typically the next role up the escalation chain) via MK-CRM, tagged 'Delegate Approval Required'; the Sales Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Deal Closure and Handover to Customer Support",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-005-EDGE-A"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-022",
+    "question": "Deal Closure and Handover to Customer Support: Can a customer handover be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 ho",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Sales Manager directly, proceed with the minimum necessary action, then file the formal request in MK-CRM within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Deal Closure and Handover to Customer Support",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-005-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-023",
+    "question": "Deal Closure and Handover to Customer Support: What do I do if MK-CRM is down and I need to submit a customer handover?",
+    "short_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Manager directly with the request details; once MK-CRM is back, enter the req",
+    "detailed_answer": "Non-urgent requests should wait for MK-CRM to be restored. For genuinely urgent cases, email the Sales Manager directly with the request details; once MK-CRM is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Deal Closure and Handover to Customer Support",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-005-EDGE-C"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-024",
+    "question": "Deal Closure and Handover to Customer Support: What happens if my customer handover request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by",
+    "detailed_answer": "Rejections always come with a documented reason in MK-CRM — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Deal Closure and Handover to Customer Support",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-005-EDGE-D"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-025",
+    "question": "Deal Closure and Handover to Customer Support: What happens if my customer handover submission is missing required documentation?",
+    "short_answer": "The Sales Manager returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and ",
+    "detailed_answer": "The Sales Manager returns the request in MK-CRM with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Deal Closure and Handover to Customer Support",
+      "what-if",
+      "edge case",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-005-EDGE-E"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-026",
+    "question": "If I find an old reference to the Discount Authorization Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-SALES-001, is always authoritative going forward. If an older cached or printed copy of the Discount Authorization Policy disagrees with it, treat the curr",
+    "detailed_answer": "The current version, POL-SALES-001, is always authoritative going forward. If an older cached or printed copy of the Discount Authorization Policy disagrees with it, treat the current document as correct and check the POL-SALES-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Sales"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Discount Authorization Policy",
+      "version",
+      "policy interpretation",
+      "SALES"
+    ],
+    "related_documents": [
+      "POL-SALES-001",
+      "POL-SALES-001-HISTORY"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-027",
+    "question": "What's the difference between the standard New Lead Qualification Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SALES-001) goes through Sales Manager via MK-CRM in the normal order. The expedited path (SOP-SALES-001-EDGE-B) is only for genuine emergencies: it requires ",
+    "detailed_answer": "The standard path (SOP-SALES-001) goes through Sales Manager via MK-CRM in the normal order. The expedited path (SOP-SALES-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Comparison",
+    "role_applicability": [
+      "Sales Development Representative"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Lead Qualification Procedure",
+      "comparison",
+      "emergency",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-001",
+      "SOP-SALES-001-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-028",
+    "question": "What's the difference between the standard Opportunity Creation and Pipeline Entry process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SALES-002) goes through Sales Team Lead via MK-CRM in the normal order. The expedited path (SOP-SALES-002-EDGE-B) is only for genuine emergencies: it require",
+    "detailed_answer": "The standard path (SOP-SALES-002) goes through Sales Team Lead via MK-CRM in the normal order. The expedited path (SOP-SALES-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Comparison",
+    "role_applicability": [
+      "Account Executive"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Opportunity Creation and Pipeline Entry",
+      "comparison",
+      "emergency",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-002",
+      "SOP-SALES-002-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SALES-029",
+    "question": "What's the difference between the standard Discount Approval Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SALES-003) goes through Sales Director via MK-CRM in the normal order. The expedited path (SOP-SALES-003-EDGE-B) is only for genuine emergencies: it requires",
+    "detailed_answer": "The standard path (SOP-SALES-003) goes through Sales Director via MK-CRM in the normal order. The expedited path (SOP-SALES-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Sales",
+    "department_code": "SALES",
+    "category": "Comparison",
+    "role_applicability": [
+      "Account Executive"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Discount Approval Procedure",
+      "comparison",
+      "emergency",
+      "SALES"
+    ],
+    "related_documents": [
+      "SOP-SALES-003",
+      "SOP-SALES-003-EDGE-B"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  }
+]

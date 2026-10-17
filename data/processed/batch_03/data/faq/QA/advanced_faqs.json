@@ -1,0 +1,757 @@
+[
+  {
+    "faq_id": "FAQADV-QA-001",
+    "question": "Software Defect Reporting Procedure: What happens if QA Lead is unavailable to approve a defect report?",
+    "short_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can ",
+    "detailed_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Software Defect Reporting Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-001-EDGE-A"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-002",
+    "question": "Software Defect Reporting Procedure: Can a defect report be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hour",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Software Defect Reporting Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-001-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-003",
+    "question": "Software Defect Reporting Procedure: What do I do if MK-TestHub is down and I need to submit a defect report?",
+    "short_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Software Defect Reporting Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-001-EDGE-C"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-004",
+    "question": "Software Defect Reporting Procedure: What happens if my defect report request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Software Defect Reporting Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-001-EDGE-D"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-005",
+    "question": "Software Defect Reporting Procedure: What happens if my defect report submission is missing required documentation?",
+    "short_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and re",
+    "detailed_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Software Defect Reporting Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-001-EDGE-E"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-006",
+    "question": "Test Case Design and Review: What happens if QA Lead is unavailable to approve a test case suite?",
+    "short_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can ",
+    "detailed_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Case Design and Review",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-002-EDGE-A"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-007",
+    "question": "Test Case Design and Review: Can a test case suite be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hour",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Case Design and Review",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-002-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-008",
+    "question": "Test Case Design and Review: What do I do if MK-TestHub is down and I need to submit a test case suite?",
+    "short_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Case Design and Review",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-002-EDGE-C"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-009",
+    "question": "Test Case Design and Review: What happens if my test case suite request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Case Design and Review",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-002-EDGE-D"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-010",
+    "question": "Test Case Design and Review: What happens if my test case suite submission is missing required documentation?",
+    "short_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and re",
+    "detailed_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Case Design and Review",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-002-EDGE-E"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-011",
+    "question": "Regression Test Cycle Execution: What happens if QA Lead is unavailable to approve a regression cycle?",
+    "short_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can ",
+    "detailed_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regression Test Cycle Execution",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-003-EDGE-A"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-012",
+    "question": "Regression Test Cycle Execution: Can a regression cycle be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hour",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regression Test Cycle Execution",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-003-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-013",
+    "question": "Regression Test Cycle Execution: What do I do if MK-TestHub is down and I need to submit a regression cycle?",
+    "short_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regression Test Cycle Execution",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-003-EDGE-C"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-014",
+    "question": "Regression Test Cycle Execution: What happens if my regression cycle request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regression Test Cycle Execution",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-003-EDGE-D"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-015",
+    "question": "Regression Test Cycle Execution: What happens if my regression cycle submission is missing required documentation?",
+    "short_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and re",
+    "detailed_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regression Test Cycle Execution",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-003-EDGE-E"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-016",
+    "question": "Test Automation Script Development: What happens if QA Lead is unavailable to approve a automation script?",
+    "short_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can ",
+    "detailed_answer": "Route it to the QA Lead's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Automation Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Automation Script Development",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-004-EDGE-A"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-017",
+    "question": "Test Automation Script Development: Can a automation script be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hour",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Lead directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Automation Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Automation Script Development",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-004-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-018",
+    "question": "Test Automation Script Development: What do I do if MK-TestHub is down and I need to submit a automation script?",
+    "short_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Lead directly with the request details; once MK-TestHub is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Automation Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Automation Script Development",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-004-EDGE-C"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-019",
+    "question": "Test Automation Script Development: What happens if my automation script request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Automation Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Automation Script Development",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-004-EDGE-D"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-020",
+    "question": "Test Automation Script Development: What happens if my automation script submission is missing required documentation?",
+    "short_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and re",
+    "detailed_answer": "The QA Lead returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Automation Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Automation Script Development",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-004-EDGE-E"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-021",
+    "question": "Release Sign-off / Go-No-Go Procedure: What happens if QA Manager is unavailable to approve a release readiness report?",
+    "short_answer": "Route it to the QA Manager's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Manager is notified on return an",
+    "detailed_answer": "Route it to the QA Manager's delegate (typically the next role up the escalation chain) via MK-TestHub, tagged 'Delegate Approval Required'; the QA Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Release Sign-off / Go-No-Go Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-005-EDGE-A"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-022",
+    "question": "Release Sign-off / Go-No-Go Procedure: Can a release readiness report be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Manager directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 h",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the QA Manager directly, proceed with the minimum necessary action, then file the formal request in MK-TestHub within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Release Sign-off / Go-No-Go Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-005-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-023",
+    "question": "Release Sign-off / Go-No-Go Procedure: What do I do if MK-TestHub is down and I need to submit a release readiness report?",
+    "short_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Manager directly with the request details; once MK-TestHub is back, enter th",
+    "detailed_answer": "Non-urgent requests should wait for MK-TestHub to be restored. For genuinely urgent cases, email the QA Manager directly with the request details; once MK-TestHub is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Release Sign-off / Go-No-Go Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-005-EDGE-C"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-024",
+    "question": "Release Sign-off / Go-No-Go Procedure: What happens if my release readiness report request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcile",
+    "detailed_answer": "Rejections always come with a documented reason in MK-TestHub — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Release Sign-off / Go-No-Go Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-005-EDGE-D"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-025",
+    "question": "Release Sign-off / Go-No-Go Procedure: What happens if my release readiness report submission is missing required documentation?",
+    "short_answer": "The QA Manager returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and",
+    "detailed_answer": "The QA Manager returns the request in MK-TestHub with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Release Sign-off / Go-No-Go Procedure",
+      "what-if",
+      "edge case",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-005-EDGE-E"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-026",
+    "question": "If I find an old reference to the Release Sign-off Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-QA-001, is always authoritative going forward. If an older cached or printed copy of the Release Sign-off Policy disagrees with it, treat the current docum",
+    "detailed_answer": "The current version, POL-QA-001, is always authoritative going forward. If an older cached or printed copy of the Release Sign-off Policy disagrees with it, treat the current document as correct and check the POL-QA-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "QA",
+      "Engineering"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Release Sign-off Policy",
+      "version",
+      "policy interpretation",
+      "QA"
+    ],
+    "related_documents": [
+      "POL-QA-001",
+      "POL-QA-001-HISTORY"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-027",
+    "question": "What's the difference between the standard Software Defect Reporting Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-QA-001) goes through QA Lead via MK-TestHub in the normal order. The expedited path (SOP-QA-001-EDGE-B) is only for genuine emergencies: it requires verbal p",
+    "detailed_answer": "The standard path (SOP-QA-001) goes through QA Lead via MK-TestHub in the normal order. The expedited path (SOP-QA-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Comparison",
+    "role_applicability": [
+      "QA Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Software Defect Reporting Procedure",
+      "comparison",
+      "emergency",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-001",
+      "SOP-QA-001-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-028",
+    "question": "What's the difference between the standard Test Case Design and Review process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-QA-002) goes through QA Lead via MK-TestHub in the normal order. The expedited path (SOP-QA-002-EDGE-B) is only for genuine emergencies: it requires verbal p",
+    "detailed_answer": "The standard path (SOP-QA-002) goes through QA Lead via MK-TestHub in the normal order. The expedited path (SOP-QA-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Comparison",
+    "role_applicability": [
+      "QA Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Test Case Design and Review",
+      "comparison",
+      "emergency",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-002",
+      "SOP-QA-002-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-QA-029",
+    "question": "What's the difference between the standard Regression Test Cycle Execution process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-QA-003) goes through QA Lead via MK-TestHub in the normal order. The expedited path (SOP-QA-003-EDGE-B) is only for genuine emergencies: it requires verbal p",
+    "detailed_answer": "The standard path (SOP-QA-003) goes through QA Lead via MK-TestHub in the normal order. The expedited path (SOP-QA-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Comparison",
+    "role_applicability": [
+      "QA Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Regression Test Cycle Execution",
+      "comparison",
+      "emergency",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-003",
+      "SOP-QA-003-EDGE-B"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  }
+]

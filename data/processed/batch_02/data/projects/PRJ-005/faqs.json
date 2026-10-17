@@ -1,0 +1,332 @@
+[
+  {
+    "faq_id": "FAQ-PRJ-005-001",
+    "question": "What is the architecture of PRJ-005?",
+    "short_answer": "Document/image inputs pass through an OCR and object-detection pipeline; extracted structured data is validated against business rules (e.g., three-way match for invoices) before b",
+    "detailed_answer": "Document/image inputs pass through an OCR and object-detection pipeline; extracted structured data is validated against business rules (e.g., three-way match for invoices) before being written to the relevant system (MK-Finance360, IT Asset Register); all processing occurs within an isolated, access-controlled environment given the sensitivity of the source documents.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-002",
+    "question": "Who is the project manager and technical lead for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "The Project Manager is Riya Agarwal and the Technical Lead is Isha Bhatt.",
+    "detailed_answer": "The Project Manager is Riya Agarwal and the Technical Lead is Isha Bhatt.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-003",
+    "question": "What technologies are being used in Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Technologies used: Python computer-vision pipeline; OCR engine; Object detection model; MK-CloudOps isolated processing environment; MK-Finance360 / MK-ProcureX integration connect",
+    "detailed_answer": "Technologies used: Python computer-vision pipeline; OCR engine; Object detection model; MK-CloudOps isolated processing environment; MK-Finance360 / MK-ProcureX integration connectors",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-004",
+    "question": "What is the current status of Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Secure Computer Vision / Intelligent Automation Platform is currently: In Progress - Pilot. Current sprint: Sprint 10: Improving handwritten invoice OCR accuracy.",
+    "detailed_answer": "Secure Computer Vision / Intelligent Automation Platform is currently: In Progress - Pilot. Current sprint: Sprint 10: Improving handwritten invoice OCR accuracy.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-005",
+    "question": "What is the deployment procedure for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Deployed to the isolated processing environment only; no direct external network access.",
+    "detailed_answer": "Deployed to the isolated processing environment only; no direct external network access.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-006",
+    "question": "Which database does Secure Computer Vision / Intelligent Automation Platform use?",
+    "short_answer": "An isolated, encrypted document store separate from general-purpose systems, with strict retention limits.",
+    "detailed_answer": "An isolated, encrypted document store separate from general-purpose systems, with strict retention limits.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-007",
+    "question": "What is the current sprint goal for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Sprint 10: Improving handwritten invoice OCR accuracy.",
+    "detailed_answer": "Sprint 10: Improving handwritten invoice OCR accuracy.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-008",
+    "question": "What are the known issues in Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Known issues: Handwritten vendor invoices have lower OCR accuracy than typed/digital invoices.; Object detection occasionally misclassifies damaged asset photos, requiring manual o",
+    "detailed_answer": "Known issues: Handwritten vendor invoices have lower OCR accuracy than typed/digital invoices.; Object detection occasionally misclassifies damaged asset photos, requiring manual override.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-009",
+    "question": "What are the key risks for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Risks: Handling of sensitive personal or financial document images if isolation controls are misconfigured.; Regulatory exposure if extracted data retention exceeds the approved sc",
+    "detailed_answer": "Risks: Handling of sensitive personal or financial document images if isolation controls are misconfigured.; Regulatory exposure if extracted data retention exceeds the approved schedule.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-010",
+    "question": "How is security handled in Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Processes only within an isolated MK-CloudOps environment with restricted access; documents containing personal data are automatically flagged for redaction before wider storage, p",
+    "detailed_answer": "Processes only within an isolated MK-CloudOps environment with restricted access; documents containing personal data are automatically flagged for redaction before wider storage, per the Data Protection Policy.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-011",
+    "question": "What departments are involved in Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Departments involved: R&D, Engineering, Security, Finance & Accounting",
+    "detailed_answer": "Departments involved: R&D, Engineering, Security, Finance & Accounting",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-012",
+    "question": "What is the CI/CD process for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "MK-CI pipeline with mandatory Security gate before any production deployment.",
+    "detailed_answer": "MK-CI pipeline with mandatory Security gate before any production deployment.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-013",
+    "question": "What is on the backlog for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Backlog items: Add ID-verification workflow for vendor onboarding; Add multi-language OCR support",
+    "detailed_answer": "Backlog items: Add ID-verification workflow for vendor onboarding; Add multi-language OCR support",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-014",
+    "question": "What is the future roadmap for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "Extend to automated contract clause extraction in partnership with Legal & Compliance.",
+    "detailed_answer": "Extend to automated contract clause extraction in partnership with Legal & Compliance.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-005-015",
+    "question": "What is the testing workflow for Secure Computer Vision / Intelligent Automation Platform?",
+    "short_answer": "QA validates extraction accuracy against a labeled document set and runs a dedicated security regression pass before release.",
+    "detailed_answer": "QA validates extraction accuracy against a labeled document set and runs a dedicated security regression pass before release.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Secure Computer Vision / Intelligent Automation Platform",
+      "PRJ-005"
+    ],
+    "related_documents": [
+      "PRJ-005"
+    ],
+    "escalation_path": "Isha Bhatt -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  }
+]

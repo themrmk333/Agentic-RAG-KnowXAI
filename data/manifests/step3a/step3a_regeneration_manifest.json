@@ -1,0 +1,116 @@
+{
+  "timestamp_utc": "2026-08-27T16:46:01.407907+00:00",
+  "pipeline_version": "repaired_step3a",
+  "configuration": {
+    "target_tokens_per_chunk": 800,
+    "overlap_tokens": 110,
+    "supported_extensions": [
+      ".csv",
+      ".html",
+      ".json",
+      ".log",
+      ".markdown",
+      ".md",
+      ".rtf",
+      ".txt",
+      ".xml",
+      ".yaml",
+      ".yml"
+    ]
+  },
+  "source_directories": [
+    "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\cleaned\\batch_01",
+    "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\cleaned\\batch_02",
+    "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\cleaned\\batch_03"
+  ],
+  "output_directories": [
+    "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\chunks_regenerated\\batch_01",
+    "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\chunks_regenerated\\batch_02",
+    "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\chunks_regenerated\\batch_03"
+  ],
+  "total_input_files": 5134,
+  "total_processed_files": 5134,
+  "total_failed_files": 0,
+  "total_chunks": 12730,
+  "total_chunk_characters": 51981435,
+  "total_chunk_words": 6960479,
+  "total_chunk_tokens": 9048553,
+  "average_tokens_per_chunk": 710.81,
+  "median_tokens_per_chunk": 793.0,
+  "min_tokens_per_chunk": 30,
+  "max_tokens_per_chunk": 3401,
+  "duplicate_analysis": {
+    "unique_content_hashes": 5107,
+    "duplicate_content_chunks": 4263,
+    "duplicate_groups": 3360
+  },
+  "per_batch_statistics": {
+    "batch_01": {
+      "batch_id": "batch_01",
+      "total_input_files": 503,
+      "successful_files": 503,
+      "failed_files": 0,
+      "total_chunks": 919,
+      "total_chars": 3738952,
+      "total_words": 502079,
+      "total_tokens": 652700,
+      "files_by_extension": {
+        ".md": 456,
+        ".json": 45,
+        ".csv": 2
+      },
+      "errors": []
+    },
+    "batch_02": {
+      "batch_id": "batch_02",
+      "total_input_files": 1468,
+      "successful_files": 1468,
+      "failed_files": 0,
+      "total_chunks": 3406,
+      "total_chars": 13970055,
+      "total_words": 1860773,
+      "total_tokens": 2418990,
+      "files_by_extension": {
+        ".md": 1417,
+        ".json": 48,
+        ".csv": 3
+      },
+      "errors": []
+    },
+    "batch_03": {
+      "batch_id": "batch_03",
+      "total_input_files": 3163,
+      "successful_files": 3163,
+      "failed_files": 0,
+      "total_chunks": 8405,
+      "total_chars": 34272428,
+      "total_words": 4597627,
+      "total_tokens": 5976863,
+      "files_by_extension": {
+        ".md": 3088,
+        ".json": 70,
+        ".csv": 5
+      },
+      "errors": []
+    }
+  },
+  "per_extension_statistics": {
+    ".md": {
+      "total_files": 4961,
+      "total_chunks": 6856
+    },
+    ".json": {
+      "total_files": 163,
+      "total_chunks": 3380
+    },
+    ".csv": {
+      "total_files": 10,
+      "total_chunks": 2494
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "metadata_integrity": {
+    "note": "All chunk metadata is computed from final chunk text. character_count=len(text), word_count=count_words(text), chunk_sha256=SHA256(text.encode(utf-8))"
+  }
+}

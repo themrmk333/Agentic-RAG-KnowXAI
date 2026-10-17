@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Security Intern",
+    "level": 1,
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Security Analyst",
+    "level": 2,
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Security Analyst",
+    "level": 3,
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Security Engineer",
+    "level": 4,
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Incident Response Lead",
+    "level": 5,
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Security Manager",
+    "level": 6,
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "CISO",
+    "level": 7,
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

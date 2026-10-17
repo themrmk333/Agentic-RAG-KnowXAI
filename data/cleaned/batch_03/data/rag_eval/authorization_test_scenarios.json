@@ -1,0 +1,551 @@
+[
+  {
+    "scenario_id": "AUTH-0001",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-IT-001",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside IT is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0002",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-IT-002",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside IT is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0003",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-IT-003",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside IT is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0004",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-IT-004",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside IT is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0005",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-IT-005",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside IT is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0006",
+    "requester_role": "IT Manager",
+    "requester_department": "IT",
+    "target_document": "DEPT-IT-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0007",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-ENG-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside ENG is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0008",
+    "requester_role": "ENG Manager",
+    "requester_department": "ENG",
+    "target_document": "DEPT-ENG-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0009",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-QA-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside QA is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0010",
+    "requester_role": "QA Manager",
+    "requester_department": "QA",
+    "target_document": "DEPT-QA-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0011",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-DEVOPS-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside DEVOPS is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0012",
+    "requester_role": "DEVOPS Manager",
+    "requester_department": "DEVOPS",
+    "target_document": "DEPT-DEVOPS-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0013",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-SEC-001",
+    "target_access_level": "restricted",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='restricted' -> a general employee outside SEC is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0014",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-SEC-002",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside SEC is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0015",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-SEC-003",
+    "target_access_level": "restricted",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='restricted' -> a general employee outside SEC is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0016",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-SEC-004",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside SEC is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0017",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-SEC-005",
+    "target_access_level": "restricted",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='restricted' -> a general employee outside SEC is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0018",
+    "requester_role": "SEC Manager",
+    "requester_department": "SEC",
+    "target_document": "DEPT-SEC-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0019",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-HR-001",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside HR is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0020",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-HR-002",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside HR is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0021",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-HR-003",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside HR is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0022",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-HR-004",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside HR is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0023",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-HR-005",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside HR is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0024",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-HR-006",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside HR is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0025",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-HR-007",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside HR is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0026",
+    "requester_role": "HR Manager",
+    "requester_department": "HR",
+    "target_document": "DEPT-HR-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0027",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside FIN is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0028",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-002",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside FIN is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0029",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-003",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside FIN is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0030",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-004",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside FIN is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0031",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-005",
+    "target_access_level": "restricted",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='restricted' -> a general employee outside FIN is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0032",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-006",
+    "target_access_level": "manager",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='manager' -> a general employee outside FIN is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0033",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-007",
+    "target_access_level": "restricted",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='restricted' -> a general employee outside FIN is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0034",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-FIN-008",
+    "target_access_level": "management",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='management' -> a general employee outside FIN is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0035",
+    "requester_role": "FIN Manager",
+    "requester_department": "FIN",
+    "target_document": "DEPT-FIN-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0036",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-PMO-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside PMO is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0037",
+    "requester_role": "PMO Manager",
+    "requester_department": "PMO",
+    "target_document": "DEPT-PMO-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0038",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-PROD-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside PROD is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0039",
+    "requester_role": "PROD Manager",
+    "requester_department": "PROD",
+    "target_document": "DEPT-PROD-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0040",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-SALES-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside SALES is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0041",
+    "requester_role": "SALES Manager",
+    "requester_department": "SALES",
+    "target_document": "DEPT-SALES-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0042",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-MKT-001",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside MKT is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0043",
+    "requester_role": "MKT Manager",
+    "requester_department": "MKT",
+    "target_document": "DEPT-MKT-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0044",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-SUPPORT-001",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside SUPPORT is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0045",
+    "requester_role": "SUPPORT Manager",
+    "requester_department": "SUPPORT",
+    "target_document": "DEPT-SUPPORT-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0046",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-LEGAL-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside LEGAL is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0047",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-LEGAL-002",
+    "target_access_level": "restricted",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='restricted' -> a general employee outside LEGAL is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0048",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-LEGAL-003",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside LEGAL is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0049",
+    "requester_role": "LEGAL Manager",
+    "requester_department": "LEGAL",
+    "target_document": "DEPT-LEGAL-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0050",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-PROC-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside PROC is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0051",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-PROC-002",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside PROC is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0052",
+    "requester_role": "PROC Manager",
+    "requester_department": "PROC",
+    "target_document": "DEPT-PROC-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0053",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-ADMIN-001",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside ADMIN is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0054",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-ADMIN-002",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='general' -> a general employee outside ADMIN is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0055",
+    "requester_role": "ADMIN Manager",
+    "requester_department": "ADMIN",
+    "target_document": "DEPT-ADMIN-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0056",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-DATA-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside DATA is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0057",
+    "requester_role": "DATA Manager",
+    "requester_department": "DATA",
+    "target_document": "DEPT-DATA-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0058",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-RND-001",
+    "target_access_level": "employee",
+    "expected_outcome": "granted",
+    "reasoning": "access_level='employee' -> a general employee outside RND is permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0059",
+    "requester_role": "RND Manager",
+    "requester_department": "RND",
+    "target_document": "DEPT-RND-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  },
+  {
+    "scenario_id": "AUTH-0060",
+    "requester_role": "General Employee",
+    "requester_department": "ANY_OTHER",
+    "target_document": "POL-MGMT-001",
+    "target_access_level": "management",
+    "expected_outcome": "denied",
+    "reasoning": "access_level='management' -> a general employee outside MGMT is not permitted to view full document content"
+  },
+  {
+    "scenario_id": "AUTH-0061",
+    "requester_role": "MGMT Manager",
+    "requester_department": "MGMT",
+    "target_document": "DEPT-MGMT-OVERVIEW",
+    "target_access_level": "general",
+    "expected_outcome": "granted",
+    "reasoning": "Department overviews are general access_level; any role including the owning department's manager can view."
+  }
+]

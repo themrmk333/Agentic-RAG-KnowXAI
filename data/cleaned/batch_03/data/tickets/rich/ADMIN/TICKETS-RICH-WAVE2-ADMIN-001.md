@@ -1,0 +1,381 @@
+# Administration / Facilities — Rich Historical Ticket Archive (wave2, Page 1)
+
+## TCK3-ADMIN-00123 — Health & Safety (P3, Resolved)
+**Created:** 2024-06-03 via Phone  |  **Requester:** Vikram Malhotra  |  **Assigned to:** Kavya Verma
+
+**Description:** Vikram Malhotra (QA / Testing) reported an issue via Phone related to 'Emergency Evacuation Procedure'. Category: Health & Safety. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Emergency Evacuation Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A dependency on another team's system was degraded at the time, causing a cascading symptom here.
+
+**Resolution:** Followed SOP-ADMIN-013 to resolve. the Facilities Coordinator confirms the exact symptom, when it started, and whether it affects one system or several. the Facilities Coordinator performs the standard first-line check: triggering the building alarm and directing employees to assembly points. If the issue persists, the Facilities Coordinator applies the documented workaround for this issue type. the Facilities Coordinator checks whether the issue is isolated to their own account/device or is affecting other users too. If still unresolved, the Facilities Coordinator raises a ticket in MK-FacilitiesDesk categorised under 'Emergency Evacuation', attaching screenshots or error logs.
+
+**Verification:** A follow-up check one business day later confirmed the issue had not recurred.
+
+**Prevention:** Added a monitoring alert so this symptom is caught proactively rather than reported by a user.
+
+**Related SOP:** SOP-ADMIN-013
+
+---
+
+## TCK3-ADMIN-00114 — Health & Safety (P4, Resolved)
+**Created:** 2024-06-04 via Portal  |  **Requester:** Rohan Kapoor  |  **Assigned to:** Sneha Pillai
+
+**Description:** Rohan Kapoor (Marketing) reported an issue via Portal related to 'Emergency Evacuation Procedure'. Category: Health & Safety. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Emergency Evacuation Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The issue was caused by a stale cache that hadn't refreshed after a recent update.
+
+**Resolution:** Followed SOP-ADMIN-013 to resolve. the Facilities Coordinator confirms the exact symptom, when it started, and whether it affects one system or several. the Facilities Coordinator performs the standard first-line check: triggering the building alarm and directing employees to assembly points. If the issue persists, the Facilities Coordinator applies the documented workaround for this issue type. the Facilities Coordinator checks whether the issue is isolated to their own account/device or is affecting other users too. If still unresolved, the Facilities Coordinator raises a ticket in MK-FacilitiesDesk categorised under 'Emergency Evacuation', attaching screenshots or error logs.
+
+**Verification:** The assigned specialist re-tested the exact original scenario to confirm resolution.
+
+**Prevention:** Added a monitoring alert so this symptom is caught proactively rather than reported by a user.
+
+**Related SOP:** SOP-ADMIN-013
+
+---
+
+## TCK3-ADMIN-00071 — Travel Administration (P4, Resolved)
+**Created:** 2024-06-08 via Portal  |  **Requester:** Swati Verma  |  **Assigned to:** Preeti Desai
+
+**Description:** Swati Verma (Human Resources) reported an issue via Portal related to 'Business Travel Booking Procedure'. Category: Travel Administration. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Business Travel Booking Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The approver was on leave and no delegate had been assigned, causing the request to stall.
+
+**Resolution:** Followed SOP-ADMIN-008 to resolve. the employee logs into MK-FacilitiesDesk and navigates to the 'Travel Booking Request' section. the employee selects 'New Travel Booking Request' and enters the required details, including travel dates, destination, and budget category per travel policy. the employee attaches any supporting documentation and reviews the entry for accuracy before submitting. the employee submits the Travel Booking Request; MK-FacilitiesDesk automatically routes it to the Reporting Manager for review. The Reporting Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.
+
+**Verification:** A follow-up check one business day later confirmed the issue had not recurred.
+
+**Prevention:** Added a validation check to catch this class of issue automatically before submission.
+
+**Related SOP:** SOP-ADMIN-008
+
+---
+
+## TCK3-ADMIN-00046 — Onboarding (P3, Resolved)
+**Created:** 2024-06-12 via Live Chat  |  **Requester:** Riya Pillai  |  **Assigned to:** Rohan Sharma
+
+**Description:** Riya Pillai (Software Engineering / Development) reported an issue via Live Chat related to 'Administration Onboarding Procedure'. Category: Onboarding. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Administration Onboarding Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A dependency (e.g., asset return) was not completed before the dependent step was attempted.
+
+**Resolution:** Followed SOP-ADMIN-012 to resolve. HR notifies the relevant department and the MK-FacilitiesDesk owner ahead of the employee's start or end date. the Admin Team Lead prepares the required Admin Onboarding, including MK-FacilitiesDesk access and vendor contact list handover. Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding). The Facilities Manager verifies that every item on the checklist is complete. The employee, or their manager for offboarding cases, confirms receipt or completion.
+
+**Verification:** The requester confirmed the fix resolved the issue and closed the ticket satisfied.
+
+**Prevention:** Updated the handover/checklist template to make the missed step explicit and mandatory.
+
+**Related SOP:** SOP-ADMIN-012
+
+---
+
+## TCK3-ADMIN-00117 — Health & Safety (P4, Closed)
+**Created:** 2024-06-24 via Live Chat  |  **Requester:** Varun Rao  |  **Assigned to:** Shreya Iyer
+
+**Description:** Varun Rao (Management / Leadership) reported an issue via Live Chat related to 'Emergency Evacuation Procedure'. Category: Health & Safety. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Emergency Evacuation Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A dependency on another team's system was degraded at the time, causing a cascading symptom here.
+
+**Resolution:** Followed SOP-ADMIN-013 to resolve. the Facilities Coordinator confirms the exact symptom, when it started, and whether it affects one system or several. the Facilities Coordinator performs the standard first-line check: triggering the building alarm and directing employees to assembly points. If the issue persists, the Facilities Coordinator applies the documented workaround for this issue type. the Facilities Coordinator checks whether the issue is isolated to their own account/device or is affecting other users too. If still unresolved, the Facilities Coordinator raises a ticket in MK-FacilitiesDesk categorised under 'Emergency Evacuation', attaching screenshots or error logs.
+
+**Verification:** The assigned specialist re-tested the exact original scenario to confirm resolution.
+
+**Prevention:** Added a monitoring alert so this symptom is caught proactively rather than reported by a user.
+
+**Related SOP:** SOP-ADMIN-013
+
+---
+
+## TCK3-ADMIN-00106 — Facilities (P4, In Progress)
+**Created:** 2024-06-28 via Walk-in  |  **Requester:** Siddharth Rao  |  **Assigned to:** Rohan Sharma
+
+**Description:** Siddharth Rao (Finance & Accounting) reported an issue via Walk-in related to 'Cafeteria/Pantry Services Management Procedure'. Category: Facilities. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Cafeteria/Pantry Services Management Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The provisioning request was correctly approved but the automated fulfillment step failed silently.
+
+**Resolution:** Root cause identified; fix in progress, next update pending.
+
+**Verification:** Pending — will be confirmed once the fix is deployed.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-015
+
+---
+
+## TCK3-ADMIN-00024 — Travel Administration (P4, Resolved)
+**Created:** 2024-06-29 via Walk-in  |  **Requester:** Rohan Singh  |  **Assigned to:** Kabir Nair
+
+**Description:** Rohan Singh (Marketing) reported an issue via Walk-in related to 'Business Travel Booking Procedure'. Category: Travel Administration. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Business Travel Booking Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The requester used an outdated version of the request form that was missing a now-mandatory field.
+
+**Resolution:** Followed SOP-ADMIN-008 to resolve. the employee logs into MK-FacilitiesDesk and navigates to the 'Travel Booking Request' section. the employee selects 'New Travel Booking Request' and enters the required details, including travel dates, destination, and budget category per travel policy. the employee attaches any supporting documentation and reviews the entry for accuracy before submitting. the employee submits the Travel Booking Request; MK-FacilitiesDesk automatically routes it to the Reporting Manager for review. The Reporting Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.
+
+**Verification:** The requester confirmed the fix resolved the issue and closed the ticket satisfied.
+
+**Prevention:** Added a validation check to catch this class of issue automatically before submission.
+
+**Related SOP:** SOP-ADMIN-008
+
+---
+
+## TCK3-ADMIN-00059 — Maintenance (P3, Closed)
+**Created:** 2024-07-06 via Phone  |  **Requester:** Aman Verma  |  **Assigned to:** Kabir Nair
+
+**Description:** Aman Verma (Human Resources) reported an issue via Phone related to 'Facility Maintenance Request Procedure'. Category: Maintenance. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Facility Maintenance Request Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A required approval step was skipped due to a misunderstanding of the delegated authority limits.
+
+**Resolution:** Followed SOP-ADMIN-004 to resolve. the employee logs into MK-FacilitiesDesk and navigates to the 'Maintenance Request' section. the employee selects 'New Maintenance Request' and enters the required details, including the issue location, description, and urgency level. the employee attaches any supporting documentation and reviews the entry for accuracy before submitting. the employee submits the Maintenance Request; MK-FacilitiesDesk automatically routes it to the Facilities Coordinator for review. The Facilities Coordinator reviews the request against company policy and either approves, rejects, or returns it for clarification.
+
+**Verification:** A follow-up check one business day later confirmed the issue had not recurred.
+
+**Prevention:** Added a validation check to catch this class of issue automatically before submission.
+
+**Related SOP:** SOP-ADMIN-004
+
+---
+
+## TCK3-ADMIN-00137 — Supplies (P3, Resolved)
+**Created:** 2024-07-09 via Live Chat  |  **Requester:** Aditya Nair  |  **Assigned to:** Manoj Chauhan
+
+**Description:** Aditya Nair (Customer Support / Helpdesk) reported an issue via Live Chat related to 'Office Supplies Replenishment Procedure'. Category: Supplies. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Office Supplies Replenishment Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The requester's underlying prerequisite (e.g., a linked account) wasn't fully set up before this request was submitted.
+
+**Resolution:** Followed SOP-ADMIN-005 to resolve. the Facilities Executive confirms eligibility and prerequisites: stock levels checked weekly against the reorder threshold. the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Supplies Request is required. The Admin Team Lead reviews and approves the request, applying least-privilege / need-basis principles. Once approved, the assigned engineer provisions or configures the Supplies Request in the relevant system. the Facilities Executive is notified and asked to test and verify the access or functionality.
+
+**Verification:** The requester confirmed the fix resolved the issue and closed the ticket satisfied.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-005
+
+---
+
+## TCK3-ADMIN-00141 — Facility Access (P4, Resolved)
+**Created:** 2024-07-09 via Phone  |  **Requester:** Pooja Mehta  |  **Assigned to:** Aditya Chauhan
+
+**Description:** Pooja Mehta (Product Management) reported an issue via Phone related to 'Vendor Access for Facility Work Procedure'. Category: Facility Access. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Vendor Access for Facility Work Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A naming convention mismatch caused the new resource to not link correctly to the parent request.
+
+**Resolution:** Followed SOP-ADMIN-011 to resolve. the Facilities Coordinator confirms eligibility and prerequisites: verifying vendor ID and scope of work before granting building access. the Facilities Coordinator raises a request in MK-FacilitiesDesk specifying exactly which Vendor Facility Access is required. The Facilities Manager reviews and approves the request, applying least-privilege / need-basis principles. Once approved, the assigned engineer provisions or configures the Vendor Facility Access in the relevant system. the Facilities Coordinator is notified and asked to test and verify the access or functionality.
+
+**Verification:** A follow-up check one business day later confirmed the issue had not recurred.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-011
+
+---
+
+## TCK3-ADMIN-00149 — Facility Access (P4, Resolved)
+**Created:** 2024-07-15 via Portal  |  **Requester:** Riya Pillai  |  **Assigned to:** Kabir Nair
+
+**Description:** Riya Pillai (Legal & Compliance) reported an issue via Portal related to 'Vendor Access for Facility Work Procedure'. Category: Facility Access. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Vendor Access for Facility Work Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A permissions template used for provisioning was out of date relative to the current access model.
+
+**Resolution:** Followed SOP-ADMIN-011 to resolve. the Facilities Coordinator confirms eligibility and prerequisites: verifying vendor ID and scope of work before granting building access. the Facilities Coordinator raises a request in MK-FacilitiesDesk specifying exactly which Vendor Facility Access is required. The Facilities Manager reviews and approves the request, applying least-privilege / need-basis principles. Once approved, the assigned engineer provisions or configures the Vendor Facility Access in the relevant system. the Facilities Coordinator is notified and asked to test and verify the access or functionality.
+
+**Verification:** A follow-up check one business day later confirmed the issue had not recurred.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-011
+
+---
+
+## TCK3-ADMIN-00112 — Maintenance (P4, Closed)
+**Created:** 2024-07-20 via Phone  |  **Requester:** Karan Kapoor  |  **Assigned to:** Arjun Verma
+
+**Description:** Karan Kapoor (Software Engineering / Development) reported an issue via Phone related to 'Facility Maintenance Request Procedure'. Category: Maintenance. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Facility Maintenance Request Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The requester used an outdated version of the request form that was missing a now-mandatory field.
+
+**Resolution:** Followed SOP-ADMIN-004 to resolve. the employee logs into MK-FacilitiesDesk and navigates to the 'Maintenance Request' section. the employee selects 'New Maintenance Request' and enters the required details, including the issue location, description, and urgency level. the employee attaches any supporting documentation and reviews the entry for accuracy before submitting. the employee submits the Maintenance Request; MK-FacilitiesDesk automatically routes it to the Facilities Coordinator for review. The Facilities Coordinator reviews the request against company policy and either approves, rejects, or returns it for clarification.
+
+**Verification:** The requester confirmed the fix resolved the issue and closed the ticket satisfied.
+
+**Prevention:** Added a validation check to catch this class of issue automatically before submission.
+
+**Related SOP:** SOP-ADMIN-004
+
+---
+
+## TCK3-ADMIN-00056 — Facilities (P3, Closed)
+**Created:** 2024-07-31 via Walk-in  |  **Requester:** Priya Rao  |  **Assigned to:** Yash Sharma
+
+**Description:** Priya Rao (DevOps & Cloud) reported an issue via Walk-in related to 'Cafeteria/Pantry Services Management Procedure'. Category: Facilities. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Cafeteria/Pantry Services Management Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The requester's underlying prerequisite (e.g., a linked account) wasn't fully set up before this request was submitted.
+
+**Resolution:** Followed SOP-ADMIN-015 to resolve. the Facilities Executive confirms eligibility and prerequisites: coordinating with the catering vendor on menu and headcount. the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Pantry Services is required. The Admin Team Lead reviews and approves the request, applying least-privilege / need-basis principles. Once approved, the assigned engineer provisions or configures the Pantry Services in the relevant system. the Facilities Executive is notified and asked to test and verify the access or functionality.
+
+**Verification:** The assigned specialist re-tested the exact original scenario to confirm resolution.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-015
+
+---
+
+## TCK3-ADMIN-00070 — Facility Access (P3, Resolved)
+**Created:** 2024-08-11 via Walk-in  |  **Requester:** Vivek Gupta  |  **Assigned to:** Sneha Pillai
+
+**Description:** Vivek Gupta (Sales) reported an issue via Walk-in related to 'Office Access Card Issuance Procedure'. Category: Facility Access. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Office Access Card Issuance Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The target system had reached a soft capacity limit that blocked new provisioning until cleared.
+
+**Resolution:** Followed SOP-ADMIN-002 to resolve. the Facilities Executive confirms eligibility and prerequisites: verifying employee ID and department before issuing the card. the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Access Card is required. The Office Manager reviews and approves the request, applying least-privilege / need-basis principles. Once approved, the assigned engineer provisions or configures the Access Card in the relevant system. the Facilities Executive is notified and asked to test and verify the access or functionality.
+
+**Verification:** The requester confirmed the fix resolved the issue and closed the ticket satisfied.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-002
+
+---
+
+## TCK3-ADMIN-00045 — Health & Safety (P3, Resolved)
+**Created:** 2024-08-25 via Portal  |  **Requester:** Divya Nair  |  **Assigned to:** Rohan Sharma
+
+**Description:** Divya Nair (Management / Leadership) reported an issue via Portal related to 'Office Safety Drill Procedure'. Category: Health & Safety. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Office Safety Drill Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The review sample missed this specific case due to how the sample was selected.
+
+**Resolution:** Followed SOP-ADMIN-007 to resolve. The review is scheduled in advance and stakeholders are notified through MK-FacilitiesDesk. the Facilities Manager gathers the required data and documents, including evacuation time, headcount reconciliation, and identified gaps. The review team examines the Safety Drill Report against the applicable policy or checklist. Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned. The Head of Administration discusses the findings with the relevant department and agrees remediation actions.
+
+**Verification:** The assigned specialist re-tested the exact original scenario to confirm resolution.
+
+**Prevention:** Added the missed check explicitly to the next review cycle's checklist with a named owner.
+
+**Related SOP:** SOP-ADMIN-007
+
+---
+
+## TCK3-ADMIN-00142 — Onboarding (P3, Resolved)
+**Created:** 2024-09-17 via Slack  |  **Requester:** Vikram Bhatt  |  **Assigned to:** Aditya Nair
+
+**Description:** Vikram Bhatt (Human Resources) reported an issue via Slack related to 'Administration Onboarding Procedure'. Category: Onboarding. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Administration Onboarding Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The employee's status change hadn't yet propagated from the source system to this one.
+
+**Resolution:** Followed SOP-ADMIN-012 to resolve. HR notifies the relevant department and the MK-FacilitiesDesk owner ahead of the employee's start or end date. the Admin Team Lead prepares the required Admin Onboarding, including MK-FacilitiesDesk access and vendor contact list handover. Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding). The Facilities Manager verifies that every item on the checklist is complete. The employee, or their manager for offboarding cases, confirms receipt or completion.
+
+**Verification:** A follow-up check one business day later confirmed the issue had not recurred.
+
+**Prevention:** Updated the handover/checklist template to make the missed step explicit and mandatory.
+
+**Related SOP:** SOP-ADMIN-012
+
+---
+
+## TCK3-ADMIN-00034 — Facilities (P4, Resolved)
+**Created:** 2024-09-19 via Live Chat  |  **Requester:** Nidhi Mehta  |  **Assigned to:** Aditya Chauhan
+
+**Description:** Nidhi Mehta (Human Resources) reported an issue via Live Chat related to 'New Employee Workspace Setup Procedure'. Category: Facilities. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'New Employee Workspace Setup Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** The provisioning request was correctly approved but the automated fulfillment step failed silently.
+
+**Resolution:** Followed SOP-ADMIN-001 to resolve. the Facilities Executive confirms eligibility and prerequisites: desk allocation, access card, and welcome kit preparation. the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Workspace Setup is required. The Office Manager reviews and approves the request, applying least-privilege / need-basis principles. Once approved, the assigned engineer provisions or configures the Workspace Setup in the relevant system. the Facilities Executive is notified and asked to test and verify the access or functionality.
+
+**Verification:** The assigned specialist re-tested the exact original scenario to confirm resolution.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-001
+
+---
+
+## TCK3-ADMIN-00105 — Facilities (P4, Resolved)
+**Created:** 2024-09-24 via Live Chat  |  **Requester:** Ananya Gupta  |  **Assigned to:** Aditya Chauhan
+
+**Description:** Ananya Gupta (IT Support / Information Technology) reported an issue via Live Chat related to 'New Employee Workspace Setup Procedure'. Category: Facilities. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'New Employee Workspace Setup Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A naming convention mismatch caused the new resource to not link correctly to the parent request.
+
+**Resolution:** Followed SOP-ADMIN-001 to resolve. the Facilities Executive confirms eligibility and prerequisites: desk allocation, access card, and welcome kit preparation. the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Workspace Setup is required. The Office Manager reviews and approves the request, applying least-privilege / need-basis principles. Once approved, the assigned engineer provisions or configures the Workspace Setup in the relevant system. the Facilities Executive is notified and asked to test and verify the access or functionality.
+
+**Verification:** The requester confirmed the fix resolved the issue and closed the ticket satisfied.
+
+**Prevention:** Updated the provisioning automation to fail loudly rather than silently on this condition.
+
+**Related SOP:** SOP-ADMIN-001
+
+---
+
+## TCK3-ADMIN-00063 — Travel Administration (P3, Resolved)
+**Created:** 2024-09-25 via Phone  |  **Requester:** Aditya Sharma  |  **Assigned to:** Aditya Chauhan
+
+**Description:** Aditya Sharma (Finance & Accounting) reported an issue via Phone related to 'Business Travel Booking Procedure'. Category: Travel Administration. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Business Travel Booking Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A required approval step was skipped due to a misunderstanding of the delegated authority limits.
+
+**Resolution:** Followed SOP-ADMIN-008 to resolve. the employee logs into MK-FacilitiesDesk and navigates to the 'Travel Booking Request' section. the employee selects 'New Travel Booking Request' and enters the required details, including travel dates, destination, and budget category per travel policy. the employee attaches any supporting documentation and reviews the entry for accuracy before submitting. the employee submits the Travel Booking Request; MK-FacilitiesDesk automatically routes it to the Reporting Manager for review. The Reporting Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.
+
+**Verification:** The assigned specialist re-tested the exact original scenario to confirm resolution.
+
+**Prevention:** Added a validation check to catch this class of issue automatically before submission.
+
+**Related SOP:** SOP-ADMIN-008
+
+---
+
+## TCK3-ADMIN-00077 — Maintenance (P4, Resolved)
+**Created:** 2024-09-26 via Walk-in  |  **Requester:** Swati Nair  |  **Assigned to:** Rahul Nair
+
+**Description:** Swati Nair (Customer Support / Helpdesk) reported an issue via Walk-in related to 'Facility Maintenance Request Procedure'. Category: Maintenance. Logged against MK-FacilitiesDesk.
+
+**Investigation:** The assigned specialist reviewed the MK-FacilitiesDesk record, confirmed the reported symptom against 'Facility Maintenance Request Procedure', and checked recent related changes before identifying the cause below.
+
+**Root Cause:** A budget/cost-centre code entered was inactive for the current fiscal period.
+
+**Resolution:** Followed SOP-ADMIN-004 to resolve. the employee logs into MK-FacilitiesDesk and navigates to the 'Maintenance Request' section. the employee selects 'New Maintenance Request' and enters the required details, including the issue location, description, and urgency level. the employee attaches any supporting documentation and reviews the entry for accuracy before submitting. the employee submits the Maintenance Request; MK-FacilitiesDesk automatically routes it to the Facilities Coordinator for review. The Facilities Coordinator reviews the request against company policy and either approves, rejects, or returns it for clarification.
+
+**Verification:** The assigned specialist re-tested the exact original scenario to confirm resolution.
+
+**Prevention:** Added a validation check to catch this class of issue automatically before submission.
+
+**Related SOP:** SOP-ADMIN-004
+
+---

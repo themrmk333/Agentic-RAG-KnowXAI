@@ -1,0 +1,764 @@
+[
+  {
+    "faq_id": "FAQ-DATA-001",
+    "question": "How do I complete: Data Access Request Procedure?",
+    "short_answer": "Follow the 7-step Data Access Request Procedure procedure in MK-DataLake, starting with the SOP-DATA-001 SOP.",
+    "detailed_answer": "The Data Access Request Procedure process (SOP-DATA-001) is owned by the Data & Analytics department. The requester initiates the request in MK-DataLake and Data Manager is responsible for approval/sign-off. Access to Restricted-classified data requires Security Manager co-approval.",
+    "step_by_step": [
+      "the requester logs into MK-DataLake and navigates to the 'Data Access Request' section.",
+      "the requester selects 'New Data Access Request' and enters the required details, including the specific dataset, business purpose, and required access level.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Data Access Request; MK-DataLake automatically routes it to the Data Manager for review.",
+      "The Data Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-DataLake updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Data Access Request is processed and the record is retained in MK-DataLake for audit purposes. Access to Restricted-classified data requires Security Manager co-approval."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Access",
+    "role_applicability": [
+      "requester",
+      "Data Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Access Request Procedure",
+      "Data Access",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-001"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-002",
+    "question": "How do I complete: Dashboard/Report Request Procedure?",
+    "short_answer": "Follow the 7-step Dashboard/Report Request Procedure procedure in MK-DataLake, starting with the SOP-DATA-002 SOP.",
+    "detailed_answer": "The Dashboard/Report Request Procedure process (SOP-DATA-002) is owned by the Data & Analytics department. The requester initiates the request in MK-DataLake and Analytics Lead is responsible for approval/sign-off. Requests requiring new data pipelines are routed to the Data Engineering backlog.",
+    "step_by_step": [
+      "the requester logs into MK-DataLake and navigates to the 'Dashboard Request' section.",
+      "the requester selects 'New Dashboard Request' and enters the required details, including the business question, required metrics, and refresh frequency.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Dashboard Request; MK-DataLake automatically routes it to the Analytics Lead for review.",
+      "The Analytics Lead reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-DataLake updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Dashboard Request is processed and the record is retained in MK-DataLake for audit purposes. Requests requiring new data pipelines are routed to the Data Engineering backlog."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Reporting",
+    "role_applicability": [
+      "requester",
+      "Analytics Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Dashboard/Report Request Procedure",
+      "Reporting",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-002"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-DATA-003",
+    "question": "How do I complete: Data Pipeline Development Procedure?",
+    "short_answer": "Follow the 7-step Data Pipeline Development Procedure procedure in MK-DataLake, starting with the SOP-DATA-003 SOP.",
+    "detailed_answer": "The Data Pipeline Development Procedure process (SOP-DATA-003) is owned by the Data & Analytics department. The data engineer initiates the request in MK-DataLake and Data Manager is responsible for approval/sign-off. Pipelines feeding executive dashboards require a peer review before deployment.",
+    "step_by_step": [
+      "the Data Engineer confirms eligibility and prerequisites: source system, transformation logic, and data quality checks.",
+      "the Data Engineer raises a request in MK-DataLake specifying exactly which Data Pipeline is required.",
+      "The Data Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Data Pipeline in the relevant system.",
+      "the Data Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-DataLake and corrected before sign-off.",
+      "MK-DataLake marks the request 'Complete' and the configuration is logged for audit and future reference. Pipelines feeding executive dashboards require a peer review before deployment."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Engineering",
+    "role_applicability": [
+      "Data Engineer",
+      "Data Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Pipeline Development Procedure",
+      "Data Engineering",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-003"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-004",
+    "question": "How do I complete: Data Quality Issue Resolution Procedure?",
+    "short_answer": "Follow the 7-step Data Quality Issue Resolution Procedure procedure in MK-DataLake, starting with the SOP-DATA-004 SOP.",
+    "detailed_answer": "The Data Quality Issue Resolution Procedure process (SOP-DATA-004) is owned by the Data & Analytics department. The data analyst initiates the request in MK-DataLake and Analytics Lead is responsible for approval/sign-off. Data quality incidents affecting Finance reporting are flagged to Finance immediately.",
+    "step_by_step": [
+      "the Data Analyst confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Data Analyst performs the standard first-line check: identifying the affected table and the scope of impacted reports.",
+      "If the issue persists, the Data Analyst applies the documented workaround for this issue type.",
+      "the Data Analyst checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Data Analyst raises a ticket in MK-DataLake categorised under 'Data Quality Incident', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Data Analyst confirms the fix works; the ticket is closed in MK-DataLake with the root cause logged. Data quality incidents affecting Finance reporting are flagged to Finance immediately."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Quality",
+    "role_applicability": [
+      "Data Analyst",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Quality Issue Resolution Procedure",
+      "Data Quality",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-004"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-005",
+    "question": "How do I complete: Data Classification for Analytics Datasets?",
+    "short_answer": "Follow the 7-step Data Classification for Analytics Datasets procedure in MK-DataLake, starting with the SOP-DATA-005 SOP.",
+    "detailed_answer": "The Data Classification for Analytics Datasets process (SOP-DATA-005) is owned by the Data & Analytics department. The data analyst initiates the request in MK-DataLake and Security Manager is responsible for approval/sign-off. Personally identifiable fields are masked in any broadly shared dataset.",
+    "step_by_step": [
+      "the Data Analyst confirms eligibility and prerequisites: applying the correct sensitivity label before granting broader access.",
+      "the Data Analyst raises a request in MK-DataLake specifying exactly which Dataset Classification is required.",
+      "The Security Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Dataset Classification in the relevant system.",
+      "the Data Analyst is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-DataLake and corrected before sign-off.",
+      "MK-DataLake marks the request 'Complete' and the configuration is logged for audit and future reference. Personally identifiable fields are masked in any broadly shared dataset."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Governance",
+    "role_applicability": [
+      "Data Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Classification for Analytics Datasets",
+      "Data Governance",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-005"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-DATA-006",
+    "question": "How do I complete: Ad-hoc Data Analysis Request Procedure?",
+    "short_answer": "Follow the 7-step Ad-hoc Data Analysis Request Procedure procedure in MK-DataLake, starting with the SOP-DATA-006 SOP.",
+    "detailed_answer": "The Ad-hoc Data Analysis Request Procedure process (SOP-DATA-006) is owned by the Data & Analytics department. The requester initiates the request in MK-DataLake and Data Analyst is responsible for approval/sign-off. Requests without a clear business question are sent back for clarification.",
+    "step_by_step": [
+      "the requester logs into MK-DataLake and navigates to the 'Analysis Request' section.",
+      "the requester selects 'New Analysis Request' and enters the required details, including the business question and desired timeline.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Analysis Request; MK-DataLake automatically routes it to the Data Analyst for review.",
+      "The Data Analyst reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-DataLake updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Analysis Request is processed and the record is retained in MK-DataLake for audit purposes. Requests without a clear business question are sent back for clarification."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Analytics",
+    "role_applicability": [
+      "requester",
+      "Data Analyst"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Ad-hoc Data Analysis Request Procedure",
+      "Analytics",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-006"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-007",
+    "question": "How do I complete: Machine Learning Model Deployment Procedure?",
+    "short_answer": "Follow the 7-step Machine Learning Model Deployment Procedure procedure in MK-DataLake, starting with the SOP-DATA-007 SOP.",
+    "detailed_answer": "The Machine Learning Model Deployment Procedure process (SOP-DATA-007) is owned by the Data & Analytics department. The data engineer initiates the request in MK-DataLake and Director of Data & Analytics is responsible for approval/sign-off. Models impacting customer-facing decisions require a bias/fairness review.",
+    "step_by_step": [
+      "the Data Engineer confirms eligibility and prerequisites: model validation metrics and a monitoring plan for drift.",
+      "the Data Engineer raises a request in MK-DataLake specifying exactly which ML Model Deployment is required.",
+      "The Director of Data & Analytics reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the ML Model Deployment in the relevant system.",
+      "the Data Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-DataLake and corrected before sign-off.",
+      "MK-DataLake marks the request 'Complete' and the configuration is logged for audit and future reference. Models impacting customer-facing decisions require a bias/fairness review."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Machine Learning",
+    "role_applicability": [
+      "Data Engineer",
+      "Director of Data & Analytics"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Machine Learning Model Deployment Procedure",
+      "Machine Learning",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-007"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-008",
+    "question": "How do I complete: Data Retention and Deletion Procedure?",
+    "short_answer": "Follow the 7-step Data Retention and Deletion Procedure procedure in MK-DataLake, starting with the SOP-DATA-008 SOP.",
+    "detailed_answer": "The Data Retention and Deletion Procedure process (SOP-DATA-008) is owned by the Data & Analytics department. The data manager initiates the request in MK-DataLake and Director of Data & Analytics is responsible for approval/sign-off. Deletion of data under legal hold is blocked until the hold is lifted.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-DataLake.",
+      "the Data Manager gathers the required data and documents, including checking each dataset against the retention schedule defined by Legal.",
+      "The review team examines the Data Retention Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Director of Data & Analytics discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-DataLake with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Deletion of data under legal hold is blocked until the hold is lifted."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Governance",
+    "role_applicability": [
+      "Data Manager",
+      "Director of Data & Analytics"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Retention and Deletion Procedure",
+      "Data Governance",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-008"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-DATA-009",
+    "question": "How do I complete: Data Warehouse Schema Change Procedure?",
+    "short_answer": "Follow the 7-step Data Warehouse Schema Change Procedure procedure in MK-DataLake, starting with the SOP-DATA-009 SOP.",
+    "detailed_answer": "The Data Warehouse Schema Change Procedure process (SOP-DATA-009) is owned by the Data & Analytics department. The data engineer initiates the request in MK-DataLake and Data Manager is responsible for approval/sign-off. Breaking schema changes are communicated to all dashboard owners a week in advance.",
+    "step_by_step": [
+      "the Data Engineer confirms eligibility and prerequisites: impact analysis on downstream dashboards and reports.",
+      "the Data Engineer raises a request in MK-DataLake specifying exactly which Schema Change is required.",
+      "The Data Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Schema Change in the relevant system.",
+      "the Data Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-DataLake and corrected before sign-off.",
+      "MK-DataLake marks the request 'Complete' and the configuration is logged for audit and future reference. Breaking schema changes are communicated to all dashboard owners a week in advance."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Engineering",
+    "role_applicability": [
+      "Data Engineer",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Warehouse Schema Change Procedure",
+      "Data Engineering",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-009"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-010",
+    "question": "How do I complete: KPI Definition and Governance Procedure?",
+    "short_answer": "Follow the 7-step KPI Definition and Governance Procedure procedure in MK-DataLake, starting with the SOP-DATA-010 SOP.",
+    "detailed_answer": "The KPI Definition and Governance Procedure process (SOP-DATA-010) is owned by the Data & Analytics department. The analytics lead initiates the request in MK-DataLake and Director of Data & Analytics is responsible for approval/sign-off. KPI definitions are version-controlled; changes require a company-wide notice.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-DataLake.",
+      "the Analytics Lead gathers the required data and documents, including a single agreed formula and data source per KPI to avoid conflicting numbers.",
+      "The review team examines the KPI Definition against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Director of Data & Analytics discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-DataLake with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. KPI definitions are version-controlled; changes require a company-wide notice."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Governance",
+    "role_applicability": [
+      "Analytics Lead",
+      "Director of Data & Analytics"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI Definition and Governance Procedure",
+      "Data Governance",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-010"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-DATA-011",
+    "question": "How do I complete: Data Onboarding for New Team Members?",
+    "short_answer": "Follow the 7-step Data Onboarding for New Team Members procedure in MK-DataLake, starting with the SOP-DATA-011 SOP.",
+    "detailed_answer": "The Data Onboarding for New Team Members process (SOP-DATA-011) is owned by the Data & Analytics department. The data manager initiates the request in MK-DataLake and Director of Data & Analytics is responsible for approval/sign-off. New hires complete a data-privacy module before touching production data.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-DataLake owner ahead of the employee's start or end date.",
+      "the Data Manager prepares the required Data Onboarding, including MK-DataLake access, SQL style guide, and a shadowing assignment.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Director of Data & Analytics verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Director of Data & Analytics for same-day resolution.",
+      "MK-DataLake is updated to reflect the completed status and the record is archived. New hires complete a data-privacy module before touching production data."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Data Manager",
+      "Director of Data & Analytics"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Onboarding for New Team Members",
+      "Onboarding",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-011"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-DATA-012",
+    "question": "How do I complete: Executive Reporting Package Preparation?",
+    "short_answer": "Follow the 7-step Executive Reporting Package Preparation procedure in MK-DataLake, starting with the SOP-DATA-012 SOP.",
+    "detailed_answer": "The Executive Reporting Package Preparation process (SOP-DATA-012) is owned by the Data & Analytics department. The analytics lead initiates the request in MK-DataLake and Director of Data & Analytics is responsible for approval/sign-off. Executive reports are reviewed by a second analyst before sending.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-DataLake.",
+      "the Analytics Lead gathers the required data and documents, including validating figures against source systems before distribution.",
+      "The review team examines the Executive Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Director of Data & Analytics discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-DataLake with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Executive reports are reviewed by a second analyst before sending."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Executive Reporting",
+    "role_applicability": [
+      "Analytics Lead",
+      "Director of Data & Analytics"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Executive Reporting Package Preparation",
+      "Executive Reporting",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-012"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-013",
+    "question": "How do I complete: Data Anonymization for Testing Procedure?",
+    "short_answer": "Follow the 7-step Data Anonymization for Testing Procedure procedure in MK-DataLake, starting with the SOP-DATA-013 SOP.",
+    "detailed_answer": "The Data Anonymization for Testing Procedure process (SOP-DATA-013) is owned by the Data & Analytics department. The data engineer initiates the request in MK-DataLake and Security Manager is responsible for approval/sign-off. Anonymized datasets are re-validated quarterly to confirm no re-identification risk.",
+    "step_by_step": [
+      "the Data Engineer confirms eligibility and prerequisites: applying masking rules to all personally identifiable fields.",
+      "the Data Engineer raises a request in MK-DataLake specifying exactly which Anonymized Test Dataset is required.",
+      "The Security Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Anonymized Test Dataset in the relevant system.",
+      "the Data Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-DataLake and corrected before sign-off.",
+      "MK-DataLake marks the request 'Complete' and the configuration is logged for audit and future reference. Anonymized datasets are re-validated quarterly to confirm no re-identification risk."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Privacy",
+    "role_applicability": [
+      "Data Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Anonymization for Testing Procedure",
+      "Data Privacy",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-013"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-014",
+    "question": "How do I complete: Third-Party Data Sharing Request?",
+    "short_answer": "Follow the 7-step Third-Party Data Sharing Request procedure in MK-DataLake, starting with the SOP-DATA-014 SOP.",
+    "detailed_answer": "The Third-Party Data Sharing Request process (SOP-DATA-014) is owned by the Data & Analytics department. The requester initiates the request in MK-DataLake and Legal Manager is responsible for approval/sign-off. Cross-border data sharing requires an additional Legal & Compliance review.",
+    "step_by_step": [
+      "the requester logs into MK-DataLake and navigates to the 'Data Sharing Request' section.",
+      "the requester selects 'New Data Sharing Request' and enters the required details, including the recipient organisation, purpose, and data fields to be shared.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Data Sharing Request; MK-DataLake automatically routes it to the Legal Manager for review.",
+      "The Legal Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-DataLake updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Data Sharing Request is processed and the record is retained in MK-DataLake for audit purposes. Cross-border data sharing requires an additional Legal & Compliance review."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Sharing",
+    "role_applicability": [
+      "requester",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Third-Party Data Sharing Request",
+      "Data Sharing",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-014"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-DATA-015",
+    "question": "How do I complete: Analytics Tool Access Provisioning?",
+    "short_answer": "Follow the 7-step Analytics Tool Access Provisioning procedure in MK-DataLake, starting with the SOP-DATA-015 SOP.",
+    "detailed_answer": "The Analytics Tool Access Provisioning process (SOP-DATA-015) is owned by the Data & Analytics department. The requester initiates the request in MK-DataLake and Data Manager is responsible for approval/sign-off. Write access to production data models is limited to Data Engineers.",
+    "step_by_step": [
+      "the requester confirms eligibility and prerequisites: the specific tool (MK-DataLake, BI dashboards) and role required.",
+      "the requester raises a request in MK-DataLake specifying exactly which Analytics Tool Access is required.",
+      "The Data Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Analytics Tool Access in the relevant system.",
+      "the requester is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-DataLake and corrected before sign-off.",
+      "MK-DataLake marks the request 'Complete' and the configuration is logged for audit and future reference. Write access to production data models is limited to Data Engineers."
+    ],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Access",
+    "role_applicability": [
+      "requester",
+      "Data Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Analytics Tool Access Provisioning",
+      "Data Access",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-015"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-016",
+    "question": "What is the Data Governance Policy?",
+    "short_answer": "All datasets must be classified (Public, Internal, Confidential, Restricted) before broader access is granted.",
+    "detailed_answer": "All datasets must be classified (Public, Internal, Confidential, Restricted) before broader access is granted. Personally identifiable fields must be masked in any dataset shared outside the owning team. Data access requests are reviewed within 3 business days.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Data Governance",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Governance Policy",
+      "Data Governance",
+      "DATA"
+    ],
+    "related_documents": [
+      "POL-DATA-001"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-DATA-017",
+    "question": "Who do I contact in the Data & Analytics department for help?",
+    "short_answer": "Reach out to: Anjali Rao (Director of Data & Analytics, anjali.rao@mkinfinite-ai.com); Aman Nair (Analytics Lead, aman.nair@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Data & Analytics, use MK-DataLake to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Anjali Rao (Director of Data & Analytics, anjali.rao@mkinfinite-ai.com); Aman Nair (Analytics Lead, aman.nair@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data & Analytics",
+      "contact",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-018",
+    "question": "What system does the Data & Analytics department use?",
+    "short_answer": "Data & Analytics primarily uses MK-DataLake for its workflows.",
+    "detailed_answer": "MK-DataLake is the system of record for Data & Analytics. All requests, approvals, and records for this department's processes should go through MK-DataLake rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-DataLake",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-019",
+    "question": "What are the key performance indicators (KPIs) for the Data & Analytics department?",
+    "short_answer": "Dashboard/report request turnaround (target: under 5 business days)",
+    "detailed_answer": "Dashboard/report request turnaround (target: under 5 business days) Data pipeline uptime (target: above 99%) Data quality incident rate (target: fewer than 2 per month) Percentage of datasets with current classification labels (target: 100%)",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "KPI",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-020",
+    "question": "What is the escalation path within the Data & Analytics department?",
+    "short_answer": "Escalate in this order: Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics.",
+    "detailed_answer": "If a request or issue with Data & Analytics is not addressed within the expected timeframe, escalate step by step through: Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-021",
+    "question": "What are common mistakes employees make when working with Data & Analytics?",
+    "short_answer": "Sharing raw datasets containing PII without masking.",
+    "detailed_answer": "Sharing raw datasets containing PII without masking. Building dashboards on ungoverned KPI definitions, creating conflicting numbers. Deploying pipeline changes without validating downstream report impact.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "mistakes",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-022",
+    "question": "What does 'MK-DataLake' mean in the context of Data & Analytics?",
+    "short_answer": "The internal data warehouse and analytics platform.",
+    "detailed_answer": "The internal data warehouse and analytics platform. This term is commonly used in Data & Analytics SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-DataLake",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-023",
+    "question": "What does 'ETL/ELT' mean in the context of Data & Analytics?",
+    "short_answer": "Processes that Extract, Transform/Load data between systems.",
+    "detailed_answer": "Processes that Extract, Transform/Load data between systems. This term is commonly used in Data & Analytics SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "ETL/ELT",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-024",
+    "question": "What does 'PII' mean in the context of Data & Analytics?",
+    "short_answer": "Personally Identifiable Information requiring special handling.",
+    "detailed_answer": "Personally Identifiable Information requiring special handling. This term is commonly used in Data & Analytics SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "PII",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-025",
+    "question": "What does 'Data Drift' mean in the context of Data & Analytics?",
+    "short_answer": "A change in the statistical properties of data affecting model/report accuracy.",
+    "detailed_answer": "A change in the statistical properties of data affecting model/report accuracy. This term is commonly used in Data & Analytics SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Drift",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-026",
+    "question": "What does 'KPI Governance' mean in the context of Data & Analytics?",
+    "short_answer": "The practice of maintaining a single agreed definition per business metric.",
+    "detailed_answer": "The practice of maintaining a single agreed definition per business metric. This term is commonly used in Data & Analytics SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI Governance",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-DATA-027",
+    "question": "Can an employee from a different department ask a Data & Analytics question?",
+    "short_answer": "Yes. Data & Analytics knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Data & Analytics question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Data & Analytics",
+      "DATA"
+    ],
+    "related_documents": [],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "general"
+  }
+]

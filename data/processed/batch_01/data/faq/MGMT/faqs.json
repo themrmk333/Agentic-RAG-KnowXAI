@@ -1,0 +1,766 @@
+[
+  {
+    "faq_id": "FAQ-MGMT-001",
+    "question": "How do I complete: Company Strategy Planning Procedure?",
+    "short_answer": "Follow the 7-step Company Strategy Planning Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-001 SOP.",
+    "detailed_answer": "The Company Strategy Planning Procedure process (SOP-MGMT-001) is owned by the Management / Leadership department. The department director initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. Strategy is reviewed and refreshed annually with quarterly checkpoints.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the Department Director gathers the required data and documents, including market analysis, competitive positioning, and 3-year objectives.",
+      "The review team examines the Strategic Plan against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The CEO Office discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Strategy is reviewed and refreshed annually with quarterly checkpoints."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Strategic Planning",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Company Strategy Planning Procedure",
+      "Strategic Planning",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-001"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-002",
+    "question": "How do I complete: Project Portfolio Review Procedure (Management)?",
+    "short_answer": "Follow the 7-step Project Portfolio Review Procedure (Management) procedure in MK-ExecDash, starting with the SOP-MGMT-002 SOP.",
+    "detailed_answer": "The Project Portfolio Review Procedure (Management) process (SOP-MGMT-002) is owned by the Management / Leadership department. The pmo director initiates the request in MK-ExecDash and Vice President is responsible for approval/sign-off. Projects off-track for two consecutive reviews are considered for de-scoping or cancellation.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the PMO Director gathers the required data and documents, including status, ROI, and resourcing across all major company projects.",
+      "The review team examines the Executive Portfolio Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Vice President discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Projects off-track for two consecutive reviews are considered for de-scoping or cancellation."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Portfolio Governance",
+    "role_applicability": [
+      "PMO Director",
+      "Vice President"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Project Portfolio Review Procedure (Management)",
+      "Portfolio Governance",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-002"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MGMT-003",
+    "question": "How do I complete: Departmental Budget Approval Procedure?",
+    "short_answer": "Follow the 7-step Departmental Budget Approval Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-003 SOP.",
+    "detailed_answer": "The Departmental Budget Approval Procedure process (SOP-MGMT-003) is owned by the Management / Leadership department. The department director initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. Budgets are approved annually with a mid-year re-forecast checkpoint.",
+    "step_by_step": [
+      "the Department Director logs into MK-ExecDash and navigates to the 'Department Budget' section.",
+      "the Department Director selects 'New Department Budget' and enters the required details, including headcount plan, operating expenses, and capital expenditure requests.",
+      "the Department Director attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Department Director submits the Department Budget; MK-ExecDash automatically routes it to the CEO Office for review.",
+      "The CEO Office reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ExecDash updates the status to 'Approved' and notifies the Department Director by email/in-app notification.",
+      "The approved Department Budget is processed and the record is retained in MK-ExecDash for audit purposes. Budgets are approved annually with a mid-year re-forecast checkpoint."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Budget Governance",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Departmental Budget Approval Procedure",
+      "Budget Governance",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-004",
+    "question": "How do I complete: Executive Decision Escalation Procedure?",
+    "short_answer": "Follow the 7-step Executive Decision Escalation Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-004 SOP.",
+    "detailed_answer": "The Executive Decision Escalation Procedure process (SOP-MGMT-004) is owned by the Management / Leadership department. The director initiates the request in MK-ExecDash and Vice President is responsible for approval/sign-off. Time-critical escalations are addressed within 24 hours via the CEO Office.",
+    "step_by_step": [
+      "the Director confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Director performs the standard first-line check: summarising the decision required, options considered, and recommendation.",
+      "If the issue persists, the Director applies the documented workaround for this issue type.",
+      "the Director checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Director raises a ticket in MK-ExecDash categorised under 'Executive Escalation', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Director confirms the fix works; the ticket is closed in MK-ExecDash with the root cause logged. Time-critical escalations are addressed within 24 hours via the CEO Office."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Governance",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Executive Decision Escalation Procedure",
+      "Governance",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-004"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-005",
+    "question": "How do I complete: Organizational Change / Restructuring Procedure?",
+    "short_answer": "Follow the 7-step Organizational Change / Restructuring Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-005 SOP.",
+    "detailed_answer": "The Organizational Change / Restructuring Procedure process (SOP-MGMT-005) is owned by the Management / Leadership department. The director initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. Restructuring proposals are reviewed jointly with HR and Legal before approval.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the Director gathers the required data and documents, including rationale, impacted roles, and communication plan.",
+      "The review team examines the Org Change Proposal against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The CEO Office discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Restructuring proposals are reviewed jointly with HR and Legal before approval."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Organizational Design",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Organizational Change / Restructuring Procedure",
+      "Organizational Design",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-005"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQ-MGMT-006",
+    "question": "How do I complete: Board Reporting Procedure?",
+    "short_answer": "Follow the 7-step Board Reporting Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-006 SOP.",
+    "detailed_answer": "The Board Reporting Procedure process (SOP-MGMT-006) is owned by the Management / Leadership department. The senior manager initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. Board reports are finalised at least 5 business days before the board meeting.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the Senior Manager gathers the required data and documents, including financial performance, strategic milestones, and key risks.",
+      "The review team examines the Board Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The CEO Office discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Board reports are finalised at least 5 business days before the board meeting."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Governance",
+    "role_applicability": [
+      "Senior Manager",
+      "CEO Office"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Board Reporting Procedure",
+      "Governance",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-006"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-007",
+    "question": "How do I complete: New Department/Team Formation Procedure?",
+    "short_answer": "Follow the 7-step New Department/Team Formation Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-007 SOP.",
+    "detailed_answer": "The New Department/Team Formation Procedure process (SOP-MGMT-007) is owned by the Management / Leadership department. The director initiates the request in MK-ExecDash and Vice President is responsible for approval/sign-off. New teams require HR and Finance sign-off before roles are posted.",
+    "step_by_step": [
+      "the Director logs into MK-ExecDash and navigates to the 'Team Formation Proposal' section.",
+      "the Director selects 'New Team Formation Proposal' and enters the required details, including business case, headcount plan, and reporting structure.",
+      "the Director attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Director submits the Team Formation Proposal; MK-ExecDash automatically routes it to the Vice President for review.",
+      "The Vice President reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ExecDash updates the status to 'Approved' and notifies the Director by email/in-app notification.",
+      "The approved Team Formation Proposal is processed and the record is retained in MK-ExecDash for audit purposes. New teams require HR and Finance sign-off before roles are posted."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Organizational Design",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Department/Team Formation Procedure",
+      "Organizational Design",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-007"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-008",
+    "question": "How do I complete: Executive Hiring Approval Procedure?",
+    "short_answer": "Follow the 7-step Executive Hiring Approval Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-008 SOP.",
+    "detailed_answer": "The Executive Hiring Approval Procedure process (SOP-MGMT-008) is owned by the Management / Leadership department. The director initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. Executive offers require CEO Office approval regardless of budget availability.",
+    "step_by_step": [
+      "the Director logs into MK-ExecDash and navigates to the 'Executive Hiring Request' section.",
+      "the Director selects 'New Executive Hiring Request' and enters the required details, including role justification, compensation benchmarking, and search plan.",
+      "the Director attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Director submits the Executive Hiring Request; MK-ExecDash automatically routes it to the CEO Office for review.",
+      "The CEO Office reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ExecDash updates the status to 'Approved' and notifies the Director by email/in-app notification.",
+      "The approved Executive Hiring Request is processed and the record is retained in MK-ExecDash for audit purposes. Executive offers require CEO Office approval regardless of budget availability."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Executive Recruitment",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Executive Hiring Approval Procedure",
+      "Executive Recruitment",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-008"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MGMT-009",
+    "question": "How do I complete: Company-wide Policy Approval Procedure?",
+    "short_answer": "Follow the 7-step Company-wide Policy Approval Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-009 SOP.",
+    "detailed_answer": "The Company-wide Policy Approval Procedure process (SOP-MGMT-009) is owned by the Management / Leadership department. The department manager initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. New company-wide policies are communicated at least 2 weeks before taking effect.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the Department Manager gathers the required data and documents, including cross-functional review from Legal, HR, and the owning department.",
+      "The review team examines the Company Policy Approval against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The CEO Office discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. New company-wide policies are communicated at least 2 weeks before taking effect."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Policy Governance",
+    "role_applicability": [
+      "Department Manager",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Company-wide Policy Approval Procedure",
+      "Policy Governance",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-009"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-010",
+    "question": "How do I complete: Crisis Management / Business Continuity Procedure?",
+    "short_answer": "Follow the 7-step Crisis Management / Business Continuity Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-010 SOP.",
+    "detailed_answer": "The Crisis Management / Business Continuity Procedure process (SOP-MGMT-010) is owned by the Management / Leadership department. The senior manager initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. A post-crisis review is conducted within 2 weeks of resolution.",
+    "step_by_step": [
+      "the Senior Manager confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Senior Manager performs the standard first-line check: activating the business continuity plan and notifying the crisis management team.",
+      "If the issue persists, the Senior Manager applies the documented workaround for this issue type.",
+      "the Senior Manager checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Senior Manager raises a ticket in MK-ExecDash categorised under 'Crisis Response', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Senior Manager confirms the fix works; the ticket is closed in MK-ExecDash with the root cause logged. A post-crisis review is conducted within 2 weeks of resolution."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Business Continuity",
+    "role_applicability": [
+      "Senior Manager",
+      "CEO Office"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Crisis Management / Business Continuity Procedure",
+      "Business Continuity",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-010"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-011",
+    "question": "How do I complete: Annual Performance & Compensation Review (Company-wide)?",
+    "short_answer": "Follow the 7-step Annual Performance & Compensation Review (Company-wide) procedure in MK-ExecDash, starting with the SOP-MGMT-011 SOP.",
+    "detailed_answer": "The Annual Performance & Compensation Review (Company-wide) process (SOP-MGMT-011) is owned by the Management / Leadership department. The hr director initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. The company-wide cycle concludes with individual manager conversations by a fixed date.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the HR Director gathers the required data and documents, including calibrated ratings and compensation budget allocation across departments.",
+      "The review team examines the Annual Review Cycle against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The CEO Office discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. The company-wide cycle concludes with individual manager conversations by a fixed date."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Performance Management",
+    "role_applicability": [
+      "HR Director",
+      "CEO Office"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Annual Performance & Compensation Review (Company-wide)",
+      "Performance Management",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-011"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQ-MGMT-012",
+    "question": "How do I complete: Merger & Acquisition Due Diligence Support?",
+    "short_answer": "Follow the 7-step Merger & Acquisition Due Diligence Support procedure in MK-ExecDash, starting with the SOP-MGMT-012 SOP.",
+    "detailed_answer": "The Merger & Acquisition Due Diligence Support process (SOP-MGMT-012) is owned by the Management / Leadership department. The director initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. Due diligence materials are handled under strict confidentiality with a limited access list.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the Director gathers the required data and documents, including coordinating Legal, Finance, and HR inputs into the due diligence data room.",
+      "The review team examines the M&A Due Diligence against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The CEO Office discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Due diligence materials are handled under strict confidentiality with a limited access list."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Corporate Development",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Merger & Acquisition Due Diligence Support",
+      "Corporate Development",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-012"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-013",
+    "question": "How do I complete: Management Offsite Planning Procedure?",
+    "short_answer": "Follow the 7-step Management Offsite Planning Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-013 SOP.",
+    "detailed_answer": "The Management Offsite Planning Procedure process (SOP-MGMT-013) is owned by the Management / Leadership department. The senior manager initiates the request in MK-ExecDash and Vice President is responsible for approval/sign-off. Key decisions from offsites are documented and circulated within 3 business days.",
+    "step_by_step": [
+      "the Senior Manager confirms eligibility and prerequisites: agenda, objectives, and pre-reading materials for attendees.",
+      "the Senior Manager raises a request in MK-ExecDash specifying exactly which Management Offsite is required.",
+      "The Vice President reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Management Offsite in the relevant system.",
+      "the Senior Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ExecDash and corrected before sign-off.",
+      "MK-ExecDash marks the request 'Complete' and the configuration is logged for audit and future reference. Key decisions from offsites are documented and circulated within 3 business days."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Leadership Alignment",
+    "role_applicability": [
+      "Senior Manager",
+      "Vice President"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Management Offsite Planning Procedure",
+      "Leadership Alignment",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-013"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-014",
+    "question": "How do I complete: Vendor/Partner Executive Relationship Management?",
+    "short_answer": "Follow the 7-step Vendor/Partner Executive Relationship Management procedure in MK-ExecDash, starting with the SOP-MGMT-014 SOP.",
+    "detailed_answer": "The Vendor/Partner Executive Relationship Management process (SOP-MGMT-014) is owned by the Management / Leadership department. The director initiates the request in MK-ExecDash and Vice President is responsible for approval/sign-off. Underperforming strategic partnerships are reviewed for renegotiation or exit.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ExecDash.",
+      "the Director gathers the required data and documents, including reviewing partnership performance against agreed strategic objectives.",
+      "The review team examines the Strategic Partner Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Vice President discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ExecDash with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Underperforming strategic partnerships are reviewed for renegotiation or exit."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Partnerships",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor/Partner Executive Relationship Management",
+      "Partnerships",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-014"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MGMT-015",
+    "question": "How do I complete: Executive Onboarding Procedure?",
+    "short_answer": "Follow the 7-step Executive Onboarding Procedure procedure in MK-ExecDash, starting with the SOP-MGMT-015 SOP.",
+    "detailed_answer": "The Executive Onboarding Procedure process (SOP-MGMT-015) is owned by the Management / Leadership department. The hr director initiates the request in MK-ExecDash and CEO Office is responsible for approval/sign-off. New executives present their 90-day plan to the CEO Office by day 30.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-ExecDash owner ahead of the employee's start or end date.",
+      "the HR Director prepares the required Executive Onboarding, including stakeholder introductions, strategic briefings, and a 90-day plan.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The CEO Office verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the CEO Office for same-day resolution.",
+      "MK-ExecDash is updated to reflect the completed status and the record is archived. New executives present their 90-day plan to the CEO Office by day 30."
+    ],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Onboarding",
+    "role_applicability": [
+      "HR Director",
+      "CEO Office"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Executive Onboarding Procedure",
+      "Onboarding",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-015"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MGMT-016",
+    "question": "What is the Corporate Governance Policy?",
+    "short_answer": "Material business decisions above INR 5,00,00,000 require CEO Office and Board notification.",
+    "detailed_answer": "Material business decisions above INR 5,00,00,000 require CEO Office and Board notification. Departmental strategies must align with the company's annual strategic plan, reviewed each January. Executive-level matters (compensation, M&A, litigation) are restricted to Director level and above.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Governance",
+    "role_applicability": [
+      "Director",
+      "Vice President",
+      "CEO Office"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Corporate Governance Policy",
+      "Governance",
+      "MGMT"
+    ],
+    "related_documents": [
+      "POL-MGMT-001"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "management"
+  },
+  {
+    "faq_id": "FAQ-MGMT-017",
+    "question": "Who do I contact in the Management / Leadership department for help?",
+    "short_answer": "Reach out to: CEO Office (CEO Office, ceo.office@mkinfinite-ai.com); Ritika Desai (Vice President, Operations, ritika.desai@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Management / Leadership, use MK-ExecDash to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: CEO Office (CEO Office, ceo.office@mkinfinite-ai.com); Ritika Desai (Vice President, Operations, ritika.desai@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Management / Leadership",
+      "contact",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-018",
+    "question": "What system does the Management / Leadership department use?",
+    "short_answer": "Management / Leadership primarily uses MK-ExecDash for its workflows.",
+    "detailed_answer": "MK-ExecDash is the system of record for Management / Leadership. All requests, approvals, and records for this department's processes should go through MK-ExecDash rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-ExecDash",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-019",
+    "question": "What are the key performance indicators (KPIs) for the Management / Leadership department?",
+    "short_answer": "Strategic objective completion rate (target: above 80% annually)",
+    "detailed_answer": "Strategic objective completion rate (target: above 80% annually) Cross-department project delivery rate (target: above 85% on-time) Employee engagement score company-wide (target: above 4.0 out of 5) Budget adherence across departments (target: within 5% variance)",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "KPI",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-020",
+    "question": "What is the escalation path within the Management / Leadership department?",
+    "short_answer": "Escalate in this order: Manager -> Director -> Vice President -> CEO Office.",
+    "detailed_answer": "If a request or issue with Management / Leadership is not addressed within the expected timeframe, escalate step by step through: Manager -> Director -> Vice President -> CEO Office. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-021",
+    "question": "What are common mistakes employees make when working with Management / Leadership?",
+    "short_answer": "Approving departmental budgets without cross-checking company-wide strategic priorities.",
+    "detailed_answer": "Approving departmental budgets without cross-checking company-wide strategic priorities. Delaying escalation of major risks until they become urgent. Announcing organisational changes without prior HR and Legal review.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "mistakes",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-022",
+    "question": "What does 'MK-ExecDash' mean in the context of Management / Leadership?",
+    "short_answer": "The internal executive dashboard for company-wide KPIs and portfolio status.",
+    "detailed_answer": "The internal executive dashboard for company-wide KPIs and portfolio status. This term is commonly used in Management / Leadership SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-ExecDash",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-023",
+    "question": "What does 'RAG Status' mean in the context of Management / Leadership?",
+    "short_answer": "Red/Amber/Green health indicator used in executive reporting.",
+    "detailed_answer": "Red/Amber/Green health indicator used in executive reporting. This term is commonly used in Management / Leadership SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "RAG Status",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-024",
+    "question": "What does 'OKR' mean in the context of Management / Leadership?",
+    "short_answer": "Objectives and Key Results, used for strategic goal-setting.",
+    "detailed_answer": "Objectives and Key Results, used for strategic goal-setting. This term is commonly used in Management / Leadership SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "OKR",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-025",
+    "question": "What does 'Board Report' mean in the context of Management / Leadership?",
+    "short_answer": "A formal periodic report summarising performance for the Board.",
+    "detailed_answer": "A formal periodic report summarising performance for the Board. This term is commonly used in Management / Leadership SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Board Report",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-026",
+    "question": "What does 'Business Continuity Plan' mean in the context of Management / Leadership?",
+    "short_answer": "A documented plan to maintain operations during a crisis.",
+    "detailed_answer": "A documented plan to maintain operations during a crisis. This term is commonly used in Management / Leadership SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Business Continuity Plan",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MGMT-027",
+    "question": "Can an employee from a different department ask a Management / Leadership question?",
+    "short_answer": "Yes. Management / Leadership knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Management / Leadership question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Management / Leadership",
+      "MGMT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "general"
+  }
+]

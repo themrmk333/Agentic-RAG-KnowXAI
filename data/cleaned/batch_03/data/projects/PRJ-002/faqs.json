@@ -1,0 +1,332 @@
+[
+  {
+    "faq_id": "FAQ-PRJ-002-001",
+    "question": "What is the architecture of PRJ-002?",
+    "short_answer": "A central orchestration service exposes a tool-calling API; agents are defined declaratively (system prompt, allowed tools, memory config) and registered in the platform; a shared ",
+    "detailed_answer": "A central orchestration service exposes a tool-calling API; agents are defined declaratively (system prompt, allowed tools, memory config) and registered in the platform; a shared observability layer logs every tool call and model response for debugging and evaluation.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-002",
+    "question": "Who is the project manager and technical lead for Enterprise AI Agent Platform?",
+    "short_answer": "The Project Manager is Karan Pillai and the Technical Lead is Aditya Rao.",
+    "detailed_answer": "The Project Manager is Karan Pillai and the Technical Lead is Aditya Rao.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-003",
+    "question": "What technologies are being used in Enterprise AI Agent Platform?",
+    "short_answer": "Technologies used: Python orchestration service; MK-CloudOps Kubernetes clusters; Redis for short-term agent memory; PostgreSQL for agent configuration and long-term memory; gRPC f",
+    "detailed_answer": "Technologies used: Python orchestration service; MK-CloudOps Kubernetes clusters; Redis for short-term agent memory; PostgreSQL for agent configuration and long-term memory; gRPC for internal service communication",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-004",
+    "question": "What is the current status of Enterprise AI Agent Platform?",
+    "short_answer": "Enterprise AI Agent Platform is currently: In Progress - Alpha. Current sprint: Sprint 9: Reducing tool-calling gateway latency under load.",
+    "detailed_answer": "Enterprise AI Agent Platform is currently: In Progress - Alpha. Current sprint: Sprint 9: Reducing tool-calling gateway latency under load.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-005",
+    "question": "What is the deployment procedure for Enterprise AI Agent Platform?",
+    "short_answer": "Canary deployment to 5% of internal traffic before full rollout.",
+    "detailed_answer": "Canary deployment to 5% of internal traffic before full rollout.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-006",
+    "question": "Which database does Enterprise AI Agent Platform use?",
+    "short_answer": "PostgreSQL for agent configs and long-term memory; Redis for ephemeral session state.",
+    "detailed_answer": "PostgreSQL for agent configs and long-term memory; Redis for ephemeral session state.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-007",
+    "question": "What is the current sprint goal for Enterprise AI Agent Platform?",
+    "short_answer": "Sprint 9: Reducing tool-calling gateway latency under load.",
+    "detailed_answer": "Sprint 9: Reducing tool-calling gateway latency under load.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-008",
+    "question": "What are the known issues in Enterprise AI Agent Platform?",
+    "short_answer": "Known issues: Memory service occasionally retains stale context across sessions longer than intended.; Tool-calling gateway has elevated latency under high concurrent load.",
+    "detailed_answer": "Known issues: Memory service occasionally retains stale context across sessions longer than intended.; Tool-calling gateway has elevated latency under high concurrent load.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-009",
+    "question": "What are the key risks for Enterprise AI Agent Platform?",
+    "short_answer": "Risks: Platform becoming a single point of failure for all dependent AI agents.; Inconsistent adoption if teams continue building bespoke orchestration outside the platform.",
+    "detailed_answer": "Risks: Platform becoming a single point of failure for all dependent AI agents.; Inconsistent adoption if teams continue building bespoke orchestration outside the platform.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-010",
+    "question": "How is security handled in Enterprise AI Agent Platform?",
+    "short_answer": "Tool access is scoped per-agent via an allow-list; all tool calls are authenticated and logged for audit.",
+    "detailed_answer": "Tool access is scoped per-agent via an allow-list; all tool calls are authenticated and logged for audit.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-011",
+    "question": "What departments are involved in Enterprise AI Agent Platform?",
+    "short_answer": "Departments involved: Engineering, DevOps & Cloud, R&D",
+    "detailed_answer": "Departments involved: Engineering, DevOps & Cloud, R&D",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-012",
+    "question": "What is the CI/CD process for Enterprise AI Agent Platform?",
+    "short_answer": "MK-CI pipeline with automated agent-eval gating before promotion.",
+    "detailed_answer": "MK-CI pipeline with automated agent-eval gating before promotion.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-013",
+    "question": "What is on the backlog for Enterprise AI Agent Platform?",
+    "short_answer": "Backlog items: Add agent cost/usage dashboards per team; Support streaming responses end-to-end",
+    "detailed_answer": "Backlog items: Add agent cost/usage dashboards per team; Support streaming responses end-to-end",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-014",
+    "question": "What is the future roadmap for Enterprise AI Agent Platform?",
+    "short_answer": "Expand to support external partner-facing agents with stricter sandboxing.",
+    "detailed_answer": "Expand to support external partner-facing agents with stricter sandboxing.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-002-015",
+    "question": "What is the testing workflow for Enterprise AI Agent Platform?",
+    "short_answer": "Automated evaluation harness runs golden-path agent scenarios on every PR.",
+    "detailed_answer": "Automated evaluation harness runs golden-path agent scenarios on every PR.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Enterprise AI Agent Platform",
+      "PRJ-002"
+    ],
+    "related_documents": [
+      "PRJ-002"
+    ],
+    "escalation_path": "Aditya Rao -> Karan Pillai -> PMO Director",
+    "access_level": "employee"
+  }
+]

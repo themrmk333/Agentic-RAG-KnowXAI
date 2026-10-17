@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Legal Intern",
+    "level": 1,
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Legal Associate",
+    "level": 2,
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Contracts Specialist",
+    "level": 3,
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Compliance Officer",
+    "level": 4,
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Legal Counsel",
+    "level": 5,
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Legal Manager",
+    "level": 6,
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "General Counsel",
+    "level": 7,
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

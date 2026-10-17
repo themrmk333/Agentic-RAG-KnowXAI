@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Finance Intern",
+    "level": 1,
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Finance Executive",
+    "level": 2,
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Accountant",
+    "level": 3,
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Accountant",
+    "level": 4,
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Finance Lead",
+    "level": 5,
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Finance Manager",
+    "level": 6,
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "Finance Director",
+    "level": 7,
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

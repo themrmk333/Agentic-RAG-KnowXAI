@@ -1,0 +1,935 @@
+{
+    "total": 100,
+    "retrieval_recall_1": 0.18888888888888888,
+    "retrieval_recall_3": 0.18888888888888888,
+    "retrieval_recall_5": 0.18888888888888888,
+    "retrieval_recall_10": 0.18888888888888888,
+    "source_hit_rate": 0.18888888888888888,
+    "grounded_answer_rate": 1.0,
+    "citation_accuracy": 0.18888888888888888,
+    "hallucination_rate": 0.0,
+    "insufficient_context_accuracy": 0.1,
+    "permission_accuracy": 1.0,
+    "total_latency_ms": 29426.649999999427,
+    "failed_cases": [
+        {
+            "id": "eval-3",
+            "question": "How do I complete: Office Relocation/Seating Change Procedure?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                967,
+                2911
+            ],
+            "expected": [
+                869
+            ]
+        },
+        {
+            "id": "eval-8",
+            "question": "How do I complete: Data Quality Issue Resolution Procedure?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2943,
+                2169
+            ],
+            "expected": [
+                871
+            ]
+        },
+        {
+            "id": "eval-10",
+            "question": "What does 'Vendor Access' mean in the context of Administration / Facilities?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                968,
+                1613,
+                2159
+            ],
+            "expected": [
+                869
+            ]
+        },
+        {
+            "id": "eval-11",
+            "question": "How do I complete: Machine Learning Model Deployment Procedure?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                979
+            ],
+            "expected": [
+                871
+            ]
+        },
+        {
+            "id": "eval-13",
+            "question": "How do I complete: Executive Reporting Package Preparation?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                984,
+                1646
+            ],
+            "expected": [
+                871
+            ]
+        },
+        {
+            "id": "eval-18",
+            "question": "How do I complete: Production Incident Response (DevOps)?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2993,
+                874
+            ],
+            "expected": [
+                873
+            ]
+        },
+        {
+            "id": "eval-19",
+            "question": "How do I complete: Backup and Disaster Recovery Test?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                874,
+                3000
+            ],
+            "expected": [
+                873
+            ]
+        },
+        {
+            "id": "eval-21",
+            "question": "How do I complete: Rollback Procedure?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3017,
+                1039
+            ],
+            "expected": [
+                873
+            ]
+        },
+        {
+            "id": "eval-22",
+            "question": "How do I complete: Patch Management for Infrastructure?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1042,
+                3026
+            ],
+            "expected": [
+                873
+            ]
+        },
+        {
+            "id": "eval-25",
+            "question": "How do I complete: Bug Triage and Assignment?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3055,
+                1050
+            ],
+            "expected": [
+                875
+            ]
+        },
+        {
+            "id": "eval-26",
+            "question": "What does 'MTTR' mean in the context of DevOps & Cloud?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2327,
+                2326,
+                2322
+            ],
+            "expected": [
+                873
+            ]
+        },
+        {
+            "id": "eval-28",
+            "question": "How do I complete: Sprint Planning Procedure?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2825,
+                2818,
+                2872,
+                2819
+            ],
+            "expected": [
+                875
+            ]
+        },
+        {
+            "id": "eval-30",
+            "question": "How do I complete: Feature Flag Rollout Procedure?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1058,
+                3079
+            ],
+            "expected": [
+                875
+            ]
+        },
+        {
+            "id": "eval-31",
+            "question": "According to DOC-LC-000139.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2387,
+                2386,
+                2384
+            ],
+            "expected": [
+                60
+            ]
+        },
+        {
+            "id": "eval-32",
+            "question": "What are the details of DOC-LC-000141.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107,
+                2275
+            ],
+            "expected": [
+                64
+            ]
+        },
+        {
+            "id": "eval-33",
+            "question": "According to DOC-LC-000284.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1112,
+                2386
+            ],
+            "expected": [
+                65
+            ]
+        },
+        {
+            "id": "eval-34",
+            "question": "Can you summarize the DOC-LC-000282.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3294,
+                2396,
+                2385
+            ],
+            "expected": [
+                67
+            ]
+        },
+        {
+            "id": "eval-35",
+            "question": "Can you summarize the DOC-LC-000138.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2273,
+                2275,
+                2392,
+                2385
+            ],
+            "expected": [
+                68
+            ]
+        },
+        {
+            "id": "eval-36",
+            "question": "What are the details of DOC-LC-000281.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107,
+                2275
+            ],
+            "expected": [
+                71
+            ]
+        },
+        {
+            "id": "eval-37",
+            "question": "What is the DOC-LC-000137.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2275,
+                2277,
+                2273,
+                2385,
+                2392
+            ],
+            "expected": [
+                72
+            ]
+        },
+        {
+            "id": "eval-38",
+            "question": "What are the details of DOC-LC-000283.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                3294,
+                2275
+            ],
+            "expected": [
+                73
+            ]
+        },
+        {
+            "id": "eval-39",
+            "question": "Can you summarize the DOC-LC-000140.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2275,
+                2393,
+                2392,
+                2394
+            ],
+            "expected": [
+                76
+            ]
+        },
+        {
+            "id": "eval-40",
+            "question": "According to DOC-LC-000280.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2387,
+                1112
+            ],
+            "expected": [
+                78
+            ]
+        },
+        {
+            "id": "eval-41",
+            "question": "What are the details of DOC-LC-000142.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107,
+                2275
+            ],
+            "expected": [
+                79
+            ]
+        },
+        {
+            "id": "eval-42",
+            "question": "What is the DOC-LC-000279.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1107,
+                2275,
+                3241
+            ],
+            "expected": [
+                82
+            ]
+        },
+        {
+            "id": "eval-43",
+            "question": "According to DOC-S-000274.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2494,
+                2392,
+                2386
+            ],
+            "expected": [
+                85
+            ]
+        },
+        {
+            "id": "eval-44",
+            "question": "Can you summarize the DOC-S-000127.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2492,
+                2488,
+                2392,
+                784
+            ],
+            "expected": [
+                86
+            ]
+        },
+        {
+            "id": "eval-45",
+            "question": "Can you summarize the DOC-S-000275.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2368,
+                2392,
+                3294
+            ],
+            "expected": [
+                89
+            ]
+        },
+        {
+            "id": "eval-46",
+            "question": "What is the DOC-S-000131.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3239,
+                3241
+            ],
+            "expected": [
+                90
+            ]
+        },
+        {
+            "id": "eval-47",
+            "question": "What is the DOC-S-000269.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1107,
+                1812
+            ],
+            "expected": [
+                91
+            ]
+        },
+        {
+            "id": "eval-48",
+            "question": "According to DOC-S-000129.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2394,
+                2389,
+                2392
+            ],
+            "expected": [
+                93
+            ]
+        },
+        {
+            "id": "eval-49",
+            "question": "What is the DOC-S-000272.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3239,
+                3241
+            ],
+            "expected": [
+                94
+            ]
+        },
+        {
+            "id": "eval-50",
+            "question": "What is the DOC-S-000128.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3239,
+                1107
+            ],
+            "expected": [
+                98
+            ]
+        },
+        {
+            "id": "eval-51",
+            "question": "Can you summarize the DOC-S-000276.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                2392,
+                2368
+            ],
+            "expected": [
+                100
+            ]
+        },
+        {
+            "id": "eval-52",
+            "question": "What is the DOC-S-000134.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3239,
+                3327
+            ],
+            "expected": [
+                101
+            ]
+        },
+        {
+            "id": "eval-53",
+            "question": "What are the details of DOC-S-000277.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107
+            ],
+            "expected": [
+                106
+            ]
+        },
+        {
+            "id": "eval-54",
+            "question": "Can you summarize the DOC-S-000133.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                3329
+            ],
+            "expected": [
+                108
+            ]
+        },
+        {
+            "id": "eval-55",
+            "question": "According to DOC-S-000271.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2394,
+                2389,
+                2382
+            ],
+            "expected": [
+                109
+            ]
+        },
+        {
+            "id": "eval-56",
+            "question": "According to DOC-S-000273.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2399,
+                2392,
+                2386
+            ],
+            "expected": [
+                111
+            ]
+        },
+        {
+            "id": "eval-57",
+            "question": "Can you summarize the DOC-S-000135.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1812
+            ],
+            "expected": [
+                112
+            ]
+        },
+        {
+            "id": "eval-58",
+            "question": "What are the details of DOC-S-000136.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107
+            ],
+            "expected": [
+                114
+            ]
+        },
+        {
+            "id": "eval-59",
+            "question": "What are the details of DOC-S-000130.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107
+            ],
+            "expected": [
+                116
+            ]
+        },
+        {
+            "id": "eval-60",
+            "question": "According to DOC-S-000132.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2389,
+                2377,
+                2382
+            ],
+            "expected": [
+                117
+            ]
+        },
+        {
+            "id": "eval-61",
+            "question": "What are the details of DOC-S-000278.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                2887
+            ],
+            "expected": [
+                119
+            ]
+        },
+        {
+            "id": "eval-62",
+            "question": "What are the details of DOC-S-000270.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107
+            ],
+            "expected": [
+                120
+            ]
+        },
+        {
+            "id": "eval-63",
+            "question": "Can you summarize the DOC-C-000350.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2278,
+                2392,
+                2396,
+                2391
+            ],
+            "expected": [
+                125
+            ]
+        },
+        {
+            "id": "eval-64",
+            "question": "What is the DOC-C-000059.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1107,
+                3241
+            ],
+            "expected": [
+                127
+            ]
+        },
+        {
+            "id": "eval-65",
+            "question": "What is the DOC-C-000066.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3239,
+                3327
+            ],
+            "expected": [
+                129
+            ]
+        },
+        {
+            "id": "eval-66",
+            "question": "Can you summarize the DOC-C-000200.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1134,
+                2392,
+                2278
+            ],
+            "expected": [
+                130
+            ]
+        },
+        {
+            "id": "eval-67",
+            "question": "According to DOC-C-000215.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2394,
+                2389,
+                2392
+            ],
+            "expected": [
+                131
+            ]
+        },
+        {
+            "id": "eval-68",
+            "question": "Can you summarize the DOC-C-000214.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2391,
+                2392,
+                3332
+            ],
+            "expected": [
+                134
+            ]
+        },
+        {
+            "id": "eval-69",
+            "question": "What is the DOC-C-000065.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3239,
+                1107
+            ],
+            "expected": [
+                135
+            ]
+        },
+        {
+            "id": "eval-70",
+            "question": "What is the DOC-C-000201.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3327,
+                3333
+            ],
+            "expected": [
+                137
+            ]
+        },
+        {
+            "id": "eval-71",
+            "question": "What is the DOC-C-000069.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1107,
+                1812
+            ],
+            "expected": [
+                138
+            ]
+        },
+        {
+            "id": "eval-72",
+            "question": "Can you summarize the DOC-C-000205.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2392,
+                2368,
+                2452
+            ],
+            "expected": [
+                141
+            ]
+        },
+        {
+            "id": "eval-73",
+            "question": "Can you summarize the DOC-C-000204.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1134,
+                2392
+            ],
+            "expected": [
+                145
+            ]
+        },
+        {
+            "id": "eval-74",
+            "question": "According to DOC-C-000064.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1546,
+                2392,
+                2484
+            ],
+            "expected": [
+                147
+            ]
+        },
+        {
+            "id": "eval-75",
+            "question": "Can you summarize the DOC-C-000070.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1134,
+                2278,
+                2392,
+                1303
+            ],
+            "expected": [
+                148
+            ]
+        },
+        {
+            "id": "eval-76",
+            "question": "Can you summarize the DOC-C-000068.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                2278,
+                1107
+            ],
+            "expected": [
+                150
+            ]
+        },
+        {
+            "id": "eval-77",
+            "question": "What are the details of DOC-C-000209.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107
+            ],
+            "expected": [
+                151
+            ]
+        },
+        {
+            "id": "eval-78",
+            "question": "According to DOC-C-000074.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2394,
+                2389,
+                2494
+            ],
+            "expected": [
+                152
+            ]
+        },
+        {
+            "id": "eval-79",
+            "question": "According to DOC-C-000076.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2394,
+                2430,
+                2389
+            ],
+            "expected": [
+                153
+            ]
+        },
+        {
+            "id": "eval-80",
+            "question": "What is the DOC-C-000056.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                1107,
+                1094
+            ],
+            "expected": [
+                154
+            ]
+        },
+        {
+            "id": "eval-81",
+            "question": "Can you summarize the DOC-C-000217.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3332,
+                2392,
+                2394
+            ],
+            "expected": [
+                157
+            ]
+        },
+        {
+            "id": "eval-82",
+            "question": "What is the DOC-C-000344.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3327,
+                1107
+            ],
+            "expected": [
+                168
+            ]
+        },
+        {
+            "id": "eval-83",
+            "question": "What are the details of DOC-C-000347.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107,
+                2277
+            ],
+            "expected": [
+                170
+            ]
+        },
+        {
+            "id": "eval-84",
+            "question": "What is the DOC-C-000213.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3327,
+                3241
+            ],
+            "expected": [
+                171
+            ]
+        },
+        {
+            "id": "eval-85",
+            "question": "What are the details of DOC-C-000212.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                3329
+            ],
+            "expected": [
+                174
+            ]
+        },
+        {
+            "id": "eval-86",
+            "question": "According to DOC-C-000060.md, what are the main points?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2874
+            ],
+            "expected": [
+                175
+            ]
+        },
+        {
+            "id": "eval-87",
+            "question": "What are the details of DOC-C-000216.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                3329
+            ],
+            "expected": [
+                176
+            ]
+        },
+        {
+            "id": "eval-88",
+            "question": "Can you summarize the DOC-C-000345.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                2392,
+                2393,
+                2396
+            ],
+            "expected": [
+                177
+            ]
+        },
+        {
+            "id": "eval-89",
+            "question": "What are the details of DOC-C-000073.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                3329,
+                2275,
+                2277
+            ],
+            "expected": [
+                180
+            ]
+        },
+        {
+            "id": "eval-90",
+            "question": "What are the details of DOC-C-000206.md?",
+            "type": "Retrieval Miss",
+            "retrieved": [
+                3241,
+                1107
+            ],
+            "expected": [
+                183
+            ]
+        }
+    ],
+    "average_latency_ms": 294.26649999999427
+}

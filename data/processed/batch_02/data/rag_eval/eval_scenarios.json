@@ -1,0 +1,2026 @@
+[
+  {
+    "scenario_id": "EVAL-0001",
+    "eval_type": "same_department_retrieval",
+    "question": "As a IT employee, how do I complete: Password Reset Procedure?",
+    "requester_department": "IT",
+    "requester_role": "employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0002",
+    "eval_type": "same_department_retrieval",
+    "question": "As a IT employee, how do I complete: New Hardware Request Fulfillment?",
+    "requester_department": "IT",
+    "requester_role": "employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0003",
+    "eval_type": "same_department_retrieval",
+    "question": "As a IT employee, how do I complete: Software Installation Request?",
+    "requester_department": "IT",
+    "requester_role": "employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0004",
+    "eval_type": "same_department_retrieval",
+    "question": "As a IT employee, how do I complete: Corporate VPN Access Setup?",
+    "requester_department": "IT",
+    "requester_role": "employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0005",
+    "eval_type": "same_department_retrieval",
+    "question": "As a IT employee, how do I complete: Laptop Replacement Process?",
+    "requester_department": "IT",
+    "requester_role": "employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0006",
+    "eval_type": "same_department_retrieval",
+    "question": "As a IT employee, how do I complete: Corporate Wi-Fi Troubleshooting Escalation?",
+    "requester_department": "IT",
+    "requester_role": "employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0007",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ENG employee, how do I complete: Feature Branch Creation and Naming?",
+    "requester_department": "ENG",
+    "requester_role": "Software Engineer",
+    "expected_department": "ENG",
+    "expected_document_ids": [
+      "SOP-ENG-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0008",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ENG employee, how do I complete: Code Review Process?",
+    "requester_department": "ENG",
+    "requester_role": "Software Engineer",
+    "expected_department": "ENG",
+    "expected_document_ids": [
+      "SOP-ENG-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0009",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ENG employee, how do I complete: New Repository Setup?",
+    "requester_department": "ENG",
+    "requester_role": "Software Engineer",
+    "expected_department": "ENG",
+    "expected_document_ids": [
+      "SOP-ENG-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0010",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ENG employee, how do I complete: Production Hotfix Deployment?",
+    "requester_department": "ENG",
+    "requester_role": "Software Engineer",
+    "expected_department": "ENG",
+    "expected_document_ids": [
+      "SOP-ENG-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0011",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ENG employee, how do I complete: Local Development Environment Setup?",
+    "requester_department": "ENG",
+    "requester_role": "new Software Engineer",
+    "expected_department": "ENG",
+    "expected_document_ids": [
+      "SOP-ENG-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0012",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ENG employee, how do I complete: API Key and Secret Rotation?",
+    "requester_department": "ENG",
+    "requester_role": "Software Engineer",
+    "expected_department": "ENG",
+    "expected_document_ids": [
+      "SOP-ENG-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0013",
+    "eval_type": "same_department_retrieval",
+    "question": "As a QA employee, how do I complete: Software Defect Reporting Procedure?",
+    "requester_department": "QA",
+    "requester_role": "QA Engineer",
+    "expected_department": "QA",
+    "expected_document_ids": [
+      "SOP-QA-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0014",
+    "eval_type": "same_department_retrieval",
+    "question": "As a QA employee, how do I complete: Test Case Design and Review?",
+    "requester_department": "QA",
+    "requester_role": "QA Engineer",
+    "expected_department": "QA",
+    "expected_document_ids": [
+      "SOP-QA-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0015",
+    "eval_type": "same_department_retrieval",
+    "question": "As a QA employee, how do I complete: Regression Test Cycle Execution?",
+    "requester_department": "QA",
+    "requester_role": "QA Engineer",
+    "expected_department": "QA",
+    "expected_document_ids": [
+      "SOP-QA-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0016",
+    "eval_type": "same_department_retrieval",
+    "question": "As a QA employee, how do I complete: Test Automation Script Development?",
+    "requester_department": "QA",
+    "requester_role": "QA Automation Engineer",
+    "expected_department": "QA",
+    "expected_document_ids": [
+      "SOP-QA-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0017",
+    "eval_type": "same_department_retrieval",
+    "question": "As a QA employee, how do I complete: Release Sign-off / Go-No-Go Procedure?",
+    "requester_department": "QA",
+    "requester_role": "QA Lead",
+    "expected_department": "QA",
+    "expected_document_ids": [
+      "SOP-QA-005"
+    ],
+    "expected_access_level": "manager",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0018",
+    "eval_type": "same_department_retrieval",
+    "question": "As a QA employee, how do I complete: Performance Test Execution?",
+    "requester_department": "QA",
+    "requester_role": "QA Engineer",
+    "expected_department": "QA",
+    "expected_document_ids": [
+      "SOP-QA-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0019",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DEVOPS employee, how do I complete: Service Deployment Procedure?",
+    "requester_department": "DEVOPS",
+    "requester_role": "DevOps Engineer",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0020",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DEVOPS employee, how do I complete: CI/CD Pipeline Configuration?",
+    "requester_department": "DEVOPS",
+    "requester_role": "DevOps Engineer",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0021",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DEVOPS employee, how do I complete: Cloud Resource Provisioning Request?",
+    "requester_department": "DEVOPS",
+    "requester_role": "requester",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0022",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DEVOPS employee, how do I complete: Production Incident Response (DevOps)?",
+    "requester_department": "DEVOPS",
+    "requester_role": "on-call DevOps Engineer",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0023",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DEVOPS employee, how do I complete: Infrastructure as Code (IaC) Change Procedure?",
+    "requester_department": "DEVOPS",
+    "requester_role": "DevOps Engineer",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-005"
+    ],
+    "expected_access_level": "manager",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0024",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DEVOPS employee, how do I complete: Auto-scaling Configuration Procedure?",
+    "requester_department": "DEVOPS",
+    "requester_role": "DevOps Engineer",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0025",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SEC employee, how do I complete: Phishing Email Reporting Procedure?",
+    "requester_department": "SEC",
+    "requester_role": "employee",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0026",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SEC employee, how do I complete: Multi-Factor Authentication (MFA) Enrollment?",
+    "requester_department": "SEC",
+    "requester_role": "employee",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0027",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SEC employee, how do I complete: Security Incident Response Procedure?",
+    "requester_department": "SEC",
+    "requester_role": "Security Analyst",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0028",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SEC employee, how do I complete: Access Control Review?",
+    "requester_department": "SEC",
+    "requester_role": "Security Analyst",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-004"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0029",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SEC employee, how do I complete: Vulnerability Scanning and Remediation?",
+    "requester_department": "SEC",
+    "requester_role": "Security Engineer",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-005"
+    ],
+    "expected_access_level": "manager",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0030",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SEC employee, how do I complete: Data Loss Prevention (DLP) Alert Handling?",
+    "requester_department": "SEC",
+    "requester_role": "Security Analyst",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0031",
+    "eval_type": "same_department_retrieval",
+    "question": "As a HR employee, how do I complete: Leave Application Procedure?",
+    "requester_department": "HR",
+    "requester_role": "employee",
+    "expected_department": "HR",
+    "expected_document_ids": [
+      "SOP-HR-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0032",
+    "eval_type": "same_department_retrieval",
+    "question": "As a HR employee, how do I complete: New Employee Onboarding Procedure?",
+    "requester_department": "HR",
+    "requester_role": "HR Executive",
+    "expected_department": "HR",
+    "expected_document_ids": [
+      "SOP-HR-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0033",
+    "eval_type": "same_department_retrieval",
+    "question": "As a HR employee, how do I complete: Employee Exit / Offboarding Procedure?",
+    "requester_department": "HR",
+    "requester_role": "HR Executive",
+    "expected_department": "HR",
+    "expected_document_ids": [
+      "SOP-HR-003"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0034",
+    "eval_type": "same_department_retrieval",
+    "question": "As a HR employee, how do I complete: Performance Review Cycle Procedure?",
+    "requester_department": "HR",
+    "requester_role": "Reporting Manager",
+    "expected_department": "HR",
+    "expected_document_ids": [
+      "SOP-HR-004"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0035",
+    "eval_type": "same_department_retrieval",
+    "question": "As a HR employee, how do I complete: Promotion Nomination Procedure?",
+    "requester_department": "HR",
+    "requester_role": "Reporting Manager",
+    "expected_department": "HR",
+    "expected_document_ids": [
+      "SOP-HR-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0036",
+    "eval_type": "same_department_retrieval",
+    "question": "As a HR employee, how do I complete: Internal Job Transfer Procedure?",
+    "requester_department": "HR",
+    "requester_role": "employee",
+    "expected_department": "HR",
+    "expected_document_ids": [
+      "SOP-HR-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0037",
+    "eval_type": "same_department_retrieval",
+    "question": "As a FIN employee, how do I complete: Expense Reimbursement Procedure?",
+    "requester_department": "FIN",
+    "requester_role": "employee",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "SOP-FIN-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0038",
+    "eval_type": "same_department_retrieval",
+    "question": "As a FIN employee, how do I complete: Travel Expense Reimbursement Procedure?",
+    "requester_department": "FIN",
+    "requester_role": "employee",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "SOP-FIN-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0039",
+    "eval_type": "same_department_retrieval",
+    "question": "As a FIN employee, how do I complete: Purchase Approval Procedure?",
+    "requester_department": "FIN",
+    "requester_role": "employee",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "SOP-FIN-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0040",
+    "eval_type": "same_department_retrieval",
+    "question": "As a FIN employee, how do I complete: Invoice Processing Procedure?",
+    "requester_department": "FIN",
+    "requester_role": "Accountant",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "SOP-FIN-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0041",
+    "eval_type": "same_department_retrieval",
+    "question": "As a FIN employee, how do I complete: Vendor Payment Procedure?",
+    "requester_department": "FIN",
+    "requester_role": "Accountant",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "SOP-FIN-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0042",
+    "eval_type": "same_department_retrieval",
+    "question": "As a FIN employee, how do I complete: Budget Approval Procedure?",
+    "requester_department": "FIN",
+    "requester_role": "Department Manager",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "SOP-FIN-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0043",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PMO employee, how do I complete: Project Creation and Charter Approval Procedure?",
+    "requester_department": "PMO",
+    "requester_role": "Project Manager",
+    "expected_department": "PMO",
+    "expected_document_ids": [
+      "SOP-PMO-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0044",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PMO employee, how do I complete: Project Risk Register Update Procedure?",
+    "requester_department": "PMO",
+    "requester_role": "Project Manager",
+    "expected_department": "PMO",
+    "expected_document_ids": [
+      "SOP-PMO-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0045",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PMO employee, how do I complete: Project Status Reporting Procedure?",
+    "requester_department": "PMO",
+    "requester_role": "Project Manager",
+    "expected_department": "PMO",
+    "expected_document_ids": [
+      "SOP-PMO-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0046",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PMO employee, how do I complete: Change Request Procedure?",
+    "requester_department": "PMO",
+    "requester_role": "Project Manager",
+    "expected_department": "PMO",
+    "expected_document_ids": [
+      "SOP-PMO-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0047",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PMO employee, how do I complete: Project Escalation Procedure?",
+    "requester_department": "PMO",
+    "requester_role": "Project Manager",
+    "expected_department": "PMO",
+    "expected_document_ids": [
+      "SOP-PMO-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0048",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PMO employee, how do I complete: Resource Allocation Request Procedure?",
+    "requester_department": "PMO",
+    "requester_role": "Project Manager",
+    "expected_department": "PMO",
+    "expected_document_ids": [
+      "SOP-PMO-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0049",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROD employee, how do I complete: Product Requirement Document (PRD) Creation?",
+    "requester_department": "PROD",
+    "requester_role": "Product Manager",
+    "expected_department": "PROD",
+    "expected_document_ids": [
+      "SOP-PROD-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0050",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROD employee, how do I complete: Feature Prioritization Procedure?",
+    "requester_department": "PROD",
+    "requester_role": "Product Manager",
+    "expected_department": "PROD",
+    "expected_document_ids": [
+      "SOP-PROD-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0051",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROD employee, how do I complete: Customer Feedback Intake and Triage?",
+    "requester_department": "PROD",
+    "requester_role": "Product Manager",
+    "expected_department": "PROD",
+    "expected_document_ids": [
+      "SOP-PROD-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0052",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROD employee, how do I complete: Product Launch Readiness Procedure?",
+    "requester_department": "PROD",
+    "requester_role": "Product Manager",
+    "expected_department": "PROD",
+    "expected_document_ids": [
+      "SOP-PROD-004"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0053",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROD employee, how do I complete: A/B Experiment Design Procedure?",
+    "requester_department": "PROD",
+    "requester_role": "Product Manager",
+    "expected_department": "PROD",
+    "expected_document_ids": [
+      "SOP-PROD-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0054",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROD employee, how do I complete: Competitive Analysis Procedure?",
+    "requester_department": "PROD",
+    "requester_role": "Product Manager",
+    "expected_department": "PROD",
+    "expected_document_ids": [
+      "SOP-PROD-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0055",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SALES employee, how do I complete: New Lead Qualification Procedure?",
+    "requester_department": "SALES",
+    "requester_role": "Sales Development Representative",
+    "expected_department": "SALES",
+    "expected_document_ids": [
+      "SOP-SALES-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0056",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SALES employee, how do I complete: Opportunity Creation and Pipeline Entry?",
+    "requester_department": "SALES",
+    "requester_role": "Account Executive",
+    "expected_department": "SALES",
+    "expected_document_ids": [
+      "SOP-SALES-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0057",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SALES employee, how do I complete: Discount Approval Procedure?",
+    "requester_department": "SALES",
+    "requester_role": "Account Executive",
+    "expected_department": "SALES",
+    "expected_document_ids": [
+      "SOP-SALES-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0058",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SALES employee, how do I complete: Contract/Quote Generation Procedure?",
+    "requester_department": "SALES",
+    "requester_role": "Account Executive",
+    "expected_department": "SALES",
+    "expected_document_ids": [
+      "SOP-SALES-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0059",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SALES employee, how do I complete: Deal Closure and Handover to Customer Support?",
+    "requester_department": "SALES",
+    "requester_role": "Account Executive",
+    "expected_department": "SALES",
+    "expected_document_ids": [
+      "SOP-SALES-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0060",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SALES employee, how do I complete: Sales Forecast Submission Procedure?",
+    "requester_department": "SALES",
+    "requester_role": "Account Executive",
+    "expected_department": "SALES",
+    "expected_document_ids": [
+      "SOP-SALES-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0061",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MKT employee, how do I complete: Campaign Planning and Approval Procedure?",
+    "requester_department": "MKT",
+    "requester_role": "Marketing Specialist",
+    "expected_department": "MKT",
+    "expected_document_ids": [
+      "SOP-MKT-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0062",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MKT employee, how do I complete: Content Creation and Review Procedure?",
+    "requester_department": "MKT",
+    "requester_role": "Content Strategist",
+    "expected_department": "MKT",
+    "expected_document_ids": [
+      "SOP-MKT-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0063",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MKT employee, how do I complete: Website Update Request Procedure?",
+    "requester_department": "MKT",
+    "requester_role": "Marketing Executive",
+    "expected_department": "MKT",
+    "expected_document_ids": [
+      "SOP-MKT-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0064",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MKT employee, how do I complete: Event Planning and Coordination Procedure?",
+    "requester_department": "MKT",
+    "requester_role": "Marketing Executive",
+    "expected_department": "MKT",
+    "expected_document_ids": [
+      "SOP-MKT-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0065",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MKT employee, how do I complete: Marketing Qualified Lead (MQL) Handover to Sales?",
+    "requester_department": "MKT",
+    "requester_role": "Marketing Specialist",
+    "expected_department": "MKT",
+    "expected_document_ids": [
+      "SOP-MKT-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0066",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MKT employee, how do I complete: Social Media Publishing Procedure?",
+    "requester_department": "MKT",
+    "requester_role": "Marketing Executive",
+    "expected_department": "MKT",
+    "expected_document_ids": [
+      "SOP-MKT-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0067",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SUPPORT employee, how do I complete: Customer Ticket Intake and Categorization?",
+    "requester_department": "SUPPORT",
+    "requester_role": "Customer Support Associate",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0068",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SUPPORT employee, how do I complete: Customer Ticket Escalation Procedure?",
+    "requester_department": "SUPPORT",
+    "requester_role": "Customer Support Associate",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0069",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SUPPORT employee, how do I complete: SLA Breach Handling Procedure?",
+    "requester_department": "SUPPORT",
+    "requester_role": "Support Team Lead",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0070",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SUPPORT employee, how do I complete: Bug Report Handover to Engineering?",
+    "requester_department": "SUPPORT",
+    "requester_role": "Senior Support Associate",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0071",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SUPPORT employee, how do I complete: Customer Refund/Credit Request Procedure?",
+    "requester_department": "SUPPORT",
+    "requester_role": "Customer Support Associate",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0072",
+    "eval_type": "same_department_retrieval",
+    "question": "As a SUPPORT employee, how do I complete: Knowledge Base Article Creation Procedure?",
+    "requester_department": "SUPPORT",
+    "requester_role": "Senior Support Associate",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0073",
+    "eval_type": "same_department_retrieval",
+    "question": "As a LEGAL employee, how do I complete: Contract Review Request Procedure?",
+    "requester_department": "LEGAL",
+    "requester_role": "requester",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "SOP-LEGAL-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0074",
+    "eval_type": "same_department_retrieval",
+    "question": "As a LEGAL employee, how do I complete: NDA Execution Procedure?",
+    "requester_department": "LEGAL",
+    "requester_role": "Legal Associate",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "SOP-LEGAL-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0075",
+    "eval_type": "same_department_retrieval",
+    "question": "As a LEGAL employee, how do I complete: Vendor Contract Negotiation Support?",
+    "requester_department": "LEGAL",
+    "requester_role": "Contracts Specialist",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "SOP-LEGAL-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0076",
+    "eval_type": "same_department_retrieval",
+    "question": "As a LEGAL employee, how do I complete: Regulatory Compliance Monitoring Procedure?",
+    "requester_department": "LEGAL",
+    "requester_role": "Compliance Officer",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "SOP-LEGAL-004"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0077",
+    "eval_type": "same_department_retrieval",
+    "question": "As a LEGAL employee, how do I complete: Intellectual Property Filing Procedure?",
+    "requester_department": "LEGAL",
+    "requester_role": "requester",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "SOP-LEGAL-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0078",
+    "eval_type": "same_department_retrieval",
+    "question": "As a LEGAL employee, how do I complete: Data Privacy Impact Assessment (DPIA) Procedure?",
+    "requester_department": "LEGAL",
+    "requester_role": "Compliance Officer",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "SOP-LEGAL-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0079",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROC employee, how do I complete: New Hardware/Equipment Request Procedure?",
+    "requester_department": "PROC",
+    "requester_role": "employee",
+    "expected_department": "PROC",
+    "expected_document_ids": [
+      "SOP-PROC-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0080",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROC employee, how do I complete: Vendor Selection and Onboarding Procedure?",
+    "requester_department": "PROC",
+    "requester_role": "Procurement Specialist",
+    "expected_department": "PROC",
+    "expected_document_ids": [
+      "SOP-PROC-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0081",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROC employee, how do I complete: Purchase Order Issuance Procedure?",
+    "requester_department": "PROC",
+    "requester_role": "Procurement Executive",
+    "expected_department": "PROC",
+    "expected_document_ids": [
+      "SOP-PROC-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0082",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROC employee, how do I complete: Vendor Contract Renewal Procedure?",
+    "requester_department": "PROC",
+    "requester_role": "Vendor Manager",
+    "expected_department": "PROC",
+    "expected_document_ids": [
+      "SOP-PROC-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0083",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROC employee, how do I complete: Goods Receipt and Inspection Procedure?",
+    "requester_department": "PROC",
+    "requester_role": "Procurement Executive",
+    "expected_department": "PROC",
+    "expected_document_ids": [
+      "SOP-PROC-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0084",
+    "eval_type": "same_department_retrieval",
+    "question": "As a PROC employee, how do I complete: Procurement Budget Tracking Procedure?",
+    "requester_department": "PROC",
+    "requester_role": "Procurement Lead",
+    "expected_department": "PROC",
+    "expected_document_ids": [
+      "SOP-PROC-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0085",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ADMIN employee, how do I complete: New Employee Workspace Setup Procedure?",
+    "requester_department": "ADMIN",
+    "requester_role": "Facilities Executive",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0086",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ADMIN employee, how do I complete: Office Access Card Issuance Procedure?",
+    "requester_department": "ADMIN",
+    "requester_role": "Facilities Executive",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0087",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ADMIN employee, how do I complete: Meeting Room Booking Procedure?",
+    "requester_department": "ADMIN",
+    "requester_role": "employee",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0088",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ADMIN employee, how do I complete: Facility Maintenance Request Procedure?",
+    "requester_department": "ADMIN",
+    "requester_role": "employee",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0089",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ADMIN employee, how do I complete: Office Supplies Replenishment Procedure?",
+    "requester_department": "ADMIN",
+    "requester_role": "Facilities Executive",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0090",
+    "eval_type": "same_department_retrieval",
+    "question": "As a ADMIN employee, how do I complete: Visitor Management Procedure?",
+    "requester_department": "ADMIN",
+    "requester_role": "receptionist",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0091",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DATA employee, how do I complete: Data Access Request Procedure?",
+    "requester_department": "DATA",
+    "requester_role": "requester",
+    "expected_department": "DATA",
+    "expected_document_ids": [
+      "SOP-DATA-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0092",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DATA employee, how do I complete: Dashboard/Report Request Procedure?",
+    "requester_department": "DATA",
+    "requester_role": "requester",
+    "expected_department": "DATA",
+    "expected_document_ids": [
+      "SOP-DATA-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0093",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DATA employee, how do I complete: Data Pipeline Development Procedure?",
+    "requester_department": "DATA",
+    "requester_role": "Data Engineer",
+    "expected_department": "DATA",
+    "expected_document_ids": [
+      "SOP-DATA-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0094",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DATA employee, how do I complete: Data Quality Issue Resolution Procedure?",
+    "requester_department": "DATA",
+    "requester_role": "Data Analyst",
+    "expected_department": "DATA",
+    "expected_document_ids": [
+      "SOP-DATA-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0095",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DATA employee, how do I complete: Data Classification for Analytics Datasets?",
+    "requester_department": "DATA",
+    "requester_role": "Data Analyst",
+    "expected_department": "DATA",
+    "expected_document_ids": [
+      "SOP-DATA-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0096",
+    "eval_type": "same_department_retrieval",
+    "question": "As a DATA employee, how do I complete: Ad-hoc Data Analysis Request Procedure?",
+    "requester_department": "DATA",
+    "requester_role": "requester",
+    "expected_department": "DATA",
+    "expected_document_ids": [
+      "SOP-DATA-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0097",
+    "eval_type": "same_department_retrieval",
+    "question": "As a RND employee, how do I complete: Research Proposal Submission Procedure?",
+    "requester_department": "RND",
+    "requester_role": "Research Associate",
+    "expected_department": "RND",
+    "expected_document_ids": [
+      "SOP-RND-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0098",
+    "eval_type": "same_department_retrieval",
+    "question": "As a RND employee, how do I complete: Experiment Design and Tracking Procedure?",
+    "requester_department": "RND",
+    "requester_role": "AI Research Engineer",
+    "expected_department": "RND",
+    "expected_document_ids": [
+      "SOP-RND-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0099",
+    "eval_type": "same_department_retrieval",
+    "question": "As a RND employee, how do I complete: Model Evaluation and Benchmarking Procedure?",
+    "requester_department": "RND",
+    "requester_role": "Senior Research Engineer",
+    "expected_department": "RND",
+    "expected_document_ids": [
+      "SOP-RND-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0100",
+    "eval_type": "same_department_retrieval",
+    "question": "As a RND employee, how do I complete: Research-to-Production Handover Procedure?",
+    "requester_department": "RND",
+    "requester_role": "Research Lead",
+    "expected_department": "RND",
+    "expected_document_ids": [
+      "SOP-RND-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0101",
+    "eval_type": "same_department_retrieval",
+    "question": "As a RND employee, how do I complete: Dataset Acquisition and Licensing Procedure?",
+    "requester_department": "RND",
+    "requester_role": "Research Associate",
+    "expected_department": "RND",
+    "expected_document_ids": [
+      "SOP-RND-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0102",
+    "eval_type": "same_department_retrieval",
+    "question": "As a RND employee, how do I complete: Research Publication Approval Procedure?",
+    "requester_department": "RND",
+    "requester_role": "Research Engineer",
+    "expected_department": "RND",
+    "expected_document_ids": [
+      "SOP-RND-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0103",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MGMT employee, how do I complete: Company Strategy Planning Procedure?",
+    "requester_department": "MGMT",
+    "requester_role": "Department Director",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "SOP-MGMT-001"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0104",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MGMT employee, how do I complete: Project Portfolio Review Procedure (Management)?",
+    "requester_department": "MGMT",
+    "requester_role": "PMO Director",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "SOP-MGMT-002"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0105",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MGMT employee, how do I complete: Departmental Budget Approval Procedure?",
+    "requester_department": "MGMT",
+    "requester_role": "Department Director",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "SOP-MGMT-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0106",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MGMT employee, how do I complete: Executive Decision Escalation Procedure?",
+    "requester_department": "MGMT",
+    "requester_role": "Director",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "SOP-MGMT-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0107",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MGMT employee, how do I complete: Organizational Change / Restructuring Procedure?",
+    "requester_department": "MGMT",
+    "requester_role": "Director",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "SOP-MGMT-005"
+    ],
+    "expected_access_level": "manager",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0108",
+    "eval_type": "same_department_retrieval",
+    "question": "As a MGMT employee, how do I complete: Board Reporting Procedure?",
+    "requester_department": "MGMT",
+    "requester_role": "Senior Manager",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "SOP-MGMT-006"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Baseline case: requester and answer are in the same department."
+  },
+  {
+    "scenario_id": "EVAL-0109",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a IT employee, endpoint security alert triage — how do I do that?",
+    "requester_department": "IT",
+    "requester_role": "Employee",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-011"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Tests that a IT employee can retrieve SEC knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0110",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a ENG employee, company-wide policy approval procedure — how do I do that?",
+    "requester_department": "ENG",
+    "requester_role": "Employee",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "SOP-MGMT-009"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a ENG employee can retrieve MGMT knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0111",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a QA employee, security awareness training assignment — how do I do that?",
+    "requester_department": "QA",
+    "requester_role": "Employee",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "SOP-SEC-008"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Tests that a QA employee can retrieve SEC knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0112",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a DEVOPS employee, emergency evacuation procedure — how do I do that?",
+    "requester_department": "DEVOPS",
+    "requester_role": "Employee",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-013"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a DEVOPS employee can retrieve ADMIN knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0113",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a SEC employee, external research collaboration procedure — how do I do that?",
+    "requester_department": "SEC",
+    "requester_role": "Employee",
+    "expected_department": "RND",
+    "expected_document_ids": [
+      "SOP-RND-013"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a SEC employee can retrieve RND knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0114",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a HR employee, data quality issue resolution procedure — how do I do that?",
+    "requester_department": "HR",
+    "requester_role": "Employee",
+    "expected_department": "DATA",
+    "expected_document_ids": [
+      "SOP-DATA-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a HR employee can retrieve DATA knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0115",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a FIN employee, software installation request — how do I do that?",
+    "requester_department": "FIN",
+    "requester_role": "Employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a FIN employee can retrieve IT knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0116",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a PMO employee, container image build and publish — how do I do that?",
+    "requester_department": "PMO",
+    "requester_role": "Employee",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-010"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a PMO employee can retrieve DEVOPS knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0117",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a PROD employee, patch management for infrastructure — how do I do that?",
+    "requester_department": "PROD",
+    "requester_role": "Employee",
+    "expected_department": "DEVOPS",
+    "expected_document_ids": [
+      "SOP-DEVOPS-015"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a PROD employee can retrieve DEVOPS knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0118",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a SALES employee, it asset return on exit — how do I do that?",
+    "requester_department": "SALES",
+    "requester_role": "Employee",
+    "expected_department": "IT",
+    "expected_document_ids": [
+      "SOP-IT-016"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Tests that a SALES employee can retrieve IT knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0119",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a MKT employee, bug report handover to engineering — how do I do that?",
+    "requester_department": "MKT",
+    "requester_role": "Employee",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-004"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a MKT employee can retrieve SUPPORT knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0120",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a SUPPORT employee, goods receipt and inspection procedure — how do I do that?",
+    "requester_department": "SUPPORT",
+    "requester_role": "Employee",
+    "expected_department": "PROC",
+    "expected_document_ids": [
+      "SOP-PROC-005"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Tests that a SUPPORT employee can retrieve PROC knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0121",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a LEGAL employee, customer complaint handling procedure — how do I do that?",
+    "requester_department": "LEGAL",
+    "requester_role": "Employee",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-015"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a LEGAL employee can retrieve SUPPORT knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0122",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a PROC employee, live chat support procedure — how do I do that?",
+    "requester_department": "PROC",
+    "requester_role": "Employee",
+    "expected_department": "SUPPORT",
+    "expected_document_ids": [
+      "SOP-SUPPORT-013"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a PROC employee can retrieve SUPPORT knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0123",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a ADMIN employee, vendor contract negotiation support — how do I do that?",
+    "requester_department": "ADMIN",
+    "requester_role": "Employee",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "SOP-LEGAL-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a ADMIN employee can retrieve LEGAL knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0124",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a DATA employee, website update request procedure — how do I do that?",
+    "requester_department": "DATA",
+    "requester_role": "Employee",
+    "expected_department": "MKT",
+    "expected_document_ids": [
+      "SOP-MKT-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a DATA employee can retrieve MKT knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0125",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a RND employee, sales onboarding procedure for new hires — how do I do that?",
+    "requester_department": "RND",
+    "requester_role": "Employee",
+    "expected_department": "SALES",
+    "expected_document_ids": [
+      "SOP-SALES-010"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Tests that a RND employee can retrieve SALES knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0126",
+    "eval_type": "cross_department_retrieval",
+    "question": "As a MGMT employee, meeting room booking procedure — how do I do that?",
+    "requester_department": "MGMT",
+    "requester_role": "Employee",
+    "expected_department": "ADMIN",
+    "expected_document_ids": [
+      "SOP-ADMIN-003"
+    ],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Tests that a MGMT employee can retrieve ADMIN knowledge when the document's access_level allows it."
+  },
+  {
+    "scenario_id": "EVAL-0127",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside SEC, what are the details of the Access Control Policy?",
+    "requester_department": "MKT",
+    "requester_role": "Employee",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "POL-SEC-001"
+    ],
+    "expected_access_level": "restricted",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0128",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside SEC, what are the details of the Incident Response Policy?",
+    "requester_department": "IT",
+    "requester_role": "Employee",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "POL-SEC-003"
+    ],
+    "expected_access_level": "restricted",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0129",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside SEC, what are the details of the Data Protection Policy?",
+    "requester_department": "LEGAL",
+    "requester_role": "Employee",
+    "expected_department": "SEC",
+    "expected_document_ids": [
+      "POL-SEC-005"
+    ],
+    "expected_access_level": "restricted",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0130",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside FIN, what are the details of the Vendor Payment Policy?",
+    "requester_department": "LEGAL",
+    "requester_role": "Employee",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "POL-FIN-005"
+    ],
+    "expected_access_level": "restricted",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0131",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside FIN, what are the details of the Payroll Administration Policy?",
+    "requester_department": "DATA",
+    "requester_role": "Employee",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "POL-FIN-007"
+    ],
+    "expected_access_level": "restricted",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0132",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside FIN, what are the details of the Executive Compensation Policy?",
+    "requester_department": "ADMIN",
+    "requester_role": "Employee",
+    "expected_department": "FIN",
+    "expected_document_ids": [
+      "POL-FIN-008"
+    ],
+    "expected_access_level": "management",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0133",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside LEGAL, what are the details of the Data Privacy Compliance Policy?",
+    "requester_department": "QA",
+    "requester_role": "Employee",
+    "expected_department": "LEGAL",
+    "expected_document_ids": [
+      "POL-LEGAL-002"
+    ],
+    "expected_access_level": "restricted",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0134",
+    "eval_type": "authorization_denial",
+    "question": "As a general employee outside MGMT, what are the details of the Corporate Governance Policy?",
+    "requester_department": "LEGAL",
+    "requester_role": "Employee",
+    "expected_department": "MGMT",
+    "expected_document_ids": [
+      "POL-MGMT-001"
+    ],
+    "expected_access_level": "management",
+    "should_be_authorized": false,
+    "notes": "The system should decline to surface full document content and instead indicate the information is restricted, directing the employee to the appropriate owner role."
+  },
+  {
+    "scenario_id": "EVAL-0135",
+    "eval_type": "cross_department_synthesis",
+    "question": "How do I get reimbursed for a conference I paid for personally, and does my manager need to approve it?",
+    "requester_department": "FIN",
+    "requester_role": "Employee",
+    "expected_department": [
+      "FIN",
+      "HR"
+    ],
+    "expected_document_ids": [
+      "SOP-FIN-001",
+      "POL-FIN-001"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Answer requires synthesizing retrieval from more than one department's specialist agent."
+  },
+  {
+    "scenario_id": "EVAL-0136",
+    "eval_type": "cross_department_synthesis",
+    "question": "A feature I'm building stores new customer personal data — what approvals do I need before launch?",
+    "requester_department": "PROD",
+    "requester_role": "Employee",
+    "expected_department": [
+      "PROD",
+      "LEGAL"
+    ],
+    "expected_document_ids": [
+      "SOP-PROD-004",
+      "SOP-LEGAL-006"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Answer requires synthesizing retrieval from more than one department's specialist agent."
+  },
+  {
+    "scenario_id": "EVAL-0137",
+    "eval_type": "cross_department_synthesis",
+    "question": "My laptop won't connect to Wi-Fi during a confidential HR meeting — what do I do?",
+    "requester_department": "IT",
+    "requester_role": "Employee",
+    "expected_department": [
+      "IT",
+      "HR"
+    ],
+    "expected_document_ids": [
+      "SOP-IT-006"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Answer requires synthesizing retrieval from more than one department's specialist agent."
+  },
+  {
+    "scenario_id": "EVAL-0138",
+    "eval_type": "cross_department_synthesis",
+    "question": "I want to give a customer a bigger discount than I'm authorized for and the deal closes today — what's the process?",
+    "requester_department": "SALES",
+    "requester_role": "Employee",
+    "expected_department": [
+      "SALES",
+      "FIN"
+    ],
+    "expected_document_ids": [
+      "SOP-SALES-003-EDGE-B"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Answer requires synthesizing retrieval from more than one department's specialist agent."
+  },
+  {
+    "scenario_id": "EVAL-0139",
+    "eval_type": "cross_department_synthesis",
+    "question": "A contractor's engagement is ending — who handles their access and asset return?",
+    "requester_department": "IT",
+    "requester_role": "Employee",
+    "expected_department": [
+      "IT",
+      "SEC",
+      "HR"
+    ],
+    "expected_document_ids": [
+      "SOP-IT-016"
+    ],
+    "expected_access_level": "employee",
+    "should_be_authorized": true,
+    "notes": "Answer requires synthesizing retrieval from more than one department's specialist agent."
+  },
+  {
+    "scenario_id": "EVAL-0140",
+    "eval_type": "ambiguous_query",
+    "question": "How do I request access?",
+    "requester_department": "UNSPECIFIED",
+    "requester_role": "Employee",
+    "expected_department": "AMBIGUOUS",
+    "expected_document_ids": [],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Query lacks enough context to determine department/system; the assistant should ask a clarifying question rather than guessing a single department."
+  },
+  {
+    "scenario_id": "EVAL-0141",
+    "eval_type": "ambiguous_query",
+    "question": "What's the approval process?",
+    "requester_department": "UNSPECIFIED",
+    "requester_role": "Employee",
+    "expected_department": "AMBIGUOUS",
+    "expected_document_ids": [],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Query lacks enough context to determine department/system; the assistant should ask a clarifying question rather than guessing a single department."
+  },
+  {
+    "scenario_id": "EVAL-0142",
+    "eval_type": "ambiguous_query",
+    "question": "Who do I contact about my request?",
+    "requester_department": "UNSPECIFIED",
+    "requester_role": "Employee",
+    "expected_department": "AMBIGUOUS",
+    "expected_document_ids": [],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Query lacks enough context to determine department/system; the assistant should ask a clarifying question rather than guessing a single department."
+  },
+  {
+    "scenario_id": "EVAL-0143",
+    "eval_type": "ambiguous_query",
+    "question": "How long does reimbursement take?",
+    "requester_department": "UNSPECIFIED",
+    "requester_role": "Employee",
+    "expected_department": "AMBIGUOUS",
+    "expected_document_ids": [],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Query lacks enough context to determine department/system; the assistant should ask a clarifying question rather than guessing a single department."
+  },
+  {
+    "scenario_id": "EVAL-0144",
+    "eval_type": "ambiguous_query",
+    "question": "What's the escalation path?",
+    "requester_department": "UNSPECIFIED",
+    "requester_role": "Employee",
+    "expected_department": "AMBIGUOUS",
+    "expected_document_ids": [],
+    "expected_access_level": "general",
+    "should_be_authorized": true,
+    "notes": "Query lacks enough context to determine department/system; the assistant should ask a clarifying question rather than guessing a single department."
+  }
+]

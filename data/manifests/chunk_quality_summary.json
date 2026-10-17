@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-08-27T16:23:50.793375+00:00",
+  "total_chunks": 12730,
+  "total_words": 6960479,
+  "total_characters": 51981435,
+  "estimated_tokens": 9048553,
+  "average_tokens_per_chunk": 710.81,
+  "median_tokens_per_chunk": 793.0,
+  "min_tokens": 30,
+  "max_tokens": 3401,
+  "error_count": 2,
+  "warning_count": 1,
+  "quality_score": 80.0,
+  "final_status": "FAIL",
+  "duplicate_chunks": 4263,
+  "duplicate_groups": 3360,
+  "cross_batch_duplicates": 4263,
+  "source_coverage_percent": 100.0,
+  "size_distribution": {
+    "NORMAL": 12494,
+    "SMALL": 227,
+    "VERY_SMALL": 6,
+    "VERY_LARGE": 3
+  },
+  "per_batch": {}
+}

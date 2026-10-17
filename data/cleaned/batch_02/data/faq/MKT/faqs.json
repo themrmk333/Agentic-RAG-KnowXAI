@@ -1,0 +1,797 @@
+[
+  {
+    "faq_id": "FAQ-MKT-001",
+    "question": "How do I complete: Campaign Planning and Approval Procedure?",
+    "short_answer": "Follow the 7-step Campaign Planning and Approval Procedure procedure in MK-MarketHub, starting with the SOP-MKT-001 SOP.",
+    "detailed_answer": "The Campaign Planning and Approval Procedure process (SOP-MKT-001) is owned by the Marketing department. The marketing specialist initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Campaigns above the quarterly discretionary budget require Marketing Director approval.",
+    "step_by_step": [
+      "the Marketing Specialist logs into MK-MarketHub and navigates to the 'Campaign Plan' section.",
+      "the Marketing Specialist selects 'New Campaign Plan' and enters the required details, including target audience, budget, channels, and success metrics.",
+      "the Marketing Specialist attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Marketing Specialist submits the Campaign Plan; MK-MarketHub automatically routes it to the Marketing Manager for review.",
+      "The Marketing Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-MarketHub updates the status to 'Approved' and notifies the Marketing Specialist by email/in-app notification.",
+      "The approved Campaign Plan is processed and the record is retained in MK-MarketHub for audit purposes. Campaigns above the quarterly discretionary budget require Marketing Director approval."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Campaign Management",
+    "role_applicability": [
+      "Marketing Specialist",
+      "Marketing Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Campaign Planning and Approval Procedure",
+      "Campaign Management",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-001"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-002",
+    "question": "How do I complete: Content Creation and Review Procedure?",
+    "short_answer": "Follow the 7-step Content Creation and Review Procedure procedure in MK-MarketHub, starting with the SOP-MKT-002 SOP.",
+    "detailed_answer": "The Content Creation and Review Procedure process (SOP-MKT-002) is owned by the Marketing department. The content strategist initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Content referencing customer data requires Legal review before publishing.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-MarketHub.",
+      "the Content Strategist gathers the required data and documents, including brand voice guidelines and SEO keyword targets.",
+      "The review team examines the Content Piece against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Marketing Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-MarketHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Content referencing customer data requires Legal review before publishing."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Content Marketing",
+    "role_applicability": [
+      "Content Strategist",
+      "Marketing Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Content Creation and Review Procedure",
+      "Content Marketing",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-002"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MKT-003",
+    "question": "How do I complete: Website Update Request Procedure?",
+    "short_answer": "Follow the 7-step Website Update Request Procedure procedure in MK-MarketHub, starting with the SOP-MKT-003 SOP.",
+    "detailed_answer": "The Website Update Request Procedure process (SOP-MKT-003) is owned by the Marketing department. The marketing executive initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Homepage changes require Marketing Director sign-off.",
+    "step_by_step": [
+      "the Marketing Executive logs into MK-MarketHub and navigates to the 'Website Update Request' section.",
+      "the Marketing Executive selects 'New Website Update Request' and enters the required details, including the page URL, requested change, and target publish date.",
+      "the Marketing Executive attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Marketing Executive submits the Website Update Request; MK-MarketHub automatically routes it to the Marketing Manager for review.",
+      "The Marketing Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-MarketHub updates the status to 'Approved' and notifies the Marketing Executive by email/in-app notification.",
+      "The approved Website Update Request is processed and the record is retained in MK-MarketHub for audit purposes. Homepage changes require Marketing Director sign-off."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Web Management",
+    "role_applicability": [
+      "Marketing Executive",
+      "Marketing Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Website Update Request Procedure",
+      "Web Management",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-003"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-004",
+    "question": "How do I complete: Event Planning and Coordination Procedure?",
+    "short_answer": "Follow the 7-step Event Planning and Coordination Procedure procedure in MK-MarketHub, starting with the SOP-MKT-004 SOP.",
+    "detailed_answer": "The Event Planning and Coordination Procedure process (SOP-MKT-004) is owned by the Marketing department. The marketing executive initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Events over INR 10,00,000 require Finance Director approval.",
+    "step_by_step": [
+      "the Marketing Executive confirms eligibility and prerequisites: venue/platform, budget, and target attendee list.",
+      "the Marketing Executive raises a request in MK-MarketHub specifying exactly which Event Plan is required.",
+      "The Marketing Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Event Plan in the relevant system.",
+      "the Marketing Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-MarketHub and corrected before sign-off.",
+      "MK-MarketHub marks the request 'Complete' and the configuration is logged for audit and future reference. Events over INR 10,00,000 require Finance Director approval."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Events",
+    "role_applicability": [
+      "Marketing Executive",
+      "Marketing Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Event Planning and Coordination Procedure",
+      "Events",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-004"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-005",
+    "question": "How do I complete: Marketing Qualified Lead (MQL) Handover to Sales?",
+    "short_answer": "Follow the 7-step Marketing Qualified Lead (MQL) Handover to Sales procedure in MK-MarketHub, starting with the SOP-MKT-005 SOP.",
+    "detailed_answer": "The Marketing Qualified Lead (MQL) Handover to Sales process (SOP-MKT-005) is owned by the Marketing department. The marketing specialist initiates the request in MK-MarketHub and Sales Manager is responsible for approval/sign-off. MQLs not contacted by Sales within 24 hours are escalated to the Sales Manager.",
+    "step_by_step": [
+      "the Marketing Specialist confirms eligibility and prerequisites: lead score, source campaign, and engagement history.",
+      "the Marketing Specialist raises a request in MK-MarketHub specifying exactly which MQL Handover is required.",
+      "The Sales Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the MQL Handover in the relevant system.",
+      "the Marketing Specialist is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-MarketHub and corrected before sign-off.",
+      "MK-MarketHub marks the request 'Complete' and the configuration is logged for audit and future reference. MQLs not contacted by Sales within 24 hours are escalated to the Sales Manager."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Lead Generation",
+    "role_applicability": [
+      "Marketing Specialist",
+      "Sales Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Marketing Qualified Lead (MQL) Handover to Sales",
+      "Lead Generation",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-005"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MKT-006",
+    "question": "How do I complete: Social Media Publishing Procedure?",
+    "short_answer": "Follow the 7-step Social Media Publishing Procedure procedure in MK-MarketHub, starting with the SOP-MKT-006 SOP.",
+    "detailed_answer": "The Social Media Publishing Procedure process (SOP-MKT-006) is owned by the Marketing department. The marketing executive initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Posts mentioning customers by name require prior written customer consent.",
+    "step_by_step": [
+      "the Marketing Executive confirms eligibility and prerequisites: brand guideline compliance and scheduling via MK-MarketHub.",
+      "the Marketing Executive raises a request in MK-MarketHub specifying exactly which Social Media Post is required.",
+      "The Marketing Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Social Media Post in the relevant system.",
+      "the Marketing Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-MarketHub and corrected before sign-off.",
+      "MK-MarketHub marks the request 'Complete' and the configuration is logged for audit and future reference. Posts mentioning customers by name require prior written customer consent."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Social Media",
+    "role_applicability": [
+      "Marketing Executive",
+      "Marketing Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Social Media Publishing Procedure",
+      "Social Media",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-006"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-007",
+    "question": "How do I complete: Brand Guideline Compliance Review?",
+    "short_answer": "Follow the 7-step Brand Guideline Compliance Review procedure in MK-MarketHub, starting with the SOP-MKT-007 SOP.",
+    "detailed_answer": "The Brand Guideline Compliance Review process (SOP-MKT-007) is owned by the Marketing department. The marketing specialist initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Non-compliant external materials are recalled and corrected within 48 hours.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-MarketHub.",
+      "the Marketing Specialist gathers the required data and documents, including logo usage, colour palette, and tone-of-voice checks.",
+      "The review team examines the Brand Compliance Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Marketing Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-MarketHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Non-compliant external materials are recalled and corrected within 48 hours."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Brand Management",
+    "role_applicability": [
+      "Marketing Specialist",
+      "Marketing Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Brand Guideline Compliance Review",
+      "Brand Management",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-007"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-008",
+    "question": "How do I complete: Marketing Budget Tracking Procedure?",
+    "short_answer": "Follow the 7-step Marketing Budget Tracking Procedure procedure in MK-MarketHub, starting with the SOP-MKT-008 SOP.",
+    "detailed_answer": "The Marketing Budget Tracking Procedure process (SOP-MKT-008) is owned by the Marketing department. The marketing manager initiates the request in MK-MarketHub and Marketing Director is responsible for approval/sign-off. Overspend beyond 10% on any channel requires Director approval to continue.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-MarketHub.",
+      "the Marketing Manager gathers the required data and documents, including actual spend by channel versus planned allocation.",
+      "The review team examines the Marketing Budget Tracker against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Marketing Director discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-MarketHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Overspend beyond 10% on any channel requires Director approval to continue."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Budget Management",
+    "role_applicability": [
+      "Marketing Manager",
+      "Marketing Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Marketing Budget Tracking Procedure",
+      "Budget Management",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-008"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MKT-009",
+    "question": "How do I complete: Product Launch Marketing Procedure?",
+    "short_answer": "Follow the 7-step Product Launch Marketing Procedure procedure in MK-MarketHub, starting with the SOP-MKT-009 SOP.",
+    "detailed_answer": "The Product Launch Marketing Procedure process (SOP-MKT-009) is owned by the Marketing department. The marketing manager initiates the request in MK-MarketHub and Marketing Director is responsible for approval/sign-off. Launch materials are frozen 48 hours before go-live for final review.",
+    "step_by_step": [
+      "the Marketing Manager confirms eligibility and prerequisites: messaging, launch channels, and coordination with Product Management.",
+      "the Marketing Manager raises a request in MK-MarketHub specifying exactly which Launch Marketing Plan is required.",
+      "The Marketing Director reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Launch Marketing Plan in the relevant system.",
+      "the Marketing Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-MarketHub and corrected before sign-off.",
+      "MK-MarketHub marks the request 'Complete' and the configuration is logged for audit and future reference. Launch materials are frozen 48 hours before go-live for final review."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Product Marketing",
+    "role_applicability": [
+      "Marketing Manager",
+      "Marketing Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Product Launch Marketing Procedure",
+      "Product Marketing",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-009"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-010",
+    "question": "How do I complete: Email Marketing Campaign Procedure?",
+    "short_answer": "Follow the 7-step Email Marketing Campaign Procedure procedure in MK-MarketHub, starting with the SOP-MKT-010 SOP.",
+    "detailed_answer": "The Email Marketing Campaign Procedure process (SOP-MKT-010) is owned by the Marketing department. The marketing executive initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Lists are scrubbed against the suppression list before every send.",
+    "step_by_step": [
+      "the Marketing Executive confirms eligibility and prerequisites: segment selection, subject line testing, and unsubscribe compliance.",
+      "the Marketing Executive raises a request in MK-MarketHub specifying exactly which Email Campaign is required.",
+      "The Marketing Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Email Campaign in the relevant system.",
+      "the Marketing Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-MarketHub and corrected before sign-off.",
+      "MK-MarketHub marks the request 'Complete' and the configuration is logged for audit and future reference. Lists are scrubbed against the suppression list before every send."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Email Marketing",
+    "role_applicability": [
+      "Marketing Executive",
+      "Marketing Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Email Marketing Campaign Procedure",
+      "Email Marketing",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-010"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-011",
+    "question": "How do I complete: Vendor/Agency Engagement Procedure?",
+    "short_answer": "Follow the 7-step Vendor/Agency Engagement Procedure procedure in MK-MarketHub, starting with the SOP-MKT-011 SOP.",
+    "detailed_answer": "The Vendor/Agency Engagement Procedure process (SOP-MKT-011) is owned by the Marketing department. The marketing manager initiates the request in MK-MarketHub and Marketing Director is responsible for approval/sign-off. Agency engagements above INR 5,00,000 require Procurement involvement.",
+    "step_by_step": [
+      "the Marketing Manager logs into MK-MarketHub and navigates to the 'Agency Engagement Request' section.",
+      "the Marketing Manager selects 'New Agency Engagement Request' and enters the required details, including scope of work, deliverables, and budget.",
+      "the Marketing Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Marketing Manager submits the Agency Engagement Request; MK-MarketHub automatically routes it to the Marketing Director for review.",
+      "The Marketing Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-MarketHub updates the status to 'Approved' and notifies the Marketing Manager by email/in-app notification.",
+      "The approved Agency Engagement Request is processed and the record is retained in MK-MarketHub for audit purposes. Agency engagements above INR 5,00,000 require Procurement involvement."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Vendor Management",
+    "role_applicability": [
+      "Marketing Manager",
+      "Marketing Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Vendor/Agency Engagement Procedure",
+      "Vendor Management",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-011"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MKT-012",
+    "question": "How do I complete: Marketing Performance Reporting Procedure?",
+    "short_answer": "Follow the 7-step Marketing Performance Reporting Procedure procedure in MK-MarketHub, starting with the SOP-MKT-012 SOP.",
+    "detailed_answer": "The Marketing Performance Reporting Procedure process (SOP-MKT-012) is owned by the Marketing department. The marketing specialist initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Underperforming channels are reviewed for reallocation each quarter.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-MarketHub.",
+      "the Marketing Specialist gathers the required data and documents, including pipeline generated, cost per lead, and channel ROI.",
+      "The review team examines the Marketing Performance Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Marketing Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-MarketHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Underperforming channels are reviewed for reallocation each quarter."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Reporting",
+    "role_applicability": [
+      "Marketing Specialist",
+      "Marketing Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Marketing Performance Reporting Procedure",
+      "Reporting",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-012"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-013",
+    "question": "How do I complete: Marketing Onboarding for New Hires?",
+    "short_answer": "Follow the 7-step Marketing Onboarding for New Hires procedure in MK-MarketHub, starting with the SOP-MKT-013 SOP.",
+    "detailed_answer": "The Marketing Onboarding for New Hires process (SOP-MKT-013) is owned by the Marketing department. The marketing manager initiates the request in MK-MarketHub and Marketing Director is responsible for approval/sign-off. New hires shadow one full campaign cycle before owning campaigns independently.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-MarketHub owner ahead of the employee's start or end date.",
+      "the Marketing Manager prepares the required Marketing Onboarding, including MK-MarketHub access, brand guideline walkthrough, and channel ownership handover.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Marketing Director verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Marketing Director for same-day resolution.",
+      "MK-MarketHub is updated to reflect the completed status and the record is archived. New hires shadow one full campaign cycle before owning campaigns independently."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Marketing Manager",
+      "Marketing Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Marketing Onboarding for New Hires",
+      "Onboarding",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-013"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MKT-014",
+    "question": "How do I complete: Public Relations / Press Release Procedure?",
+    "short_answer": "Follow the 7-step Public Relations / Press Release Procedure procedure in MK-MarketHub, starting with the SOP-MKT-014 SOP.",
+    "detailed_answer": "The Public Relations / Press Release Procedure process (SOP-MKT-014) is owned by the Marketing department. The marketing manager initiates the request in MK-MarketHub and Marketing Director is responsible for approval/sign-off. All press releases require Legal and CEO Office review before release.",
+    "step_by_step": [
+      "the Marketing Manager logs into MK-MarketHub and navigates to the 'Press Release' section.",
+      "the Marketing Manager selects 'New Press Release' and enters the required details, including key messages, quotes, and distribution list.",
+      "the Marketing Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Marketing Manager submits the Press Release; MK-MarketHub automatically routes it to the Marketing Director for review.",
+      "The Marketing Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-MarketHub updates the status to 'Approved' and notifies the Marketing Manager by email/in-app notification.",
+      "The approved Press Release is processed and the record is retained in MK-MarketHub for audit purposes. All press releases require Legal and CEO Office review before release."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Public Relations",
+    "role_applicability": [
+      "Marketing Manager",
+      "Marketing Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Public Relations / Press Release Procedure",
+      "Public Relations",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-014"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-MKT-015",
+    "question": "How do I complete: Customer Case Study Development Procedure?",
+    "short_answer": "Follow the 7-step Customer Case Study Development Procedure procedure in MK-MarketHub, starting with the SOP-MKT-015 SOP.",
+    "detailed_answer": "The Customer Case Study Development Procedure process (SOP-MKT-015) is owned by the Marketing department. The content strategist initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. Case studies are not published without written customer approval of the final draft.",
+    "step_by_step": [
+      "the Content Strategist confirms eligibility and prerequisites: customer interview notes and quantifiable results achieved.",
+      "the Content Strategist raises a request in MK-MarketHub specifying exactly which Case Study is required.",
+      "The Marketing Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Case Study in the relevant system.",
+      "the Content Strategist is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-MarketHub and corrected before sign-off.",
+      "MK-MarketHub marks the request 'Complete' and the configuration is logged for audit and future reference. Case studies are not published without written customer approval of the final draft."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Content Marketing",
+    "role_applicability": [
+      "Content Strategist",
+      "Marketing Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Customer Case Study Development Procedure",
+      "Content Marketing",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-015"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-016",
+    "question": "How do I complete: Marketing Automation Workflow Setup?",
+    "short_answer": "Follow the 7-step Marketing Automation Workflow Setup procedure in MK-MarketHub, starting with the SOP-MKT-016 SOP.",
+    "detailed_answer": "The Marketing Automation Workflow Setup process (SOP-MKT-016) is owned by the Marketing department. The marketing specialist initiates the request in MK-MarketHub and Marketing Manager is responsible for approval/sign-off. New workflows are tested on a small segment before full rollout.",
+    "step_by_step": [
+      "the Marketing Specialist confirms eligibility and prerequisites: trigger conditions, email sequence, and lead scoring rules.",
+      "the Marketing Specialist raises a request in MK-MarketHub specifying exactly which Automation Workflow is required.",
+      "The Marketing Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Automation Workflow in the relevant system.",
+      "the Marketing Specialist is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-MarketHub and corrected before sign-off.",
+      "MK-MarketHub marks the request 'Complete' and the configuration is logged for audit and future reference. New workflows are tested on a small segment before full rollout."
+    ],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Marketing Automation",
+    "role_applicability": [
+      "Marketing Specialist",
+      "Marketing Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Marketing Automation Workflow Setup",
+      "Marketing Automation",
+      "MKT"
+    ],
+    "related_documents": [
+      "SOP-MKT-016"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-017",
+    "question": "What is the Brand and Content Approval Policy?",
+    "short_answer": "All externally published content must follow the current Brand Guidelines document.",
+    "detailed_answer": "All externally published content must follow the current Brand Guidelines document. Content referencing customer names or logos requires prior written customer consent. Press releases and public statements require CEO Office and Legal review before release.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Brand Management",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Brand and Content Approval Policy",
+      "Brand Management",
+      "MKT"
+    ],
+    "related_documents": [
+      "POL-MKT-001"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-018",
+    "question": "Who do I contact in the Marketing department for help?",
+    "short_answer": "Reach out to: Manoj Bhatt (Marketing Director, manoj.bhatt@mkinfinite-ai.com); Alisha Nair (Marketing Manager, alisha.nair@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Marketing, use MK-MarketHub to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Manoj Bhatt (Marketing Director, manoj.bhatt@mkinfinite-ai.com); Alisha Nair (Marketing Manager, alisha.nair@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Marketing",
+      "contact",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-019",
+    "question": "What system does the Marketing department use?",
+    "short_answer": "Marketing primarily uses MK-MarketHub for its workflows.",
+    "detailed_answer": "MK-MarketHub is the system of record for Marketing. All requests, approvals, and records for this department's processes should go through MK-MarketHub rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MK-MarketHub",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-020",
+    "question": "What are the key performance indicators (KPIs) for the Marketing department?",
+    "short_answer": "Marketing-sourced pipeline (target: 40% of total pipeline)",
+    "detailed_answer": "Marketing-sourced pipeline (target: 40% of total pipeline) Cost per qualified lead (target: under budgeted CPL) Campaign ROI (target: above 3x spend) Website organic traffic growth (target: 10% quarter-over-quarter)",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-021",
+    "question": "What is the escalation path within the Marketing department?",
+    "short_answer": "Escalate in this order: Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director.",
+    "detailed_answer": "If a request or issue with Marketing is not addressed within the expected timeframe, escalate step by step through: Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-022",
+    "question": "What are common mistakes employees make when working with Marketing?",
+    "short_answer": "Publishing content without a brand-guideline compliance check.",
+    "detailed_answer": "Publishing content without a brand-guideline compliance check. Handing MQLs to Sales without complete engagement history. Running paid campaigns without setting up conversion tracking first.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "mistakes",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-023",
+    "question": "What does 'MK-MarketHub' mean in the context of Marketing?",
+    "short_answer": "The internal marketing campaign and content management platform.",
+    "detailed_answer": "The internal marketing campaign and content management platform. This term is commonly used in Marketing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-MarketHub",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-024",
+    "question": "What does 'MQL' mean in the context of Marketing?",
+    "short_answer": "Marketing Qualified Lead, a lead deemed ready for Sales follow-up.",
+    "detailed_answer": "Marketing Qualified Lead, a lead deemed ready for Sales follow-up. This term is commonly used in Marketing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MQL",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-025",
+    "question": "What does 'CPL' mean in the context of Marketing?",
+    "short_answer": "Cost Per Lead.",
+    "detailed_answer": "Cost Per Lead. This term is commonly used in Marketing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "CPL",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-026",
+    "question": "What does 'SEO' mean in the context of Marketing?",
+    "short_answer": "Search Engine Optimization.",
+    "detailed_answer": "Search Engine Optimization. This term is commonly used in Marketing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "SEO",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-027",
+    "question": "What does 'CTA' mean in the context of Marketing?",
+    "short_answer": "Call to Action, a prompt encouraging the reader to take the next step.",
+    "detailed_answer": "Call to Action, a prompt encouraging the reader to take the next step. This term is commonly used in Marketing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "CTA",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-MKT-028",
+    "question": "Can an employee from a different department ask a Marketing question?",
+    "short_answer": "Yes. Marketing knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Marketing question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Marketing",
+    "department_code": "MKT",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Marketing",
+      "MKT"
+    ],
+    "related_documents": [],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "general"
+  }
+]

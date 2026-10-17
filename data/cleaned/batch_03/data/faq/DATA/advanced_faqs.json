@@ -1,0 +1,756 @@
+[
+  {
+    "faq_id": "FAQADV-DATA-001",
+    "question": "Data Access Request Procedure: What happens if Data Manager is unavailable to approve a data access request?",
+    "short_answer": "Route it to the Data Manager's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Data Manager is notified on retu",
+    "detailed_answer": "Route it to the Data Manager's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Data Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Access Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-001-EDGE-A"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-002",
+    "question": "Data Access Request Procedure: Can a data access request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Data Manager directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within 2",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Data Manager directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Access Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-001-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-003",
+    "question": "Data Access Request Procedure: What do I do if MK-DataLake is down and I need to submit a data access request?",
+    "short_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Data Manager directly with the request details; once MK-DataLake is back, ente",
+    "detailed_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Data Manager directly with the request details; once MK-DataLake is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Access Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-001-EDGE-C"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-004",
+    "question": "Data Access Request Procedure: What happens if my data access request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Access Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-001-EDGE-D"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-005",
+    "question": "Data Access Request Procedure: What happens if my data access request submission is missing required documentation?",
+    "short_answer": "The Data Manager returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct ",
+    "detailed_answer": "The Data Manager returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Access Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-001-EDGE-E"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-006",
+    "question": "Dashboard/Report Request Procedure: What happens if Analytics Lead is unavailable to approve a dashboard request?",
+    "short_answer": "Route it to the Analytics Lead's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Analytics Lead is notified on ",
+    "detailed_answer": "Route it to the Analytics Lead's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Analytics Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dashboard/Report Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-002-EDGE-A"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-007",
+    "question": "Dashboard/Report Request Procedure: Can a dashboard request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Analytics Lead directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Analytics Lead directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dashboard/Report Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-002-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-008",
+    "question": "Dashboard/Report Request Procedure: What do I do if MK-DataLake is down and I need to submit a dashboard request?",
+    "short_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Analytics Lead directly with the request details; once MK-DataLake is back, en",
+    "detailed_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Analytics Lead directly with the request details; once MK-DataLake is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dashboard/Report Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-002-EDGE-C"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-009",
+    "question": "Dashboard/Report Request Procedure: What happens if my dashboard request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dashboard/Report Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-002-EDGE-D"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-010",
+    "question": "Dashboard/Report Request Procedure: What happens if my dashboard request submission is missing required documentation?",
+    "short_answer": "The Analytics Lead returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Analytics Lead returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dashboard/Report Request Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-002-EDGE-E"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-011",
+    "question": "Data Pipeline Development Procedure: What happens if Data Manager is unavailable to approve a data pipeline?",
+    "short_answer": "Route it to the Data Manager's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Data Manager is notified on retu",
+    "detailed_answer": "Route it to the Data Manager's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Data Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Engineer",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Pipeline Development Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-003-EDGE-A"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-012",
+    "question": "Data Pipeline Development Procedure: Can a data pipeline be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Data Manager directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within 2",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Data Manager directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Engineer",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Pipeline Development Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-003-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-013",
+    "question": "Data Pipeline Development Procedure: What do I do if MK-DataLake is down and I need to submit a data pipeline?",
+    "short_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Data Manager directly with the request details; once MK-DataLake is back, ente",
+    "detailed_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Data Manager directly with the request details; once MK-DataLake is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Engineer",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Pipeline Development Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-003-EDGE-C"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-014",
+    "question": "Data Pipeline Development Procedure: What happens if my data pipeline request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Engineer",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Pipeline Development Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-003-EDGE-D"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-015",
+    "question": "Data Pipeline Development Procedure: What happens if my data pipeline submission is missing required documentation?",
+    "short_answer": "The Data Manager returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct ",
+    "detailed_answer": "The Data Manager returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Engineer",
+      "Data Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Pipeline Development Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-003-EDGE-E"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-016",
+    "question": "Data Quality Issue Resolution Procedure: What happens if Analytics Lead is unavailable to approve a data quality incident?",
+    "short_answer": "Route it to the Analytics Lead's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Analytics Lead is notified on ",
+    "detailed_answer": "Route it to the Analytics Lead's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Analytics Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Quality Issue Resolution Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-004-EDGE-A"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-017",
+    "question": "Data Quality Issue Resolution Procedure: Can a data quality incident be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Analytics Lead directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Analytics Lead directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Quality Issue Resolution Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-004-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-018",
+    "question": "Data Quality Issue Resolution Procedure: What do I do if MK-DataLake is down and I need to submit a data quality incident?",
+    "short_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Analytics Lead directly with the request details; once MK-DataLake is back, en",
+    "detailed_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Analytics Lead directly with the request details; once MK-DataLake is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Quality Issue Resolution Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-004-EDGE-C"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-019",
+    "question": "Data Quality Issue Resolution Procedure: What happens if my data quality incident request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Quality Issue Resolution Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-004-EDGE-D"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-020",
+    "question": "Data Quality Issue Resolution Procedure: What happens if my data quality incident submission is missing required documentation?",
+    "short_answer": "The Analytics Lead returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Analytics Lead returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Analytics Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Quality Issue Resolution Procedure",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-004-EDGE-E"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-021",
+    "question": "Data Classification for Analytics Datasets: What happens if Security Manager is unavailable to approve a dataset classification?",
+    "short_answer": "Route it to the Security Manager's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Security Manager is notified",
+    "detailed_answer": "Route it to the Security Manager's delegate (typically the next role up the escalation chain) via MK-DataLake, tagged 'Delegate Approval Required'; the Security Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Classification for Analytics Datasets",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-005-EDGE-A"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-022",
+    "question": "Data Classification for Analytics Datasets: Can a dataset classification be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Manager directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Manager directly, proceed with the minimum necessary action, then file the formal request in MK-DataLake within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Classification for Analytics Datasets",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-005-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-023",
+    "question": "Data Classification for Analytics Datasets: What do I do if MK-DataLake is down and I need to submit a dataset classification?",
+    "short_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Security Manager directly with the request details; once MK-DataLake is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-DataLake to be restored. For genuinely urgent cases, email the Security Manager directly with the request details; once MK-DataLake is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Classification for Analytics Datasets",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-005-EDGE-C"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-024",
+    "question": "Data Classification for Analytics Datasets: What happens if my dataset classification request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-DataLake — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Classification for Analytics Datasets",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-005-EDGE-D"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-025",
+    "question": "Data Classification for Analytics Datasets: What happens if my dataset classification submission is missing required documentation?",
+    "short_answer": "The Security Manager returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Security Manager returns the request in MK-DataLake with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Data Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Data Classification for Analytics Datasets",
+      "what-if",
+      "edge case",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-005-EDGE-E"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-026",
+    "question": "If I find an old reference to the Data Governance Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-DATA-001, is always authoritative going forward. If an older cached or printed copy of the Data Governance Policy disagrees with it, treat the current docu",
+    "detailed_answer": "The current version, POL-DATA-001, is always authoritative going forward. If an older cached or printed copy of the Data Governance Policy disagrees with it, treat the current document as correct and check the POL-DATA-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Governance Policy",
+      "version",
+      "policy interpretation",
+      "DATA"
+    ],
+    "related_documents": [
+      "POL-DATA-001",
+      "POL-DATA-001-HISTORY"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-027",
+    "question": "What's the difference between the standard Data Access Request Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-DATA-001) goes through Data Manager via MK-DataLake in the normal order. The expedited path (SOP-DATA-001-EDGE-B) is only for genuine emergencies: it require",
+    "detailed_answer": "The standard path (SOP-DATA-001) goes through Data Manager via MK-DataLake in the normal order. The expedited path (SOP-DATA-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Comparison",
+    "role_applicability": [
+      "requester"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Access Request Procedure",
+      "comparison",
+      "emergency",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-001",
+      "SOP-DATA-001-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-028",
+    "question": "What's the difference between the standard Dashboard/Report Request Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-DATA-002) goes through Analytics Lead via MK-DataLake in the normal order. The expedited path (SOP-DATA-002-EDGE-B) is only for genuine emergencies: it requi",
+    "detailed_answer": "The standard path (SOP-DATA-002) goes through Analytics Lead via MK-DataLake in the normal order. The expedited path (SOP-DATA-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Comparison",
+    "role_applicability": [
+      "requester"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Dashboard/Report Request Procedure",
+      "comparison",
+      "emergency",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-002",
+      "SOP-DATA-002-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-DATA-029",
+    "question": "What's the difference between the standard Data Pipeline Development Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-DATA-003) goes through Data Manager via MK-DataLake in the normal order. The expedited path (SOP-DATA-003-EDGE-B) is only for genuine emergencies: it require",
+    "detailed_answer": "The standard path (SOP-DATA-003) goes through Data Manager via MK-DataLake in the normal order. The expedited path (SOP-DATA-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "category": "Comparison",
+    "role_applicability": [
+      "Data Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Pipeline Development Procedure",
+      "comparison",
+      "emergency",
+      "DATA"
+    ],
+    "related_documents": [
+      "SOP-DATA-003",
+      "SOP-DATA-003-EDGE-B"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  }
+]

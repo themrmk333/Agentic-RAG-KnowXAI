@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Data Intern",
+    "level": 1,
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Data Analyst",
+    "level": 2,
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Data Analyst",
+    "level": 3,
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Data Engineer",
+    "level": 4,
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Analytics Lead",
+    "level": 5,
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Data Manager",
+    "level": 6,
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "Director of Data & Analytics",
+    "level": 7,
+    "department": "Data & Analytics",
+    "department_code": "DATA",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

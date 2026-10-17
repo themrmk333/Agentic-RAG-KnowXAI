@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Procurement Intern",
+    "level": 1,
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Procurement Executive",
+    "level": 2,
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Procurement Specialist",
+    "level": 3,
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Vendor Manager",
+    "level": 4,
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Procurement Lead",
+    "level": 5,
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Procurement Manager",
+    "level": 6,
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "Procurement Director",
+    "level": 7,
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

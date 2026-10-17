@@ -1,0 +1,58 @@
+[
+  {
+    "role": "PMO Intern",
+    "level": 1,
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Project Coordinator",
+    "level": 2,
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Project Manager",
+    "level": 3,
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Project Manager",
+    "level": 4,
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Program Manager",
+    "level": 5,
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "PMO Lead",
+    "level": 6,
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "PMO Director",
+    "level": 7,
+    "department": "Project Management / PMO",
+    "department_code": "PMO",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

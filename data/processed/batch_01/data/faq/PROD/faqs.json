@@ -1,0 +1,797 @@
+[
+  {
+    "faq_id": "FAQ-PROD-001",
+    "question": "How do I complete: Product Requirement Document (PRD) Creation?",
+    "short_answer": "Follow the 7-step Product Requirement Document (PRD) Creation procedure in MK-ProductHub, starting with the SOP-PROD-001 SOP.",
+    "detailed_answer": "The Product Requirement Document (PRD) Creation process (SOP-PROD-001) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Head of Product is responsible for approval/sign-off. PRDs without measurable success metrics are sent back for revision.",
+    "step_by_step": [
+      "the Product Manager confirms eligibility and prerequisites: problem statement, target users, and success metrics.",
+      "the Product Manager raises a request in MK-ProductHub specifying exactly which PRD is required.",
+      "The Head of Product reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the PRD in the relevant system.",
+      "the Product Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProductHub and corrected before sign-off.",
+      "MK-ProductHub marks the request 'Complete' and the configuration is logged for audit and future reference. PRDs without measurable success metrics are sent back for revision."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Product Planning",
+    "role_applicability": [
+      "Product Manager",
+      "Head of Product"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Product Requirement Document (PRD) Creation",
+      "Product Planning",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-001"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-002",
+    "question": "How do I complete: Feature Prioritization Procedure?",
+    "short_answer": "Follow the 7-step Feature Prioritization Procedure procedure in MK-ProductHub, starting with the SOP-PROD-002 SOP.",
+    "detailed_answer": "The Feature Prioritization Procedure process (SOP-PROD-002) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Head of Product is responsible for approval/sign-off. Roadmap changes affecting committed dates are communicated to Sales and Support.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProductHub.",
+      "the Product Manager gathers the required data and documents, including scoring features against reach, impact, confidence, and effort (RICE).",
+      "The review team examines the Product Roadmap against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Head of Product discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProductHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Roadmap changes affecting committed dates are communicated to Sales and Support."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Roadmap Planning",
+    "role_applicability": [
+      "Product Manager",
+      "Head of Product"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Feature Prioritization Procedure",
+      "Roadmap Planning",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-002"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-003",
+    "question": "How do I complete: Customer Feedback Intake and Triage?",
+    "short_answer": "Follow the 7-step Customer Feedback Intake and Triage procedure in MK-ProductHub, starting with the SOP-PROD-003 SOP.",
+    "detailed_answer": "The Customer Feedback Intake and Triage process (SOP-PROD-003) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Product Lead is responsible for approval/sign-off. Feedback from top-tier accounts is flagged for expedited review.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProductHub.",
+      "the Product Manager gathers the required data and documents, including tagging feedback by theme and estimated customer impact.",
+      "The review team examines the Feedback Log against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Product Lead discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProductHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Feedback from top-tier accounts is flagged for expedited review."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Customer Insight",
+    "role_applicability": [
+      "Product Manager",
+      "Product Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Customer Feedback Intake and Triage",
+      "Customer Insight",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-003"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-004",
+    "question": "How do I complete: Product Launch Readiness Procedure?",
+    "short_answer": "Follow the 7-step Product Launch Readiness Procedure procedure in MK-ProductHub, starting with the SOP-PROD-004 SOP.",
+    "detailed_answer": "The Product Launch Readiness Procedure process (SOP-PROD-004) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Head of Product is responsible for approval/sign-off. Launches are blocked if Support has not completed readiness training.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProductHub.",
+      "the Product Manager gathers the required data and documents, including go-to-market materials, support documentation, and rollout plan.",
+      "The review team examines the Launch Checklist against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Head of Product discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProductHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Launches are blocked if Support has not completed readiness training."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Product Launch",
+    "role_applicability": [
+      "Product Manager",
+      "Head of Product"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Product Launch Readiness Procedure",
+      "Product Launch",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-004"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-005",
+    "question": "How do I complete: A/B Experiment Design Procedure?",
+    "short_answer": "Follow the 7-step A/B Experiment Design Procedure procedure in MK-ProductHub, starting with the SOP-PROD-005 SOP.",
+    "detailed_answer": "The A/B Experiment Design Procedure process (SOP-PROD-005) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Data Analyst is responsible for approval/sign-off. Experiments are not concluded early unless statistical significance is reached.",
+    "step_by_step": [
+      "the Product Manager confirms eligibility and prerequisites: hypothesis, sample size, and success metric definition.",
+      "the Product Manager raises a request in MK-ProductHub specifying exactly which Experiment Design is required.",
+      "The Data Analyst reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Experiment Design in the relevant system.",
+      "the Product Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProductHub and corrected before sign-off.",
+      "MK-ProductHub marks the request 'Complete' and the configuration is logged for audit and future reference. Experiments are not concluded early unless statistical significance is reached."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Experimentation",
+    "role_applicability": [
+      "Product Manager",
+      "Data Analyst"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "A/B Experiment Design Procedure",
+      "Experimentation",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-005"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-006",
+    "question": "How do I complete: Competitive Analysis Procedure?",
+    "short_answer": "Follow the 7-step Competitive Analysis Procedure procedure in MK-ProductHub, starting with the SOP-PROD-006 SOP.",
+    "detailed_answer": "The Competitive Analysis Procedure process (SOP-PROD-006) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Head of Product is responsible for approval/sign-off. Findings are shared with Sales and Marketing quarterly.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProductHub.",
+      "the Product Manager gathers the required data and documents, including feature comparison, pricing, and positioning against key competitors.",
+      "The review team examines the Competitive Analysis Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Head of Product discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProductHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Findings are shared with Sales and Marketing quarterly."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Market Research",
+    "role_applicability": [
+      "Product Manager",
+      "Head of Product"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Competitive Analysis Procedure",
+      "Market Research",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-006"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-007",
+    "question": "How do I complete: Product Backlog Grooming Procedure?",
+    "short_answer": "Follow the 7-step Product Backlog Grooming Procedure procedure in MK-ProductHub, starting with the SOP-PROD-007 SOP.",
+    "detailed_answer": "The Product Backlog Grooming Procedure process (SOP-PROD-007) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Engineering Manager is responsible for approval/sign-off. Items ungroomed for two consecutive cycles are deprioritised automatically.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProductHub.",
+      "the Product Manager gathers the required data and documents, including refining acceptance criteria and confirming feasibility with Engineering.",
+      "The review team examines the Product Backlog against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Engineering Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProductHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Items ungroomed for two consecutive cycles are deprioritised automatically."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Backlog Management",
+    "role_applicability": [
+      "Product Manager",
+      "Engineering Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Product Backlog Grooming Procedure",
+      "Backlog Management",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-007"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-008",
+    "question": "How do I complete: Beta Program Management Procedure?",
+    "short_answer": "Follow the 7-step Beta Program Management Procedure procedure in MK-ProductHub, starting with the SOP-PROD-008 SOP.",
+    "detailed_answer": "The Beta Program Management Procedure process (SOP-PROD-008) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Product Lead is responsible for approval/sign-off. Beta features are gated behind a feature flag until GA.",
+    "step_by_step": [
+      "the Product Manager confirms eligibility and prerequisites: selecting beta participants and defining feedback collection cadence.",
+      "the Product Manager raises a request in MK-ProductHub specifying exactly which Beta Program is required.",
+      "The Product Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Beta Program in the relevant system.",
+      "the Product Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProductHub and corrected before sign-off.",
+      "MK-ProductHub marks the request 'Complete' and the configuration is logged for audit and future reference. Beta features are gated behind a feature flag until GA."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Beta Testing",
+    "role_applicability": [
+      "Product Manager",
+      "Product Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Beta Program Management Procedure",
+      "Beta Testing",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-008"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-009",
+    "question": "How do I complete: Pricing Change Request Procedure?",
+    "short_answer": "Follow the 7-step Pricing Change Request Procedure procedure in MK-ProductHub, starting with the SOP-PROD-009 SOP.",
+    "detailed_answer": "The Pricing Change Request Procedure process (SOP-PROD-009) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and VP Product is responsible for approval/sign-off. Pricing changes require Finance and Legal review before announcement.",
+    "step_by_step": [
+      "the Product Manager logs into MK-ProductHub and navigates to the 'Pricing Change Request' section.",
+      "the Product Manager selects 'New Pricing Change Request' and enters the required details, including revenue impact analysis and competitor pricing benchmark.",
+      "the Product Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Product Manager submits the Pricing Change Request; MK-ProductHub automatically routes it to the VP Product for review.",
+      "The VP Product reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ProductHub updates the status to 'Approved' and notifies the Product Manager by email/in-app notification.",
+      "The approved Pricing Change Request is processed and the record is retained in MK-ProductHub for audit purposes. Pricing changes require Finance and Legal review before announcement."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Pricing",
+    "role_applicability": [
+      "Product Manager",
+      "VP Product"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Pricing Change Request Procedure",
+      "Pricing",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-009"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-010",
+    "question": "How do I complete: Product Metrics Review Procedure?",
+    "short_answer": "Follow the 7-step Product Metrics Review Procedure procedure in MK-ProductHub, starting with the SOP-PROD-010 SOP.",
+    "detailed_answer": "The Product Metrics Review Procedure process (SOP-PROD-010) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Head of Product is responsible for approval/sign-off. Metrics declining two months in a row trigger a root-cause deep dive.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProductHub.",
+      "the Product Manager gathers the required data and documents, including adoption, retention, and engagement metrics from MK-DataLake dashboards.",
+      "The review team examines the Metrics Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Head of Product discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProductHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Metrics declining two months in a row trigger a root-cause deep dive."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Analytics",
+    "role_applicability": [
+      "Product Manager",
+      "Head of Product"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Product Metrics Review Procedure",
+      "Analytics",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-010"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-011",
+    "question": "How do I complete: Cross-functional Product Sync Procedure?",
+    "short_answer": "Follow the 7-step Cross-functional Product Sync Procedure procedure in MK-ProductHub, starting with the SOP-PROD-011 SOP.",
+    "detailed_answer": "The Cross-functional Product Sync Procedure process (SOP-PROD-011) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Product Lead is responsible for approval/sign-off. Unresolved cross-team dependencies are escalated to the PMO.",
+    "step_by_step": [
+      "the Product Manager confirms eligibility and prerequisites: aligning Engineering, Design, and QA on the sprint goal.",
+      "the Product Manager raises a request in MK-ProductHub specifying exactly which Product Sync Meeting is required.",
+      "The Product Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Product Sync Meeting in the relevant system.",
+      "the Product Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProductHub and corrected before sign-off.",
+      "MK-ProductHub marks the request 'Complete' and the configuration is logged for audit and future reference. Unresolved cross-team dependencies are escalated to the PMO."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Collaboration",
+    "role_applicability": [
+      "Product Manager",
+      "Product Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Cross-functional Product Sync Procedure",
+      "Collaboration",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-011"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-012",
+    "question": "How do I complete: Product Onboarding for New PMs?",
+    "short_answer": "Follow the 7-step Product Onboarding for New PMs procedure in MK-ProductHub, starting with the SOP-PROD-012 SOP.",
+    "detailed_answer": "The Product Onboarding for New PMs process (SOP-PROD-012) is owned by the Product Management department. The head of product initiates the request in MK-ProductHub and VP Product is responsible for approval/sign-off. New PMs shadow at least 3 customer calls before owning a roadmap area.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-ProductHub owner ahead of the employee's start or end date.",
+      "the Head of Product prepares the required Product Onboarding, including MK-ProductHub access, roadmap walkthrough, and customer call shadowing.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The VP Product verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the VP Product for same-day resolution.",
+      "MK-ProductHub is updated to reflect the completed status and the record is archived. New PMs shadow at least 3 customer calls before owning a roadmap area."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Head of Product",
+      "VP Product"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Product Onboarding for New PMs",
+      "Onboarding",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-012"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-013",
+    "question": "How do I complete: Feature Deprecation Procedure?",
+    "short_answer": "Follow the 7-step Feature Deprecation Procedure procedure in MK-ProductHub, starting with the SOP-PROD-013 SOP.",
+    "detailed_answer": "The Feature Deprecation Procedure process (SOP-PROD-013) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Head of Product is responsible for approval/sign-off. Deprecations affecting paying customers require 90 days' notice.",
+    "step_by_step": [
+      "the Product Manager logs into MK-ProductHub and navigates to the 'Deprecation Plan' section.",
+      "the Product Manager selects 'New Deprecation Plan' and enters the required details, including usage data, customer notice period, and migration path.",
+      "the Product Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Product Manager submits the Deprecation Plan; MK-ProductHub automatically routes it to the Head of Product for review.",
+      "The Head of Product reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ProductHub updates the status to 'Approved' and notifies the Product Manager by email/in-app notification.",
+      "The approved Deprecation Plan is processed and the record is retained in MK-ProductHub for audit purposes. Deprecations affecting paying customers require 90 days' notice."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Product Lifecycle",
+    "role_applicability": [
+      "Product Manager",
+      "Head of Product"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Feature Deprecation Procedure",
+      "Product Lifecycle",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-013"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-014",
+    "question": "How do I complete: Product Documentation Update Procedure?",
+    "short_answer": "Follow the 7-step Product Documentation Update Procedure procedure in MK-ProductHub, starting with the SOP-PROD-014 SOP.",
+    "detailed_answer": "The Product Documentation Update Procedure process (SOP-PROD-014) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Product Lead is responsible for approval/sign-off. Documentation updates are published no later than launch day.",
+    "step_by_step": [
+      "the Product Manager confirms eligibility and prerequisites: updating release notes and the customer-facing help center.",
+      "the Product Manager raises a request in MK-ProductHub specifying exactly which Product Documentation is required.",
+      "The Product Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Product Documentation in the relevant system.",
+      "the Product Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProductHub and corrected before sign-off.",
+      "MK-ProductHub marks the request 'Complete' and the configuration is logged for audit and future reference. Documentation updates are published no later than launch day."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Documentation",
+    "role_applicability": [
+      "Product Manager",
+      "Product Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Product Documentation Update Procedure",
+      "Documentation",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-014"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-015",
+    "question": "How do I complete: Customer Advisory Board Session Procedure?",
+    "short_answer": "Follow the 7-step Customer Advisory Board Session Procedure procedure in MK-ProductHub, starting with the SOP-PROD-015 SOP.",
+    "detailed_answer": "The Customer Advisory Board Session Procedure process (SOP-PROD-015) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and VP Product is responsible for approval/sign-off. Confidential roadmap items require an NDA before sharing.",
+    "step_by_step": [
+      "the Product Manager confirms eligibility and prerequisites: preparing the agenda and roadmap preview for key customers.",
+      "the Product Manager raises a request in MK-ProductHub specifying exactly which Advisory Board Session is required.",
+      "The VP Product reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Advisory Board Session in the relevant system.",
+      "the Product Manager is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ProductHub and corrected before sign-off.",
+      "MK-ProductHub marks the request 'Complete' and the configuration is logged for audit and future reference. Confidential roadmap items require an NDA before sharing."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Customer Engagement",
+    "role_applicability": [
+      "Product Manager",
+      "VP Product"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Customer Advisory Board Session Procedure",
+      "Customer Engagement",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-015"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-016",
+    "question": "How do I complete: Product Risk & Compliance Review?",
+    "short_answer": "Follow the 7-step Product Risk & Compliance Review procedure in MK-ProductHub, starting with the SOP-PROD-016 SOP.",
+    "detailed_answer": "The Product Risk & Compliance Review process (SOP-PROD-016) is owned by the Product Management department. The product manager initiates the request in MK-ProductHub and Legal Manager is responsible for approval/sign-off. Features handling personal data require a Legal sign-off before launch.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ProductHub.",
+      "the Product Manager gathers the required data and documents, including data handling, accessibility, and regulatory considerations for the new feature.",
+      "The review team examines the Product Compliance Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Legal Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ProductHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Features handling personal data require a Legal sign-off before launch."
+    ],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Compliance",
+    "role_applicability": [
+      "Product Manager",
+      "Legal Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Product Risk & Compliance Review",
+      "Compliance",
+      "PROD"
+    ],
+    "related_documents": [
+      "SOP-PROD-016"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-017",
+    "question": "What is the Feature Launch Policy?",
+    "short_answer": "Every feature launch requires a completed Launch Readiness Checklist covering support, docs, and rollout plan.",
+    "detailed_answer": "Every feature launch requires a completed Launch Readiness Checklist covering support, docs, and rollout plan. Features handling personal data require Legal sign-off before launch. Launches affecting existing customer workflows require at least 14 days advance customer communication.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Product Launch",
+    "role_applicability": [
+      "Product"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Feature Launch Policy",
+      "Product Launch",
+      "PROD"
+    ],
+    "related_documents": [
+      "POL-PROD-001"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PROD-018",
+    "question": "Who do I contact in the Product Management department for help?",
+    "short_answer": "Reach out to: Sahil Chauhan (Head of Product, sahil.chauhan@mkinfinite-ai.com); Nisha Rao (Senior Product Manager, nisha.rao@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Product Management, use MK-ProductHub to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Sahil Chauhan (Head of Product, sahil.chauhan@mkinfinite-ai.com); Nisha Rao (Senior Product Manager, nisha.rao@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Product Management",
+      "contact",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-019",
+    "question": "What system does the Product Management department use?",
+    "short_answer": "Product Management primarily uses MK-ProductHub for its workflows.",
+    "detailed_answer": "MK-ProductHub is the system of record for Product Management. All requests, approvals, and records for this department's processes should go through MK-ProductHub rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MK-ProductHub",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-020",
+    "question": "What are the key performance indicators (KPIs) for the Product Management department?",
+    "short_answer": "Feature adoption rate within 30 days of launch (target: above 25%)",
+    "detailed_answer": "Feature adoption rate within 30 days of launch (target: above 25%) Roadmap delivery predictability (target: above 80% of committed items shipped) Customer-reported feature satisfaction (target: above 4.0 out of 5) Time from PRD approval to launch (target: under 90 days for standard features)",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-021",
+    "question": "What is the escalation path within the Product Management department?",
+    "short_answer": "Escalate in this order: Associate Product Manager -> Product Manager -> Product Lead -> Head of Product.",
+    "detailed_answer": "If a request or issue with Product Management is not addressed within the expected timeframe, escalate step by step through: Associate Product Manager -> Product Manager -> Product Lead -> Head of Product. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-022",
+    "question": "What are common mistakes employees make when working with Product Management?",
+    "short_answer": "Writing a PRD without measurable success metrics, making post-launch evaluation impossible.",
+    "detailed_answer": "Writing a PRD without measurable success metrics, making post-launch evaluation impossible. Changing roadmap commitments without informing Sales and Support in advance. Launching features without a completed readiness checklist.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "mistakes",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-023",
+    "question": "What does 'MK-ProductHub' mean in the context of Product Management?",
+    "short_answer": "The internal product roadmap and requirements platform.",
+    "detailed_answer": "The internal product roadmap and requirements platform. This term is commonly used in Product Management SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-ProductHub",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-024",
+    "question": "What does 'PRD' mean in the context of Product Management?",
+    "short_answer": "Product Requirement Document defining a feature's problem, users, and success metrics.",
+    "detailed_answer": "Product Requirement Document defining a feature's problem, users, and success metrics. This term is commonly used in Product Management SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "PRD",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-025",
+    "question": "What does 'RICE' mean in the context of Product Management?",
+    "short_answer": "A prioritization framework: Reach, Impact, Confidence, Effort.",
+    "detailed_answer": "A prioritization framework: Reach, Impact, Confidence, Effort. This term is commonly used in Product Management SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "RICE",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-026",
+    "question": "What does 'GA' mean in the context of Product Management?",
+    "short_answer": "General Availability, when a feature is released to all customers.",
+    "detailed_answer": "General Availability, when a feature is released to all customers. This term is commonly used in Product Management SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "GA",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-027",
+    "question": "What does 'Beta' mean in the context of Product Management?",
+    "short_answer": "An early, limited release used to gather feedback before GA.",
+    "detailed_answer": "An early, limited release used to gather feedback before GA. This term is commonly used in Product Management SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Beta",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-PROD-028",
+    "question": "Can an employee from a different department ask a Product Management question?",
+    "short_answer": "Yes. Product Management knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Product Management question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Product Management",
+    "department_code": "PROD",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Product Management",
+      "PROD"
+    ],
+    "related_documents": [],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "general"
+  }
+]

@@ -1,0 +1,976 @@
+[
+  {
+    "faq_id": "FAQ-HR-001",
+    "question": "How do I complete: Leave Application Procedure?",
+    "short_answer": "Follow the 7-step Leave Application Procedure procedure in MK-HRMS, starting with the SOP-HR-001 SOP.",
+    "detailed_answer": "The Leave Application Procedure process (SOP-HR-001) is owned by the Human Resources department. The employee initiates the request in MK-HRMS and Reporting Manager is responsible for approval/sign-off. Sick leave beyond 3 consecutive days requires a medical certificate.",
+    "step_by_step": [
+      "the employee logs into MK-HRMS and navigates to the 'Leave Application' section.",
+      "the employee selects 'New Leave Application' and enters the required details, including leave type, dates, and reason.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Leave Application; MK-HRMS automatically routes it to the Reporting Manager for review.",
+      "The Reporting Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-HRMS updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Leave Application is processed and the record is retained in MK-HRMS for audit purposes. Sick leave beyond 3 consecutive days requires a medical certificate."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Leave Management",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Leave Application Procedure",
+      "Leave Management",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-001"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-002",
+    "question": "How do I complete: New Employee Onboarding Procedure?",
+    "short_answer": "Follow the 7-step New Employee Onboarding Procedure procedure in MK-HRMS, starting with the SOP-HR-002 SOP.",
+    "detailed_answer": "The New Employee Onboarding Procedure process (SOP-HR-002) is owned by the Human Resources department. The hr executive initiates the request in MK-HRMS and HR Manager is responsible for approval/sign-off. Onboarding is considered complete only once all statutory documents are verified.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-HRMS owner ahead of the employee's start or end date.",
+      "the HR Executive prepares the required Onboarding Plan, including offer letter acknowledgment, document collection, and day-1 induction schedule.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The HR Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the HR Manager for same-day resolution.",
+      "MK-HRMS is updated to reflect the completed status and the record is archived. Onboarding is considered complete only once all statutory documents are verified."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Onboarding",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Employee Onboarding Procedure",
+      "Onboarding",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-002"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-003",
+    "question": "How do I complete: Employee Exit / Offboarding Procedure?",
+    "short_answer": "Follow the 7-step Employee Exit / Offboarding Procedure procedure in MK-HRMS, starting with the SOP-HR-003 SOP.",
+    "detailed_answer": "The Employee Exit / Offboarding Procedure process (SOP-HR-003) is owned by the Human Resources department. The hr executive initiates the request in MK-HRMS and HR Manager is responsible for approval/sign-off. Full and final settlement is processed within 45 days of last working day.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-HRMS owner ahead of the employee's start or end date.",
+      "the HR Executive prepares the required Exit Formalities, including resignation acceptance, notice period confirmation, and exit interview scheduling.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The HR Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the HR Manager for same-day resolution.",
+      "MK-HRMS is updated to reflect the completed status and the record is archived. Full and final settlement is processed within 45 days of last working day."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Offboarding",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Employee Exit / Offboarding Procedure",
+      "Offboarding",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-003"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-004",
+    "question": "How do I complete: Performance Review Cycle Procedure?",
+    "short_answer": "Follow the 7-step Performance Review Cycle Procedure procedure in MK-HRMS, starting with the SOP-HR-004 SOP.",
+    "detailed_answer": "The Performance Review Cycle Procedure process (SOP-HR-004) is owned by the Human Resources department. The reporting manager initiates the request in MK-HRMS and HR Business Partner is responsible for approval/sign-off. Ratings are calibrated across teams before being finalised.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-HRMS.",
+      "the Reporting Manager gathers the required data and documents, including self-assessment, manager assessment, and calibration discussion.",
+      "The review team examines the Performance Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The HR Business Partner discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-HRMS with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Ratings are calibrated across teams before being finalised."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Performance Management",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Business Partner"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Performance Review Cycle Procedure",
+      "Performance Management",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-004"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-005",
+    "question": "How do I complete: Promotion Nomination Procedure?",
+    "short_answer": "Follow the 7-step Promotion Nomination Procedure procedure in MK-HRMS, starting with the SOP-HR-005 SOP.",
+    "detailed_answer": "The Promotion Nomination Procedure process (SOP-HR-005) is owned by the Human Resources department. The reporting manager initiates the request in MK-HRMS and HR Director is responsible for approval/sign-off. Promotions are approved twice yearly during the promotion committee cycle.",
+    "step_by_step": [
+      "the Reporting Manager logs into MK-HRMS and navigates to the 'Promotion Nomination' section.",
+      "the Reporting Manager selects 'New Promotion Nomination' and enters the required details, including performance history, readiness assessment, and business justification.",
+      "the Reporting Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Reporting Manager submits the Promotion Nomination; MK-HRMS automatically routes it to the HR Director for review.",
+      "The HR Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-HRMS updates the status to 'Approved' and notifies the Reporting Manager by email/in-app notification.",
+      "The approved Promotion Nomination is processed and the record is retained in MK-HRMS for audit purposes. Promotions are approved twice yearly during the promotion committee cycle."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Career Development",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Director"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Promotion Nomination Procedure",
+      "Career Development",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-005"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-006",
+    "question": "How do I complete: Internal Job Transfer Procedure?",
+    "short_answer": "Follow the 7-step Internal Job Transfer Procedure procedure in MK-HRMS, starting with the SOP-HR-006 SOP.",
+    "detailed_answer": "The Internal Job Transfer Procedure process (SOP-HR-006) is owned by the Human Resources department. The employee initiates the request in MK-HRMS and HR Business Partner is responsible for approval/sign-off. Transfers within probation period require additional HR review.",
+    "step_by_step": [
+      "the employee logs into MK-HRMS and navigates to the 'Transfer Request' section.",
+      "the employee selects 'New Transfer Request' and enters the required details, including current manager no-objection and target team acceptance.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Transfer Request; MK-HRMS automatically routes it to the HR Business Partner for review.",
+      "The HR Business Partner reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-HRMS updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Transfer Request is processed and the record is retained in MK-HRMS for audit purposes. Transfers within probation period require additional HR review."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Mobility",
+    "role_applicability": [
+      "employee",
+      "HR Business Partner"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Internal Job Transfer Procedure",
+      "Mobility",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-006"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-007",
+    "question": "How do I complete: Employee Grievance Handling Procedure?",
+    "short_answer": "Follow the 7-step Employee Grievance Handling Procedure procedure in MK-HRMS, starting with the SOP-HR-007 SOP.",
+    "detailed_answer": "The Employee Grievance Handling Procedure process (SOP-HR-007) is owned by the Human Resources department. The employee initiates the request in MK-HRMS and HR Business Partner is responsible for approval/sign-off. Grievances involving harassment are escalated to the Internal Committee within 24 hours.",
+    "step_by_step": [
+      "the employee confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the employee performs the standard first-line check: submitting the grievance confidentially through MK-HRMS or to the HR Business Partner directly.",
+      "If the issue persists, the employee applies the documented workaround for this issue type.",
+      "the employee checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the employee raises a ticket in MK-HRMS categorised under 'Grievance Case', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the employee confirms the fix works; the ticket is closed in MK-HRMS with the root cause logged. Grievances involving harassment are escalated to the Internal Committee within 24 hours."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Employee Relations",
+    "role_applicability": [
+      "employee",
+      "HR Business Partner"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Employee Grievance Handling Procedure",
+      "Employee Relations",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-007"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-008",
+    "question": "How do I complete: Recruitment Requisition Procedure?",
+    "short_answer": "Follow the 7-step Recruitment Requisition Procedure procedure in MK-HRMS, starting with the SOP-HR-008 SOP.",
+    "detailed_answer": "The Recruitment Requisition Procedure process (SOP-HR-008) is owned by the Human Resources department. The hiring manager initiates the request in MK-HRMS and HR Director is responsible for approval/sign-off. Requisitions above budgeted headcount require CFO co-approval.",
+    "step_by_step": [
+      "the Hiring Manager logs into MK-HRMS and navigates to the 'Requisition' section.",
+      "the Hiring Manager selects 'New Requisition' and enters the required details, including headcount justification, budget approval, and job description.",
+      "the Hiring Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Hiring Manager submits the Requisition; MK-HRMS automatically routes it to the HR Director for review.",
+      "The HR Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-HRMS updates the status to 'Approved' and notifies the Hiring Manager by email/in-app notification.",
+      "The approved Requisition is processed and the record is retained in MK-HRMS for audit purposes. Requisitions above budgeted headcount require CFO co-approval."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Recruitment",
+    "role_applicability": [
+      "Hiring Manager",
+      "HR Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Recruitment Requisition Procedure",
+      "Recruitment",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-008"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-009",
+    "question": "How do I complete: Offer Letter Generation Procedure?",
+    "short_answer": "Follow the 7-step Offer Letter Generation Procedure procedure in MK-HRMS, starting with the SOP-HR-009 SOP.",
+    "detailed_answer": "The Offer Letter Generation Procedure process (SOP-HR-009) is owned by the Human Resources department. The hr executive initiates the request in MK-HRMS and HR Manager is responsible for approval/sign-off. Offers are valid for 7 days unless an extension is approved.",
+    "step_by_step": [
+      "the HR Executive confirms eligibility and prerequisites: verifying compensation band approval and background check clearance.",
+      "the HR Executive raises a request in MK-HRMS specifying exactly which Offer Letter is required.",
+      "The HR Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Offer Letter in the relevant system.",
+      "the HR Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-HRMS and corrected before sign-off.",
+      "MK-HRMS marks the request 'Complete' and the configuration is logged for audit and future reference. Offers are valid for 7 days unless an extension is approved."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Recruitment",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Offer Letter Generation Procedure",
+      "Recruitment",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-009"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-010",
+    "question": "How do I complete: Internship Program Onboarding?",
+    "short_answer": "Follow the 7-step Internship Program Onboarding procedure in MK-HRMS, starting with the SOP-HR-010 SOP.",
+    "detailed_answer": "The Internship Program Onboarding process (SOP-HR-010) is owned by the Human Resources department. The hr executive initiates the request in MK-HRMS and HR Manager is responsible for approval/sign-off. Interns without an assigned mentor within week 1 are flagged to HR.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-HRMS owner ahead of the employee's start or end date.",
+      "the HR Executive prepares the required Internship Onboarding, including internship agreement signature, mentor assignment, and system access request.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The HR Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the HR Manager for same-day resolution.",
+      "MK-HRMS is updated to reflect the completed status and the record is archived. Interns without an assigned mentor within week 1 are flagged to HR."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Internship",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Internship Program Onboarding",
+      "Internship",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-010"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-011",
+    "question": "How do I complete: Internship Evaluation and Completion Procedure?",
+    "short_answer": "Follow the 7-step Internship Evaluation and Completion Procedure procedure in MK-HRMS, starting with the SOP-HR-011 SOP.",
+    "detailed_answer": "The Internship Evaluation and Completion Procedure process (SOP-HR-011) is owned by the Human Resources department. The assigned mentor initiates the request in MK-HRMS and HR Business Partner is responsible for approval/sign-off. Certificates are issued only after the final evaluation form is submitted.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-HRMS.",
+      "the assigned Mentor gathers the required data and documents, including project outcomes, attendance record, and mentor feedback.",
+      "The review team examines the Internship Evaluation against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The HR Business Partner discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-HRMS with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Certificates are issued only after the final evaluation form is submitted."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Internship",
+    "role_applicability": [
+      "assigned Mentor",
+      "HR Business Partner"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Internship Evaluation and Completion Procedure",
+      "Internship",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-011"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQ-HR-012",
+    "question": "How do I complete: Attendance Regularization Procedure?",
+    "short_answer": "Follow the 7-step Attendance Regularization Procedure procedure in MK-HRMS, starting with the SOP-HR-012 SOP.",
+    "detailed_answer": "The Attendance Regularization Procedure process (SOP-HR-012) is owned by the Human Resources department. The employee initiates the request in MK-HRMS and Reporting Manager is responsible for approval/sign-off. Regularization requests older than 7 days require HR approval in addition to manager approval.",
+    "step_by_step": [
+      "the employee logs into MK-HRMS and navigates to the 'Attendance Regularization' section.",
+      "the employee selects 'New Attendance Regularization' and enters the required details, including the date, reason for missed punch, and supporting evidence if any.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Attendance Regularization; MK-HRMS automatically routes it to the Reporting Manager for review.",
+      "The Reporting Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-HRMS updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Attendance Regularization is processed and the record is retained in MK-HRMS for audit purposes. Regularization requests older than 7 days require HR approval in addition to manager approval."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Attendance",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Attendance Regularization Procedure",
+      "Attendance",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-012"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-013",
+    "question": "How do I complete: Employee Conduct / Disciplinary Procedure?",
+    "short_answer": "Follow the 7-step Employee Conduct / Disciplinary Procedure procedure in MK-HRMS, starting with the SOP-HR-013 SOP.",
+    "detailed_answer": "The Employee Conduct / Disciplinary Procedure process (SOP-HR-013) is owned by the Human Resources department. The hr business partner initiates the request in MK-HRMS and HR Director is responsible for approval/sign-off. Serious misconduct may result in immediate suspension pending investigation.",
+    "step_by_step": [
+      "the HR Business Partner confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the HR Business Partner performs the standard first-line check: documenting the incident with witness statements where relevant.",
+      "If the issue persists, the HR Business Partner applies the documented workaround for this issue type.",
+      "the HR Business Partner checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the HR Business Partner raises a ticket in MK-HRMS categorised under 'Disciplinary Case', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the HR Business Partner confirms the fix works; the ticket is closed in MK-HRMS with the root cause logged. Serious misconduct may result in immediate suspension pending investigation."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Employee Relations",
+    "role_applicability": [
+      "HR Business Partner",
+      "HR Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Employee Conduct / Disciplinary Procedure",
+      "Employee Relations",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-013"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-014",
+    "question": "How do I complete: Compensation Revision Procedure?",
+    "short_answer": "Follow the 7-step Compensation Revision Procedure procedure in MK-HRMS, starting with the SOP-HR-014 SOP.",
+    "detailed_answer": "The Compensation Revision Procedure process (SOP-HR-014) is owned by the Human Resources department. The reporting manager initiates the request in MK-HRMS and HR Director is responsible for approval/sign-off. Off-cycle revisions require CFO approval regardless of amount.",
+    "step_by_step": [
+      "the Reporting Manager logs into MK-HRMS and navigates to the 'Compensation Revision' section.",
+      "the Reporting Manager selects 'New Compensation Revision' and enters the required details, including performance rating, market benchmarking data, and budget availability.",
+      "the Reporting Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Reporting Manager submits the Compensation Revision; MK-HRMS automatically routes it to the HR Director for review.",
+      "The HR Director reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-HRMS updates the status to 'Approved' and notifies the Reporting Manager by email/in-app notification.",
+      "The approved Compensation Revision is processed and the record is retained in MK-HRMS for audit purposes. Off-cycle revisions require CFO approval regardless of amount."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Compensation",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Compensation Revision Procedure",
+      "Compensation",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-014"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-015",
+    "question": "How do I complete: Background Verification Procedure?",
+    "short_answer": "Follow the 7-step Background Verification Procedure procedure in MK-HRMS, starting with the SOP-HR-015 SOP.",
+    "detailed_answer": "The Background Verification Procedure process (SOP-HR-015) is owned by the Human Resources department. The hr executive initiates the request in MK-HRMS and HR Manager is responsible for approval/sign-off. Offers are contingent on satisfactory background verification results.",
+    "step_by_step": [
+      "the HR Executive confirms eligibility and prerequisites: education, employment history, and criminal record checks via the approved vendor.",
+      "the HR Executive raises a request in MK-HRMS specifying exactly which Background Check is required.",
+      "The HR Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Background Check in the relevant system.",
+      "the HR Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-HRMS and corrected before sign-off.",
+      "MK-HRMS marks the request 'Complete' and the configuration is logged for audit and future reference. Offers are contingent on satisfactory background verification results."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Recruitment",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Background Verification Procedure",
+      "Recruitment",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-015"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-016",
+    "question": "How do I complete: Employee Referral Program Procedure?",
+    "short_answer": "Follow the 7-step Employee Referral Program Procedure procedure in MK-HRMS, starting with the SOP-HR-016 SOP.",
+    "detailed_answer": "The Employee Referral Program Procedure process (SOP-HR-016) is owned by the Human Resources department. The employee initiates the request in MK-HRMS and HR Executive is responsible for approval/sign-off. Referral bonus is paid only after the referred candidate completes 90 days.",
+    "step_by_step": [
+      "the employee logs into MK-HRMS and navigates to the 'Referral Submission' section.",
+      "the employee selects 'New Referral Submission' and enters the required details, including the candidate's resume and the open requisition ID being referred against.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Referral Submission; MK-HRMS automatically routes it to the HR Executive for review.",
+      "The HR Executive reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-HRMS updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Referral Submission is processed and the record is retained in MK-HRMS for audit purposes. Referral bonus is paid only after the referred candidate completes 90 days."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Recruitment",
+    "role_applicability": [
+      "employee",
+      "HR Executive"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Employee Referral Program Procedure",
+      "Recruitment",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-016"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-017",
+    "question": "How do I complete: HR Onboarding for New HR Team Members?",
+    "short_answer": "Follow the 7-step HR Onboarding for New HR Team Members procedure in MK-HRMS, starting with the SOP-HR-017 SOP.",
+    "detailed_answer": "The HR Onboarding for New HR Team Members process (SOP-HR-017) is owned by the Human Resources department. The hr manager initiates the request in MK-HRMS and HR Director is responsible for approval/sign-off. New HR team members complete a data-privacy module before touching employee records.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-HRMS owner ahead of the employee's start or end date.",
+      "the HR Manager prepares the required HR Team Onboarding, including MK-HRMS system access and confidentiality agreement signature.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The HR Director verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the HR Director for same-day resolution.",
+      "MK-HRMS is updated to reflect the completed status and the record is archived. New HR team members complete a data-privacy module before touching employee records."
+    ],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Onboarding",
+    "role_applicability": [
+      "HR Manager",
+      "HR Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "HR Onboarding for New HR Team Members",
+      "Onboarding",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-017"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-HR-018",
+    "question": "What is the Leave Policy?",
+    "short_answer": "All full-time employees are entitled to 18 days of Paid Annual Leave (PAL) per calendar year, credited monthly at 1.5 days.",
+    "detailed_answer": "All full-time employees are entitled to 18 days of Paid Annual Leave (PAL) per calendar year, credited monthly at 1.5 days. Employees are entitled to 12 days of Sick Leave per year; leave beyond 3 consecutive days requires a medical certificate. 5 Casual Leave days per year are provided for short-notice personal matters. Unused Paid Annual Leave up to 10 days can be carried forward to the next calendar year; the remainder lapses on 31 December.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Leave Management",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Leave Policy",
+      "Leave Management",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-001"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-019",
+    "question": "What is the Attendance Policy?",
+    "short_answer": "Standard working hours are 9:30 AM to 6:30 PM, Monday to Friday, with a 1-hour lunch break.",
+    "detailed_answer": "Standard working hours are 9:30 AM to 6:30 PM, Monday to Friday, with a 1-hour lunch break. Employees must clock in/out via MK-HRMS biometric or mobile check-in. A grace period of 15 minutes is allowed for late arrival, up to 3 times per month. More than 3 late arrivals in a month require attendance regularization approval from the Reporting Manager.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Attendance",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Attendance Policy",
+      "Attendance",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-002"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-020",
+    "question": "What is the Remote / Hybrid Work Policy?",
+    "short_answer": "MK-Infinite-AI follows a hybrid model: employees are expected in the office 3 days per week (Tuesday, Wednesday, Thursday).",
+    "detailed_answer": "MK-Infinite-AI follows a hybrid model: employees are expected in the office 3 days per week (Tuesday, Wednesday, Thursday). Fully remote work arrangements require Department Director and HR approval. Employees working remotely must be reachable during core hours of 11 AM to 4 PM. Remote work from outside the employee's registered home country requires prior HR and IT Security approval.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Work Arrangement",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Remote / Hybrid Work Policy",
+      "Work Arrangement",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-003"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-021",
+    "question": "What is the Employee Conduct Policy?",
+    "short_answer": "Employees are expected to treat colleagues, customers, and vendors with professionalism and respect.",
+    "detailed_answer": "Employees are expected to treat colleagues, customers, and vendors with professionalism and respect. Harassment, discrimination, or retaliation of any kind is strictly prohibited and grounds for immediate disciplinary action. Conflicts of interest must be disclosed to the Reporting Manager and HR Business Partner. Confidential company and customer information must not be shared outside authorised channels.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Employee Relations",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Employee Conduct Policy",
+      "Employee Relations",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-004"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-022",
+    "question": "What is the Promotion Policy?",
+    "short_answer": "Promotions are considered twice a year, in the April and October promotion committee cycles.",
+    "detailed_answer": "Promotions are considered twice a year, in the April and October promotion committee cycles. A minimum of 12 months in the current role is required for promotion eligibility, except in exceptional cases. Promotion nominations require Reporting Manager submission and HR Business Partner review. Promotion decisions are calibrated across department peers before being finalised.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Career Development",
+    "role_applicability": [
+      "All Employees",
+      "Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Promotion Policy",
+      "Career Development",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-005"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-023",
+    "question": "What is the Internship Policy?",
+    "short_answer": "Internships run for a minimum of 8 weeks and a maximum of 6 months.",
+    "detailed_answer": "Internships run for a minimum of 8 weeks and a maximum of 6 months. Every intern is assigned a mentor within the first week of joining. Interns are evaluated at the midpoint and at completion using the standard Internship Evaluation Form. Internship certificates are issued only after the final evaluation is submitted and signed off by HR.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Internship",
+    "role_applicability": [
+      "All Employees",
+      "Intern"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Internship Policy",
+      "Internship",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-006"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-024",
+    "question": "What is the Exit / Offboarding Policy?",
+    "short_answer": "The standard notice period is 60 days for employees and 90 days for managers and above.",
+    "detailed_answer": "The standard notice period is 60 days for employees and 90 days for managers and above. An exit interview is scheduled with HR before the employee's last working day. Full and final settlement is processed within 45 days of the last working day. All company assets (laptop, access card, peripherals) must be returned before settlement is released.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Offboarding",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Exit / Offboarding Policy",
+      "Offboarding",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-007"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-025",
+    "question": "Who do I contact in the Human Resources department for help?",
+    "short_answer": "Reach out to: Ananya Sharma (HR Director, ananya.sharma@mkinfinite-ai.com); Tanya Malhotra (HR Business Partner, tanya.malhotra@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Human Resources, use MK-HRMS to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Ananya Sharma (HR Director, ananya.sharma@mkinfinite-ai.com); Tanya Malhotra (HR Business Partner, tanya.malhotra@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Human Resources",
+      "contact",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-026",
+    "question": "What system does the Human Resources department use?",
+    "short_answer": "Human Resources primarily uses MK-HRMS for its workflows.",
+    "detailed_answer": "MK-HRMS is the system of record for Human Resources. All requests, approvals, and records for this department's processes should go through MK-HRMS rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "MK-HRMS",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-027",
+    "question": "What are the key performance indicators (KPIs) for the Human Resources department?",
+    "short_answer": "Time to fill open positions (target: under 45 days)",
+    "detailed_answer": "Time to fill open positions (target: under 45 days) New hire 90-day retention rate (target: above 95%) Employee engagement score (target: above 4.0 out of 5) Onboarding completion within SLA (target: 100%)",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "KPI",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-028",
+    "question": "What is the escalation path within the Human Resources department?",
+    "short_answer": "Escalate in this order: HR Executive -> HR Business Partner -> HR Manager -> HR Director.",
+    "detailed_answer": "If a request or issue with Human Resources is not addressed within the expected timeframe, escalate step by step through: HR Executive -> HR Business Partner -> HR Manager -> HR Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "escalation",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-029",
+    "question": "What are common mistakes employees make when working with Human Resources?",
+    "short_answer": "Managers approving leave without checking team coverage for critical periods.",
+    "detailed_answer": "Managers approving leave without checking team coverage for critical periods. Delaying performance review submissions past the calibration deadline. Not documenting verbal warnings, which weakens the record for future disciplinary steps.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "mistakes",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-030",
+    "question": "What does 'MK-HRMS' mean in the context of Human Resources?",
+    "short_answer": "The internal Human Resource Management System.",
+    "detailed_answer": "The internal Human Resource Management System. This term is commonly used in Human Resources SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "MK-HRMS",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-031",
+    "question": "What does 'PAL' mean in the context of Human Resources?",
+    "short_answer": "Paid Annual Leave.",
+    "detailed_answer": "Paid Annual Leave. This term is commonly used in Human Resources SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "PAL",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-032",
+    "question": "What does 'PPO' mean in the context of Human Resources?",
+    "short_answer": "Pre-Placement Offer, a full-time offer extended to a high-performing intern.",
+    "detailed_answer": "Pre-Placement Offer, a full-time offer extended to a high-performing intern. This term is commonly used in Human Resources SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "PPO",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-033",
+    "question": "What does 'HRBP' mean in the context of Human Resources?",
+    "short_answer": "HR Business Partner, aligned to specific departments for people matters.",
+    "detailed_answer": "HR Business Partner, aligned to specific departments for people matters. This term is commonly used in Human Resources SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "HRBP",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-034",
+    "question": "What does 'F&F' mean in the context of Human Resources?",
+    "short_answer": "Full and Final settlement processed at employee exit.",
+    "detailed_answer": "Full and Final settlement processed at employee exit. This term is commonly used in Human Resources SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "F&F",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-HR-035",
+    "question": "Can an employee from a different department ask a Human Resources question?",
+    "short_answer": "Yes. Human Resources knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Human Resources question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Human Resources",
+      "HR"
+    ],
+    "related_documents": [],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  }
+]

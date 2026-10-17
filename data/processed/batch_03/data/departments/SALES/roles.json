@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Sales Intern",
+    "level": 1,
+    "department": "Sales",
+    "department_code": "SALES",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Sales Development Representative",
+    "level": 2,
+    "department": "Sales",
+    "department_code": "SALES",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Account Executive",
+    "level": 3,
+    "department": "Sales",
+    "department_code": "SALES",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Account Executive",
+    "level": 4,
+    "department": "Sales",
+    "department_code": "SALES",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Sales Team Lead",
+    "level": 5,
+    "department": "Sales",
+    "department_code": "SALES",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Sales Manager",
+    "level": 6,
+    "department": "Sales",
+    "department_code": "SALES",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "Sales Director",
+    "level": 7,
+    "department": "Sales",
+    "department_code": "SALES",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

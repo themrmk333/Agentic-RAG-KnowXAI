@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-09-06T07:45:45.477257+00:00",
+  "chunks_directory": "data\\chunks_repaired",
+  "total_chunks": 21296,
+  "total_words": 6881357,
+  "total_characters": 51346431,
+  "estimated_tokens": 8945303,
+  "average_tokens_per_chunk": 420.05,
+  "median_tokens_per_chunk": 282.0,
+  "min_tokens": 30,
+  "max_tokens": 3401,
+  "error_count": 0,
+  "warning_count": 0,
+  "quality_score": 100,
+  "final_status": "PASS",
+  "duplicate_chunks": 7705,
+  "duplicate_groups": 6230,
+  "cross_batch_duplicates": 7685,
+  "source_coverage_percent": 100.0,
+  "size_distribution": {
+    "NORMAL": 14676,
+    "SMALL": 6597,
+    "VERY_SMALL": 20,
+    "VERY_LARGE": 3
+  },
+  "integrity": {
+    "character_count_mismatches": 0,
+    "word_count_mismatches": 0,
+    "token_count_mismatches": 0,
+    "hash_mismatches": 0,
+    "index_errors": 0,
+    "missing_sources": 0,
+    "duplicate_ids": 0,
+    "json_errors": 0
+  }
+}

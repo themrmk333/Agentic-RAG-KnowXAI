@@ -1,0 +1,894 @@
+[
+  {
+    "faq_id": "FAQ-SEC-001",
+    "question": "How do I complete: Phishing Email Reporting Procedure?",
+    "short_answer": "Follow the 7-step Phishing Email Reporting Procedure procedure in MK-SecGuard, starting with the SOP-SEC-001 SOP.",
+    "detailed_answer": "The Phishing Email Reporting Procedure process (SOP-SEC-001) is owned by the Cybersecurity / Information Security department. The employee initiates the request in MK-SecGuard and Security Analyst is responsible for approval/sign-off. Confirmed phishing campaigns trigger a company-wide alert within 1 hour.",
+    "step_by_step": [
+      "the employee confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the employee performs the standard first-line check: not clicking any links or replying, and using the 'Report Phishing' button in the email client.",
+      "If the issue persists, the employee applies the documented workaround for this issue type.",
+      "the employee checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the employee raises a ticket in MK-SecGuard categorised under 'Phishing Report', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the employee confirms the fix works; the ticket is closed in MK-SecGuard with the root cause logged. Confirmed phishing campaigns trigger a company-wide alert within 1 hour."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Phishing",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Phishing Email Reporting Procedure",
+      "Phishing",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-001"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-002",
+    "question": "How do I complete: Multi-Factor Authentication (MFA) Enrollment?",
+    "short_answer": "Follow the 7-step Multi-Factor Authentication (MFA) Enrollment procedure in MK-SecGuard, starting with the SOP-SEC-002 SOP.",
+    "detailed_answer": "The Multi-Factor Authentication (MFA) Enrollment process (SOP-SEC-002) is owned by the Cybersecurity / Information Security department. The employee initiates the request in MK-SecGuard and Security Analyst is responsible for approval/sign-off. Accounts without MFA enabled after the grace period are automatically locked.",
+    "step_by_step": [
+      "the employee confirms eligibility and prerequisites: installing the MK-Authenticator app and scanning the enrollment QR code.",
+      "the employee raises a request in MK-SecGuard specifying exactly which MFA Enrollment is required.",
+      "The Security Analyst reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the MFA Enrollment in the relevant system.",
+      "the employee is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-SecGuard and corrected before sign-off.",
+      "MK-SecGuard marks the request 'Complete' and the configuration is logged for audit and future reference. Accounts without MFA enabled after the grace period are automatically locked."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Access Security",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Enrollment",
+      "Access Security",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-002"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SEC-003",
+    "question": "How do I complete: Security Incident Response Procedure?",
+    "short_answer": "Follow the 7-step Security Incident Response Procedure procedure in MK-SecGuard, starting with the SOP-SEC-003 SOP.",
+    "detailed_answer": "The Security Incident Response Procedure process (SOP-SEC-003) is owned by the Cybersecurity / Information Security department. The security analyst initiates the request in MK-SecGuard and Incident Response Lead is responsible for approval/sign-off. Confirmed data-related incidents are reported to Legal within 4 hours.",
+    "step_by_step": [
+      "the Security Analyst confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Security Analyst performs the standard first-line check: containing the affected system by isolating it from the network.",
+      "If the issue persists, the Security Analyst applies the documented workaround for this issue type.",
+      "the Security Analyst checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Security Analyst raises a ticket in MK-SecGuard categorised under 'Security Incident', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Security Analyst confirms the fix works; the ticket is closed in MK-SecGuard with the root cause logged. Confirmed data-related incidents are reported to Legal within 4 hours."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Incident Response",
+    "role_applicability": [
+      "Security Analyst",
+      "Incident Response Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Security Incident Response Procedure",
+      "Incident Response",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-003"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-004",
+    "question": "How do I complete: Access Control Review?",
+    "short_answer": "Follow the 7-step Access Control Review procedure in MK-SecGuard, starting with the SOP-SEC-004 SOP.",
+    "detailed_answer": "The Access Control Review process (SOP-SEC-004) is owned by the Cybersecurity / Information Security department. The security analyst initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Access not re-certified within the review window is automatically revoked.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-SecGuard.",
+      "the Security Analyst gathers the required data and documents, including a full export of current access grants per system.",
+      "The review team examines the Access Review against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Security Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-SecGuard with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Access not re-certified within the review window is automatically revoked."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Access Control",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Access Control Review",
+      "Access Control",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-004"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SEC-005",
+    "question": "How do I complete: Vulnerability Scanning and Remediation?",
+    "short_answer": "Follow the 7-step Vulnerability Scanning and Remediation procedure in MK-SecGuard, starting with the SOP-SEC-005 SOP.",
+    "detailed_answer": "The Vulnerability Scanning and Remediation process (SOP-SEC-005) is owned by the Cybersecurity / Information Security department. The security engineer initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Critical vulnerabilities must be remediated within 7 days per policy.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-SecGuard.",
+      "the Security Engineer gathers the required data and documents, including scanning production and staging environments on the scheduled cadence.",
+      "The review team examines the Vulnerability Scan Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Security Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-SecGuard with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Critical vulnerabilities must be remediated within 7 days per policy."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Vulnerability Management",
+    "role_applicability": [
+      "Security Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Vulnerability Scanning and Remediation",
+      "Vulnerability Management",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-005"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQ-SEC-006",
+    "question": "How do I complete: Data Loss Prevention (DLP) Alert Handling?",
+    "short_answer": "Follow the 7-step Data Loss Prevention (DLP) Alert Handling procedure in MK-SecGuard, starting with the SOP-SEC-006 SOP.",
+    "detailed_answer": "The Data Loss Prevention (DLP) Alert Handling process (SOP-SEC-006) is owned by the Cybersecurity / Information Security department. The security analyst initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Confirmed sensitive data exfiltration is escalated to Legal and HR immediately.",
+    "step_by_step": [
+      "the Security Analyst confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Security Analyst performs the standard first-line check: reviewing the flagged content and confirming whether it is a genuine policy violation.",
+      "If the issue persists, the Security Analyst applies the documented workaround for this issue type.",
+      "the Security Analyst checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Security Analyst raises a ticket in MK-SecGuard categorised under 'DLP Alert', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Security Analyst confirms the fix works; the ticket is closed in MK-SecGuard with the root cause logged. Confirmed sensitive data exfiltration is escalated to Legal and HR immediately."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Data Protection",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Loss Prevention (DLP) Alert Handling",
+      "Data Protection",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-006"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-007",
+    "question": "How do I complete: New Employee Security Onboarding?",
+    "short_answer": "Follow the 7-step New Employee Security Onboarding procedure in MK-SecGuard, starting with the SOP-SEC-007 SOP.",
+    "detailed_answer": "The New Employee Security Onboarding process (SOP-SEC-007) is owned by the Cybersecurity / Information Security department. The security analyst initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Employees cannot access production systems until security onboarding is complete.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-SecGuard owner ahead of the employee's start or end date.",
+      "the Security Analyst prepares the required Security Onboarding, including MFA enrollment, security awareness training assignment, and acceptable use acknowledgment.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Security Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Security Manager for same-day resolution.",
+      "MK-SecGuard is updated to reflect the completed status and the record is archived. Employees cannot access production systems until security onboarding is complete."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Employee Security Onboarding",
+      "Onboarding",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-007"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SEC-008",
+    "question": "How do I complete: Security Awareness Training Assignment?",
+    "short_answer": "Follow the 7-step Security Awareness Training Assignment procedure in MK-SecGuard, starting with the SOP-SEC-008 SOP.",
+    "detailed_answer": "The Security Awareness Training Assignment process (SOP-SEC-008) is owned by the Cybersecurity / Information Security department. The security analyst initiates the request in MK-SecGuard and HR Business Partner is responsible for approval/sign-off. Employees who miss the deadline twice are flagged to their manager.",
+    "step_by_step": [
+      "the Security Analyst confirms eligibility and prerequisites: assigning the mandatory annual module in MK-SecGuard Learning.",
+      "the Security Analyst raises a request in MK-SecGuard specifying exactly which Training Assignment is required.",
+      "The HR Business Partner reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Training Assignment in the relevant system.",
+      "the Security Analyst is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-SecGuard and corrected before sign-off.",
+      "MK-SecGuard marks the request 'Complete' and the configuration is logged for audit and future reference. Employees who miss the deadline twice are flagged to their manager."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Training",
+    "role_applicability": [
+      "Security Analyst",
+      "HR Business Partner"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Security Awareness Training Assignment",
+      "Training",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-008"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SEC-009",
+    "question": "How do I complete: Third-Party Vendor Security Assessment?",
+    "short_answer": "Follow the 7-step Third-Party Vendor Security Assessment procedure in MK-SecGuard, starting with the SOP-SEC-009 SOP.",
+    "detailed_answer": "The Third-Party Vendor Security Assessment process (SOP-SEC-009) is owned by the Cybersecurity / Information Security department. The security analyst initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Vendors handling customer data must complete this before contract signature.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-SecGuard.",
+      "the Security Analyst gathers the required data and documents, including a completed security questionnaire and any recent audit/certification evidence.",
+      "The review team examines the Vendor Security Assessment against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Security Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-SecGuard with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Vendors handling customer data must complete this before contract signature."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Vendor Risk",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Third-Party Vendor Security Assessment",
+      "Vendor Risk",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-009"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-010",
+    "question": "How do I complete: Firewall / Network Access Change Request?",
+    "short_answer": "Follow the 7-step Firewall / Network Access Change Request procedure in MK-SecGuard, starting with the SOP-SEC-010 SOP.",
+    "detailed_answer": "The Firewall / Network Access Change Request process (SOP-SEC-010) is owned by the Cybersecurity / Information Security department. The requester initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Overly broad rules (any-any) are rejected by default.",
+    "step_by_step": [
+      "the requester logs into MK-SecGuard and navigates to the 'Firewall Change Request' section.",
+      "the requester selects 'New Firewall Change Request' and enters the required details, including source, destination, port, and business justification.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Firewall Change Request; MK-SecGuard automatically routes it to the Security Manager for review.",
+      "The Security Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-SecGuard updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Firewall Change Request is processed and the record is retained in MK-SecGuard for audit purposes. Overly broad rules (any-any) are rejected by default."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Network Security",
+    "role_applicability": [
+      "requester",
+      "Security Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Firewall / Network Access Change Request",
+      "Network Security",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-010"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-011",
+    "question": "How do I complete: Endpoint Security Alert Triage?",
+    "short_answer": "Follow the 7-step Endpoint Security Alert Triage procedure in MK-SecGuard, starting with the SOP-SEC-011 SOP.",
+    "detailed_answer": "The Endpoint Security Alert Triage process (SOP-SEC-011) is owned by the Cybersecurity / Information Security department. The security analyst initiates the request in MK-SecGuard and Incident Response Lead is responsible for approval/sign-off. Confirmed malware triggers immediate device isolation.",
+    "step_by_step": [
+      "the Security Analyst confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Security Analyst performs the standard first-line check: checking MK-SecGuard EDR console for the alert classification.",
+      "If the issue persists, the Security Analyst applies the documented workaround for this issue type.",
+      "the Security Analyst checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Security Analyst raises a ticket in MK-SecGuard categorised under 'Endpoint Alert', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Security Analyst confirms the fix works; the ticket is closed in MK-SecGuard with the root cause logged. Confirmed malware triggers immediate device isolation."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Endpoint Security",
+    "role_applicability": [
+      "Security Analyst",
+      "Incident Response Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Endpoint Security Alert Triage",
+      "Endpoint Security",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-011"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SEC-012",
+    "question": "How do I complete: Data Classification and Labeling?",
+    "short_answer": "Follow the 7-step Data Classification and Labeling procedure in MK-SecGuard, starting with the SOP-SEC-012 SOP.",
+    "detailed_answer": "The Data Classification and Labeling process (SOP-SEC-012) is owned by the Cybersecurity / Information Security department. The data owner initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Mislabeled Restricted data found during audit is reported as a policy violation.",
+    "step_by_step": [
+      "the data owner confirms eligibility and prerequisites: applying the correct label (Public, Internal, Confidential, Restricted).",
+      "the data owner raises a request in MK-SecGuard specifying exactly which Data Classification is required.",
+      "The Security Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Data Classification in the relevant system.",
+      "the data owner is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-SecGuard and corrected before sign-off.",
+      "MK-SecGuard marks the request 'Complete' and the configuration is logged for audit and future reference. Mislabeled Restricted data found during audit is reported as a policy violation."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Data Protection",
+    "role_applicability": [
+      "data owner",
+      "Security Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Classification and Labeling",
+      "Data Protection",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-012"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-013",
+    "question": "How do I complete: Penetration Test Coordination?",
+    "short_answer": "Follow the 7-step Penetration Test Coordination procedure in MK-SecGuard, starting with the SOP-SEC-013 SOP.",
+    "detailed_answer": "The Penetration Test Coordination process (SOP-SEC-013) is owned by the Cybersecurity / Information Security department. The security engineer initiates the request in MK-SecGuard and CISO is responsible for approval/sign-off. Findings rated Critical are remediated before the test report is closed.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-SecGuard.",
+      "the Security Engineer gathers the required data and documents, including scope, rules of engagement, and testing window agreed with the approved vendor.",
+      "The review team examines the Penetration Test against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The CISO discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-SecGuard with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Findings rated Critical are remediated before the test report is closed."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Security Testing",
+    "role_applicability": [
+      "Security Engineer",
+      "CISO"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Penetration Test Coordination",
+      "Security Testing",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-013"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-014",
+    "question": "How do I complete: Privileged Access Management (PAM) Request?",
+    "short_answer": "Follow the 7-step Privileged Access Management (PAM) Request procedure in MK-SecGuard, starting with the SOP-SEC-014 SOP.",
+    "detailed_answer": "The Privileged Access Management (PAM) Request process (SOP-SEC-014) is owned by the Cybersecurity / Information Security department. The requester initiates the request in MK-SecGuard and Security Manager is responsible for approval/sign-off. Privileged sessions are recorded and reviewed monthly.",
+    "step_by_step": [
+      "the requester logs into MK-SecGuard and navigates to the 'Privileged Access Request' section.",
+      "the requester selects 'New Privileged Access Request' and enters the required details, including the specific system, duration, and business justification for elevated access.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Privileged Access Request; MK-SecGuard automatically routes it to the Security Manager for review.",
+      "The Security Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-SecGuard updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Privileged Access Request is processed and the record is retained in MK-SecGuard for audit purposes. Privileged sessions are recorded and reviewed monthly."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Access Control",
+    "role_applicability": [
+      "requester",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Privileged Access Management (PAM) Request",
+      "Access Control",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-014"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-SEC-015",
+    "question": "How do I complete: Security Policy Exception Request?",
+    "short_answer": "Follow the 7-step Security Policy Exception Request procedure in MK-SecGuard, starting with the SOP-SEC-015 SOP.",
+    "detailed_answer": "The Security Policy Exception Request process (SOP-SEC-015) is owned by the Cybersecurity / Information Security department. The requester initiates the request in MK-SecGuard and CISO is responsible for approval/sign-off. Exceptions are time-bound and automatically expire after the agreed period.",
+    "step_by_step": [
+      "the requester logs into MK-SecGuard and navigates to the 'Policy Exception Request' section.",
+      "the requester selects 'New Policy Exception Request' and enters the required details, including the specific policy clause, business reason, and compensating controls.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Policy Exception Request; MK-SecGuard automatically routes it to the CISO for review.",
+      "The CISO reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-SecGuard updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Policy Exception Request is processed and the record is retained in MK-SecGuard for audit purposes. Exceptions are time-bound and automatically expire after the agreed period."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Governance",
+    "role_applicability": [
+      "requester",
+      "CISO"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Security Policy Exception Request",
+      "Governance",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-015"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-016",
+    "question": "How do I complete: Data Breach Notification Procedure?",
+    "short_answer": "Follow the 7-step Data Breach Notification Procedure procedure in MK-SecGuard, starting with the SOP-SEC-016 SOP.",
+    "detailed_answer": "The Data Breach Notification Procedure process (SOP-SEC-016) is owned by the Cybersecurity / Information Security department. The incident response lead initiates the request in MK-SecGuard and CISO is responsible for approval/sign-off. Regulatory notification timelines are tracked jointly with Legal & Compliance.",
+    "step_by_step": [
+      "the Incident Response Lead confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Incident Response Lead performs the standard first-line check: confirming scope of affected data and impacted individuals.",
+      "If the issue persists, the Incident Response Lead applies the documented workaround for this issue type.",
+      "the Incident Response Lead checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Incident Response Lead raises a ticket in MK-SecGuard categorised under 'Breach Notification', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Incident Response Lead confirms the fix works; the ticket is closed in MK-SecGuard with the root cause logged. Regulatory notification timelines are tracked jointly with Legal & Compliance."
+    ],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Incident Response",
+    "role_applicability": [
+      "Incident Response Lead",
+      "CISO"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Breach Notification Procedure",
+      "Incident Response",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-016"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-017",
+    "question": "What is the Access Control Policy?",
+    "short_answer": "Access is granted on a least-privilege, need-to-know basis and reviewed quarterly.",
+    "detailed_answer": "Access is granted on a least-privilege, need-to-know basis and reviewed quarterly. Privileged/administrative access requires additional CISO or Security Manager approval. Access for departing employees is revoked within 4 hours of the last working day.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Access Control",
+    "role_applicability": [
+      "Security",
+      "Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Access Control Policy",
+      "Access Control",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-001"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQ-SEC-018",
+    "question": "What is the Multi-Factor Authentication (MFA) Policy?",
+    "short_answer": "MFA is mandatory for all corporate accounts including email, VPN, and MK-CloudOps.",
+    "detailed_answer": "MFA is mandatory for all corporate accounts including email, VPN, and MK-CloudOps. New employees must enroll in MFA within the first 24 hours of account creation. Accounts without MFA after the 48-hour grace period are automatically suspended.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Access Security",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Policy",
+      "Access Security",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-002"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-019",
+    "question": "What is the Incident Response Policy?",
+    "short_answer": "Security incidents are classified as Sev-1 (critical), Sev-2 (major), or Sev-3 (minor) on detection.",
+    "detailed_answer": "Security incidents are classified as Sev-1 (critical), Sev-2 (major), or Sev-3 (minor) on detection. Sev-1 incidents require containment action within 1 hour of confirmation. All confirmed incidents involving customer data are reported to Legal within 4 hours. A post-incident review is completed within 5 business days of resolution.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Incident Response",
+    "role_applicability": [
+      "Security"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Incident Response Policy",
+      "Incident Response",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-003"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQ-SEC-020",
+    "question": "What is the Phishing and Email Security Policy?",
+    "short_answer": "All employees complete mandatory phishing awareness training annually.",
+    "detailed_answer": "All employees complete mandatory phishing awareness training annually. Suspicious emails must be reported via the 'Report Phishing' button, not forwarded manually. Repeated simulated-phishing failures (3+) result in mandatory one-on-one training with Security.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Phishing",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Phishing and Email Security Policy",
+      "Phishing",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-004"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-021",
+    "question": "What is the Data Protection Policy?",
+    "short_answer": "Data is classified as Public, Internal, Confidential, or Restricted, and handled accordingly.",
+    "detailed_answer": "Data is classified as Public, Internal, Confidential, or Restricted, and handled accordingly. Restricted data may not be transferred outside approved company systems. Any suspected data exposure must be reported to Security immediately, regardless of scale.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Data Protection",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Protection Policy",
+      "Data Protection",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-005"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQ-SEC-022",
+    "question": "Who do I contact in the Cybersecurity / Information Security department for help?",
+    "short_answer": "Reach out to: Rajesh Chowdhury (CISO, rajesh.chowdhury@mkinfinite-ai.com); Meera Desai (Security Manager, meera.desai@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Cybersecurity / Information Security, use MK-SecGuard to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Rajesh Chowdhury (CISO, rajesh.chowdhury@mkinfinite-ai.com); Meera Desai (Security Manager, meera.desai@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Cybersecurity / Information Security",
+      "contact",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-023",
+    "question": "What system does the Cybersecurity / Information Security department use?",
+    "short_answer": "Cybersecurity / Information Security primarily uses MK-SecGuard for its workflows.",
+    "detailed_answer": "MK-SecGuard is the system of record for Cybersecurity / Information Security. All requests, approvals, and records for this department's processes should go through MK-SecGuard rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-SecGuard",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-024",
+    "question": "What are the key performance indicators (KPIs) for the Cybersecurity / Information Security department?",
+    "short_answer": "Mean time to detect (MTTD) security incidents (target: under 15 minutes)",
+    "detailed_answer": "Mean time to detect (MTTD) security incidents (target: under 15 minutes) Vulnerability remediation SLA compliance (target: above 90%) MFA enrollment rate (target: 100% of active accounts) Phishing simulation click rate (target: under 5%)",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "KPI",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-025",
+    "question": "What is the escalation path within the Cybersecurity / Information Security department?",
+    "short_answer": "Escalate in this order: Security Analyst -> Incident Response Lead -> Security Manager -> CISO.",
+    "detailed_answer": "If a request or issue with Cybersecurity / Information Security is not addressed within the expected timeframe, escalate step by step through: Security Analyst -> Incident Response Lead -> Security Manager -> CISO. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-026",
+    "question": "What are common mistakes employees make when working with Cybersecurity / Information Security?",
+    "short_answer": "Forwarding a suspicious email instead of using the Report Phishing button, which can spread the payload.",
+    "detailed_answer": "Forwarding a suspicious email instead of using the Report Phishing button, which can spread the payload. Requesting broad 'any-any' firewall rules instead of scoped access. Delaying incident reporting while attempting to self-diagnose a suspected compromise.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "mistakes",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-027",
+    "question": "What does 'MK-SecGuard' mean in the context of Cybersecurity / Information Security?",
+    "short_answer": "The internal security operations, SOC, and vulnerability management platform.",
+    "detailed_answer": "The internal security operations, SOC, and vulnerability management platform. This term is commonly used in Cybersecurity / Information Security SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-SecGuard",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-028",
+    "question": "What does 'MFA' mean in the context of Cybersecurity / Information Security?",
+    "short_answer": "Multi-Factor Authentication, requiring a second verification factor at login.",
+    "detailed_answer": "Multi-Factor Authentication, requiring a second verification factor at login. This term is commonly used in Cybersecurity / Information Security SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MFA",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-029",
+    "question": "What does 'DLP' mean in the context of Cybersecurity / Information Security?",
+    "short_answer": "Data Loss Prevention, controls that detect and block unauthorized data transfer.",
+    "detailed_answer": "Data Loss Prevention, controls that detect and block unauthorized data transfer. This term is commonly used in Cybersecurity / Information Security SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "DLP",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-030",
+    "question": "What does 'PAM' mean in the context of Cybersecurity / Information Security?",
+    "short_answer": "Privileged Access Management, controls for elevated/administrative accounts.",
+    "detailed_answer": "Privileged Access Management, controls for elevated/administrative accounts. This term is commonly used in Cybersecurity / Information Security SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "PAM",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-031",
+    "question": "What does 'EDR' mean in the context of Cybersecurity / Information Security?",
+    "short_answer": "Endpoint Detection and Response, software that monitors devices for threats.",
+    "detailed_answer": "Endpoint Detection and Response, software that monitors devices for threats. This term is commonly used in Cybersecurity / Information Security SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "EDR",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-SEC-032",
+    "question": "Can an employee from a different department ask a Cybersecurity / Information Security question?",
+    "short_answer": "Yes. Cybersecurity / Information Security knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Cybersecurity / Information Security question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Cybersecurity / Information Security",
+      "SEC"
+    ],
+    "related_documents": [],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  }
+]

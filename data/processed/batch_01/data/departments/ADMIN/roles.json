@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Admin Intern",
+    "level": 1,
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Facilities Executive",
+    "level": 2,
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Facilities Coordinator",
+    "level": 3,
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Office Manager",
+    "level": 4,
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Admin Team Lead",
+    "level": 5,
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Facilities Manager",
+    "level": 6,
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "Head of Administration",
+    "level": 7,
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

@@ -1,0 +1,809 @@
+[
+  {
+    "faq_id": "FAQADV-LEGAL-001",
+    "question": "Contract Review Request Procedure: What happens if Senior Legal Counsel is unavailable to approve a contract review request?",
+    "short_answer": "Route it to the Senior Legal Counsel's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the Senior Legal Counsel i",
+    "detailed_answer": "Route it to the Senior Legal Counsel's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the Senior Legal Counsel is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Senior Legal Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract Review Request Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-001-EDGE-A"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-002",
+    "question": "Contract Review Request Procedure: Can a contract review request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Senior Legal Counsel directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVaul",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Senior Legal Counsel directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Senior Legal Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract Review Request Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-001-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-003",
+    "question": "Contract Review Request Procedure: What do I do if MK-LegalVault is down and I need to submit a contract review request?",
+    "short_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the Senior Legal Counsel directly with the request details; once MK-LegalVault i",
+    "detailed_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the Senior Legal Counsel directly with the request details; once MK-LegalVault is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Senior Legal Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract Review Request Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-001-EDGE-C"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-004",
+    "question": "Contract Review Request Procedure: What happens if my contract review request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Senior Legal Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract Review Request Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-001-EDGE-D"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-005",
+    "question": "Contract Review Request Procedure: What happens if my contract review request submission is missing required documentation?",
+    "short_answer": "The Senior Legal Counsel returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days t",
+    "detailed_answer": "The Senior Legal Counsel returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "Senior Legal Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Contract Review Request Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-001-EDGE-E"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-006",
+    "question": "NDA Execution Procedure: What happens if Legal Manager is unavailable to approve a non-disclosure agreement?",
+    "short_answer": "Route it to the Legal Manager's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the Legal Manager is notified on ",
+    "detailed_answer": "Route it to the Legal Manager's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the Legal Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "NDA Execution Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-002-EDGE-A"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-007",
+    "question": "NDA Execution Procedure: Can a non-disclosure agreement be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Legal Manager directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault withi",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Legal Manager directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "NDA Execution Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-002-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-008",
+    "question": "NDA Execution Procedure: What do I do if MK-LegalVault is down and I need to submit a non-disclosure agreement?",
+    "short_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the Legal Manager directly with the request details; once MK-LegalVault is back,",
+    "detailed_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the Legal Manager directly with the request details; once MK-LegalVault is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "NDA Execution Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-002-EDGE-C"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-009",
+    "question": "NDA Execution Procedure: What happens if my non-disclosure agreement request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "NDA Execution Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-002-EDGE-D"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-010",
+    "question": "NDA Execution Procedure: What happens if my non-disclosure agreement submission is missing required documentation?",
+    "short_answer": "The Legal Manager returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corre",
+    "detailed_answer": "The Legal Manager returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "NDA Execution Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-002-EDGE-E"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-011",
+    "question": "Vendor Contract Negotiation Support: What happens if Legal Manager is unavailable to approve a vendor contract?",
+    "short_answer": "Route it to the Legal Manager's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the Legal Manager is notified on ",
+    "detailed_answer": "Route it to the Legal Manager's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the Legal Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Contracts Specialist",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Negotiation Support",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-003-EDGE-A"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-012",
+    "question": "Vendor Contract Negotiation Support: Can a vendor contract be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Legal Manager directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault withi",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Legal Manager directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Contracts Specialist",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Negotiation Support",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-003-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-013",
+    "question": "Vendor Contract Negotiation Support: What do I do if MK-LegalVault is down and I need to submit a vendor contract?",
+    "short_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the Legal Manager directly with the request details; once MK-LegalVault is back,",
+    "detailed_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the Legal Manager directly with the request details; once MK-LegalVault is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Contracts Specialist",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Negotiation Support",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-003-EDGE-C"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-014",
+    "question": "Vendor Contract Negotiation Support: What happens if my vendor contract request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Contracts Specialist",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Negotiation Support",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-003-EDGE-D"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-015",
+    "question": "Vendor Contract Negotiation Support: What happens if my vendor contract submission is missing required documentation?",
+    "short_answer": "The Legal Manager returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corre",
+    "detailed_answer": "The Legal Manager returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Contracts Specialist",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Negotiation Support",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-003-EDGE-E"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-016",
+    "question": "Regulatory Compliance Monitoring Procedure: What happens if General Counsel is unavailable to approve a compliance monitoring report?",
+    "short_answer": "Route it to the General Counsel's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the General Counsel is notified",
+    "detailed_answer": "Route it to the General Counsel's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the General Counsel is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regulatory Compliance Monitoring Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-004-EDGE-A"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-017",
+    "question": "Regulatory Compliance Monitoring Procedure: Can a compliance monitoring report be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the General Counsel directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault wit",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the General Counsel directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regulatory Compliance Monitoring Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-004-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-018",
+    "question": "Regulatory Compliance Monitoring Procedure: What do I do if MK-LegalVault is down and I need to submit a compliance monitoring report?",
+    "short_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the General Counsel directly with the request details; once MK-LegalVault is bac",
+    "detailed_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the General Counsel directly with the request details; once MK-LegalVault is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regulatory Compliance Monitoring Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-004-EDGE-C"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-019",
+    "question": "Regulatory Compliance Monitoring Procedure: What happens if my compliance monitoring report request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regulatory Compliance Monitoring Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-004-EDGE-D"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-020",
+    "question": "Regulatory Compliance Monitoring Procedure: What happens if my compliance monitoring report submission is missing required documentation?",
+    "short_answer": "The General Counsel returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to cor",
+    "detailed_answer": "The General Counsel returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regulatory Compliance Monitoring Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-004-EDGE-E"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-021",
+    "question": "Intellectual Property Filing Procedure: What happens if General Counsel is unavailable to approve a ip filing request?",
+    "short_answer": "Route it to the General Counsel's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the General Counsel is notified",
+    "detailed_answer": "Route it to the General Counsel's delegate (typically the next role up the escalation chain) via MK-LegalVault, tagged 'Delegate Approval Required'; the General Counsel is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Intellectual Property Filing Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-005-EDGE-A"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-022",
+    "question": "Intellectual Property Filing Procedure: Can a ip filing request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the General Counsel directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault wit",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the General Counsel directly, proceed with the minimum necessary action, then file the formal request in MK-LegalVault within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Intellectual Property Filing Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-005-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-023",
+    "question": "Intellectual Property Filing Procedure: What do I do if MK-LegalVault is down and I need to submit a ip filing request?",
+    "short_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the General Counsel directly with the request details; once MK-LegalVault is bac",
+    "detailed_answer": "Non-urgent requests should wait for MK-LegalVault to be restored. For genuinely urgent cases, email the General Counsel directly with the request details; once MK-LegalVault is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Intellectual Property Filing Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-005-EDGE-C"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-024",
+    "question": "Intellectual Property Filing Procedure: What happens if my ip filing request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-LegalVault — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Intellectual Property Filing Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-005-EDGE-D"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-025",
+    "question": "Intellectual Property Filing Procedure: What happens if my ip filing request submission is missing required documentation?",
+    "short_answer": "The General Counsel returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to cor",
+    "detailed_answer": "The General Counsel returns the request in MK-LegalVault with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "requester",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Intellectual Property Filing Procedure",
+      "what-if",
+      "edge case",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-005-EDGE-E"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-026",
+    "question": "If I find an old reference to the Contract Approval Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-LEGAL-001, is always authoritative going forward. If an older cached or printed copy of the Contract Approval Policy disagrees with it, treat the current d",
+    "detailed_answer": "The current version, POL-LEGAL-001, is always authoritative going forward. If an older cached or printed copy of the Contract Approval Policy disagrees with it, treat the current document as correct and check the POL-LEGAL-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Contract Approval Policy",
+      "version",
+      "policy interpretation",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "POL-LEGAL-001",
+      "POL-LEGAL-001-HISTORY"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-027",
+    "question": "If I find an old reference to the Data Privacy Compliance Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-LEGAL-002, is always authoritative going forward. If an older cached or printed copy of the Data Privacy Compliance Policy disagrees with it, treat the cur",
+    "detailed_answer": "The current version, POL-LEGAL-002, is always authoritative going forward. If an older cached or printed copy of the Data Privacy Compliance Policy disagrees with it, treat the current document as correct and check the POL-LEGAL-002-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Legal",
+      "Data Owners"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Privacy Compliance Policy",
+      "version",
+      "policy interpretation",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "POL-LEGAL-002",
+      "POL-LEGAL-002-HISTORY"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-028",
+    "question": "If I find an old reference to the Whistleblower Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-LEGAL-003, is always authoritative going forward. If an older cached or printed copy of the Whistleblower Policy disagrees with it, treat the current docum",
+    "detailed_answer": "The current version, POL-LEGAL-003, is always authoritative going forward. If an older cached or printed copy of the Whistleblower Policy disagrees with it, treat the current document as correct and check the POL-LEGAL-003-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Whistleblower Policy",
+      "version",
+      "policy interpretation",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "POL-LEGAL-003",
+      "POL-LEGAL-003-HISTORY"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-029",
+    "question": "What's the difference between the standard Contract Review Request Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-LEGAL-001) goes through Senior Legal Counsel via MK-LegalVault in the normal order. The expedited path (SOP-LEGAL-001-EDGE-B) is only for genuine emergencies",
+    "detailed_answer": "The standard path (SOP-LEGAL-001) goes through Senior Legal Counsel via MK-LegalVault in the normal order. The expedited path (SOP-LEGAL-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Comparison",
+    "role_applicability": [
+      "requester"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Contract Review Request Procedure",
+      "comparison",
+      "emergency",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-001",
+      "SOP-LEGAL-001-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-030",
+    "question": "What's the difference between the standard NDA Execution Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-LEGAL-002) goes through Legal Manager via MK-LegalVault in the normal order. The expedited path (SOP-LEGAL-002-EDGE-B) is only for genuine emergencies: it re",
+    "detailed_answer": "The standard path (SOP-LEGAL-002) goes through Legal Manager via MK-LegalVault in the normal order. The expedited path (SOP-LEGAL-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Comparison",
+    "role_applicability": [
+      "Legal Associate"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "NDA Execution Procedure",
+      "comparison",
+      "emergency",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-002",
+      "SOP-LEGAL-002-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-LEGAL-031",
+    "question": "What's the difference between the standard Vendor Contract Negotiation Support process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-LEGAL-003) goes through Legal Manager via MK-LegalVault in the normal order. The expedited path (SOP-LEGAL-003-EDGE-B) is only for genuine emergencies: it re",
+    "detailed_answer": "The standard path (SOP-LEGAL-003) goes through Legal Manager via MK-LegalVault in the normal order. The expedited path (SOP-LEGAL-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Comparison",
+    "role_applicability": [
+      "Contracts Specialist"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Contract Negotiation Support",
+      "comparison",
+      "emergency",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-003",
+      "SOP-LEGAL-003-EDGE-B"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  }
+]

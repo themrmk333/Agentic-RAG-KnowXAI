@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-09-06T07:45:38.393911+00:00",
+  "pipeline_version": "repaired_step3a",
+  "total_source_files": 5134,
+  "total_chunks": 21296,
+  "average_tokens_per_chunk": 420.05,
+  "median_tokens_per_chunk": 282.0,
+  "min_tokens_per_chunk": 30,
+  "max_tokens_per_chunk": 3401,
+  "total_errors": 0,
+  "per_batch": {
+    "batch_01": {
+      "files": 503,
+      "chunks": 1491,
+      "errors": 0
+    },
+    "batch_02": {
+      "files": 1468,
+      "chunks": 6257,
+      "errors": 0
+    },
+    "batch_03": {
+      "files": 3163,
+      "chunks": 13548,
+      "errors": 0
+    }
+  }
+}

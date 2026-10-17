@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: agentic-rag-knowxai
+    env: docker
+    plan: starter
+    healthCheckPath: /api/v1/system/ready
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false # Requires a connected PostgreSQL database
+      - key: APP_SECRET_KEY
+        generateValue: true
+      - key: PORT
+        value: 8000
+      - key: CORS_ORIGINS
+        value: '["*"]' # UPDATE THIS IN RENDER DASHBOARD FOR PRODUCTION
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: NVIDIA_API_KEY
+        sync: false
+      - key: DB_ECHO
+        value: "false"
+      - key: EMBEDDING_PROVIDER
+        value: "local"

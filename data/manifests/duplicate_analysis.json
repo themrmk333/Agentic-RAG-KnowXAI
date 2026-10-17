@@ -1,0 +1,135 @@
+{
+  "unique_chunks": 5107,
+  "duplicate_chunks": 4263,
+  "duplicate_groups": 3360,
+  "duplicate_percentage": 45.5,
+  "cross_batch_duplicate_groups": 3360,
+  "cross_batch_duplicates": 4263,
+  "cross_batch_groups_sample": [
+    {
+      "chunk_sha": "fd3e7c0019a1ce0967d6707b1178322e59912984266dfe5851747bfe7b4d8713",
+      "batches": [
+        "batch_02",
+        "batch_01",
+        "batch_03"
+      ],
+      "locations": [
+        {
+          "batch": "batch_01",
+          "relative_path": "data/communications/COMM-ANN-001.md",
+          "chunk_id": "batch_01_ef662a0c_chunk_000000"
+        },
+        {
+          "batch": "batch_02",
+          "relative_path": "data/communications/COMM-ANN-001.md",
+          "chunk_id": "batch_02_ef662a0c_chunk_000000"
+        },
+        {
+          "batch": "batch_03",
+          "relative_path": "data/communications/COMM-ANN-001.md",
+          "chunk_id": "batch_03_ef662a0c_chunk_000000"
+        }
+      ]
+    },
+    {
+      "chunk_sha": "12d1d7f489f9a04e6408ba384282e6d069d50b3fd232eb98be9ec1294c342b1b",
+      "batches": [
+        "batch_02",
+        "batch_01",
+        "batch_03"
+      ],
+      "locations": [
+        {
+          "batch": "batch_01",
+          "relative_path": "data/communications/COMM-ANN-002.md",
+          "chunk_id": "batch_01_a339b44f_chunk_000000"
+        },
+        {
+          "batch": "batch_02",
+          "relative_path": "data/communications/COMM-ANN-002.md",
+          "chunk_id": "batch_02_a339b44f_chunk_000000"
+        },
+        {
+          "batch": "batch_03",
+          "relative_path": "data/communications/COMM-ANN-002.md",
+          "chunk_id": "batch_03_a339b44f_chunk_000000"
+        }
+      ]
+    },
+    {
+      "chunk_sha": "71e3e210de030ad2a11e880893ac7d01e093a58342df8778703aa1583459d670",
+      "batches": [
+        "batch_02",
+        "batch_01",
+        "batch_03"
+      ],
+      "locations": [
+        {
+          "batch": "batch_01",
+          "relative_path": "data/communications/COMM-ANN-003.md",
+          "chunk_id": "batch_01_3f80b81f_chunk_000000"
+        },
+        {
+          "batch": "batch_02",
+          "relative_path": "data/communications/COMM-ANN-003.md",
+          "chunk_id": "batch_02_3f80b81f_chunk_000000"
+        },
+        {
+          "batch": "batch_03",
+          "relative_path": "data/communications/COMM-ANN-003.md",
+          "chunk_id": "batch_03_3f80b81f_chunk_000000"
+        }
+      ]
+    },
+    {
+      "chunk_sha": "076f150e31b5a86b3aaf15316aa3a4eb4a2a6913173b64d9b12a8af7659737a6",
+      "batches": [
+        "batch_02",
+        "batch_01",
+        "batch_03"
+      ],
+      "locations": [
+        {
+          "batch": "batch_01",
+          "relative_path": "data/communications/COMM-ANN-004.md",
+          "chunk_id": "batch_01_5f71fd6d_chunk_000000"
+        },
+        {
+          "batch": "batch_02",
+          "relative_path": "data/communications/COMM-ANN-004.md",
+          "chunk_id": "batch_02_5f71fd6d_chunk_000000"
+        },
+        {
+          "batch": "batch_03",
+          "relative_path": "data/communications/COMM-ANN-004.md",
+          "chunk_id": "batch_03_5f71fd6d_chunk_000000"
+        }
+      ]
+    },
+    {
+      "chunk_sha": "a7beadea3cf022e1d17b557f18f6fa9b16c92df01a9aa2074c98e73269f861c1",
+      "batches": [
+        "batch_02",
+        "batch_01",
+        "batch_03"
+      ],
+      "locations": [
+        {
+          "batch": "batch_01",
+          "relative_path": "data/communications/COMM-ANN-005.md",
+          "chunk_id": "batch_01_4651b794_chunk_000000"
+        },
+        {
+          "batch": "batch_02",
+          "relative_path": "data/communications/COMM-ANN-005.md",
+          "chunk_id": "batch_02_4651b794_chunk_000000"
+        },
+        {
+          "batch": "batch_03",
+          "relative_path": "data/communications/COMM-ANN-005.md",
+          "chunk_id": "batch_03_4651b794_chunk_000000"
+        }
+      ]
+    }
+  ]
+}

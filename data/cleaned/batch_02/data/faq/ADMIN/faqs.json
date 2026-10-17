@@ -1,0 +1,788 @@
+[
+  {
+    "faq_id": "FAQ-ADMIN-001",
+    "question": "How do I complete: New Employee Workspace Setup Procedure?",
+    "short_answer": "Follow the 7-step New Employee Workspace Setup Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-001 SOP.",
+    "detailed_answer": "The New Employee Workspace Setup Procedure process (SOP-ADMIN-001) is owned by the Administration / Facilities department. The facilities executive initiates the request in MK-FacilitiesDesk and Office Manager is responsible for approval/sign-off. Workspace setup is completed a day before the employee's first working day.",
+    "step_by_step": [
+      "the Facilities Executive confirms eligibility and prerequisites: desk allocation, access card, and welcome kit preparation.",
+      "the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Workspace Setup is required.",
+      "The Office Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Workspace Setup in the relevant system.",
+      "the Facilities Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Workspace setup is completed a day before the employee's first working day."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Facilities",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "New Employee Workspace Setup Procedure",
+      "Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-001"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-002",
+    "question": "How do I complete: Office Access Card Issuance Procedure?",
+    "short_answer": "Follow the 7-step Office Access Card Issuance Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-002 SOP.",
+    "detailed_answer": "The Office Access Card Issuance Procedure process (SOP-ADMIN-002) is owned by the Administration / Facilities department. The facilities executive initiates the request in MK-FacilitiesDesk and Office Manager is responsible for approval/sign-off. Lost cards are deactivated immediately upon report.",
+    "step_by_step": [
+      "the Facilities Executive confirms eligibility and prerequisites: verifying employee ID and department before issuing the card.",
+      "the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Access Card is required.",
+      "The Office Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Access Card in the relevant system.",
+      "the Facilities Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Lost cards are deactivated immediately upon report."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Facility Access",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Office Access Card Issuance Procedure",
+      "Facility Access",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-002"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-003",
+    "question": "How do I complete: Meeting Room Booking Procedure?",
+    "short_answer": "Follow the 7-step Meeting Room Booking Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-003 SOP.",
+    "detailed_answer": "The Meeting Room Booking Procedure process (SOP-ADMIN-003) is owned by the Administration / Facilities department. The employee initiates the request in MK-FacilitiesDesk and Facilities Coordinator is responsible for approval/sign-off. No-shows for booked rooms twice in a month are flagged to the employee's manager.",
+    "step_by_step": [
+      "the employee confirms eligibility and prerequisites: booking through MK-FacilitiesDesk with attendee count and duration.",
+      "the employee raises a request in MK-FacilitiesDesk specifying exactly which Meeting Room Booking is required.",
+      "The Facilities Coordinator reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Meeting Room Booking in the relevant system.",
+      "the employee is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. No-shows for booked rooms twice in a month are flagged to the employee's manager."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Facilities",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Meeting Room Booking Procedure",
+      "Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-003"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-004",
+    "question": "How do I complete: Facility Maintenance Request Procedure?",
+    "short_answer": "Follow the 7-step Facility Maintenance Request Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-004 SOP.",
+    "detailed_answer": "The Facility Maintenance Request Procedure process (SOP-ADMIN-004) is owned by the Administration / Facilities department. The employee initiates the request in MK-FacilitiesDesk and Facilities Coordinator is responsible for approval/sign-off. Safety-related issues (electrical, fire safety) are treated as same-day priority.",
+    "step_by_step": [
+      "the employee logs into MK-FacilitiesDesk and navigates to the 'Maintenance Request' section.",
+      "the employee selects 'New Maintenance Request' and enters the required details, including the issue location, description, and urgency level.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Maintenance Request; MK-FacilitiesDesk automatically routes it to the Facilities Coordinator for review.",
+      "The Facilities Coordinator reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-FacilitiesDesk updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Maintenance Request is processed and the record is retained in MK-FacilitiesDesk for audit purposes. Safety-related issues (electrical, fire safety) are treated as same-day priority."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Maintenance",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Facility Maintenance Request Procedure",
+      "Maintenance",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-004"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-005",
+    "question": "How do I complete: Office Supplies Replenishment Procedure?",
+    "short_answer": "Follow the 7-step Office Supplies Replenishment Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-005 SOP.",
+    "detailed_answer": "The Office Supplies Replenishment Procedure process (SOP-ADMIN-005) is owned by the Administration / Facilities department. The facilities executive initiates the request in MK-FacilitiesDesk and Admin Team Lead is responsible for approval/sign-off. Bulk orders above the monthly budget require Facilities Manager approval.",
+    "step_by_step": [
+      "the Facilities Executive confirms eligibility and prerequisites: stock levels checked weekly against the reorder threshold.",
+      "the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Supplies Request is required.",
+      "The Admin Team Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Supplies Request in the relevant system.",
+      "the Facilities Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Bulk orders above the monthly budget require Facilities Manager approval."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Supplies",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Office Supplies Replenishment Procedure",
+      "Supplies",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-005"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-006",
+    "question": "How do I complete: Visitor Management Procedure?",
+    "short_answer": "Follow the 7-step Visitor Management Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-006 SOP.",
+    "detailed_answer": "The Visitor Management Procedure process (SOP-ADMIN-006) is owned by the Administration / Facilities department. The receptionist initiates the request in MK-FacilitiesDesk and Facilities Coordinator is responsible for approval/sign-off. Visitors are escorted at all times in restricted areas.",
+    "step_by_step": [
+      "the receptionist confirms eligibility and prerequisites: pre-registration by the host employee and ID verification at entry.",
+      "the receptionist raises a request in MK-FacilitiesDesk specifying exactly which Visitor Pass is required.",
+      "The Facilities Coordinator reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Visitor Pass in the relevant system.",
+      "the receptionist is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Visitors are escorted at all times in restricted areas."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Visitor Management",
+    "role_applicability": [
+      "receptionist",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Visitor Management Procedure",
+      "Visitor Management",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-006"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-007",
+    "question": "How do I complete: Office Safety Drill Procedure?",
+    "short_answer": "Follow the 7-step Office Safety Drill Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-007 SOP.",
+    "detailed_answer": "The Office Safety Drill Procedure process (SOP-ADMIN-007) is owned by the Administration / Facilities department. The facilities manager initiates the request in MK-FacilitiesDesk and Head of Administration is responsible for approval/sign-off. Drills are conducted twice yearly per office location.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-FacilitiesDesk.",
+      "the Facilities Manager gathers the required data and documents, including evacuation time, headcount reconciliation, and identified gaps.",
+      "The review team examines the Safety Drill Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Head of Administration discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-FacilitiesDesk with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Drills are conducted twice yearly per office location."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Health & Safety",
+    "role_applicability": [
+      "Facilities Manager",
+      "Head of Administration"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Office Safety Drill Procedure",
+      "Health & Safety",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-007"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-008",
+    "question": "How do I complete: Business Travel Booking Procedure?",
+    "short_answer": "Follow the 7-step Business Travel Booking Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-008 SOP.",
+    "detailed_answer": "The Business Travel Booking Procedure process (SOP-ADMIN-008) is owned by the Administration / Facilities department. The employee initiates the request in MK-FacilitiesDesk and Reporting Manager is responsible for approval/sign-off. International travel requires HR notification for insurance coverage.",
+    "step_by_step": [
+      "the employee logs into MK-FacilitiesDesk and navigates to the 'Travel Booking Request' section.",
+      "the employee selects 'New Travel Booking Request' and enters the required details, including travel dates, destination, and budget category per travel policy.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Travel Booking Request; MK-FacilitiesDesk automatically routes it to the Reporting Manager for review.",
+      "The Reporting Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-FacilitiesDesk updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Travel Booking Request is processed and the record is retained in MK-FacilitiesDesk for audit purposes. International travel requires HR notification for insurance coverage."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Travel Administration",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Business Travel Booking Procedure",
+      "Travel Administration",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-008"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-009",
+    "question": "How do I complete: Courier and Mail Handling Procedure?",
+    "short_answer": "Follow the 7-step Courier and Mail Handling Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-009 SOP.",
+    "detailed_answer": "The Courier and Mail Handling Procedure process (SOP-ADMIN-009) is owned by the Administration / Facilities department. The facilities executive initiates the request in MK-FacilitiesDesk and Admin Team Lead is responsible for approval/sign-off. Confidential documents are shipped only via the approved secure courier vendor.",
+    "step_by_step": [
+      "the Facilities Executive confirms eligibility and prerequisites: recipient details and confirming contents comply with shipping policy.",
+      "the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Courier Request is required.",
+      "The Admin Team Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Courier Request in the relevant system.",
+      "the Facilities Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Confidential documents are shipped only via the approved secure courier vendor."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Mailroom",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Courier and Mail Handling Procedure",
+      "Mailroom",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-009"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-010",
+    "question": "How do I complete: Office Relocation/Seating Change Procedure?",
+    "short_answer": "Follow the 7-step Office Relocation/Seating Change Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-010 SOP.",
+    "detailed_answer": "The Office Relocation/Seating Change Procedure process (SOP-ADMIN-010) is owned by the Administration / Facilities department. The facilities coordinator initiates the request in MK-FacilitiesDesk and Office Manager is responsible for approval/sign-off. IT is notified in advance to move network/phone connections.",
+    "step_by_step": [
+      "the Facilities Coordinator confirms eligibility and prerequisites: updated floor plan and affected employee notifications.",
+      "the Facilities Coordinator raises a request in MK-FacilitiesDesk specifying exactly which Seating Change Request is required.",
+      "The Office Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Seating Change Request in the relevant system.",
+      "the Facilities Coordinator is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. IT is notified in advance to move network/phone connections."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Facilities",
+    "role_applicability": [
+      "Facilities Coordinator",
+      "Office Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Office Relocation/Seating Change Procedure",
+      "Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-010"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-011",
+    "question": "How do I complete: Vendor Access for Facility Work Procedure?",
+    "short_answer": "Follow the 7-step Vendor Access for Facility Work Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-011 SOP.",
+    "detailed_answer": "The Vendor Access for Facility Work Procedure process (SOP-ADMIN-011) is owned by the Administration / Facilities department. The facilities coordinator initiates the request in MK-FacilitiesDesk and Facilities Manager is responsible for approval/sign-off. Vendors working after hours require security desk sign-off.",
+    "step_by_step": [
+      "the Facilities Coordinator confirms eligibility and prerequisites: verifying vendor ID and scope of work before granting building access.",
+      "the Facilities Coordinator raises a request in MK-FacilitiesDesk specifying exactly which Vendor Facility Access is required.",
+      "The Facilities Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Vendor Facility Access in the relevant system.",
+      "the Facilities Coordinator is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Vendors working after hours require security desk sign-off."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Facility Access",
+    "role_applicability": [
+      "Facilities Coordinator",
+      "Facilities Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Vendor Access for Facility Work Procedure",
+      "Facility Access",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-011"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-012",
+    "question": "How do I complete: Administration Onboarding Procedure?",
+    "short_answer": "Follow the 7-step Administration Onboarding Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-012 SOP.",
+    "detailed_answer": "The Administration Onboarding Procedure process (SOP-ADMIN-012) is owned by the Administration / Facilities department. The admin team lead initiates the request in MK-FacilitiesDesk and Facilities Manager is responsible for approval/sign-off. New admin hires shadow a full week of front-desk operations.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-FacilitiesDesk owner ahead of the employee's start or end date.",
+      "the Admin Team Lead prepares the required Admin Onboarding, including MK-FacilitiesDesk access and vendor contact list handover.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Facilities Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Facilities Manager for same-day resolution.",
+      "MK-FacilitiesDesk is updated to reflect the completed status and the record is archived. New admin hires shadow a full week of front-desk operations."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Admin Team Lead",
+      "Facilities Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Administration Onboarding Procedure",
+      "Onboarding",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-012"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-013",
+    "question": "How do I complete: Emergency Evacuation Procedure?",
+    "short_answer": "Follow the 7-step Emergency Evacuation Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-013 SOP.",
+    "detailed_answer": "The Emergency Evacuation Procedure process (SOP-ADMIN-013) is owned by the Administration / Facilities department. The facilities coordinator initiates the request in MK-FacilitiesDesk and Head of Administration is responsible for approval/sign-off. Headcount is reconciled against the day's access-card log at the assembly point.",
+    "step_by_step": [
+      "the Facilities Coordinator confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Facilities Coordinator performs the standard first-line check: triggering the building alarm and directing employees to assembly points.",
+      "If the issue persists, the Facilities Coordinator applies the documented workaround for this issue type.",
+      "the Facilities Coordinator checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Facilities Coordinator raises a ticket in MK-FacilitiesDesk categorised under 'Emergency Evacuation', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Facilities Coordinator confirms the fix works; the ticket is closed in MK-FacilitiesDesk with the root cause logged. Headcount is reconciled against the day's access-card log at the assembly point."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Health & Safety",
+    "role_applicability": [
+      "Facilities Coordinator",
+      "Head of Administration"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Emergency Evacuation Procedure",
+      "Health & Safety",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-013"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-014",
+    "question": "How do I complete: Office Budget and Vendor Invoice Approval (Admin)?",
+    "short_answer": "Follow the 7-step Office Budget and Vendor Invoice Approval (Admin) procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-014 SOP.",
+    "detailed_answer": "The Office Budget and Vendor Invoice Approval (Admin) process (SOP-ADMIN-014) is owned by the Administration / Facilities department. The facilities manager initiates the request in MK-FacilitiesDesk and Finance Manager is responsible for approval/sign-off. Recurring facility vendor invoices are pre-approved up to the contracted amount.",
+    "step_by_step": [
+      "the Facilities Manager logs into MK-FacilitiesDesk and navigates to the 'Admin Invoice Approval' section.",
+      "the Facilities Manager selects 'New Admin Invoice Approval' and enters the required details, including matching the invoice to the facility service contract.",
+      "the Facilities Manager attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Facilities Manager submits the Admin Invoice Approval; MK-FacilitiesDesk automatically routes it to the Finance Manager for review.",
+      "The Finance Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-FacilitiesDesk updates the status to 'Approved' and notifies the Facilities Manager by email/in-app notification.",
+      "The approved Admin Invoice Approval is processed and the record is retained in MK-FacilitiesDesk for audit purposes. Recurring facility vendor invoices are pre-approved up to the contracted amount."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Budget Management",
+    "role_applicability": [
+      "Facilities Manager",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Budget and Vendor Invoice Approval (Admin)",
+      "Budget Management",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-014"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-015",
+    "question": "How do I complete: Cafeteria/Pantry Services Management Procedure?",
+    "short_answer": "Follow the 7-step Cafeteria/Pantry Services Management Procedure procedure in MK-FacilitiesDesk, starting with the SOP-ADMIN-015 SOP.",
+    "detailed_answer": "The Cafeteria/Pantry Services Management Procedure process (SOP-ADMIN-015) is owned by the Administration / Facilities department. The facilities executive initiates the request in MK-FacilitiesDesk and Admin Team Lead is responsible for approval/sign-off. Dietary/allergy requests are logged and shared with the vendor weekly.",
+    "step_by_step": [
+      "the Facilities Executive confirms eligibility and prerequisites: coordinating with the catering vendor on menu and headcount.",
+      "the Facilities Executive raises a request in MK-FacilitiesDesk specifying exactly which Pantry Services is required.",
+      "The Admin Team Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Pantry Services in the relevant system.",
+      "the Facilities Executive is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-FacilitiesDesk and corrected before sign-off.",
+      "MK-FacilitiesDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Dietary/allergy requests are logged and shared with the vendor weekly."
+    ],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Facilities",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Cafeteria/Pantry Services Management Procedure",
+      "Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-015"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-016",
+    "question": "What is the Facility Access Policy?",
+    "short_answer": "Access cards are personal and must not be shared or lent to other employees or visitors.",
+    "detailed_answer": "Access cards are personal and must not be shared or lent to other employees or visitors. Lost access cards must be reported immediately for deactivation and reissue. Restricted areas (server rooms, executive floors) require additional access authorisation.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Facility Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Facility Access Policy",
+      "Facility Access",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "POL-ADMIN-001"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-017",
+    "question": "What is the Visitor Management Policy?",
+    "short_answer": "All visitors must be pre-registered by their host employee at least 2 hours in advance.",
+    "detailed_answer": "All visitors must be pre-registered by their host employee at least 2 hours in advance. Visitors are issued a temporary badge and must be escorted at all times within office premises. Visitor logs are retained for 1 year for security and audit purposes.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Visitor Management",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Visitor Management Policy",
+      "Visitor Management",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "POL-ADMIN-002"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-018",
+    "question": "Who do I contact in the Administration / Facilities department for help?",
+    "short_answer": "Reach out to: Preeti Chauhan (Head of Administration, preeti.chauhan@mkinfinite-ai.com); Dev Malhotra (Facilities Manager, dev.malhotra@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Administration / Facilities, use MK-FacilitiesDesk to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Preeti Chauhan (Head of Administration, preeti.chauhan@mkinfinite-ai.com); Dev Malhotra (Facilities Manager, dev.malhotra@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Administration / Facilities",
+      "contact",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-019",
+    "question": "What system does the Administration / Facilities department use?",
+    "short_answer": "Administration / Facilities primarily uses MK-FacilitiesDesk for its workflows.",
+    "detailed_answer": "MK-FacilitiesDesk is the system of record for Administration / Facilities. All requests, approvals, and records for this department's processes should go through MK-FacilitiesDesk rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MK-FacilitiesDesk",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-020",
+    "question": "What are the key performance indicators (KPIs) for the Administration / Facilities department?",
+    "short_answer": "Facility maintenance request closure time (target: under 24 hours for standard issues)",
+    "detailed_answer": "Facility maintenance request closure time (target: under 24 hours for standard issues) Workspace readiness for new hires (target: 100% ready before day 1) Safety drill compliance (target: twice yearly per office) Employee satisfaction with facilities (target: above 4.0 out of 5)",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-021",
+    "question": "What is the escalation path within the Administration / Facilities department?",
+    "short_answer": "Escalate in this order: Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration.",
+    "detailed_answer": "If a request or issue with Administration / Facilities is not addressed within the expected timeframe, escalate step by step through: Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-022",
+    "question": "What are common mistakes employees make when working with Administration / Facilities?",
+    "short_answer": "Booking meeting rooms and not showing up, blocking availability for others.",
+    "detailed_answer": "Booking meeting rooms and not showing up, blocking availability for others. Allowing vendor access without verifying ID and scope of work. Delaying safety-related maintenance requests behind non-urgent ones.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "mistakes",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-023",
+    "question": "What does 'MK-FacilitiesDesk' mean in the context of Administration / Facilities?",
+    "short_answer": "The internal facilities and admin request platform.",
+    "detailed_answer": "The internal facilities and admin request platform. This term is commonly used in Administration / Facilities SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-FacilitiesDesk",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-024",
+    "question": "What does 'Access Card' mean in the context of Administration / Facilities?",
+    "short_answer": "The personal badge used for building and floor access.",
+    "detailed_answer": "The personal badge used for building and floor access. This term is commonly used in Administration / Facilities SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Access Card",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-025",
+    "question": "What does 'PPE' mean in the context of Administration / Facilities?",
+    "short_answer": "Personal Protective Equipment used for safety-related work.",
+    "detailed_answer": "Personal Protective Equipment used for safety-related work. This term is commonly used in Administration / Facilities SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "PPE",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-026",
+    "question": "What does 'Vendor Access' mean in the context of Administration / Facilities?",
+    "short_answer": "Temporary building access granted to external service providers.",
+    "detailed_answer": "Temporary building access granted to external service providers. This term is commonly used in Administration / Facilities SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Vendor Access",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-027",
+    "question": "What does 'Assembly Point' mean in the context of Administration / Facilities?",
+    "short_answer": "The designated safe location for headcount during an evacuation.",
+    "detailed_answer": "The designated safe location for headcount during an evacuation. This term is commonly used in Administration / Facilities SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Assembly Point",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ADMIN-028",
+    "question": "Can an employee from a different department ask a Administration / Facilities question?",
+    "short_answer": "Yes. Administration / Facilities knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Administration / Facilities question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Administration / Facilities",
+      "ADMIN"
+    ],
+    "related_documents": [],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  }
+]

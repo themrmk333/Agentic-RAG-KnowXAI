@@ -1,0 +1,287 @@
+employee_id,full_name,email,department,department_code,role,manager,joining_date,employment_type,location,status,level
+EMP-0001,Varun Nair,varun.nair@mkinfinite-ai.com,IT Support / Information Technology,IT,IT Director,CEO Office,2021-03-19,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Director
+EMP-0002,Kabir Agarwal,kabir.agarwal@mkinfinite-ai.com,IT Support / Information Technology,IT,IT Manager,Varun Nair,2019-07-12,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Manager
+EMP-0003,Preeti Verma,preeti.verma@mkinfinite-ai.com,Software Engineering / Development,ENG,Engineering Director,CEO Office,2021-11-05,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Director
+EMP-0004,Rohan Mehta,rohan.mehta@mkinfinite-ai.com,Software Engineering / Development,ENG,Engineering Manager,Preeti Verma,2021-06-07,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Manager
+EMP-0005,Kabir Reddy,kabir.reddy@mkinfinite-ai.com,QA / Testing,QA,QA Director,CEO Office,2019-07-05,Full-Time,MK-Infinite-AI Remote (India),Active,Director
+EMP-0006,Alisha Verma,alisha.verma@mkinfinite-ai.com,QA / Testing,QA,QA Manager,Kabir Reddy,2022-03-04,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Manager
+EMP-0007,Karan Bhatt,karan.bhatt@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,DevOps Director,CEO Office,2019-05-07,Full-Time,MK-Infinite-AI Remote (India),Active,Director
+EMP-0008,Preeti Malhotra,preeti.malhotra@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,DevOps Manager,Karan Bhatt,2019-04-12,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Manager
+EMP-0009,Rohan Agarwal,rohan.agarwal@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,CISO,CEO Office,2019-09-30,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Director
+EMP-0010,Manoj Nair,manoj.nair@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Manager,Rohan Agarwal,2022-01-12,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Manager
+EMP-0011,Naveen Singh,naveen.singh@mkinfinite-ai.com,Human Resources,HR,HR Director,CEO Office,2022-02-21,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Director
+EMP-0012,Vikram Bhatt,vikram.bhatt@mkinfinite-ai.com,Human Resources,HR,HR Manager,Naveen Singh,2022-03-15,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Manager
+EMP-0013,Kavya Iyer,kavya.iyer@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Director,CEO Office,2022-01-26,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Director
+EMP-0014,Naveen Verma,naveen.verma@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Manager,Kavya Iyer,2022-06-21,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Manager
+EMP-0015,Ritika Agarwal,ritika.agarwal@mkinfinite-ai.com,Project Management / PMO,PMO,PMO Director,CEO Office,2021-05-25,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Director
+EMP-0016,Nidhi Bhatt,nidhi.bhatt@mkinfinite-ai.com,Project Management / PMO,PMO,PMO Lead,Ritika Agarwal,2021-07-17,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Manager
+EMP-0017,Shreya Reddy,shreya.reddy@mkinfinite-ai.com,Product Management,PROD,VP Product,CEO Office,2023-06-15,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Director
+EMP-0018,Pooja Mehta,pooja.mehta@mkinfinite-ai.com,Product Management,PROD,Head of Product,Shreya Reddy,2022-03-22,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Manager
+EMP-0019,Bhavna Pillai,bhavna.pillai@mkinfinite-ai.com,Sales,SALES,Sales Director,CEO Office,2020-12-04,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Director
+EMP-0020,Aman Chauhan,aman.chauhan@mkinfinite-ai.com,Sales,SALES,Sales Manager,Bhavna Pillai,2019-05-30,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Manager
+EMP-0021,Harsh Joshi,harsh.joshi@mkinfinite-ai.com,Marketing,MKT,Marketing Director,CEO Office,2019-12-04,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Director
+EMP-0022,Divya Pillai,divya.pillai@mkinfinite-ai.com,Marketing,MKT,Marketing Manager,Harsh Joshi,2021-05-13,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Manager
+EMP-0023,Kabir Agarwal,kabir.agarwal2@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Customer Experience Director,CEO Office,2022-03-19,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Director
+EMP-0024,Nisha Bose,nisha.bose@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Support Manager,Kabir Agarwal,2022-05-02,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Manager
+EMP-0025,Preeti Desai,preeti.desai@mkinfinite-ai.com,Legal & Compliance,LEGAL,General Counsel,CEO Office,2019-05-21,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Director
+EMP-0026,Riya Pillai,riya.pillai@mkinfinite-ai.com,Legal & Compliance,LEGAL,Legal Manager,Preeti Desai,2022-11-28,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Manager
+EMP-0027,Sneha Singh,sneha.singh@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Director,CEO Office,2022-08-18,Full-Time,MK-Infinite-AI Remote (India),Active,Director
+EMP-0028,Vivek Singh,vivek.singh@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Manager,Sneha Singh,2023-01-07,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Manager
+EMP-0029,Yash Sharma,yash.sharma@mkinfinite-ai.com,Administration / Facilities,ADMIN,Head of Administration,CEO Office,2021-08-03,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Director
+EMP-0030,Aditya Chauhan,aditya.chauhan@mkinfinite-ai.com,Administration / Facilities,ADMIN,Facilities Manager,Yash Sharma,2019-08-28,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Manager
+EMP-0031,Sneha Kapoor,sneha.kapoor@mkinfinite-ai.com,Data & Analytics,DATA,Director of Data & Analytics,CEO Office,2023-04-23,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Director
+EMP-0032,Neel Reddy,neel.reddy@mkinfinite-ai.com,Data & Analytics,DATA,Data Manager,Sneha Kapoor,2021-03-25,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Manager
+EMP-0033,Ritika Mehta,ritika.mehta@mkinfinite-ai.com,Research & Development,RND,R&D Director,CEO Office,2019-12-07,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Director
+EMP-0034,Simran Agarwal,simran.agarwal@mkinfinite-ai.com,Research & Development,RND,R&D Manager,Ritika Mehta,2020-07-23,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Manager
+EMP-0035,Alisha Agarwal,alisha.agarwal@mkinfinite-ai.com,Management / Leadership,MGMT,Chief Executive Officer,CEO Office,2020-07-24,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Director
+EMP-0036,Yash Malhotra,yash.malhotra@mkinfinite-ai.com,Management / Leadership,MGMT,Vice President,Alisha Agarwal,2020-04-17,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Manager
+EMP-0037,Ananya Gupta,ananya.gupta@mkinfinite-ai.com,IT Support / Information Technology,IT,IT Intern,Kabir Agarwal,2025-06-04,Intern,"MK-Infinite-AI Riverside Office, Pune",Active,Intern
+EMP-0038,Arjun Pillai,arjun.pillai@mkinfinite-ai.com,IT Support / Information Technology,IT,IT Intern,Kabir Agarwal,2025-07-06,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0039,Divya Joshi,divya.joshi@mkinfinite-ai.com,IT Support / Information Technology,IT,IT Support Engineer,Kabir Agarwal,2025-11-02,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0040,Neel Menon,neel.menon@mkinfinite-ai.com,IT Support / Information Technology,IT,IT Support Engineer,Kabir Agarwal,2026-05-06,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0041,Swati Malhotra,swati.malhotra@mkinfinite-ai.com,IT Support / Information Technology,IT,IT Support Engineer,Kabir Agarwal,2023-06-03,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0042,Simran Verma,simran.verma@mkinfinite-ai.com,IT Support / Information Technology,IT,Senior IT Support Engineer,Kabir Agarwal,2021-05-05,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0043,Nisha Chauhan,nisha.chauhan@mkinfinite-ai.com,IT Support / Information Technology,IT,Senior IT Support Engineer,Kabir Agarwal,2019-01-01,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0044,Vikram Bose,vikram.bose@mkinfinite-ai.com,IT Support / Information Technology,IT,Senior IT Support Engineer,Kabir Agarwal,2019-10-16,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0045,Divya Rao,divya.rao@mkinfinite-ai.com,IT Support / Information Technology,IT,System Administrator,Kabir Agarwal,2025-10-02,Contractor,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0046,Isha Pillai,isha.pillai@mkinfinite-ai.com,IT Support / Information Technology,IT,System Administrator,Kabir Agarwal,2024-03-23,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0047,Ananya Nair,ananya.nair@mkinfinite-ai.com,IT Support / Information Technology,IT,System Administrator,Kabir Agarwal,2022-11-04,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0048,Aditya Menon,aditya.menon@mkinfinite-ai.com,IT Support / Information Technology,IT,Network Administrator,Kabir Agarwal,2024-12-03,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0049,Gaurav Sharma,gaurav.sharma@mkinfinite-ai.com,IT Support / Information Technology,IT,Network Administrator,Kabir Agarwal,2022-05-05,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0050,Siddharth Menon,siddharth.menon@mkinfinite-ai.com,IT Support / Information Technology,IT,Network Administrator,Kabir Agarwal,2020-11-15,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0051,Gaurav Agarwal,gaurav.agarwal@mkinfinite-ai.com,Software Engineering / Development,ENG,Software Engineering Intern,Rohan Mehta,2026-05-30,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0052,Anjali Kapoor,anjali.kapoor@mkinfinite-ai.com,Software Engineering / Development,ENG,Software Engineering Intern,Rohan Mehta,2025-09-03,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Intern
+EMP-0053,Karan Kapoor,karan.kapoor@mkinfinite-ai.com,Software Engineering / Development,ENG,Junior Software Engineer,Rohan Mehta,2022-12-27,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0054,Riya Pillai,riya.pillai2@mkinfinite-ai.com,Software Engineering / Development,ENG,Junior Software Engineer,Rohan Mehta,2025-10-14,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0055,Yash Bose,yash.bose@mkinfinite-ai.com,Software Engineering / Development,ENG,Junior Software Engineer,Rohan Mehta,2020-02-23,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0056,Nisha Kapoor,nisha.kapoor@mkinfinite-ai.com,Software Engineering / Development,ENG,Software Engineer,Rohan Mehta,2025-11-04,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0057,Yash Mehta,yash.mehta@mkinfinite-ai.com,Software Engineering / Development,ENG,Software Engineer,Rohan Mehta,2020-05-06,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0058,Rahul Pillai,rahul.pillai@mkinfinite-ai.com,Software Engineering / Development,ENG,Software Engineer,Rohan Mehta,2023-11-13,Contractor,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0059,Simran Desai,simran.desai@mkinfinite-ai.com,Software Engineering / Development,ENG,Senior Software Engineer,Rohan Mehta,2019-12-14,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0060,Neel Sharma,neel.sharma@mkinfinite-ai.com,Software Engineering / Development,ENG,Senior Software Engineer,Rohan Mehta,2024-03-21,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0061,Dev Pillai,dev.pillai@mkinfinite-ai.com,Software Engineering / Development,ENG,Senior Software Engineer,Rohan Mehta,2022-12-06,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0062,Neel Sharma,neel.sharma2@mkinfinite-ai.com,Software Engineering / Development,ENG,Tech Lead,Rohan Mehta,2026-04-15,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0063,Neel Joshi,neel.joshi@mkinfinite-ai.com,Software Engineering / Development,ENG,Tech Lead,Rohan Mehta,2021-03-08,Contractor,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0064,Tanya Singh,tanya.singh@mkinfinite-ai.com,Software Engineering / Development,ENG,Tech Lead,Rohan Mehta,2025-07-30,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0065,Manoj Nair,manoj.nair2@mkinfinite-ai.com,QA / Testing,QA,QA Intern,Alisha Verma,2025-03-04,Intern,"MK-Infinite-AI North Campus, Gurugram",On Leave,Intern
+EMP-0066,Preeti Menon,preeti.menon@mkinfinite-ai.com,QA / Testing,QA,QA Intern,Alisha Verma,2026-03-07,Intern,MK-Infinite-AI Remote (India),Active,Intern
+EMP-0067,Divya Menon,divya.menon@mkinfinite-ai.com,QA / Testing,QA,QA Engineer,Alisha Verma,2023-12-08,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0068,Divya Gupta,divya.gupta@mkinfinite-ai.com,QA / Testing,QA,QA Engineer,Alisha Verma,2025-12-10,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0069,Varun Menon,varun.menon@mkinfinite-ai.com,QA / Testing,QA,QA Engineer,Alisha Verma,2024-05-30,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0070,Sneha Reddy,sneha.reddy@mkinfinite-ai.com,QA / Testing,QA,Senior QA Engineer,Alisha Verma,2019-06-22,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0071,Swati Sharma,swati.sharma@mkinfinite-ai.com,QA / Testing,QA,Senior QA Engineer,Alisha Verma,2019-09-17,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0072,Harsh Chauhan,harsh.chauhan@mkinfinite-ai.com,QA / Testing,QA,Senior QA Engineer,Alisha Verma,2022-02-09,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0073,Sahil Menon,sahil.menon@mkinfinite-ai.com,QA / Testing,QA,QA Automation Engineer,Alisha Verma,2024-11-13,Contractor,"MK-Infinite-AI North Campus, Gurugram",On Leave,Employee
+EMP-0074,Rahul Desai,rahul.desai@mkinfinite-ai.com,QA / Testing,QA,QA Automation Engineer,Alisha Verma,2020-05-13,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0075,Kabir Reddy,kabir.reddy2@mkinfinite-ai.com,QA / Testing,QA,QA Automation Engineer,Alisha Verma,2021-05-21,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0076,Divya Bose,divya.bose@mkinfinite-ai.com,QA / Testing,QA,QA Lead,Alisha Verma,2020-07-16,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0077,Vikram Malhotra,vikram.malhotra@mkinfinite-ai.com,QA / Testing,QA,QA Lead,Alisha Verma,2020-10-28,Contractor,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0078,Alisha Menon,alisha.menon@mkinfinite-ai.com,QA / Testing,QA,QA Lead,Alisha Verma,2023-09-22,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0079,Ananya Bose,ananya.bose@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,DevOps Intern,Preeti Malhotra,2025-01-20,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0080,Vivek Sharma,vivek.sharma@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,DevOps Intern,Preeti Malhotra,2026-01-29,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0081,Aman Menon,aman.menon@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,DevOps Engineer,Preeti Malhotra,2020-04-07,Contractor,"MK-Infinite-AI Riverside Office, Pune",On Leave,Employee
+EMP-0082,Vikram Mehta,vikram.mehta@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,DevOps Engineer,Preeti Malhotra,2019-06-12,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0083,Neel Joshi,neel.joshi2@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,DevOps Engineer,Preeti Malhotra,2026-07-31,Contractor,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0084,Gaurav Menon,gaurav.menon@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Senior DevOps Engineer,Preeti Malhotra,2022-09-01,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0085,Meera Joshi,meera.joshi@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Senior DevOps Engineer,Preeti Malhotra,2022-01-06,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0086,Siddharth Mehta,siddharth.mehta@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Senior DevOps Engineer,Preeti Malhotra,2021-06-29,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0087,Isha Desai,isha.desai@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Site Reliability Engineer,Preeti Malhotra,2025-03-15,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0088,Riya Chauhan,riya.chauhan@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Site Reliability Engineer,Preeti Malhotra,2024-11-28,Full-Time,"MK-Infinite-AI Riverside Office, Pune",On Leave,Employee
+EMP-0089,Aditya Rao,aditya.rao@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Site Reliability Engineer,Preeti Malhotra,2021-04-06,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0090,Bhavna Kapoor,bhavna.kapoor@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Cloud Architect,Preeti Malhotra,2024-08-10,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0091,Priya Rao,priya.rao@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Cloud Architect,Preeti Malhotra,2019-03-17,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0092,Rahul Menon,rahul.menon@mkinfinite-ai.com,DevOps & Cloud,DEVOPS,Cloud Architect,Preeti Malhotra,2024-01-06,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0093,Alisha Pillai,alisha.pillai@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Intern,Manoj Nair,2026-07-14,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Intern
+EMP-0094,Shreya Kapoor,shreya.kapoor@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Intern,Manoj Nair,2025-08-24,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0095,Neel Malhotra,neel.malhotra@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Analyst,Manoj Nair,2019-08-11,Contractor,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0096,Siddharth Joshi,siddharth.joshi@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Analyst,Manoj Nair,2019-12-13,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0097,Aman Chauhan,aman.chauhan2@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Analyst,Manoj Nair,2022-04-15,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0098,Aditya Rao,aditya.rao2@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Senior Security Analyst,Manoj Nair,2021-12-14,Full-Time,"MK-Infinite-AI North Campus, Gurugram",On Leave,Employee
+EMP-0099,Swati Chowdhury,swati.chowdhury@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Senior Security Analyst,Manoj Nair,2022-06-21,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0100,Arjun Chowdhury,arjun.chowdhury@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Senior Security Analyst,Manoj Nair,2024-04-28,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0101,Rahul Reddy,rahul.reddy@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Engineer,Manoj Nair,2019-01-21,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0102,Ananya Nair,ananya.nair2@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Engineer,Manoj Nair,2019-06-20,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0103,Shreya Reddy,shreya.reddy2@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Security Engineer,Manoj Nair,2024-12-07,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0104,Dev Malhotra,dev.malhotra@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Incident Response Lead,Manoj Nair,2024-07-17,Contractor,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0105,Anjali Nair,anjali.nair@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Incident Response Lead,Manoj Nair,2024-10-02,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0106,Harsh Nair,harsh.nair@mkinfinite-ai.com,Cybersecurity / Information Security,SEC,Incident Response Lead,Manoj Nair,2024-08-27,Contractor,MK-Infinite-AI Remote (India),On Leave,Employee
+EMP-0107,Priya Bhatt,priya.bhatt@mkinfinite-ai.com,Human Resources,HR,HR Intern,Vikram Bhatt,2025-08-24,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Intern
+EMP-0108,Neel Bose,neel.bose@mkinfinite-ai.com,Human Resources,HR,HR Intern,Vikram Bhatt,2025-04-18,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Intern
+EMP-0109,Swati Verma,swati.verma@mkinfinite-ai.com,Human Resources,HR,HR Executive,Vikram Bhatt,2026-01-09,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0110,Ritika Rao,ritika.rao@mkinfinite-ai.com,Human Resources,HR,HR Executive,Vikram Bhatt,2019-10-15,Full-Time,MK-Infinite-AI Remote (India),On Leave,Employee
+EMP-0111,Ananya Menon,ananya.menon@mkinfinite-ai.com,Human Resources,HR,HR Executive,Vikram Bhatt,2024-04-24,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0112,Siddharth Reddy,siddharth.reddy@mkinfinite-ai.com,Human Resources,HR,HR Specialist,Vikram Bhatt,2021-04-20,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0113,Nidhi Pillai,nidhi.pillai@mkinfinite-ai.com,Human Resources,HR,HR Specialist,Vikram Bhatt,2019-11-11,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0114,Aman Verma,aman.verma@mkinfinite-ai.com,Human Resources,HR,HR Specialist,Vikram Bhatt,2026-03-17,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0115,Divya Chowdhury,divya.chowdhury@mkinfinite-ai.com,Human Resources,HR,HR Business Partner,Vikram Bhatt,2022-05-31,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0116,Arjun Pillai,arjun.pillai2@mkinfinite-ai.com,Human Resources,HR,HR Business Partner,Vikram Bhatt,2022-01-05,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0117,Ritika Singh,ritika.singh@mkinfinite-ai.com,Human Resources,HR,HR Business Partner,Vikram Bhatt,2022-03-15,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0118,Isha Agarwal,isha.agarwal@mkinfinite-ai.com,Human Resources,HR,HR Team Lead,Vikram Bhatt,2019-12-18,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0119,Nidhi Mehta,nidhi.mehta@mkinfinite-ai.com,Human Resources,HR,HR Team Lead,Vikram Bhatt,2024-01-15,Contractor,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0120,Tanya Mehta,tanya.mehta@mkinfinite-ai.com,Human Resources,HR,HR Team Lead,Vikram Bhatt,2020-08-03,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0121,Kavya Nair,kavya.nair@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Intern,Naveen Verma,2026-06-05,Intern,"MK-Infinite-AI North Campus, Gurugram",On Leave,Intern
+EMP-0122,Kavya Reddy,kavya.reddy@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Intern,Naveen Verma,2026-05-25,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Intern
+EMP-0123,Aditya Sharma,aditya.sharma@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Executive,Naveen Verma,2024-01-21,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0124,Divya Joshi,divya.joshi2@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Executive,Naveen Verma,2022-07-18,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0125,Arjun Chowdhury,arjun.chowdhury2@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Executive,Naveen Verma,2023-06-20,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0126,Rahul Sharma,rahul.sharma@mkinfinite-ai.com,Finance & Accounting,FIN,Accountant,Naveen Verma,2022-04-02,Contractor,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0127,Simran Malhotra,simran.malhotra@mkinfinite-ai.com,Finance & Accounting,FIN,Accountant,Naveen Verma,2025-08-10,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0128,Alisha Rao,alisha.rao@mkinfinite-ai.com,Finance & Accounting,FIN,Accountant,Naveen Verma,2022-02-23,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0129,Aman Nair,aman.nair@mkinfinite-ai.com,Finance & Accounting,FIN,Senior Accountant,Naveen Verma,2021-12-24,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0130,Rahul Bose,rahul.bose@mkinfinite-ai.com,Finance & Accounting,FIN,Senior Accountant,Naveen Verma,2023-10-19,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0131,Simran Agarwal,simran.agarwal2@mkinfinite-ai.com,Finance & Accounting,FIN,Senior Accountant,Naveen Verma,2019-11-27,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0132,Manoj Desai,manoj.desai@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Lead,Naveen Verma,2020-07-21,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0133,Swati Nair,swati.nair@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Lead,Naveen Verma,2023-08-27,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0134,Siddharth Rao,siddharth.rao@mkinfinite-ai.com,Finance & Accounting,FIN,Finance Lead,Naveen Verma,2021-09-04,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0135,Simran Iyer,simran.iyer@mkinfinite-ai.com,Project Management / PMO,PMO,PMO Intern,Nidhi Bhatt,2025-06-21,Intern,"MK-Infinite-AI Riverside Office, Pune",Active,Intern
+EMP-0136,Harsh Pillai,harsh.pillai@mkinfinite-ai.com,Project Management / PMO,PMO,PMO Intern,Nidhi Bhatt,2026-07-18,Intern,"MK-Infinite-AI Riverside Office, Pune",Active,Intern
+EMP-0137,Nisha Desai,nisha.desai@mkinfinite-ai.com,Project Management / PMO,PMO,Project Coordinator,Nidhi Bhatt,2025-02-21,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0138,Meera Chowdhury,meera.chowdhury@mkinfinite-ai.com,Project Management / PMO,PMO,Project Coordinator,Nidhi Bhatt,2022-07-31,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0139,Naveen Kapoor,naveen.kapoor@mkinfinite-ai.com,Project Management / PMO,PMO,Project Coordinator,Nidhi Bhatt,2023-08-18,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0140,Bhavna Kapoor,bhavna.kapoor2@mkinfinite-ai.com,Project Management / PMO,PMO,Project Manager,Nidhi Bhatt,2022-10-17,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0141,Naveen Bose,naveen.bose@mkinfinite-ai.com,Project Management / PMO,PMO,Project Manager,Nidhi Bhatt,2024-08-23,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0142,Tanya Mehta,tanya.mehta2@mkinfinite-ai.com,Project Management / PMO,PMO,Project Manager,Nidhi Bhatt,2021-10-14,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0143,Vivek Joshi,vivek.joshi@mkinfinite-ai.com,Project Management / PMO,PMO,Senior Project Manager,Nidhi Bhatt,2019-03-31,Contractor,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0144,Sahil Bhatt,sahil.bhatt@mkinfinite-ai.com,Project Management / PMO,PMO,Senior Project Manager,Nidhi Bhatt,2019-10-27,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0145,Bhavna Desai,bhavna.desai@mkinfinite-ai.com,Project Management / PMO,PMO,Senior Project Manager,Nidhi Bhatt,2021-10-14,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0146,Divya Menon,divya.menon2@mkinfinite-ai.com,Project Management / PMO,PMO,Program Manager,Nidhi Bhatt,2020-03-22,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0147,Rohan Sharma,rohan.sharma@mkinfinite-ai.com,Project Management / PMO,PMO,Program Manager,Nidhi Bhatt,2021-08-10,Contractor,MK-Infinite-AI Remote (India),On Leave,Employee
+EMP-0148,Shreya Nair,shreya.nair@mkinfinite-ai.com,Project Management / PMO,PMO,Program Manager,Nidhi Bhatt,2024-12-03,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0149,Isha Iyer,isha.iyer@mkinfinite-ai.com,Product Management,PROD,Product Intern,Pooja Mehta,2025-03-14,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0150,Preeti Kapoor,preeti.kapoor@mkinfinite-ai.com,Product Management,PROD,Product Intern,Pooja Mehta,2026-02-02,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0151,Dev Sharma,dev.sharma@mkinfinite-ai.com,Product Management,PROD,Associate Product Manager,Pooja Mehta,2022-05-20,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0152,Varun Reddy,varun.reddy@mkinfinite-ai.com,Product Management,PROD,Associate Product Manager,Pooja Mehta,2021-08-19,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0153,Manoj Singh,manoj.singh@mkinfinite-ai.com,Product Management,PROD,Associate Product Manager,Pooja Mehta,2021-03-06,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0154,Manoj Mehta,manoj.mehta@mkinfinite-ai.com,Product Management,PROD,Product Manager,Pooja Mehta,2026-06-26,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0155,Karan Pillai,karan.pillai@mkinfinite-ai.com,Product Management,PROD,Product Manager,Pooja Mehta,2022-10-16,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0156,Simran Kapoor,simran.kapoor@mkinfinite-ai.com,Product Management,PROD,Product Manager,Pooja Mehta,2022-04-11,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0157,Ritika Kapoor,ritika.kapoor@mkinfinite-ai.com,Product Management,PROD,Senior Product Manager,Pooja Mehta,2021-03-05,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0158,Siddharth Singh,siddharth.singh@mkinfinite-ai.com,Product Management,PROD,Senior Product Manager,Pooja Mehta,2025-12-29,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0159,Karan Pillai,karan.pillai2@mkinfinite-ai.com,Product Management,PROD,Senior Product Manager,Pooja Mehta,2026-06-18,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0160,Divya Malhotra,divya.malhotra@mkinfinite-ai.com,Product Management,PROD,Product Lead,Pooja Mehta,2019-04-07,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0161,Sneha Verma,sneha.verma@mkinfinite-ai.com,Product Management,PROD,Product Lead,Pooja Mehta,2024-01-16,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0162,Ananya Gupta,ananya.gupta2@mkinfinite-ai.com,Product Management,PROD,Product Lead,Pooja Mehta,2021-01-29,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0163,Rohan Singh,rohan.singh@mkinfinite-ai.com,Sales,SALES,Sales Intern,Aman Chauhan,2026-01-23,Intern,"MK-Infinite-AI North Campus, Gurugram",On Leave,Intern
+EMP-0164,Vivek Gupta,vivek.gupta@mkinfinite-ai.com,Sales,SALES,Sales Intern,Aman Chauhan,2025-04-22,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Intern
+EMP-0165,Ananya Bose,ananya.bose2@mkinfinite-ai.com,Sales,SALES,Sales Development Representative,Aman Chauhan,2020-05-21,Full-Time,MK-Infinite-AI Remote (India),On Leave,Employee
+EMP-0166,Tanya Malhotra,tanya.malhotra@mkinfinite-ai.com,Sales,SALES,Sales Development Representative,Aman Chauhan,2022-06-18,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0167,Sahil Kapoor,sahil.kapoor@mkinfinite-ai.com,Sales,SALES,Sales Development Representative,Aman Chauhan,2024-01-03,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0168,Sahil Sharma,sahil.sharma@mkinfinite-ai.com,Sales,SALES,Account Executive,Aman Chauhan,2021-10-12,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0169,Rohan Desai,rohan.desai@mkinfinite-ai.com,Sales,SALES,Account Executive,Aman Chauhan,2019-09-11,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0170,Kabir Chauhan,kabir.chauhan@mkinfinite-ai.com,Sales,SALES,Account Executive,Aman Chauhan,2022-01-20,Full-Time,"MK-Infinite-AI North Campus, Gurugram",On Leave,Employee
+EMP-0171,Anjali Verma,anjali.verma@mkinfinite-ai.com,Sales,SALES,Senior Account Executive,Aman Chauhan,2022-07-20,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0172,Dev Mehta,dev.mehta@mkinfinite-ai.com,Sales,SALES,Senior Account Executive,Aman Chauhan,2021-08-15,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0173,Nidhi Malhotra,nidhi.malhotra@mkinfinite-ai.com,Sales,SALES,Senior Account Executive,Aman Chauhan,2023-10-28,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0174,Ritika Gupta,ritika.gupta@mkinfinite-ai.com,Sales,SALES,Sales Team Lead,Aman Chauhan,2022-05-27,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0175,Varun Chowdhury,varun.chowdhury@mkinfinite-ai.com,Sales,SALES,Sales Team Lead,Aman Chauhan,2025-09-06,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0176,Simran Gupta,simran.gupta@mkinfinite-ai.com,Sales,SALES,Sales Team Lead,Aman Chauhan,2019-09-23,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0177,Gaurav Chowdhury,gaurav.chowdhury@mkinfinite-ai.com,Marketing,MKT,Marketing Intern,Divya Pillai,2025-06-14,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Intern
+EMP-0178,Kabir Rao,kabir.rao@mkinfinite-ai.com,Marketing,MKT,Marketing Intern,Divya Pillai,2025-03-28,Intern,"MK-Infinite-AI Riverside Office, Pune",Active,Intern
+EMP-0179,Ritika Desai,ritika.desai@mkinfinite-ai.com,Marketing,MKT,Marketing Executive,Divya Pillai,2020-06-28,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0180,Pooja Agarwal,pooja.agarwal@mkinfinite-ai.com,Marketing,MKT,Marketing Executive,Divya Pillai,2026-06-14,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0181,Aman Singh,aman.singh@mkinfinite-ai.com,Marketing,MKT,Marketing Executive,Divya Pillai,2022-01-01,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0182,Siddharth Kapoor,siddharth.kapoor@mkinfinite-ai.com,Marketing,MKT,Marketing Specialist,Divya Pillai,2021-01-30,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0183,Aman Bhatt,aman.bhatt@mkinfinite-ai.com,Marketing,MKT,Marketing Specialist,Divya Pillai,2019-09-23,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0184,Pooja Menon,pooja.menon@mkinfinite-ai.com,Marketing,MKT,Marketing Specialist,Divya Pillai,2026-04-14,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0185,Rohan Iyer,rohan.iyer@mkinfinite-ai.com,Marketing,MKT,Content Strategist,Divya Pillai,2021-08-04,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0186,Rohan Singh,rohan.singh2@mkinfinite-ai.com,Marketing,MKT,Content Strategist,Divya Pillai,2019-07-26,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0187,Preeti Kapoor,preeti.kapoor2@mkinfinite-ai.com,Marketing,MKT,Content Strategist,Divya Pillai,2023-03-05,Contractor,MK-Infinite-AI Remote (India),On Leave,Employee
+EMP-0188,Vivek Chauhan,vivek.chauhan@mkinfinite-ai.com,Marketing,MKT,Marketing Team Lead,Divya Pillai,2026-06-15,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0189,Dev Chauhan,dev.chauhan@mkinfinite-ai.com,Marketing,MKT,Marketing Team Lead,Divya Pillai,2019-06-03,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0190,Rohan Kapoor,rohan.kapoor@mkinfinite-ai.com,Marketing,MKT,Marketing Team Lead,Divya Pillai,2019-06-06,Contractor,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0191,Tanya Sharma,tanya.sharma@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Support Intern,Nisha Bose,2025-12-02,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Intern
+EMP-0192,Meera Chauhan,meera.chauhan@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Support Intern,Nisha Bose,2025-11-16,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Intern
+EMP-0193,Ritika Agarwal,ritika.agarwal2@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Customer Support Associate,Nisha Bose,2023-07-30,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0194,Swati Nair,swati.nair2@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Customer Support Associate,Nisha Bose,2020-01-09,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0195,Riya Joshi,riya.joshi@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Customer Support Associate,Nisha Bose,2026-06-28,Contractor,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0196,Sneha Singh,sneha.singh2@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Senior Support Associate,Nisha Bose,2023-01-03,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0197,Kavya Kapoor,kavya.kapoor@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Senior Support Associate,Nisha Bose,2023-07-17,Full-Time,"MK-Infinite-AI Riverside Office, Pune",On Leave,Employee
+EMP-0198,Alisha Gupta,alisha.gupta@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Senior Support Associate,Nisha Bose,2020-01-06,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0199,Kavya Desai,kavya.desai@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Support Team Lead,Nisha Bose,2020-06-16,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0200,Divya Malhotra,divya.malhotra2@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Support Team Lead,Nisha Bose,2025-12-23,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0201,Aditya Nair,aditya.nair@mkinfinite-ai.com,Customer Support / Helpdesk,SUPPORT,Support Team Lead,Nisha Bose,2020-10-24,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0202,Kabir Iyer,kabir.iyer@mkinfinite-ai.com,Legal & Compliance,LEGAL,Legal Intern,Riya Pillai,2026-01-28,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Intern
+EMP-0203,Rahul Singh,rahul.singh@mkinfinite-ai.com,Legal & Compliance,LEGAL,Legal Intern,Riya Pillai,2025-05-10,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Intern
+EMP-0204,Sahil Chowdhury,sahil.chowdhury@mkinfinite-ai.com,Legal & Compliance,LEGAL,Legal Associate,Riya Pillai,2026-02-19,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0205,Anjali Gupta,anjali.gupta@mkinfinite-ai.com,Legal & Compliance,LEGAL,Legal Associate,Riya Pillai,2021-06-28,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0206,Rahul Pillai,rahul.pillai2@mkinfinite-ai.com,Legal & Compliance,LEGAL,Legal Associate,Riya Pillai,2021-06-12,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0207,Bhavna Gupta,bhavna.gupta@mkinfinite-ai.com,Legal & Compliance,LEGAL,Contracts Specialist,Riya Pillai,2020-05-19,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0208,Rahul Verma,rahul.verma@mkinfinite-ai.com,Legal & Compliance,LEGAL,Contracts Specialist,Riya Pillai,2026-07-16,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0209,Varun Iyer,varun.iyer@mkinfinite-ai.com,Legal & Compliance,LEGAL,Contracts Specialist,Riya Pillai,2024-02-10,Full-Time,MK-Infinite-AI Remote (India),On Leave,Employee
+EMP-0210,Shreya Joshi,shreya.joshi@mkinfinite-ai.com,Legal & Compliance,LEGAL,Compliance Officer,Riya Pillai,2021-10-17,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0211,Kavya Desai,kavya.desai2@mkinfinite-ai.com,Legal & Compliance,LEGAL,Compliance Officer,Riya Pillai,2021-01-02,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0212,Ritika Desai,ritika.desai2@mkinfinite-ai.com,Legal & Compliance,LEGAL,Compliance Officer,Riya Pillai,2025-12-08,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0213,Sahil Malhotra,sahil.malhotra@mkinfinite-ai.com,Legal & Compliance,LEGAL,Senior Legal Counsel,Riya Pillai,2020-06-10,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0214,Ananya Desai,ananya.desai@mkinfinite-ai.com,Legal & Compliance,LEGAL,Senior Legal Counsel,Riya Pillai,2026-05-15,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0215,Neel Mehta,neel.mehta@mkinfinite-ai.com,Legal & Compliance,LEGAL,Senior Legal Counsel,Riya Pillai,2022-07-09,Contractor,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0216,Harsh Malhotra,harsh.malhotra@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Intern,Vivek Singh,2025-05-20,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Intern
+EMP-0217,Anjali Iyer,anjali.iyer@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Intern,Vivek Singh,2025-07-18,Intern,"MK-Infinite-AI Riverside Office, Pune",On Leave,Intern
+EMP-0218,Ritika Singh,ritika.singh2@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Executive,Vivek Singh,2020-11-07,Contractor,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0219,Yash Chauhan,yash.chauhan@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Executive,Vivek Singh,2020-10-12,Contractor,"MK-Infinite-AI North Campus, Gurugram",On Leave,Employee
+EMP-0220,Riya Desai,riya.desai@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Executive,Vivek Singh,2024-08-19,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0221,Siddharth Chauhan,siddharth.chauhan@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Specialist,Vivek Singh,2022-07-30,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0222,Meera Malhotra,meera.malhotra@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Specialist,Vivek Singh,2022-02-13,Full-Time,"MK-Infinite-AI North Campus, Gurugram",On Leave,Employee
+EMP-0223,Aditya Rao,aditya.rao3@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Specialist,Vivek Singh,2024-12-13,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0224,Kavya Desai,kavya.desai3@mkinfinite-ai.com,Procurement / Purchasing,PROC,Vendor Manager,Vivek Singh,2025-07-03,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0225,Gaurav Malhotra,gaurav.malhotra@mkinfinite-ai.com,Procurement / Purchasing,PROC,Vendor Manager,Vivek Singh,2023-03-02,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0226,Kavya Bhatt,kavya.bhatt@mkinfinite-ai.com,Procurement / Purchasing,PROC,Vendor Manager,Vivek Singh,2022-09-17,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0227,Meera Chauhan,meera.chauhan2@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Lead,Vivek Singh,2019-07-17,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0228,Siddharth Singh,siddharth.singh2@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Lead,Vivek Singh,2025-07-27,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0229,Rohan Reddy,rohan.reddy@mkinfinite-ai.com,Procurement / Purchasing,PROC,Procurement Lead,Vivek Singh,2025-11-28,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0230,Kavya Verma,kavya.verma@mkinfinite-ai.com,Administration / Facilities,ADMIN,Admin Intern,Aditya Chauhan,2025-05-16,Intern,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Intern
+EMP-0231,Rohan Sharma,rohan.sharma2@mkinfinite-ai.com,Administration / Facilities,ADMIN,Admin Intern,Aditya Chauhan,2025-02-25,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Intern
+EMP-0232,Shreya Iyer,shreya.iyer@mkinfinite-ai.com,Administration / Facilities,ADMIN,Facilities Executive,Aditya Chauhan,2024-12-27,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0233,Shreya Bhatt,shreya.bhatt@mkinfinite-ai.com,Administration / Facilities,ADMIN,Facilities Executive,Aditya Chauhan,2023-02-09,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0234,Aditya Nair,aditya.nair2@mkinfinite-ai.com,Administration / Facilities,ADMIN,Facilities Executive,Aditya Chauhan,2021-09-24,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0235,Kabir Nair,kabir.nair@mkinfinite-ai.com,Administration / Facilities,ADMIN,Facilities Coordinator,Aditya Chauhan,2022-01-09,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0236,Arjun Verma,arjun.verma@mkinfinite-ai.com,Administration / Facilities,ADMIN,Facilities Coordinator,Aditya Chauhan,2025-04-22,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0237,Preeti Desai,preeti.desai2@mkinfinite-ai.com,Administration / Facilities,ADMIN,Facilities Coordinator,Aditya Chauhan,2024-10-21,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0238,Arjun Verma,arjun.verma2@mkinfinite-ai.com,Administration / Facilities,ADMIN,Office Manager,Aditya Chauhan,2019-04-14,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0239,Aditya Verma,aditya.verma@mkinfinite-ai.com,Administration / Facilities,ADMIN,Office Manager,Aditya Chauhan,2020-03-05,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0240,Rahul Nair,rahul.nair@mkinfinite-ai.com,Administration / Facilities,ADMIN,Office Manager,Aditya Chauhan,2024-10-23,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0241,Manoj Chauhan,manoj.chauhan@mkinfinite-ai.com,Administration / Facilities,ADMIN,Admin Team Lead,Aditya Chauhan,2022-06-21,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0242,Sneha Pillai,sneha.pillai@mkinfinite-ai.com,Administration / Facilities,ADMIN,Admin Team Lead,Aditya Chauhan,2019-01-27,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0243,Nidhi Mehta,nidhi.mehta2@mkinfinite-ai.com,Administration / Facilities,ADMIN,Admin Team Lead,Aditya Chauhan,2024-01-28,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0244,Vikram Rao,vikram.rao@mkinfinite-ai.com,Data & Analytics,DATA,Data Intern,Neel Reddy,2025-08-26,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Intern
+EMP-0245,Siddharth Verma,siddharth.verma@mkinfinite-ai.com,Data & Analytics,DATA,Data Intern,Neel Reddy,2025-09-30,Intern,MK-Infinite-AI Remote (India),Active,Intern
+EMP-0246,Bhavna Rao,bhavna.rao@mkinfinite-ai.com,Data & Analytics,DATA,Data Analyst,Neel Reddy,2021-06-07,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0247,Arjun Gupta,arjun.gupta@mkinfinite-ai.com,Data & Analytics,DATA,Data Analyst,Neel Reddy,2021-08-25,Full-Time,"MK-Infinite-AI Riverside Office, Pune",On Leave,Employee
+EMP-0248,Varun Kapoor,varun.kapoor@mkinfinite-ai.com,Data & Analytics,DATA,Data Analyst,Neel Reddy,2022-09-07,Contractor,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0249,Gaurav Pillai,gaurav.pillai@mkinfinite-ai.com,Data & Analytics,DATA,Senior Data Analyst,Neel Reddy,2024-12-13,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",On Leave,Employee
+EMP-0250,Alisha Reddy,alisha.reddy@mkinfinite-ai.com,Data & Analytics,DATA,Senior Data Analyst,Neel Reddy,2022-06-14,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0251,Preeti Mehta,preeti.mehta@mkinfinite-ai.com,Data & Analytics,DATA,Senior Data Analyst,Neel Reddy,2020-12-03,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0252,Isha Iyer,isha.iyer2@mkinfinite-ai.com,Data & Analytics,DATA,Data Engineer,Neel Reddy,2020-10-24,Full-Time,"MK-Infinite-AI North Campus, Gurugram",On Leave,Employee
+EMP-0253,Priya Sharma,priya.sharma@mkinfinite-ai.com,Data & Analytics,DATA,Data Engineer,Neel Reddy,2026-03-20,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0254,Rohan Mehta,rohan.mehta2@mkinfinite-ai.com,Data & Analytics,DATA,Data Engineer,Neel Reddy,2023-01-28,Contractor,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0255,Gaurav Mehta,gaurav.mehta@mkinfinite-ai.com,Data & Analytics,DATA,Analytics Lead,Neel Reddy,2023-04-22,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0256,Tanya Iyer,tanya.iyer@mkinfinite-ai.com,Data & Analytics,DATA,Analytics Lead,Neel Reddy,2026-02-10,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0257,Aman Pillai,aman.pillai@mkinfinite-ai.com,Data & Analytics,DATA,Analytics Lead,Neel Reddy,2020-02-05,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0258,Nisha Joshi,nisha.joshi@mkinfinite-ai.com,Research & Development,RND,Research Intern,Simran Agarwal,2025-09-25,Intern,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Intern
+EMP-0259,Aman Verma,aman.verma2@mkinfinite-ai.com,Research & Development,RND,Research Intern,Simran Agarwal,2026-01-12,Intern,"MK-Infinite-AI North Campus, Gurugram",Active,Intern
+EMP-0260,Dev Menon,dev.menon@mkinfinite-ai.com,Research & Development,RND,Research Associate,Simran Agarwal,2022-03-24,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0261,Manoj Sharma,manoj.sharma@mkinfinite-ai.com,Research & Development,RND,Research Associate,Simran Agarwal,2020-02-07,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0262,Sneha Agarwal,sneha.agarwal@mkinfinite-ai.com,Research & Development,RND,Research Associate,Simran Agarwal,2020-01-08,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0263,Aditya Joshi,aditya.joshi@mkinfinite-ai.com,Research & Development,RND,AI Research Engineer,Simran Agarwal,2021-04-07,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0264,Sneha Sharma,sneha.sharma@mkinfinite-ai.com,Research & Development,RND,AI Research Engineer,Simran Agarwal,2020-01-27,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0265,Meera Pillai,meera.pillai@mkinfinite-ai.com,Research & Development,RND,AI Research Engineer,Simran Agarwal,2024-10-11,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0266,Aditya Singh,aditya.singh@mkinfinite-ai.com,Research & Development,RND,Senior Research Engineer,Simran Agarwal,2021-08-06,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0267,Ananya Pillai,ananya.pillai@mkinfinite-ai.com,Research & Development,RND,Senior Research Engineer,Simran Agarwal,2025-04-17,Contractor,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0268,Yash Iyer,yash.iyer@mkinfinite-ai.com,Research & Development,RND,Senior Research Engineer,Simran Agarwal,2023-06-05,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0269,Priya Bose,priya.bose@mkinfinite-ai.com,Research & Development,RND,Research Lead,Simran Agarwal,2021-12-14,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0270,Harsh Gupta,harsh.gupta@mkinfinite-ai.com,Research & Development,RND,Research Lead,Simran Agarwal,2026-01-27,Full-Time,"MK-Infinite-AI Riverside Office, Pune",On Leave,Employee
+EMP-0271,Neel Agarwal,neel.agarwal@mkinfinite-ai.com,Research & Development,RND,Research Lead,Simran Agarwal,2025-10-15,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0272,Varun Menon,varun.menon2@mkinfinite-ai.com,Management / Leadership,MGMT,Management Trainee,Yash Malhotra,2024-01-19,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0273,Aditya Desai,aditya.desai@mkinfinite-ai.com,Management / Leadership,MGMT,Management Trainee,Yash Malhotra,2021-11-19,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0274,Nisha Desai,nisha.desai2@mkinfinite-ai.com,Management / Leadership,MGMT,Management Trainee,Yash Malhotra,2021-09-01,Full-Time,MK-Infinite-AI Remote (India),Active,Employee
+EMP-0275,Shreya Chauhan,shreya.chauhan@mkinfinite-ai.com,Management / Leadership,MGMT,Team Lead,Yash Malhotra,2020-09-30,Full-Time,"MK-Infinite-AI Riverside Office, Pune",Active,Employee
+EMP-0276,Dev Menon,dev.menon2@mkinfinite-ai.com,Management / Leadership,MGMT,Team Lead,Yash Malhotra,2021-08-25,Full-Time,"MK-Infinite-AI North Campus, Gurugram",On Leave,Employee
+EMP-0277,Siddharth Iyer,siddharth.iyer@mkinfinite-ai.com,Management / Leadership,MGMT,Team Lead,Yash Malhotra,2026-05-18,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0278,Divya Nair,divya.nair@mkinfinite-ai.com,Management / Leadership,MGMT,Department Manager,Yash Malhotra,2022-05-03,Contractor,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0279,Vikram Iyer,vikram.iyer@mkinfinite-ai.com,Management / Leadership,MGMT,Department Manager,Yash Malhotra,2023-05-10,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0280,Simran Joshi,simran.joshi@mkinfinite-ai.com,Management / Leadership,MGMT,Department Manager,Yash Malhotra,2024-08-11,Full-Time,"MK-Infinite-AI North Campus, Gurugram",Active,Employee
+EMP-0281,Divya Rao,divya.rao2@mkinfinite-ai.com,Management / Leadership,MGMT,Senior Manager,Yash Malhotra,2023-07-16,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0282,Alisha Bhatt,alisha.bhatt@mkinfinite-ai.com,Management / Leadership,MGMT,Senior Manager,Yash Malhotra,2026-04-04,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",On Leave,Employee
+EMP-0283,Preeti Reddy,preeti.reddy@mkinfinite-ai.com,Management / Leadership,MGMT,Senior Manager,Yash Malhotra,2026-03-12,Full-Time,"MK-Infinite-AI Tower, Bengaluru Campus",Active,Employee
+EMP-0284,Varun Rao,varun.rao@mkinfinite-ai.com,Management / Leadership,MGMT,Director,Yash Malhotra,2020-02-05,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0285,Simran Gupta,simran.gupta2@mkinfinite-ai.com,Management / Leadership,MGMT,Director,Yash Malhotra,2023-10-01,Full-Time,"MK-Infinite-AI Innovation Hub, Hyderabad",Active,Employee
+EMP-0286,Anjali Joshi,anjali.joshi@mkinfinite-ai.com,Management / Leadership,MGMT,Director,Yash Malhotra,2026-05-31,Full-Time,"MK-Infinite-AI Riverside Office, Pune",On Leave,Employee

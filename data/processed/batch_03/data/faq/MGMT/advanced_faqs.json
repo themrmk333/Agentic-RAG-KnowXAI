@@ -1,0 +1,758 @@
+[
+  {
+    "faq_id": "FAQADV-MGMT-001",
+    "question": "Company Strategy Planning Procedure: What happens if CEO Office is unavailable to approve a strategic plan?",
+    "short_answer": "Route it to the CEO Office's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the CEO Office is notified on return a",
+    "detailed_answer": "Route it to the CEO Office's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the CEO Office is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Company Strategy Planning Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-001-EDGE-A"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-002",
+    "question": "Company Strategy Planning Procedure: Can a strategic plan be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the CEO Office directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the CEO Office directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Company Strategy Planning Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-001-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-003",
+    "question": "Company Strategy Planning Procedure: What do I do if MK-ExecDash is down and I need to submit a strategic plan?",
+    "short_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the CEO Office directly with the request details; once MK-ExecDash is back, enter ",
+    "detailed_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the CEO Office directly with the request details; once MK-ExecDash is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Company Strategy Planning Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-001-EDGE-C"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-004",
+    "question": "Company Strategy Planning Procedure: What happens if my strategic plan request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Company Strategy Planning Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-001-EDGE-D"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-005",
+    "question": "Company Strategy Planning Procedure: What happens if my strategic plan submission is missing required documentation?",
+    "short_answer": "The CEO Office returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct an",
+    "detailed_answer": "The CEO Office returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Company Strategy Planning Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-001-EDGE-E"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-006",
+    "question": "Project Portfolio Review Procedure (Management): What happens if Vice President is unavailable to approve a executive portfolio review?",
+    "short_answer": "Route it to the Vice President's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the Vice President is notified on ",
+    "detailed_answer": "Route it to the Vice President's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the Vice President is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "PMO Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Portfolio Review Procedure (Management)",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-002-EDGE-A"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-007",
+    "question": "Project Portfolio Review Procedure (Management): Can a executive portfolio review be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Vice President directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Vice President directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "PMO Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Portfolio Review Procedure (Management)",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-002-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-008",
+    "question": "Project Portfolio Review Procedure (Management): What do I do if MK-ExecDash is down and I need to submit a executive portfolio review?",
+    "short_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the Vice President directly with the request details; once MK-ExecDash is back, en",
+    "detailed_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the Vice President directly with the request details; once MK-ExecDash is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "PMO Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Portfolio Review Procedure (Management)",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-002-EDGE-C"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-009",
+    "question": "Project Portfolio Review Procedure (Management): What happens if my executive portfolio review request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "PMO Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Portfolio Review Procedure (Management)",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-002-EDGE-D"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-010",
+    "question": "Project Portfolio Review Procedure (Management): What happens if my executive portfolio review submission is missing required documentation?",
+    "short_answer": "The Vice President returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Vice President returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "PMO Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Project Portfolio Review Procedure (Management)",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-002-EDGE-E"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-011",
+    "question": "Departmental Budget Approval Procedure: What happens if CEO Office is unavailable to approve a department budget?",
+    "short_answer": "Route it to the CEO Office's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the CEO Office is notified on return a",
+    "detailed_answer": "Route it to the CEO Office's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the CEO Office is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Departmental Budget Approval Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003-EDGE-A"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-012",
+    "question": "Departmental Budget Approval Procedure: Can a department budget be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the CEO Office directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the CEO Office directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Departmental Budget Approval Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-013",
+    "question": "Departmental Budget Approval Procedure: What do I do if MK-ExecDash is down and I need to submit a department budget?",
+    "short_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the CEO Office directly with the request details; once MK-ExecDash is back, enter ",
+    "detailed_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the CEO Office directly with the request details; once MK-ExecDash is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Departmental Budget Approval Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003-EDGE-C"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-014",
+    "question": "Departmental Budget Approval Procedure: What happens if my department budget request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Departmental Budget Approval Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003-EDGE-D"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-015",
+    "question": "Departmental Budget Approval Procedure: What happens if my department budget submission is missing required documentation?",
+    "short_answer": "The CEO Office returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct an",
+    "detailed_answer": "The CEO Office returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Department Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Departmental Budget Approval Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003-EDGE-E"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-016",
+    "question": "Executive Decision Escalation Procedure: What happens if Vice President is unavailable to approve a executive escalation?",
+    "short_answer": "Route it to the Vice President's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the Vice President is notified on ",
+    "detailed_answer": "Route it to the Vice President's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the Vice President is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Executive Decision Escalation Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-004-EDGE-A"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-017",
+    "question": "Executive Decision Escalation Procedure: Can a executive escalation be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Vice President directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Vice President directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Executive Decision Escalation Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-004-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-018",
+    "question": "Executive Decision Escalation Procedure: What do I do if MK-ExecDash is down and I need to submit a executive escalation?",
+    "short_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the Vice President directly with the request details; once MK-ExecDash is back, en",
+    "detailed_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the Vice President directly with the request details; once MK-ExecDash is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Executive Decision Escalation Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-004-EDGE-C"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-019",
+    "question": "Executive Decision Escalation Procedure: What happens if my executive escalation request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Executive Decision Escalation Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-004-EDGE-D"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-020",
+    "question": "Executive Decision Escalation Procedure: What happens if my executive escalation submission is missing required documentation?",
+    "short_answer": "The Vice President returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Vice President returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "Vice President"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Executive Decision Escalation Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-004-EDGE-E"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-021",
+    "question": "Organizational Change / Restructuring Procedure: What happens if CEO Office is unavailable to approve a org change proposal?",
+    "short_answer": "Route it to the CEO Office's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the CEO Office is notified on return a",
+    "detailed_answer": "Route it to the CEO Office's delegate (typically the next role up the escalation chain) via MK-ExecDash, tagged 'Delegate Approval Required'; the CEO Office is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Organizational Change / Restructuring Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-005-EDGE-A"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-022",
+    "question": "Organizational Change / Restructuring Procedure: Can a org change proposal be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the CEO Office directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the CEO Office directly, proceed with the minimum necessary action, then file the formal request in MK-ExecDash within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Organizational Change / Restructuring Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-005-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-023",
+    "question": "Organizational Change / Restructuring Procedure: What do I do if MK-ExecDash is down and I need to submit a org change proposal?",
+    "short_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the CEO Office directly with the request details; once MK-ExecDash is back, enter ",
+    "detailed_answer": "Non-urgent requests should wait for MK-ExecDash to be restored. For genuinely urgent cases, email the CEO Office directly with the request details; once MK-ExecDash is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Organizational Change / Restructuring Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-005-EDGE-C"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-024",
+    "question": "Organizational Change / Restructuring Procedure: What happens if my org change proposal request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ExecDash — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Organizational Change / Restructuring Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-005-EDGE-D"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-025",
+    "question": "Organizational Change / Restructuring Procedure: What happens if my org change proposal submission is missing required documentation?",
+    "short_answer": "The CEO Office returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct an",
+    "detailed_answer": "The CEO Office returns the request in MK-ExecDash with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Director",
+      "CEO Office"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Organizational Change / Restructuring Procedure",
+      "what-if",
+      "edge case",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-005-EDGE-E"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-026",
+    "question": "If I find an old reference to the Corporate Governance Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-MGMT-001, is always authoritative going forward. If an older cached or printed copy of the Corporate Governance Policy disagrees with it, treat the current",
+    "detailed_answer": "The current version, POL-MGMT-001, is always authoritative going forward. If an older cached or printed copy of the Corporate Governance Policy disagrees with it, treat the current document as correct and check the POL-MGMT-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Director",
+      "Vice President",
+      "CEO Office"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Corporate Governance Policy",
+      "version",
+      "policy interpretation",
+      "MGMT"
+    ],
+    "related_documents": [
+      "POL-MGMT-001",
+      "POL-MGMT-001-HISTORY"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "management"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-027",
+    "question": "What's the difference between the standard Company Strategy Planning Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-MGMT-001) goes through CEO Office via MK-ExecDash in the normal order. The expedited path (SOP-MGMT-001-EDGE-B) is only for genuine emergencies: it requires ",
+    "detailed_answer": "The standard path (SOP-MGMT-001) goes through CEO Office via MK-ExecDash in the normal order. The expedited path (SOP-MGMT-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Comparison",
+    "role_applicability": [
+      "Department Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Company Strategy Planning Procedure",
+      "comparison",
+      "emergency",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-001",
+      "SOP-MGMT-001-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-028",
+    "question": "What's the difference between the standard Project Portfolio Review Procedure (Management) process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-MGMT-002) goes through Vice President via MK-ExecDash in the normal order. The expedited path (SOP-MGMT-002-EDGE-B) is only for genuine emergencies: it requi",
+    "detailed_answer": "The standard path (SOP-MGMT-002) goes through Vice President via MK-ExecDash in the normal order. The expedited path (SOP-MGMT-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Comparison",
+    "role_applicability": [
+      "PMO Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Project Portfolio Review Procedure (Management)",
+      "comparison",
+      "emergency",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-002",
+      "SOP-MGMT-002-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-MGMT-029",
+    "question": "What's the difference between the standard Departmental Budget Approval Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-MGMT-003) goes through CEO Office via MK-ExecDash in the normal order. The expedited path (SOP-MGMT-003-EDGE-B) is only for genuine emergencies: it requires ",
+    "detailed_answer": "The standard path (SOP-MGMT-003) goes through CEO Office via MK-ExecDash in the normal order. The expedited path (SOP-MGMT-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Management / Leadership",
+    "department_code": "MGMT",
+    "category": "Comparison",
+    "role_applicability": [
+      "Department Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Departmental Budget Approval Procedure",
+      "comparison",
+      "emergency",
+      "MGMT"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003",
+      "SOP-MGMT-003-EDGE-B"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  }
+]

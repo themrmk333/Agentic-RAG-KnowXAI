@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Support Intern",
+    "level": 1,
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Customer Support Associate",
+    "level": 2,
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Support Associate",
+    "level": 3,
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Support Team Lead",
+    "level": 4,
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Support Manager",
+    "level": 5,
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "Customer Experience Director",
+    "level": 6,
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

@@ -1,0 +1,893 @@
+[
+  {
+    "faq_id": "FAQ-IT-001",
+    "question": "How do I complete: Password Reset Procedure?",
+    "short_answer": "Follow the 7-step Password Reset Procedure procedure in MK-ServiceDesk, starting with the SOP-IT-001 SOP.",
+    "detailed_answer": "The Password Reset Procedure process (SOP-IT-001) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Support Engineer is responsible for approval/sign-off. Repeated lockouts within 24 hours trigger a mandatory identity re-verification call.",
+    "step_by_step": [
+      "the employee confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the employee performs the standard first-line check: verifying that Caps Lock is off and trying the reset link on MK-ServiceDesk.",
+      "If the issue persists, the employee applies the documented workaround for this issue type.",
+      "the employee checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the employee raises a ticket in MK-ServiceDesk categorised under 'Account Access', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the employee confirms the fix works; the ticket is closed in MK-ServiceDesk with the root cause logged. Repeated lockouts within 24 hours trigger a mandatory identity re-verification call."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Account Access",
+    "role_applicability": [
+      "employee",
+      "IT Support Engineer"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Password Reset Procedure",
+      "Account Access",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-001"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-002",
+    "question": "How do I complete: New Hardware Request Fulfillment?",
+    "short_answer": "Follow the 7-step New Hardware Request Fulfillment procedure in MK-ServiceDesk, starting with the SOP-IT-002 SOP.",
+    "detailed_answer": "The New Hardware Request Fulfillment process (SOP-IT-002) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Manager is responsible for approval/sign-off. Requests above INR 80,000 require additional Finance sign-off.",
+    "step_by_step": [
+      "the employee logs into MK-ServiceDesk and navigates to the 'Hardware Request' section.",
+      "the employee selects 'New Hardware Request' and enters the required details, including device type, business justification, and cost centre.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Hardware Request; MK-ServiceDesk automatically routes it to the IT Manager for review.",
+      "The IT Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ServiceDesk updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Hardware Request is processed and the record is retained in MK-ServiceDesk for audit purposes. Requests above INR 80,000 require additional Finance sign-off."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Hardware",
+    "role_applicability": [
+      "employee",
+      "IT Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Hardware Request Fulfillment",
+      "Hardware",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-002"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-IT-003",
+    "question": "How do I complete: Software Installation Request?",
+    "short_answer": "Follow the 7-step Software Installation Request procedure in MK-ServiceDesk, starting with the SOP-IT-003 SOP.",
+    "detailed_answer": "The Software Installation Request process (SOP-IT-003) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Support Engineer is responsible for approval/sign-off. Unlicensed or unapproved software is never installed on corporate devices.",
+    "step_by_step": [
+      "the employee logs into MK-ServiceDesk and navigates to the 'Software Request' section.",
+      "the employee selects 'New Software Request' and enters the required details, including the software name, version, and licence type required.",
+      "the employee attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the employee submits the Software Request; MK-ServiceDesk automatically routes it to the IT Support Engineer for review.",
+      "The IT Support Engineer reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-ServiceDesk updates the status to 'Approved' and notifies the employee by email/in-app notification.",
+      "The approved Software Request is processed and the record is retained in MK-ServiceDesk for audit purposes. Unlicensed or unapproved software is never installed on corporate devices."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Software",
+    "role_applicability": [
+      "employee",
+      "IT Support Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Software Installation Request",
+      "Software",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-003"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-004",
+    "question": "How do I complete: Corporate VPN Access Setup?",
+    "short_answer": "Follow the 7-step Corporate VPN Access Setup procedure in MK-ServiceDesk, starting with the SOP-IT-004 SOP.",
+    "detailed_answer": "The Corporate VPN Access Setup process (SOP-IT-004) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and System Administrator is responsible for approval/sign-off. VPN credentials are revoked automatically after 90 days of inactivity.",
+    "step_by_step": [
+      "the employee confirms eligibility and prerequisites: manager approval and a valid business need for remote access.",
+      "the employee raises a request in MK-ServiceDesk specifying exactly which VPN Access is required.",
+      "The System Administrator reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the VPN Access in the relevant system.",
+      "the employee is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ServiceDesk and corrected before sign-off.",
+      "MK-ServiceDesk marks the request 'Complete' and the configuration is logged for audit and future reference. VPN credentials are revoked automatically after 90 days of inactivity."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Network",
+    "role_applicability": [
+      "employee",
+      "System Administrator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Corporate VPN Access Setup",
+      "Network",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-004"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-005",
+    "question": "How do I complete: Laptop Replacement Process?",
+    "short_answer": "Follow the 7-step Laptop Replacement Process procedure in MK-ServiceDesk, starting with the SOP-IT-005 SOP.",
+    "detailed_answer": "The Laptop Replacement Process process (SOP-IT-005) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Manager is responsible for approval/sign-off. Data from the old device is backed up to MK-Cloud before wipe and reissue.",
+    "step_by_step": [
+      "the employee confirms eligibility and prerequisites: the asset tag of the current device and the reason for replacement.",
+      "the employee raises a request in MK-ServiceDesk specifying exactly which Laptop Replacement is required.",
+      "The IT Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Laptop Replacement in the relevant system.",
+      "the employee is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ServiceDesk and corrected before sign-off.",
+      "MK-ServiceDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Data from the old device is backed up to MK-Cloud before wipe and reissue."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Hardware",
+    "role_applicability": [
+      "employee",
+      "IT Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Laptop Replacement Process",
+      "Hardware",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-005"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-IT-006",
+    "question": "How do I complete: Corporate Wi-Fi Troubleshooting Escalation?",
+    "short_answer": "Follow the 7-step Corporate Wi-Fi Troubleshooting Escalation procedure in MK-ServiceDesk, starting with the SOP-IT-006 SOP.",
+    "detailed_answer": "The Corporate Wi-Fi Troubleshooting Escalation process (SOP-IT-006) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and Network Administrator is responsible for approval/sign-off. If multiple employees on the same floor report the issue, it is treated as a P2 network incident.",
+    "step_by_step": [
+      "the employee confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the employee performs the standard first-line check: toggling Wi-Fi off/on and confirming Airplane Mode is disabled.",
+      "If the issue persists, the employee applies the documented workaround for this issue type.",
+      "the employee checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the employee raises a ticket in MK-ServiceDesk categorised under 'Network Connectivity', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the employee confirms the fix works; the ticket is closed in MK-ServiceDesk with the root cause logged. If multiple employees on the same floor report the issue, it is treated as a P2 network incident."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Network",
+    "role_applicability": [
+      "employee",
+      "Network Administrator"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Corporate Wi-Fi Troubleshooting Escalation",
+      "Network",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-006"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-007",
+    "question": "How do I complete: New Employee IT Onboarding?",
+    "short_answer": "Follow the 7-step New Employee IT Onboarding procedure in MK-ServiceDesk, starting with the SOP-IT-007 SOP.",
+    "detailed_answer": "The New Employee IT Onboarding process (SOP-IT-007) is owned by the IT Support / Information Technology department. The it support engineer initiates the request in MK-ServiceDesk and IT Manager is responsible for approval/sign-off. IT onboarding must be completed before 9 AM on the employee's first day.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-ServiceDesk owner ahead of the employee's start or end date.",
+      "the IT Support Engineer prepares the required IT Onboarding Kit, including a provisioned laptop, email account, VPN profile, and required software.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The IT Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the IT Manager for same-day resolution.",
+      "MK-ServiceDesk is updated to reflect the completed status and the record is archived. IT onboarding must be completed before 9 AM on the employee's first day."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Onboarding",
+    "role_applicability": [
+      "IT Support Engineer",
+      "IT Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Employee IT Onboarding",
+      "Onboarding",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-007"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-IT-008",
+    "question": "How do I complete: Employee Offboarding IT Checklist?",
+    "short_answer": "Follow the 7-step Employee Offboarding IT Checklist procedure in MK-ServiceDesk, starting with the SOP-IT-008 SOP.",
+    "detailed_answer": "The Employee Offboarding IT Checklist process (SOP-IT-008) is owned by the IT Support / Information Technology department. The it support engineer initiates the request in MK-ServiceDesk and IT Manager is responsible for approval/sign-off. All offboarding actions must be completed within 4 hours of the employee's last working day.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-ServiceDesk owner ahead of the employee's start or end date.",
+      "the IT Support Engineer prepares the required IT Offboarding Checklist, including disabling the account, wiping the device, and revoking VPN/SSO access.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The IT Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the IT Manager for same-day resolution.",
+      "MK-ServiceDesk is updated to reflect the completed status and the record is archived. All offboarding actions must be completed within 4 hours of the employee's last working day."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Offboarding",
+    "role_applicability": [
+      "IT Support Engineer",
+      "IT Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Employee Offboarding IT Checklist",
+      "Offboarding",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-008"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-IT-009",
+    "question": "How do I complete: Server Access Request Procedure?",
+    "short_answer": "Follow the 7-step Server Access Request Procedure procedure in MK-ServiceDesk, starting with the SOP-IT-009 SOP.",
+    "detailed_answer": "The Server Access Request Procedure process (SOP-IT-009) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and System Administrator is responsible for approval/sign-off. Production server access is granted for a maximum of 30 days before automatic review.",
+    "step_by_step": [
+      "the employee confirms eligibility and prerequisites: the specific server name, environment, and business justification.",
+      "the employee raises a request in MK-ServiceDesk specifying exactly which Server Access is required.",
+      "The System Administrator reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Server Access in the relevant system.",
+      "the employee is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ServiceDesk and corrected before sign-off.",
+      "MK-ServiceDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Production server access is granted for a maximum of 30 days before automatic review."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Access Management",
+    "role_applicability": [
+      "employee",
+      "System Administrator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Server Access Request Procedure",
+      "Access Management",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-009"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-010",
+    "question": "How do I complete: Corporate Email Account Setup?",
+    "short_answer": "Follow the 7-step Corporate Email Account Setup procedure in MK-ServiceDesk, starting with the SOP-IT-010 SOP.",
+    "detailed_answer": "The Corporate Email Account Setup process (SOP-IT-010) is owned by the IT Support / Information Technology department. The it support engineer initiates the request in MK-ServiceDesk and IT Manager is responsible for approval/sign-off. Shared mailboxes require an additional business owner to be named.",
+    "step_by_step": [
+      "the IT Support Engineer confirms eligibility and prerequisites: the employee's full name, department, and manager for the distribution list.",
+      "the IT Support Engineer raises a request in MK-ServiceDesk specifying exactly which Email Account is required.",
+      "The IT Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Email Account in the relevant system.",
+      "the IT Support Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ServiceDesk and corrected before sign-off.",
+      "MK-ServiceDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Shared mailboxes require an additional business owner to be named."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Email",
+    "role_applicability": [
+      "IT Support Engineer",
+      "IT Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Corporate Email Account Setup",
+      "Email",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-010"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-011",
+    "question": "How do I complete: Printer and Peripheral Setup?",
+    "short_answer": "Follow the 7-step Printer and Peripheral Setup procedure in MK-ServiceDesk, starting with the SOP-IT-011 SOP.",
+    "detailed_answer": "The Printer and Peripheral Setup process (SOP-IT-011) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Support Engineer is responsible for approval/sign-off. Wireless printer drivers are pushed centrally via MK-ServiceDesk software catalog.",
+    "step_by_step": [
+      "the employee confirms eligibility and prerequisites: the printer/peripheral model and the employee's floor/office location.",
+      "the employee raises a request in MK-ServiceDesk specifying exactly which Peripheral Setup is required.",
+      "The IT Support Engineer reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Peripheral Setup in the relevant system.",
+      "the employee is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ServiceDesk and corrected before sign-off.",
+      "MK-ServiceDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Wireless printer drivers are pushed centrally via MK-ServiceDesk software catalog."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Hardware",
+    "role_applicability": [
+      "employee",
+      "IT Support Engineer"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Printer and Peripheral Setup",
+      "Hardware",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-011"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-IT-012",
+    "question": "How do I complete: IT Ticket Escalation Procedure?",
+    "short_answer": "Follow the 7-step IT Ticket Escalation Procedure procedure in MK-ServiceDesk, starting with the SOP-IT-012 SOP.",
+    "detailed_answer": "The IT Ticket Escalation Procedure process (SOP-IT-012) is owned by the IT Support / Information Technology department. The it support engineer initiates the request in MK-ServiceDesk and IT Manager is responsible for approval/sign-off. Tickets breaching SLA are auto-escalated to the IT Manager with a notification.",
+    "step_by_step": [
+      "the IT Support Engineer confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the IT Support Engineer performs the standard first-line check: reviewing the ticket SLA timer in MK-ServiceDesk.",
+      "If the issue persists, the IT Support Engineer applies the documented workaround for this issue type.",
+      "the IT Support Engineer checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the IT Support Engineer raises a ticket in MK-ServiceDesk categorised under 'Ticket Escalation', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the IT Support Engineer confirms the fix works; the ticket is closed in MK-ServiceDesk with the root cause logged. Tickets breaching SLA are auto-escalated to the IT Manager with a notification."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Support Operations",
+    "role_applicability": [
+      "IT Support Engineer",
+      "IT Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "IT Ticket Escalation Procedure",
+      "Support Operations",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-012"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-013",
+    "question": "How do I complete: Asset Tagging and Inventory Update?",
+    "short_answer": "Follow the 7-step Asset Tagging and Inventory Update procedure in MK-ServiceDesk, starting with the SOP-IT-013 SOP.",
+    "detailed_answer": "The Asset Tagging and Inventory Update process (SOP-IT-013) is owned by the IT Support / Information Technology department. The it support engineer initiates the request in MK-ServiceDesk and IT Manager is responsible for approval/sign-off. Assets unaccounted for after two review cycles are reported to Security as a potential loss.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-ServiceDesk.",
+      "the IT Support Engineer gathers the required data and documents, including serial numbers, purchase dates, and current assignees for all devices.",
+      "The review team examines the IT Asset Register against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The IT Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-ServiceDesk with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Assets unaccounted for after two review cycles are reported to Security as a potential loss."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Asset Management",
+    "role_applicability": [
+      "IT Support Engineer",
+      "IT Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Asset Tagging and Inventory Update",
+      "Asset Management",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-013"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-014",
+    "question": "How do I complete: Remote Desktop / Screen Share Support Session?",
+    "short_answer": "Follow the 7-step Remote Desktop / Screen Share Support Session procedure in MK-ServiceDesk, starting with the SOP-IT-014 SOP.",
+    "detailed_answer": "The Remote Desktop / Screen Share Support Session process (SOP-IT-014) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Support Engineer is responsible for approval/sign-off. Remote sessions are logged and never used to access personal files without explicit consent.",
+    "step_by_step": [
+      "the employee confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the employee performs the standard first-line check: confirming the employee's consent before starting a remote session via MK-ServiceDesk Remote.",
+      "If the issue persists, the employee applies the documented workaround for this issue type.",
+      "the employee checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the employee raises a ticket in MK-ServiceDesk categorised under 'Remote Support Session', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the employee confirms the fix works; the ticket is closed in MK-ServiceDesk with the root cause logged. Remote sessions are logged and never used to access personal files without explicit consent."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Support Operations",
+    "role_applicability": [
+      "employee",
+      "IT Support Engineer"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Remote Desktop / Screen Share Support Session",
+      "Support Operations",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-014"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-IT-015",
+    "question": "How do I complete: Mobile Device Enrollment (MDM)?",
+    "short_answer": "Follow the 7-step Mobile Device Enrollment (MDM) procedure in MK-ServiceDesk, starting with the SOP-IT-015 SOP.",
+    "detailed_answer": "The Mobile Device Enrollment (MDM) process (SOP-IT-015) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Support Engineer is responsible for approval/sign-off. Personal devices used for email must have a screen lock enabled or enrollment is rejected.",
+    "step_by_step": [
+      "the employee confirms eligibility and prerequisites: installing the MK-MDM profile and accepting the corporate device management policy.",
+      "the employee raises a request in MK-ServiceDesk specifying exactly which MDM Enrollment is required.",
+      "The IT Support Engineer reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the MDM Enrollment in the relevant system.",
+      "the employee is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-ServiceDesk and corrected before sign-off.",
+      "MK-ServiceDesk marks the request 'Complete' and the configuration is logged for audit and future reference. Personal devices used for email must have a screen lock enabled or enrollment is rejected."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Mobile Devices",
+    "role_applicability": [
+      "employee",
+      "IT Support Engineer"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Mobile Device Enrollment (MDM)",
+      "Mobile Devices",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-015"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-016",
+    "question": "How do I complete: IT Asset Return on Exit?",
+    "short_answer": "Follow the 7-step IT Asset Return on Exit procedure in MK-ServiceDesk, starting with the SOP-IT-016 SOP.",
+    "detailed_answer": "The IT Asset Return on Exit process (SOP-IT-016) is owned by the IT Support / Information Technology department. The employee initiates the request in MK-ServiceDesk and IT Support Engineer is responsible for approval/sign-off. Unreturned assets are billed to the employee's full and final settlement.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-ServiceDesk owner ahead of the employee's start or end date.",
+      "the employee prepares the required Asset Return, including the laptop, charger, access card, and any peripherals issued.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The IT Support Engineer verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the IT Support Engineer for same-day resolution.",
+      "MK-ServiceDesk is updated to reflect the completed status and the record is archived. Unreturned assets are billed to the employee's full and final settlement."
+    ],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Offboarding",
+    "role_applicability": [
+      "employee",
+      "IT Support Engineer"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "IT Asset Return on Exit",
+      "Offboarding",
+      "IT"
+    ],
+    "related_documents": [
+      "SOP-IT-016"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-IT-017",
+    "question": "What is the Password Policy?",
+    "short_answer": "Passwords must be a minimum of 12 characters with uppercase, lowercase, number, and symbol.",
+    "detailed_answer": "Passwords must be a minimum of 12 characters with uppercase, lowercase, number, and symbol. Passwords must be changed every 90 days and cannot repeat the last 5 passwords used. Accounts are locked after 5 consecutive failed login attempts and require IT verification to unlock. Passwords must never be shared, written down, or reused across personal and corporate accounts.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Account Security",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Password Policy",
+      "Account Security",
+      "IT"
+    ],
+    "related_documents": [
+      "POL-IT-001"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-018",
+    "question": "What is the Device Usage Policy?",
+    "short_answer": "Corporate laptops are issued for business use; limited personal use is permitted but not for commercial activity.",
+    "detailed_answer": "Corporate laptops are issued for business use; limited personal use is permitted but not for commercial activity. Only IT-approved software may be installed on corporate devices. Lost or stolen devices must be reported to IT and Security within 1 hour of discovery. Devices must have disk encryption and endpoint protection enabled at all times.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Asset Management",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Device Usage Policy",
+      "Asset Management",
+      "IT"
+    ],
+    "related_documents": [
+      "POL-IT-002"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-019",
+    "question": "What is the IT Support Policy?",
+    "short_answer": "P1 (system down, business-critical) tickets are responded to within 30 minutes.",
+    "detailed_answer": "P1 (system down, business-critical) tickets are responded to within 30 minutes. P2 (major impact) tickets are responded to within 2 hours. P3/P4 (minor/routine) tickets are responded to within 1 business day. All IT requests must be logged through MK-ServiceDesk; verbal requests are not tracked and may be delayed.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Support Operations",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "IT Support Policy",
+      "Support Operations",
+      "IT"
+    ],
+    "related_documents": [
+      "POL-IT-003"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-020",
+    "question": "What is the Software Installation Policy?",
+    "short_answer": "Employees must submit a Software Installation Request for any non-standard application.",
+    "detailed_answer": "Employees must submit a Software Installation Request for any non-standard application. Open-source software must be reviewed for licence compliance before approval. Unlicensed or pirated software is never permitted on any corporate device.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Software Management",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Software Installation Policy",
+      "Software Management",
+      "IT"
+    ],
+    "related_documents": [
+      "POL-IT-004"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-021",
+    "question": "What is the IT Asset Management Policy?",
+    "short_answer": "Every IT asset is tagged and tracked in the IT Asset Register from procurement to disposal.",
+    "detailed_answer": "Every IT asset is tagged and tracked in the IT Asset Register from procurement to disposal. Asset audits are conducted twice yearly across all office locations. Employees are financially responsible for assets lost due to negligence, per the signed asset agreement.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Asset Management",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "IT Asset Management Policy",
+      "Asset Management",
+      "IT"
+    ],
+    "related_documents": [
+      "POL-IT-005"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-022",
+    "question": "Who do I contact in the IT Support / Information Technology department for help?",
+    "short_answer": "Reach out to: Rohan Verma (IT Manager, rohan.verma@mkinfinite-ai.com); Priya Nair (Senior IT Support Engineer, priya.nair@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to IT Support / Information Technology, use MK-ServiceDesk to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Rohan Verma (IT Manager, rohan.verma@mkinfinite-ai.com); Priya Nair (Senior IT Support Engineer, priya.nair@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "IT Support / Information Technology",
+      "contact",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-023",
+    "question": "What system does the IT Support / Information Technology department use?",
+    "short_answer": "IT Support / Information Technology primarily uses MK-ServiceDesk for its workflows.",
+    "detailed_answer": "MK-ServiceDesk is the system of record for IT Support / Information Technology. All requests, approvals, and records for this department's processes should go through MK-ServiceDesk rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-ServiceDesk",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-024",
+    "question": "What are the key performance indicators (KPIs) for the IT Support / Information Technology department?",
+    "short_answer": "Average ticket resolution time (target: under 8 business hours)",
+    "detailed_answer": "Average ticket resolution time (target: under 8 business hours) First-contact resolution rate (target: above 70%) SLA compliance rate (target: above 95%) Asset audit accuracy (target: above 98%)",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "KPI",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-025",
+    "question": "What is the escalation path within the IT Support / Information Technology department?",
+    "short_answer": "Escalate in this order: IT Support Engineer -> IT Manager -> IT Director.",
+    "detailed_answer": "If a request or issue with IT Support / Information Technology is not addressed within the expected timeframe, escalate step by step through: IT Support Engineer -> IT Manager -> IT Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-026",
+    "question": "What are common mistakes employees make when working with IT Support / Information Technology?",
+    "short_answer": "Raising IT requests verbally instead of logging a ticket in MK-ServiceDesk, which delays tracking.",
+    "detailed_answer": "Raising IT requests verbally instead of logging a ticket in MK-ServiceDesk, which delays tracking. Installing unapproved software without submitting a Software Installation Request. Not reporting a lost device immediately, which delays remote wipe and increases data risk.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "mistakes",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-027",
+    "question": "What does 'MK-ServiceDesk' mean in the context of IT Support / Information Technology?",
+    "short_answer": "The internal IT ticketing and self-service portal.",
+    "detailed_answer": "The internal IT ticketing and self-service portal. This term is commonly used in IT Support / Information Technology SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-ServiceDesk",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-028",
+    "question": "What does 'P1/P2/P3/P4' mean in the context of IT Support / Information Technology?",
+    "short_answer": "Priority levels used to classify IT tickets by business impact.",
+    "detailed_answer": "Priority levels used to classify IT tickets by business impact. This term is commonly used in IT Support / Information Technology SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "P1/P2/P3/P4",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-029",
+    "question": "What does 'MDM' mean in the context of IT Support / Information Technology?",
+    "short_answer": "Mobile Device Management, used to enroll and secure mobile devices.",
+    "detailed_answer": "Mobile Device Management, used to enroll and secure mobile devices. This term is commonly used in IT Support / Information Technology SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MDM",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-030",
+    "question": "What does 'Asset Tag' mean in the context of IT Support / Information Technology?",
+    "short_answer": "A unique identifier assigned to every IT hardware asset.",
+    "detailed_answer": "A unique identifier assigned to every IT hardware asset. This term is commonly used in IT Support / Information Technology SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Asset Tag",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-031",
+    "question": "What does 'VPN' mean in the context of IT Support / Information Technology?",
+    "short_answer": "Virtual Private Network used for secure remote access to company systems.",
+    "detailed_answer": "Virtual Private Network used for secure remote access to company systems. This term is commonly used in IT Support / Information Technology SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "VPN",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-IT-032",
+    "question": "Can an employee from a different department ask a IT Support / Information Technology question?",
+    "short_answer": "Yes. IT Support / Information Technology knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a IT Support / Information Technology question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "IT Support / Information Technology",
+    "department_code": "IT",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "IT Support / Information Technology",
+      "IT"
+    ],
+    "related_documents": [],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "general"
+  }
+]

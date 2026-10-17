@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Research Intern",
+    "level": 1,
+    "department": "Research & Development",
+    "department_code": "RND",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Research Associate",
+    "level": 2,
+    "department": "Research & Development",
+    "department_code": "RND",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "AI Research Engineer",
+    "level": 3,
+    "department": "Research & Development",
+    "department_code": "RND",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Research Engineer",
+    "level": 4,
+    "department": "Research & Development",
+    "department_code": "RND",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Research Lead",
+    "level": 5,
+    "department": "Research & Development",
+    "department_code": "RND",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "R&D Manager",
+    "level": 6,
+    "department": "Research & Development",
+    "department_code": "RND",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "R&D Director",
+    "level": 7,
+    "department": "Research & Development",
+    "department_code": "RND",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

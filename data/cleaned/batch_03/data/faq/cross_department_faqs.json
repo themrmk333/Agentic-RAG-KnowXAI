@@ -1,0 +1,594 @@
+[
+  {
+    "faq_id": "FAQ-XDEPT-001",
+    "question": "I'm an Engineer and I paid for a conference out of pocket — how do I get reimbursed, and does Engineering need to approve it too?",
+    "short_answer": "Use the Finance Expense Reimbursement Procedure (SOP-FIN-001): submit the claim in MK-Finance360 with the conference invoice and business justification. Your Reporting Manager (Engineering Manager or ",
+    "detailed_answer": "Use the Finance Expense Reimbursement Procedure (SOP-FIN-001): submit the claim in MK-Finance360 with the conference invoice and business justification. Your Reporting Manager (Engineering Manager or Tech Lead) approves it first as your line manager, then Finance Lead reviews per the Expense Reimbursement Policy. Engineering does not need a separate sign-off beyond your manager's approval as requester.",
+    "step_by_step": [],
+    "department": "Cross-Department (FIN + ENG)",
+    "department_code": "FIN",
+    "related_department_codes": [
+      "ENG"
+    ],
+    "category": "Cross-Department: Expenses",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "FIN",
+      "ENG",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-FIN-001",
+      "POL-FIN-001"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-002",
+    "question": "An HR employee's laptop won't connect to Wi-Fi during a confidential compensation review meeting — what's the fastest path?",
+    "short_answer": "Follow the standard Corporate Wi-Fi Troubleshooting Escalation (SOP-IT-006): toggle Wi-Fi and confirm Airplane Mode is off, then reconnect to the corporate network. If unresolved, raise a P2 ticket in",
+    "detailed_answer": "Follow the standard Corporate Wi-Fi Troubleshooting Escalation (SOP-IT-006): toggle Wi-Fi and confirm Airplane Mode is off, then reconnect to the corporate network. If unresolved, raise a P2 ticket in MK-ServiceDesk — HR data sensitivity does not change the IT troubleshooting steps, but the employee should avoid discussing confidential details over an unsecured guest network while the primary connection is down.",
+    "step_by_step": [],
+    "department": "Cross-Department (IT + HR)",
+    "department_code": "IT",
+    "related_department_codes": [
+      "HR"
+    ],
+    "category": "Cross-Department: IT Support",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "IT",
+      "HR",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-IT-006"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-003",
+    "question": "A Sales rep wants to give a customer a bigger discount than they're authorized for, but the deal will fall through by end of day. What do they do?",
+    "short_answer": "This is exactly the Urgent/Expedited Path edge case for SOP-SALES-003 (Discount Approval Procedure): the Account Executive should contact the Sales Director directly (not only via MK-CRM) for verbal p",
+    "detailed_answer": "This is exactly the Urgent/Expedited Path edge case for SOP-SALES-003 (Discount Approval Procedure): the Account Executive should contact the Sales Director directly (not only via MK-CRM) for verbal pre-approval, proceed if granted, and file the formal Discount Request in MK-CRM within 24 hours marked 'Emergency — Retroactive Approval'. Discounts above 25% still require Finance Director co-approval even under this path.",
+    "step_by_step": [],
+    "department": "Cross-Department (SALES + FIN)",
+    "department_code": "SALES",
+    "related_department_codes": [
+      "FIN"
+    ],
+    "category": "Cross-Department: Deal Approval",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SALES",
+      "FIN",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-SALES-003-EDGE-B",
+      "POL-SALES-001"
+    ],
+    "escalation_path": "Account Executive -> Sales Team Lead -> Sales Manager -> Sales Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-004",
+    "question": "A Marketing employee wants to reference a specific enterprise customer by name in a case study — what approvals are needed across departments?",
+    "short_answer": "Marketing drafts the case study per SOP-MKT-015 (Customer Case Study Development Procedure), but it cannot be published without written customer approval of the final draft. Additionally, referencing ",
+    "detailed_answer": "Marketing drafts the case study per SOP-MKT-015 (Customer Case Study Development Procedure), but it cannot be published without written customer approval of the final draft. Additionally, referencing the customer's name/logo requires prior written consent per the Brand and Content Approval Policy (POL-MKT-001), and Sales (the account owner) should be looped in via the Customer Reference Request Procedure (SOP-SALES-011) to avoid over-contacting the same reference customer more than once a quarter.",
+    "step_by_step": [],
+    "department": "Cross-Department (MKT + SALES/LEGAL)",
+    "department_code": "MKT",
+    "related_department_codes": [
+      "SALES",
+      "LEGAL"
+    ],
+    "category": "Cross-Department: Content Approval",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MKT",
+      "SALES",
+      "LEGAL",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-MKT-015",
+      "SOP-SALES-011",
+      "POL-MKT-001"
+    ],
+    "escalation_path": "Marketing Executive -> Marketing Team Lead -> Marketing Manager -> Marketing Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-005",
+    "question": "An intern in Finance wants to approve a small vendor invoice while their manager is out — is that allowed?",
+    "short_answer": "No. Per the Finance Intern Onboarding Procedure (SOP-FIN-015), interns are never given payment approval rights regardless of invoice size. If the Finance Lead is unavailable, use the Approver-Unavaila",
+    "detailed_answer": "No. Per the Finance Intern Onboarding Procedure (SOP-FIN-015), interns are never given payment approval rights regardless of invoice size. If the Finance Lead is unavailable, use the Approver-Unavailable edge case (SOP-FIN-004-EDGE-A) to route the invoice to the designated delegate — never to an intern.",
+    "step_by_step": [],
+    "department": "Cross-Department (FIN + HR)",
+    "department_code": "FIN",
+    "related_department_codes": [
+      "HR"
+    ],
+    "category": "Cross-Department: Authorization Limits",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "FIN",
+      "HR",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-FIN-015",
+      "SOP-FIN-004-EDGE-A"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-006",
+    "question": "A customer's data may have been exposed through a Support ticket attachment — who owns the response, Support or Security?",
+    "short_answer": "Security owns incident response. The Support Associate should immediately report this to Security following the Security Incident Response Procedure (SOP-SEC-003) rather than trying to resolve it with",
+    "detailed_answer": "Security owns incident response. The Support Associate should immediately report this to Security following the Security Incident Response Procedure (SOP-SEC-003) rather than trying to resolve it within Support alone. If confirmed, Security notifies Legal within 4 hours per the Incident Response Policy (POL-SEC-003), and Support continues to own the customer communication once Security/Legal confirm what can be disclosed.",
+    "step_by_step": [],
+    "department": "Cross-Department (SEC + SUPPORT/LEGAL)",
+    "department_code": "SEC",
+    "related_department_codes": [
+      "SUPPORT",
+      "LEGAL"
+    ],
+    "category": "Cross-Department: Incident Response",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SEC",
+      "SUPPORT",
+      "LEGAL",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-SEC-003",
+      "POL-SEC-003"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-007",
+    "question": "A Product Manager wants to launch a feature that stores new customer personal data — what has to happen before launch?",
+    "short_answer": "Two things must happen before launch, not just Product's own Launch Readiness Checklist (SOP-PROD-004): (1) Legal must complete a Data Privacy Impact Assessment via the DPIA Procedure (SOP-LEGAL-006) ",
+    "detailed_answer": "Two things must happen before launch, not just Product's own Launch Readiness Checklist (SOP-PROD-004): (1) Legal must complete a Data Privacy Impact Assessment via the DPIA Procedure (SOP-LEGAL-006) because this is a high-risk processing activity, and (2) the Product Risk & Compliance Review (SOP-PROD-016) must get Legal sign-off. Launch is blocked until both are complete, per the Feature Launch Policy (POL-PROD-001).",
+    "step_by_step": [],
+    "department": "Cross-Department (PROD + LEGAL/DATA)",
+    "department_code": "PROD",
+    "related_department_codes": [
+      "LEGAL",
+      "DATA"
+    ],
+    "category": "Cross-Department: Compliance",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "PROD",
+      "LEGAL",
+      "DATA",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-PROD-004",
+      "SOP-LEGAL-006",
+      "POL-PROD-001"
+    ],
+    "escalation_path": "Associate Product Manager -> Product Manager -> Product Lead -> Head of Product",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-008",
+    "question": "Someone in R&D wants to use a dataset scraped from a public website for a new experiment — is that OK?",
+    "short_answer": "Not without a check first. Per the Dataset Acquisition and Licensing Procedure (SOP-RND-005), the Research Associate must confirm the dataset's licence terms with Legal before use — 'publicly availabl",
+    "detailed_answer": "Not without a check first. Per the Dataset Acquisition and Licensing Procedure (SOP-RND-005), the Research Associate must confirm the dataset's licence terms with Legal before use — 'publicly available' does not automatically mean it's licensed for this purpose. If licensing is unclear, the dataset cannot be used per the Responsible AI Policy (POL-RND-001) until Legal confirms permissibility.",
+    "step_by_step": [],
+    "department": "Cross-Department (RND + LEGAL)",
+    "department_code": "RND",
+    "related_department_codes": [
+      "LEGAL"
+    ],
+    "category": "Cross-Department: Data Governance",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "RND",
+      "LEGAL",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-RND-005",
+      "POL-RND-001"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-009",
+    "question": "A Procurement Specialist needs a vendor onboarded urgently for a DevOps tool, but the vendor hasn't completed a security review yet. Can they proceed?",
+    "short_answer": "No — this is a hard authorization boundary, not a discretionary one. The Vendor Onboarding Policy (POL-PROC-001) requires vendors handling company/customer data to complete a Security Assessment (SOP-",
+    "detailed_answer": "No — this is a hard authorization boundary, not a discretionary one. The Vendor Onboarding Policy (POL-PROC-001) requires vendors handling company/customer data to complete a Security Assessment (SOP-SEC-009) before onboarding, and DevOps tooling typically has infrastructure access, so Security's review cannot be skipped even under the Emergency/Urgent Procurement Procedure (SOP-PROC-008).",
+    "step_by_step": [],
+    "department": "Cross-Department (PROC + SEC/DEVOPS)",
+    "department_code": "PROC",
+    "related_department_codes": [
+      "SEC",
+      "DEVOPS"
+    ],
+    "category": "Cross-Department: Vendor Risk",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "PROC",
+      "SEC",
+      "DEVOPS",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-PROC-008",
+      "SOP-SEC-009",
+      "POL-PROC-001"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-010",
+    "question": "An Admin team member needs IT to move network ports during an office seating change — whose SOP governs this?",
+    "short_answer": "Both are involved but Admin leads. The Office Relocation/Seating Change Procedure (SOP-ADMIN-010) is the primary SOP; it explicitly requires notifying IT in advance to move network/phone connections, ",
+    "detailed_answer": "Both are involved but Admin leads. The Office Relocation/Seating Change Procedure (SOP-ADMIN-010) is the primary SOP; it explicitly requires notifying IT in advance to move network/phone connections, which IT then handles under its own Server/Network procedures. Admin owns the timeline; IT owns the technical execution.",
+    "step_by_step": [],
+    "department": "Cross-Department (ADMIN + IT)",
+    "department_code": "ADMIN",
+    "related_department_codes": [
+      "IT"
+    ],
+    "category": "Cross-Department: Facilities",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "ADMIN",
+      "IT",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-010"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-011",
+    "question": "A Data Analyst wants to share a dashboard containing employee salary data with a department head who isn't in Finance or HR — allowed?",
+    "short_answer": "Only after classification and access checks. Salary data is Restricted per the Payroll Administration Policy (POL-FIN-007), so it must be classified accordingly (SOP-DATA-005) and access requires Secu",
+    "detailed_answer": "Only after classification and access checks. Salary data is Restricted per the Payroll Administration Policy (POL-FIN-007), so it must be classified accordingly (SOP-DATA-005) and access requires Security Manager co-approval per the Data Access Request Procedure (SOP-DATA-001) — the requester's department alone doesn't grant access to Restricted data, regardless of their seniority.",
+    "step_by_step": [],
+    "department": "Cross-Department (DATA + FIN/HR/SEC)",
+    "department_code": "DATA",
+    "related_department_codes": [
+      "FIN",
+      "HR",
+      "SEC"
+    ],
+    "category": "Cross-Department: Data Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "DATA",
+      "FIN",
+      "HR",
+      "SEC",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-DATA-001",
+      "SOP-DATA-005",
+      "POL-FIN-007"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-012",
+    "question": "A QA Engineer found a bug that looks like it could be a security vulnerability — do they log it as a defect or report it to Security?",
+    "short_answer": "Both, but in a specific order: report it to Security immediately via the Phishing/Incident channels is wrong here — for a code vulnerability, follow the Security Regression Testing Coordination proces",
+    "detailed_answer": "Both, but in a specific order: report it to Security immediately via the Phishing/Incident channels is wrong here — for a code vulnerability, follow the Security Regression Testing Coordination process (SOP-QA-013) which routes findings to a Security Analyst for validation, and separately log it as a defect (SOP-QA-001) tagged Security-related so Engineering can track and fix it through the normal pipeline.",
+    "step_by_step": [],
+    "department": "Cross-Department (QA + SEC/ENG)",
+    "department_code": "QA",
+    "related_department_codes": [
+      "SEC",
+      "ENG"
+    ],
+    "category": "Cross-Department: Security Testing",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "QA",
+      "SEC",
+      "ENG",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-QA-001",
+      "SOP-QA-013"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-013",
+    "question": "A new employee's manager is on leave on their first day — who completes the onboarding sign-off?",
+    "short_answer": "Use the Approver-Unavailable edge case pattern: HR's New Employee Onboarding Procedure (SOP-HR-002) still proceeds on schedule (IT/Security onboarding are not manager-dependent), but for any step requ",
+    "detailed_answer": "Use the Approver-Unavailable edge case pattern: HR's New Employee Onboarding Procedure (SOP-HR-002) still proceeds on schedule (IT/Security onboarding are not manager-dependent), but for any step requiring the manager's sign-off, the delegate identified in the escalation chain (typically the manager's own manager) signs off instead, and the returning manager is notified per the standard edge-case pattern.",
+    "step_by_step": [],
+    "department": "Cross-Department (HR + IT/SEC)",
+    "department_code": "HR",
+    "related_department_codes": [
+      "IT",
+      "SEC"
+    ],
+    "category": "Cross-Department: Onboarding",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "HR",
+      "IT",
+      "SEC",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-HR-002",
+      "SOP-HR-002-EDGE-A"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-014",
+    "question": "Can a Support Manager approve their own customer refund if the customer is a personal friend, to avoid awkwardness with a peer?",
+    "short_answer": "No — this is a conflict-of-interest situation. Per the Employee Conduct Policy (POL-HR-004), conflicts of interest must be disclosed to the Reporting Manager and HR Business Partner, and the Support M",
+    "detailed_answer": "No — this is a conflict-of-interest situation. Per the Employee Conduct Policy (POL-HR-004), conflicts of interest must be disclosed to the Reporting Manager and HR Business Partner, and the Support Manager should recuse themselves from the Refund/Credit Request Procedure (SOP-SUPPORT-005), routing the approval to their own manager instead.",
+    "step_by_step": [],
+    "department": "Cross-Department (SUPPORT + HR)",
+    "department_code": "SUPPORT",
+    "related_department_codes": [
+      "HR"
+    ],
+    "category": "Cross-Department: Conflict of Interest",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SUPPORT",
+      "HR",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-005",
+      "POL-HR-004"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-015",
+    "question": "A DevOps engineer wants to deploy a fix at 2 AM without going through the normal MK-CI pipeline because production is down — is that allowed?",
+    "short_answer": "During a declared Sev-1 incident, yes, with conditions. The Production Change Policy (POL-DEVOPS-001) prohibits manual production changes except during a declared incident; the engineer should follow ",
+    "detailed_answer": "During a declared Sev-1 incident, yes, with conditions. The Production Change Policy (POL-DEVOPS-001) prohibits manual production changes except during a declared incident; the engineer should follow the Production Incident Response procedure (SOP-DEVOPS-004) and the Rollback Procedure (SOP-DEVOPS-012) if applicable, and any manual change must still be retroactively logged and reviewed the next business day.",
+    "step_by_step": [],
+    "department": "Cross-Department (DEVOPS + ENG/SEC)",
+    "department_code": "DEVOPS",
+    "related_department_codes": [
+      "ENG",
+      "SEC"
+    ],
+    "category": "Cross-Department: Incident Response",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "DEVOPS",
+      "ENG",
+      "SEC",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-DEVOPS-004",
+      "POL-DEVOPS-001"
+    ],
+    "escalation_path": "DevOps Engineer -> DevOps Manager -> DevOps Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-016",
+    "question": "A Legal Associate wants Engineering to add a clause enforcement check directly into the product — is this a Legal SOP or an Engineering one?",
+    "short_answer": "Neither owns it alone — it starts as a Legal requirement flowing into Product/Engineering delivery. Legal documents the requirement via the Policy Drafting and Approval Procedure (SOP-LEGAL-015) or a ",
+    "detailed_answer": "Neither owns it alone — it starts as a Legal requirement flowing into Product/Engineering delivery. Legal documents the requirement via the Policy Drafting and Approval Procedure (SOP-LEGAL-015) or a Contract Review Request if customer-specific, then Product creates a PRD (SOP-PROD-001) so Engineering can scope and build it through the normal technical design and sprint planning process (SOP-ENG-011, SOP-ENG-009).",
+    "step_by_step": [],
+    "department": "Cross-Department (LEGAL + PROD/ENG)",
+    "department_code": "LEGAL",
+    "related_department_codes": [
+      "PROD",
+      "ENG"
+    ],
+    "category": "Cross-Department: Requirement Handoff",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "LEGAL",
+      "PROD",
+      "ENG",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-015",
+      "SOP-PROD-001",
+      "SOP-ENG-011"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-017",
+    "question": "An employee wants to expense a gift for a vendor contact to say thank you — is this allowed and does Procurement need to know?",
+    "short_answer": "It depends on value and intent, and yes, flag it. Submit via the standard Expense Reimbursement Procedure (SOP-FIN-001), but gifts to vendor contacts can raise ethical sourcing concerns — check with P",
+    "detailed_answer": "It depends on value and intent, and yes, flag it. Submit via the standard Expense Reimbursement Procedure (SOP-FIN-001), but gifts to vendor contacts can raise ethical sourcing concerns — check with Procurement's Sustainable/Ethical Sourcing Review (SOP-PROC-012) guidance and keep the value modest; anything that could be seen as influencing a vendor decision should be disclosed to the Procurement Manager beforehand.",
+    "step_by_step": [],
+    "department": "Cross-Department (FIN + PROC)",
+    "department_code": "FIN",
+    "related_department_codes": [
+      "PROC"
+    ],
+    "category": "Cross-Department: Ethics & Expenses",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "FIN",
+      "PROC",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-FIN-001",
+      "SOP-PROC-012"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-018",
+    "question": "A Data Engineer wants to use anonymized production data in an R&D research experiment — whose approval chain applies?",
+    "short_answer": "Both departments' controls apply, layered. Data & Analytics' Data Anonymization for Testing Procedure (SOP-DATA-013) governs how the data is anonymized and by whom (Security Manager approval required)",
+    "detailed_answer": "Both departments' controls apply, layered. Data & Analytics' Data Anonymization for Testing Procedure (SOP-DATA-013) governs how the data is anonymized and by whom (Security Manager approval required), and then R&D's Experiment Design and Tracking Procedure (SOP-RND-002) governs how it's used in the experiment — R&D cannot skip DATA's anonymization step even for internal research.",
+    "step_by_step": [],
+    "department": "Cross-Department (DATA + RND/SEC)",
+    "department_code": "DATA",
+    "related_department_codes": [
+      "RND",
+      "SEC"
+    ],
+    "category": "Cross-Department: Data Sharing",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "DATA",
+      "RND",
+      "SEC",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-DATA-013",
+      "SOP-RND-002"
+    ],
+    "escalation_path": "Data Analyst -> Analytics Lead -> Data Manager -> Director of Data & Analytics",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-019",
+    "question": "Management wants a same-day answer on whether the company can afford a new hire — who do they ask?",
+    "short_answer": "This routes through Finance and HR together under Management's authority. Finance provides current budget headroom against the Departmental Budget Approval Procedure (SOP-MGMT-003), HR confirms the ro",
+    "detailed_answer": "This routes through Finance and HR together under Management's authority. Finance provides current budget headroom against the Departmental Budget Approval Procedure (SOP-MGMT-003), HR confirms the role is within an approved headcount plan via the Recruitment Requisition Procedure (SOP-HR-008), and Management makes the final call — Executive Hiring Approval (SOP-MGMT-008) is required if the role is at director level or above.",
+    "step_by_step": [],
+    "department": "Cross-Department (MGMT + FIN/HR)",
+    "department_code": "MGMT",
+    "related_department_codes": [
+      "FIN",
+      "HR"
+    ],
+    "category": "Cross-Department: Budget & Headcount",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MGMT",
+      "FIN",
+      "HR",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-MGMT-003",
+      "SOP-HR-008",
+      "SOP-MGMT-008"
+    ],
+    "escalation_path": "Manager -> Director -> Vice President -> CEO Office",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-XDEPT-020",
+    "question": "A contractor's engagement is ending — does IT, Security, or HR own revoking their access?",
+    "short_answer": "All three, in sequence, coordinated by the engaging department (often PMO or Procurement for contractor engagements). HR/PMO triggers the exit per the contract end date, IT executes the IT Asset Retur",
+    "detailed_answer": "All three, in sequence, coordinated by the engaging department (often PMO or Procurement for contractor engagements). HR/PMO triggers the exit per the contract end date, IT executes the IT Asset Return and account deactivation (SOP-IT-016), and Security confirms all access — VPN, privileged access, badges — is revoked within the same 4-hour SLA as any other departing individual, per the Access Control Policy.",
+    "step_by_step": [],
+    "department": "Cross-Department (IT + SEC/HR/PMO)",
+    "department_code": "IT",
+    "related_department_codes": [
+      "SEC",
+      "HR",
+      "PMO"
+    ],
+    "category": "Cross-Department: Offboarding",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "IT",
+      "SEC",
+      "HR",
+      "PMO",
+      "cross-department"
+    ],
+    "related_documents": [
+      "SOP-IT-016",
+      "POL-SEC-001"
+    ],
+    "escalation_path": "IT Support Engineer -> IT Manager -> IT Director",
+    "access_level": "employee"
+  }
+]

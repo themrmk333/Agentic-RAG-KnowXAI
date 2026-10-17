@@ -1,0 +1,782 @@
+[
+  {
+    "faq_id": "FAQADV-ADMIN-001",
+    "question": "New Employee Workspace Setup Procedure: What happens if Office Manager is unavailable to approve a workspace setup?",
+    "short_answer": "Route it to the Office Manager's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Office Manager is notifi",
+    "detailed_answer": "Route it to the Office Manager's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Office Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Workspace Setup Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-001-EDGE-A"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-002",
+    "question": "New Employee Workspace Setup Procedure: Can a workspace setup be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Office Manager directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Office Manager directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Workspace Setup Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-001-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-003",
+    "question": "New Employee Workspace Setup Procedure: What do I do if MK-FacilitiesDesk is down and I need to submit a workspace setup?",
+    "short_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Office Manager directly with the request details; once MK-FacilitiesDesk",
+    "detailed_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Office Manager directly with the request details; once MK-FacilitiesDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Workspace Setup Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-001-EDGE-C"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-004",
+    "question": "New Employee Workspace Setup Procedure: What happens if my workspace setup request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and re",
+    "detailed_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Workspace Setup Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-001-EDGE-D"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-005",
+    "question": "New Employee Workspace Setup Procedure: What happens if my workspace setup submission is missing required documentation?",
+    "short_answer": "The Office Manager returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to ",
+    "detailed_answer": "The Office Manager returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Workspace Setup Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-001-EDGE-E"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-006",
+    "question": "Office Access Card Issuance Procedure: What happens if Office Manager is unavailable to approve a access card?",
+    "short_answer": "Route it to the Office Manager's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Office Manager is notifi",
+    "detailed_answer": "Route it to the Office Manager's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Office Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Access Card Issuance Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-002-EDGE-A"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-007",
+    "question": "Office Access Card Issuance Procedure: Can a access card be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Office Manager directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Office Manager directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Access Card Issuance Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-002-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-008",
+    "question": "Office Access Card Issuance Procedure: What do I do if MK-FacilitiesDesk is down and I need to submit a access card?",
+    "short_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Office Manager directly with the request details; once MK-FacilitiesDesk",
+    "detailed_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Office Manager directly with the request details; once MK-FacilitiesDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Access Card Issuance Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-002-EDGE-C"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-009",
+    "question": "Office Access Card Issuance Procedure: What happens if my access card request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and re",
+    "detailed_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Access Card Issuance Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-002-EDGE-D"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-010",
+    "question": "Office Access Card Issuance Procedure: What happens if my access card submission is missing required documentation?",
+    "short_answer": "The Office Manager returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to ",
+    "detailed_answer": "The Office Manager returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Office Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Access Card Issuance Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-002-EDGE-E"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-011",
+    "question": "Meeting Room Booking Procedure: What happens if Facilities Coordinator is unavailable to approve a meeting room booking?",
+    "short_answer": "Route it to the Facilities Coordinator's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Facilities Coord",
+    "detailed_answer": "Route it to the Facilities Coordinator's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Facilities Coordinator is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Meeting Room Booking Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-003-EDGE-A"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-012",
+    "question": "Meeting Room Booking Procedure: Can a meeting room booking be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Facilities Coordinator directly, proceed with the minimum necessary action, then file the formal request in MK-Facilit",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Facilities Coordinator directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Meeting Room Booking Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-003-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-013",
+    "question": "Meeting Room Booking Procedure: What do I do if MK-FacilitiesDesk is down and I need to submit a meeting room booking?",
+    "short_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Facilities Coordinator directly with the request details; once MK-Facili",
+    "detailed_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Facilities Coordinator directly with the request details; once MK-FacilitiesDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Meeting Room Booking Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-003-EDGE-C"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-014",
+    "question": "Meeting Room Booking Procedure: What happens if my meeting room booking request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and re",
+    "detailed_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Meeting Room Booking Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-003-EDGE-D"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-015",
+    "question": "Meeting Room Booking Procedure: What happens if my meeting room booking submission is missing required documentation?",
+    "short_answer": "The Facilities Coordinator returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business ",
+    "detailed_answer": "The Facilities Coordinator returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Meeting Room Booking Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-003-EDGE-E"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-016",
+    "question": "Facility Maintenance Request Procedure: What happens if Facilities Coordinator is unavailable to approve a maintenance request?",
+    "short_answer": "Route it to the Facilities Coordinator's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Facilities Coord",
+    "detailed_answer": "Route it to the Facilities Coordinator's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Facilities Coordinator is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Facility Maintenance Request Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-004-EDGE-A"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-017",
+    "question": "Facility Maintenance Request Procedure: Can a maintenance request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Facilities Coordinator directly, proceed with the minimum necessary action, then file the formal request in MK-Facilit",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Facilities Coordinator directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Facility Maintenance Request Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-004-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-018",
+    "question": "Facility Maintenance Request Procedure: What do I do if MK-FacilitiesDesk is down and I need to submit a maintenance request?",
+    "short_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Facilities Coordinator directly with the request details; once MK-Facili",
+    "detailed_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Facilities Coordinator directly with the request details; once MK-FacilitiesDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Facility Maintenance Request Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-004-EDGE-C"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-019",
+    "question": "Facility Maintenance Request Procedure: What happens if my maintenance request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and re",
+    "detailed_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Facility Maintenance Request Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-004-EDGE-D"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-020",
+    "question": "Facility Maintenance Request Procedure: What happens if my maintenance request submission is missing required documentation?",
+    "short_answer": "The Facilities Coordinator returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business ",
+    "detailed_answer": "The Facilities Coordinator returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Facilities Coordinator"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Facility Maintenance Request Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-004-EDGE-E"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-021",
+    "question": "Office Supplies Replenishment Procedure: What happens if Admin Team Lead is unavailable to approve a supplies request?",
+    "short_answer": "Route it to the Admin Team Lead's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Admin Team Lead is noti",
+    "detailed_answer": "Route it to the Admin Team Lead's delegate (typically the next role up the escalation chain) via MK-FacilitiesDesk, tagged 'Delegate Approval Required'; the Admin Team Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Supplies Replenishment Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-005-EDGE-A"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-022",
+    "question": "Office Supplies Replenishment Procedure: Can a supplies request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Admin Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Admin Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-FacilitiesDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Supplies Replenishment Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-005-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-023",
+    "question": "Office Supplies Replenishment Procedure: What do I do if MK-FacilitiesDesk is down and I need to submit a supplies request?",
+    "short_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Admin Team Lead directly with the request details; once MK-FacilitiesDes",
+    "detailed_answer": "Non-urgent requests should wait for MK-FacilitiesDesk to be restored. For genuinely urgent cases, email the Admin Team Lead directly with the request details; once MK-FacilitiesDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Supplies Replenishment Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-005-EDGE-C"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-024",
+    "question": "Office Supplies Replenishment Procedure: What happens if my supplies request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and re",
+    "detailed_answer": "Rejections always come with a documented reason in MK-FacilitiesDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Supplies Replenishment Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-005-EDGE-D"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-025",
+    "question": "Office Supplies Replenishment Procedure: What happens if my supplies request submission is missing required documentation?",
+    "short_answer": "The Admin Team Lead returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to",
+    "detailed_answer": "The Admin Team Lead returns the request in MK-FacilitiesDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Facilities Executive",
+      "Admin Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Office Supplies Replenishment Procedure",
+      "what-if",
+      "edge case",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-005-EDGE-E"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-026",
+    "question": "If I find an old reference to the Facility Access Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-ADMIN-001, is always authoritative going forward. If an older cached or printed copy of the Facility Access Policy disagrees with it, treat the current doc",
+    "detailed_answer": "The current version, POL-ADMIN-001, is always authoritative going forward. If an older cached or printed copy of the Facility Access Policy disagrees with it, treat the current document as correct and check the POL-ADMIN-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Facility Access Policy",
+      "version",
+      "policy interpretation",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "POL-ADMIN-001",
+      "POL-ADMIN-001-HISTORY"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-027",
+    "question": "If I find an old reference to the Visitor Management Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-ADMIN-002, is always authoritative going forward. If an older cached or printed copy of the Visitor Management Policy disagrees with it, treat the current ",
+    "detailed_answer": "The current version, POL-ADMIN-002, is always authoritative going forward. If an older cached or printed copy of the Visitor Management Policy disagrees with it, treat the current document as correct and check the POL-ADMIN-002-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Visitor Management Policy",
+      "version",
+      "policy interpretation",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "POL-ADMIN-002",
+      "POL-ADMIN-002-HISTORY"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-028",
+    "question": "What's the difference between the standard New Employee Workspace Setup Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-ADMIN-001) goes through Office Manager via MK-FacilitiesDesk in the normal order. The expedited path (SOP-ADMIN-001-EDGE-B) is only for genuine emergencies: ",
+    "detailed_answer": "The standard path (SOP-ADMIN-001) goes through Office Manager via MK-FacilitiesDesk in the normal order. The expedited path (SOP-ADMIN-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Comparison",
+    "role_applicability": [
+      "Facilities Executive"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Employee Workspace Setup Procedure",
+      "comparison",
+      "emergency",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-001",
+      "SOP-ADMIN-001-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-029",
+    "question": "What's the difference between the standard Office Access Card Issuance Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-ADMIN-002) goes through Office Manager via MK-FacilitiesDesk in the normal order. The expedited path (SOP-ADMIN-002-EDGE-B) is only for genuine emergencies: ",
+    "detailed_answer": "The standard path (SOP-ADMIN-002) goes through Office Manager via MK-FacilitiesDesk in the normal order. The expedited path (SOP-ADMIN-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Comparison",
+    "role_applicability": [
+      "Facilities Executive"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Office Access Card Issuance Procedure",
+      "comparison",
+      "emergency",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-002",
+      "SOP-ADMIN-002-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-ADMIN-030",
+    "question": "What's the difference between the standard Meeting Room Booking Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-ADMIN-003) goes through Facilities Coordinator via MK-FacilitiesDesk in the normal order. The expedited path (SOP-ADMIN-003-EDGE-B) is only for genuine emerg",
+    "detailed_answer": "The standard path (SOP-ADMIN-003) goes through Facilities Coordinator via MK-FacilitiesDesk in the normal order. The expedited path (SOP-ADMIN-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Administration / Facilities",
+    "department_code": "ADMIN",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Meeting Room Booking Procedure",
+      "comparison",
+      "emergency",
+      "ADMIN"
+    ],
+    "related_documents": [
+      "SOP-ADMIN-003",
+      "SOP-ADMIN-003-EDGE-B"
+    ],
+    "escalation_path": "Facilities Executive -> Facilities Coordinator -> Facilities Manager -> Head of Administration",
+    "access_level": "employee"
+  }
+]

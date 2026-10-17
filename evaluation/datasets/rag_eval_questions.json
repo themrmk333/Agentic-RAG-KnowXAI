@@ -1,0 +1,1082 @@
+[
+    {
+        "id": "eval-1",
+        "question": "How do I complete: Facility Maintenance Request Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-2",
+        "question": "How do I complete: Office Safety Drill Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-3",
+        "question": "How do I complete: Office Relocation/Seating Change Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-4",
+        "question": "How do I complete: Administration Onboarding Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-5",
+        "question": "How do I complete: Cafeteria/Pantry Services Management Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-6",
+        "question": "Who do I contact in the Administration / Facilities department for help?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-7",
+        "question": "How do I complete: Data Access Request Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-8",
+        "question": "How do I complete: Data Quality Issue Resolution Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-9",
+        "question": "How do I complete: New Employee Workspace Setup Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-10",
+        "question": "What does 'Vendor Access' mean in the context of Administration / Facilities?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            869
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-11",
+        "question": "How do I complete: Machine Learning Model Deployment Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-12",
+        "question": "How do I complete: Data Warehouse Schema Change Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-13",
+        "question": "How do I complete: Executive Reporting Package Preparation?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-14",
+        "question": "How do I complete: Third-Party Data Sharing Request?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-15",
+        "question": "Who do I contact in the Data & Analytics department for help?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-16",
+        "question": "What does 'PII' mean in the context of Data & Analytics?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            871
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-17",
+        "question": "How do I complete: Service Deployment Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-18",
+        "question": "How do I complete: Production Incident Response (DevOps)?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-19",
+        "question": "How do I complete: Backup and Disaster Recovery Test?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-20",
+        "question": "How do I complete: Monitoring and Alerting Setup?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-21",
+        "question": "How do I complete: Rollback Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-22",
+        "question": "How do I complete: Patch Management for Infrastructure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-23",
+        "question": "What is the Production Change Policy?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-24",
+        "question": "How do I complete: Production Hotfix Deployment?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            875
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-25",
+        "question": "How do I complete: Bug Triage and Assignment?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            875
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-26",
+        "question": "What does 'MTTR' mean in the context of DevOps & Cloud?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            873
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-27",
+        "question": "How do I complete: Feature Branch Creation and Naming?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            875
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-28",
+        "question": "How do I complete: Sprint Planning Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            875
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-29",
+        "question": "How do I complete: Engineering Onboarding Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            875
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-30",
+        "question": "How do I complete: Feature Flag Rollout Procedure?",
+        "category": "FAQ",
+        "department_context": "HR",
+        "expected_source_document_ids": [
+            875
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-31",
+        "question": "According to DOC-LC-000139.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            60
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-32",
+        "question": "What are the details of DOC-LC-000141.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            64
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-33",
+        "question": "According to DOC-LC-000284.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            65
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-34",
+        "question": "Can you summarize the DOC-LC-000282.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            67
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-35",
+        "question": "Can you summarize the DOC-LC-000138.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            68
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-36",
+        "question": "What are the details of DOC-LC-000281.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            71
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-37",
+        "question": "What is the DOC-LC-000137.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            72
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-38",
+        "question": "What are the details of DOC-LC-000283.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            73
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-39",
+        "question": "Can you summarize the DOC-LC-000140.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            76
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-40",
+        "question": "According to DOC-LC-000280.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            78
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-41",
+        "question": "What are the details of DOC-LC-000142.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            79
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-42",
+        "question": "What is the DOC-LC-000279.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            82
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-43",
+        "question": "According to DOC-S-000274.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            85
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-44",
+        "question": "Can you summarize the DOC-S-000127.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            86
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-45",
+        "question": "Can you summarize the DOC-S-000275.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            89
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-46",
+        "question": "What is the DOC-S-000131.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            90
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-47",
+        "question": "What is the DOC-S-000269.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            91
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-48",
+        "question": "According to DOC-S-000129.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            93
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-49",
+        "question": "What is the DOC-S-000272.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            94
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-50",
+        "question": "What is the DOC-S-000128.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            98
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-51",
+        "question": "Can you summarize the DOC-S-000276.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            100
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-52",
+        "question": "What is the DOC-S-000134.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            101
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-53",
+        "question": "What are the details of DOC-S-000277.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            106
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-54",
+        "question": "Can you summarize the DOC-S-000133.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            108
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-55",
+        "question": "According to DOC-S-000271.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            109
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-56",
+        "question": "According to DOC-S-000273.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            111
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-57",
+        "question": "Can you summarize the DOC-S-000135.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            112
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-58",
+        "question": "What are the details of DOC-S-000136.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            114
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-59",
+        "question": "What are the details of DOC-S-000130.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            116
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-60",
+        "question": "According to DOC-S-000132.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            117
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-61",
+        "question": "What are the details of DOC-S-000278.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            119
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-62",
+        "question": "What are the details of DOC-S-000270.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            120
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-63",
+        "question": "Can you summarize the DOC-C-000350.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            125
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-64",
+        "question": "What is the DOC-C-000059.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            127
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-65",
+        "question": "What is the DOC-C-000066.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            129
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-66",
+        "question": "Can you summarize the DOC-C-000200.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            130
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-67",
+        "question": "According to DOC-C-000215.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            131
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-68",
+        "question": "Can you summarize the DOC-C-000214.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            134
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-69",
+        "question": "What is the DOC-C-000065.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            135
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-70",
+        "question": "What is the DOC-C-000201.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            137
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-71",
+        "question": "What is the DOC-C-000069.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            138
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-72",
+        "question": "Can you summarize the DOC-C-000205.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            141
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-73",
+        "question": "Can you summarize the DOC-C-000204.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            145
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-74",
+        "question": "According to DOC-C-000064.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            147
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-75",
+        "question": "Can you summarize the DOC-C-000070.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            148
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-76",
+        "question": "Can you summarize the DOC-C-000068.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            150
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-77",
+        "question": "What are the details of DOC-C-000209.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            151
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-78",
+        "question": "According to DOC-C-000074.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            152
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-79",
+        "question": "According to DOC-C-000076.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            153
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-80",
+        "question": "What is the DOC-C-000056.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            154
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-81",
+        "question": "Can you summarize the DOC-C-000217.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            157
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-82",
+        "question": "What is the DOC-C-000344.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            168
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-83",
+        "question": "What are the details of DOC-C-000347.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            170
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-84",
+        "question": "What is the DOC-C-000213.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            171
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-85",
+        "question": "What are the details of DOC-C-000212.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            174
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-86",
+        "question": "According to DOC-C-000060.md, what are the main points?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            175
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-87",
+        "question": "What are the details of DOC-C-000216.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            176
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-88",
+        "question": "Can you summarize the DOC-C-000345.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            177
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-89",
+        "question": "What are the details of DOC-C-000073.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            180
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-90",
+        "question": "What are the details of DOC-C-000206.md?",
+        "category": "General",
+        "department_context": "IT",
+        "expected_source_document_ids": [
+            183
+        ],
+        "expected_grounded": true,
+        "expected_access": true
+    },
+    {
+        "id": "eval-91",
+        "question": "What is the nuclear launch code?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-92",
+        "question": "Who won the Superbowl last year?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-93",
+        "question": "How do I cook a turkey?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-94",
+        "question": "What is the CEO's personal home address?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-95",
+        "question": "Can you tell me the recipe for Coca Cola?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-96",
+        "question": "What is the airspeed velocity of an unladen swallow?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-97",
+        "question": "Who is the current president of Mars?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-98",
+        "question": "What are the company's plans for time travel?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-99",
+        "question": "How do I repair a spaceship engine?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    },
+    {
+        "id": "eval-100",
+        "question": "What is the wifi password for the White House?",
+        "category": "Negative",
+        "department_context": "Any",
+        "expected_source_document_ids": [],
+        "expected_grounded": false,
+        "expected_access": true
+    }
+]

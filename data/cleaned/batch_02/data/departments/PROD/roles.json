@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Product Intern",
+    "level": 1,
+    "department": "Product Management",
+    "department_code": "PROD",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Associate Product Manager",
+    "level": 2,
+    "department": "Product Management",
+    "department_code": "PROD",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Product Manager",
+    "level": 3,
+    "department": "Product Management",
+    "department_code": "PROD",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Product Manager",
+    "level": 4,
+    "department": "Product Management",
+    "department_code": "PROD",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Product Lead",
+    "level": 5,
+    "department": "Product Management",
+    "department_code": "PROD",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Head of Product",
+    "level": 6,
+    "department": "Product Management",
+    "department_code": "PROD",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "VP Product",
+    "level": 7,
+    "department": "Product Management",
+    "department_code": "PROD",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

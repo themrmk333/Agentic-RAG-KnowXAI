@@ -1,0 +1,197 @@
+{
+  "timestamp_utc": "2026-08-27T16:46:07.856699+00:00",
+  "chunks_root": "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\chunks_regenerated",
+  "full_report": {
+    "timestamp_utc": "2026-08-27T16:46:07.856699+00:00",
+    "source_directories": [
+      "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\cleaned\\batch_01",
+      "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\cleaned\\batch_02",
+      "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\cleaned\\batch_03"
+    ],
+    "input_chunk_files": [
+      {
+        "path": "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\chunks_regenerated\\batch_01\\chunks.jsonl",
+        "batch": "batch_01",
+        "line_count": 919,
+        "size_bytes": 4432823
+      },
+      {
+        "path": "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\chunks_regenerated\\batch_02\\chunks.jsonl",
+        "batch": "batch_02",
+        "line_count": 3406,
+        "size_bytes": 16585536
+      },
+      {
+        "path": "C:\\Users\\themr\\OneDrive\\Desktop\\Agentic-RAG-KnowXAI\\data\\chunks_regenerated\\batch_03\\chunks.jsonl",
+        "batch": "batch_03",
+        "line_count": 8405,
+        "size_bytes": 40693317
+      }
+    ],
+    "total_chunks_discovered": 12730,
+    "total_chunks_expected": 0,
+    "validation_results": {
+      "json_validation": {
+        "valid_json_count": 12730,
+        "invalid_json_count": 0,
+        "blank_lines": 0,
+        "malformed_lines_sample": []
+      },
+      "metadata_validation": {
+        "chunks_missing_required_fields": 0,
+        "type_errors_sample": []
+      },
+      "source_traceability": {
+        "verified_sources": 12730,
+        "missing_sources": 0,
+        "missing_sources_sample": []
+      },
+      "hash_validation": {
+        "hashes_verified": 12730,
+        "hash_mismatches": 0,
+        "chunk_hash_mismatches": 0,
+        "source_hash_mismatches": 0,
+        "mismatches_sample": []
+      },
+      "chunk_id_validation": {
+        "total_unique_ids": 12730,
+        "duplicate_ids": 0,
+        "invalid_id_format": 0,
+        "duplicate_ids_sample": [],
+        "invalid_ids_sample": []
+      },
+      "index_validation": {
+        "files_checked": 5134,
+        "index_errors": 0,
+        "errors_sample": []
+      },
+      "text_validation": {
+        "empty_text": 0,
+        "whitespace_only": 0,
+        "invalid_encoding_indicators": 0,
+        "suspicious_repetitive_content": 0
+      },
+      "content_consistency": {
+        "character_count_mismatches": 0,
+        "word_count_mismatches": 0,
+        "token_count_mismatches": 0,
+        "mismatch_samples": []
+      }
+    },
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "duplicate_analysis": {
+      "unique_chunks": 5107,
+      "duplicate_chunks": 4263,
+      "duplicate_groups": 3360,
+      "duplicate_percentage": 45.5,
+      "cross_batch_duplicate_groups": 3360,
+      "cross_batch_duplicates": 4263,
+      "cross_batch_groups_sample": [
+        {
+          "chunk_sha": "fd3e7c0019a1ce0967d6707b1178322e59912984266dfe5851747bfe7b4d8713",
+          "batches": [
+            "batch_01",
+            "batch_02",
+            "batch_03"
+          ],
+          "count": 3
+        },
+        {
+          "chunk_sha": "12d1d7f489f9a04e6408ba384282e6d069d50b3fd232eb98be9ec1294c342b1b",
+          "batches": [
+            "batch_01",
+            "batch_02",
+            "batch_03"
+          ],
+          "count": 3
+        },
+        {
+          "chunk_sha": "71e3e210de030ad2a11e880893ac7d01e093a58342df8778703aa1583459d670",
+          "batches": [
+            "batch_01",
+            "batch_02",
+            "batch_03"
+          ],
+          "count": 3
+        },
+        {
+          "chunk_sha": "076f150e31b5a86b3aaf15316aa3a4eb4a2a6913173b64d9b12a8af7659737a6",
+          "batches": [
+            "batch_01",
+            "batch_02",
+            "batch_03"
+          ],
+          "count": 3
+        },
+        {
+          "chunk_sha": "a7beadea3cf022e1d17b557f18f6fa9b16c92df01a9aa2074c98e73269f861c1",
+          "batches": [
+            "batch_01",
+            "batch_02",
+            "batch_03"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    "token_distribution": {
+      "total_chunks": 12730,
+      "total_characters": 51981435,
+      "total_words": 6960479,
+      "total_tokens": 9048553,
+      "average_tokens": 710.81,
+      "median_tokens": 793.0,
+      "min_tokens": 30,
+      "max_tokens": 3401,
+      "stdev_tokens": 237.01,
+      "p25_tokens": 793.0,
+      "p75_tokens": 927.0,
+      "p90_tokens": 956.0,
+      "p95_tokens": 958.0,
+      "p99_tokens": 959.0,
+      "size_distribution": {
+        "NORMAL": 12494,
+        "SMALL": 227,
+        "VERY_SMALL": 6,
+        "VERY_LARGE": 3
+      },
+      "size_distribution_percent": {
+        "NORMAL": 98.15,
+        "SMALL": 1.78,
+        "VERY_SMALL": 0.05,
+        "VERY_LARGE": 0.02
+      }
+    },
+    "per_batch": {},
+    "source_coverage": {
+      "total_cleaned_files": 5134,
+      "files_represented_in_chunks": 5134,
+      "files_with_zero_chunks": 0,
+      "coverage_percentage": 100.0,
+      "missing_files_sample": []
+    },
+    "chunking_strategy_distribution": {
+      "strategy_counts": {
+        "MarkdownChunker": 6856,
+        "JSONChunker": 3380,
+        "CSVChunker": 2494
+      },
+      "extension_strategy_map": {
+        ".md": {
+          "MarkdownChunker": 6856
+        },
+        ".json": {
+          "JSONChunker": 3380
+        },
+        ".csv": {
+          "CSVChunker": 2494
+        }
+      }
+    },
+    "quality_score": 100,
+    "final_status": "PASS"
+  }
+}

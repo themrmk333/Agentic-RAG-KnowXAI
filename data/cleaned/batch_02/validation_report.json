@@ -1,0 +1,727 @@
+{
+  "checks": [
+    {
+      "check": "IT: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "IT: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "IT: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "IT: >=25 FAQs",
+      "passed": true,
+      "detail": "found 32"
+    },
+    {
+      "check": "ENG: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ENG: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ENG: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "ENG: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "QA: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "QA: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "QA: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "QA: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "DEVOPS: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DEVOPS: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DEVOPS: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "DEVOPS: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "SEC: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SEC: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SEC: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "SEC: >=25 FAQs",
+      "passed": true,
+      "detail": "found 32"
+    },
+    {
+      "check": "HR: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HR: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HR: >=15 SOPs",
+      "passed": true,
+      "detail": "found 17"
+    },
+    {
+      "check": "HR: >=25 FAQs",
+      "passed": true,
+      "detail": "found 35"
+    },
+    {
+      "check": "FIN: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "FIN: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "FIN: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "FIN: >=25 FAQs",
+      "passed": true,
+      "detail": "found 35"
+    },
+    {
+      "check": "PMO: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PMO: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PMO: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "PMO: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "PROD: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PROD: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PROD: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "PROD: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "SALES: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SALES: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SALES: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "SALES: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "MKT: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MKT: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MKT: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "MKT: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "SUPPORT: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SUPPORT: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SUPPORT: >=15 SOPs",
+      "passed": true,
+      "detail": "found 15"
+    },
+    {
+      "check": "SUPPORT: >=25 FAQs",
+      "passed": true,
+      "detail": "found 27"
+    },
+    {
+      "check": "LEGAL: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "LEGAL: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "LEGAL: >=15 SOPs",
+      "passed": true,
+      "detail": "found 16"
+    },
+    {
+      "check": "LEGAL: >=25 FAQs",
+      "passed": true,
+      "detail": "found 30"
+    },
+    {
+      "check": "PROC: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PROC: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PROC: >=15 SOPs",
+      "passed": true,
+      "detail": "found 15"
+    },
+    {
+      "check": "PROC: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "ADMIN: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ADMIN: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ADMIN: >=15 SOPs",
+      "passed": true,
+      "detail": "found 15"
+    },
+    {
+      "check": "ADMIN: >=25 FAQs",
+      "passed": true,
+      "detail": "found 28"
+    },
+    {
+      "check": "DATA: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DATA: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DATA: >=15 SOPs",
+      "passed": true,
+      "detail": "found 15"
+    },
+    {
+      "check": "DATA: >=25 FAQs",
+      "passed": true,
+      "detail": "found 27"
+    },
+    {
+      "check": "RND: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RND: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RND: >=15 SOPs",
+      "passed": true,
+      "detail": "found 15"
+    },
+    {
+      "check": "RND: >=25 FAQs",
+      "passed": true,
+      "detail": "found 27"
+    },
+    {
+      "check": "MGMT: department overview exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MGMT: roles defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MGMT: >=15 SOPs",
+      "passed": true,
+      "detail": "found 15"
+    },
+    {
+      "check": "MGMT: >=25 FAQs",
+      "passed": true,
+      "detail": "found 27"
+    },
+    {
+      "check": "All SOPs have exactly 7 steps",
+      "passed": true,
+      "detail": "0 exceptions"
+    },
+    {
+      "check": "Cross-dept test case answerable: HR/leave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: FIN/expense",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: IT/password",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: SEC/phishing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: ENG/branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: QA/defect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: DEVOPS/deploy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: PMO/project creation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: PROC/hardware",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: LEGAL/contract review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: SUPPORT/escalate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dept test case answerable: MGMT/portfolio review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authorization metadata present across documents",
+      "passed": true,
+      "detail": "{'general', 'restricted', 'manager', 'employee', 'management'}"
+    },
+    {
+      "check": "Multiple access levels used (not all-general)",
+      "passed": true,
+      "detail": "{'general', 'restricted', 'manager', 'employee', 'management'}"
+    },
+    {
+      "check": "Exactly 5 projects documented",
+      "passed": true,
+      "detail": "found 5"
+    },
+    {
+      "check": "No department literally named 'Intern'",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No API keys / secrets / private keys detected",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SOP/Policy documents have substantive content (>=150 words)",
+      "passed": true,
+      "detail": "0 thin docs"
+    },
+    {
+      "check": "Employees dataset exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tickets dataset exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Communications exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Batch 2: SOP edge-case addenda exist (>=500)",
+      "passed": true,
+      "detail": "found 566"
+    },
+    {
+      "check": "Batch 2: policy version-history docs exist for every policy",
+      "passed": true,
+      "detail": "43 policies vs 43 history docs"
+    },
+    {
+      "check": "Batch 2: additional troubleshooting scenarios exist (>=100)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Batch 2: historical ticket dataset exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Batch 2: historical tickets >= 2000",
+      "passed": true,
+      "detail": "found 2700"
+    },
+    {
+      "check": "Batch 2: cross-department FAQ bank exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Batch 2: escalation/approval scenarios exist (36)",
+      "passed": true,
+      "detail": "found 36"
+    },
+    {
+      "check": "Batch 2: project runbooks exist (30)",
+      "passed": true,
+      "detail": "found 30"
+    },
+    {
+      "check": "Batch 2: RAG evaluation scenario set exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Batch 2: RAG eval scenarios >= 100",
+      "passed": true,
+      "detail": "found 144"
+    },
+    {
+      "check": "Batch 2: RAG eval includes an authorization_denial scenario type",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Batch 2: RAG eval includes a cross_department_synthesis scenario type",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No duplicate document IDs in manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Batch 1 documents preserved (spot check)",
+      "passed": true,
+      "detail": "['SOP-IT-001', 'FAQ-IT-COLLECTION', 'POL-HR-001', 'PRJ-001', 'DEPT-HR-OVERVIEW']"
+    }
+  ],
+  "pass": true,
+  "manifest_summary": {
+    "total_documents": 1465,
+    "total_words": 1647868,
+    "pages_equivalent": 4119.7,
+    "target_pages_equivalent": 10000,
+    "target_reached": false,
+    "batches": [
+      {
+        "batch": "batch0_employees",
+        "documents": 20,
+        "words": 19980
+      },
+      {
+        "batch": "batch1_communications",
+        "documents": 25,
+        "words": 2827
+      },
+      {
+        "batch": "batch1_company",
+        "documents": 1,
+        "words": 839
+      },
+      {
+        "batch": "batch1_departments",
+        "documents": 36,
+        "words": 13839
+      },
+      {
+        "batch": "batch1_faqs",
+        "documents": 36,
+        "words": 178755
+      },
+      {
+        "batch": "batch1_policies",
+        "documents": 43,
+        "words": 11229
+      },
+      {
+        "batch": "batch1_projects",
+        "documents": 10,
+        "words": 10099
+      },
+      {
+        "batch": "batch1_sops",
+        "documents": 283,
+        "words": 144880
+      },
+      {
+        "batch": "batch1_tickets",
+        "documents": 20,
+        "words": 77136
+      },
+      {
+        "batch": "batch1_troubleshooting",
+        "documents": 26,
+        "words": 7767
+      },
+      {
+        "batch": "batch2_communications",
+        "documents": 68,
+        "words": 7941
+      },
+      {
+        "batch": "batch2_cross_dept_faqs",
+        "documents": 2,
+        "words": 5637
+      },
+      {
+        "batch": "batch2_policy_history",
+        "documents": 43,
+        "words": 11195
+      },
+      {
+        "batch": "batch2_project_runbooks",
+        "documents": 30,
+        "words": 8106
+      },
+      {
+        "batch": "batch2_rag_eval",
+        "documents": 2,
+        "words": 9625
+      },
+      {
+        "batch": "batch2_scenarios",
+        "documents": 36,
+        "words": 12144
+      },
+      {
+        "batch": "batch2_sop_edgecases",
+        "documents": 566,
+        "words": 204419
+      },
+      {
+        "batch": "batch2_tickets_historical",
+        "documents": 110,
+        "words": 894561
+      },
+      {
+        "batch": "batch2_troubleshooting",
+        "documents": 108,
+        "words": 26889
+      }
+    ],
+    "document_type_counts": {
+      "AllHands_Recap": 18,
+      "Announcement": 20,
+      "Company Profile": 1,
+      "Cross_Department_FAQ": 1,
+      "Cross_Department_FAQ_MD": 1,
+      "FAQ_collection": 18,
+      "FAQ_markdown": 18,
+      "Incident_Report": 30,
+      "Meeting_Summary": 5,
+      "Policy": 43,
+      "Policy_Version_History": 43,
+      "Project": 5,
+      "Project_FAQ": 5,
+      "Project_Runbook": 30,
+      "RAG_Eval_Scenarios": 1,
+      "RAG_Eval_Scenarios_MD": 1,
+      "Release_Announcement": 20,
+      "SOP": 283,
+      "SOP_Edge_Case": 566,
+      "Scenario": 36,
+      "Troubleshooting": 134,
+      "department_overview": 18,
+      "employees_csv": 1,
+      "employees_json": 1,
+      "roles": 18,
+      "team_roster": 18,
+      "tickets_csv": 1,
+      "tickets_csv_historical": 1,
+      "tickets_json": 1,
+      "tickets_json_historical": 1,
+      "tickets_markdown": 18,
+      "tickets_markdown_historical": 108
+    },
+    "department_document_counts": {
+      "Administration": 1,
+      "Administration / Facilities": 70,
+      "Company-wide": 5,
+      "Cross-Department": 48,
+      "Customer Support": 1,
+      "Customer Support / Helpdesk": 71,
+      "Cybersecurity / Information Security": 83,
+      "DATA": 6,
+      "DEVOPS": 6,
+      "Data & Analytics": 69,
+      "DevOps": 1,
+      "DevOps & Cloud": 72,
+      "ENG": 10,
+      "Engineering": 2,
+      "Finance": 1,
+      "Finance & Accounting": 84,
+      "HR": 2,
+      "Human Resources": 87,
+      "IT": 7,
+      "IT Support / Information Technology": 82,
+      "Legal": 1,
+      "Legal & Compliance": 76,
+      "Management": 1,
+      "Management / Leadership": 87,
+      "Marketing": 71,
+      "PMO": 2,
+      "PROD": 5,
+      "Procurement": 1,
+      "Procurement / Purchasing": 70,
+      "Product": 2,
+      "Product Management": 70,
+      "Project Management / PMO": 71,
+      "QA": 1,
+      "QA / Testing": 70,
+      "R&D": 1,
+      "Research & Development": 67,
+      "SALES": 6,
+      "SEC": 6,
+      "SUPPORT": 5,
+      "Sales": 71,
+      "Security": 2,
+      "Software Engineering / Development": 71
+    }
+  }
+}

@@ -1,0 +1,861 @@
+[
+  {
+    "faq_id": "FAQADV-SEC-001",
+    "question": "Phishing Email Reporting Procedure: What happens if Security Analyst is unavailable to approve a phishing report?",
+    "short_answer": "Route it to the Security Analyst's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Analyst is notified",
+    "detailed_answer": "Route it to the Security Analyst's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Analyst is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Phishing Email Reporting Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-001-EDGE-A"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-002",
+    "question": "Phishing Email Reporting Procedure: Can a phishing report be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Analyst directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Analyst directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Phishing Email Reporting Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-001-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-003",
+    "question": "Phishing Email Reporting Procedure: What do I do if MK-SecGuard is down and I need to submit a phishing report?",
+    "short_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Analyst directly with the request details; once MK-SecGuard is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Analyst directly with the request details; once MK-SecGuard is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Phishing Email Reporting Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-001-EDGE-C"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-004",
+    "question": "Phishing Email Reporting Procedure: What happens if my phishing report request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Phishing Email Reporting Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-001-EDGE-D"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-005",
+    "question": "Phishing Email Reporting Procedure: What happens if my phishing report submission is missing required documentation?",
+    "short_answer": "The Security Analyst returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Security Analyst returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Phishing Email Reporting Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-001-EDGE-E"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-006",
+    "question": "Multi-Factor Authentication (MFA) Enrollment: What happens if Security Analyst is unavailable to approve a mfa enrollment?",
+    "short_answer": "Route it to the Security Analyst's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Analyst is notified",
+    "detailed_answer": "Route it to the Security Analyst's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Analyst is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Enrollment",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-002-EDGE-A"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-007",
+    "question": "Multi-Factor Authentication (MFA) Enrollment: Can a mfa enrollment be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Analyst directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Analyst directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Enrollment",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-002-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-008",
+    "question": "Multi-Factor Authentication (MFA) Enrollment: What do I do if MK-SecGuard is down and I need to submit a mfa enrollment?",
+    "short_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Analyst directly with the request details; once MK-SecGuard is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Analyst directly with the request details; once MK-SecGuard is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Enrollment",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-002-EDGE-C"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-009",
+    "question": "Multi-Factor Authentication (MFA) Enrollment: What happens if my mfa enrollment request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Enrollment",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-002-EDGE-D"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-010",
+    "question": "Multi-Factor Authentication (MFA) Enrollment: What happens if my mfa enrollment submission is missing required documentation?",
+    "short_answer": "The Security Analyst returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Security Analyst returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Security Analyst"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Enrollment",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-002-EDGE-E"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-011",
+    "question": "Security Incident Response Procedure: What happens if Incident Response Lead is unavailable to approve a security incident?",
+    "short_answer": "Route it to the Incident Response Lead's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Incident Response Lead",
+    "detailed_answer": "Route it to the Incident Response Lead's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Incident Response Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Incident Response Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Security Incident Response Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-003-EDGE-A"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-012",
+    "question": "Security Incident Response Procedure: Can a security incident be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Incident Response Lead directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuar",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Incident Response Lead directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Incident Response Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Security Incident Response Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-003-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-013",
+    "question": "Security Incident Response Procedure: What do I do if MK-SecGuard is down and I need to submit a security incident?",
+    "short_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Incident Response Lead directly with the request details; once MK-SecGuard is ",
+    "detailed_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Incident Response Lead directly with the request details; once MK-SecGuard is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Incident Response Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Security Incident Response Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-003-EDGE-C"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-014",
+    "question": "Security Incident Response Procedure: What happens if my security incident request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Incident Response Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Security Incident Response Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-003-EDGE-D"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-015",
+    "question": "Security Incident Response Procedure: What happens if my security incident submission is missing required documentation?",
+    "short_answer": "The Incident Response Lead returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days t",
+    "detailed_answer": "The Incident Response Lead returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Incident Response Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Security Incident Response Procedure",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-003-EDGE-E"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-016",
+    "question": "Access Control Review: What happens if Security Manager is unavailable to approve a access review?",
+    "short_answer": "Route it to the Security Manager's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Manager is notified",
+    "detailed_answer": "Route it to the Security Manager's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Access Control Review",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-004-EDGE-A"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-017",
+    "question": "Access Control Review: Can a access review be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Access Control Review",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-004-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-018",
+    "question": "Access Control Review: What do I do if MK-SecGuard is down and I need to submit a access review?",
+    "short_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Manager directly with the request details; once MK-SecGuard is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Manager directly with the request details; once MK-SecGuard is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Access Control Review",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-004-EDGE-C"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-019",
+    "question": "Access Control Review: What happens if my access review request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Access Control Review",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-004-EDGE-D"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-020",
+    "question": "Access Control Review: What happens if my access review submission is missing required documentation?",
+    "short_answer": "The Security Manager returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Security Manager returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Analyst",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Access Control Review",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-004-EDGE-E"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-021",
+    "question": "Vulnerability Scanning and Remediation: What happens if Security Manager is unavailable to approve a vulnerability scan report?",
+    "short_answer": "Route it to the Security Manager's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Manager is notified",
+    "detailed_answer": "Route it to the Security Manager's delegate (typically the next role up the escalation chain) via MK-SecGuard, tagged 'Delegate Approval Required'; the Security Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vulnerability Scanning and Remediation",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-005-EDGE-A"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-022",
+    "question": "Vulnerability Scanning and Remediation: Can a vulnerability scan report be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Security Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SecGuard within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vulnerability Scanning and Remediation",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-005-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-023",
+    "question": "Vulnerability Scanning and Remediation: What do I do if MK-SecGuard is down and I need to submit a vulnerability scan report?",
+    "short_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Manager directly with the request details; once MK-SecGuard is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-SecGuard to be restored. For genuinely urgent cases, email the Security Manager directly with the request details; once MK-SecGuard is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vulnerability Scanning and Remediation",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-005-EDGE-C"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-024",
+    "question": "Vulnerability Scanning and Remediation: What happens if my vulnerability scan report request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SecGuard — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vulnerability Scanning and Remediation",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-005-EDGE-D"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-025",
+    "question": "Vulnerability Scanning and Remediation: What happens if my vulnerability scan report submission is missing required documentation?",
+    "short_answer": "The Security Manager returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Security Manager returns the request in MK-SecGuard with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Security Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vulnerability Scanning and Remediation",
+      "what-if",
+      "edge case",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-005-EDGE-E"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-026",
+    "question": "If I find an old reference to the Access Control Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-SEC-001, is always authoritative going forward. If an older cached or printed copy of the Access Control Policy disagrees with it, treat the current docume",
+    "detailed_answer": "The current version, POL-SEC-001, is always authoritative going forward. If an older cached or printed copy of the Access Control Policy disagrees with it, treat the current document as correct and check the POL-SEC-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Security",
+      "Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Access Control Policy",
+      "version",
+      "policy interpretation",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-001",
+      "POL-SEC-001-HISTORY"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQADV-SEC-027",
+    "question": "If I find an old reference to the Multi-Factor Authentication (MFA) Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-SEC-002, is always authoritative going forward. If an older cached or printed copy of the Multi-Factor Authentication (MFA) Policy disagrees with it, treat",
+    "detailed_answer": "The current version, POL-SEC-002, is always authoritative going forward. If an older cached or printed copy of the Multi-Factor Authentication (MFA) Policy disagrees with it, treat the current document as correct and check the POL-SEC-002-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Policy",
+      "version",
+      "policy interpretation",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-002",
+      "POL-SEC-002-HISTORY"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-SEC-028",
+    "question": "If I find an old reference to the Incident Response Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-SEC-003, is always authoritative going forward. If an older cached or printed copy of the Incident Response Policy disagrees with it, treat the current doc",
+    "detailed_answer": "The current version, POL-SEC-003, is always authoritative going forward. If an older cached or printed copy of the Incident Response Policy disagrees with it, treat the current document as correct and check the POL-SEC-003-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Security"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Incident Response Policy",
+      "version",
+      "policy interpretation",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-003",
+      "POL-SEC-003-HISTORY"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQADV-SEC-029",
+    "question": "If I find an old reference to the Phishing and Email Security Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-SEC-004, is always authoritative going forward. If an older cached or printed copy of the Phishing and Email Security Policy disagrees with it, treat the c",
+    "detailed_answer": "The current version, POL-SEC-004, is always authoritative going forward. If an older cached or printed copy of the Phishing and Email Security Policy disagrees with it, treat the current document as correct and check the POL-SEC-004-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Phishing and Email Security Policy",
+      "version",
+      "policy interpretation",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-004",
+      "POL-SEC-004-HISTORY"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-SEC-030",
+    "question": "If I find an old reference to the Data Protection Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-SEC-005, is always authoritative going forward. If an older cached or printed copy of the Data Protection Policy disagrees with it, treat the current docum",
+    "detailed_answer": "The current version, POL-SEC-005, is always authoritative going forward. If an older cached or printed copy of the Data Protection Policy disagrees with it, treat the current document as correct and check the POL-SEC-005-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Protection Policy",
+      "version",
+      "policy interpretation",
+      "SEC"
+    ],
+    "related_documents": [
+      "POL-SEC-005",
+      "POL-SEC-005-HISTORY"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQADV-SEC-031",
+    "question": "What's the difference between the standard Phishing Email Reporting Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SEC-001) goes through Security Analyst via MK-SecGuard in the normal order. The expedited path (SOP-SEC-001-EDGE-B) is only for genuine emergencies: it requi",
+    "detailed_answer": "The standard path (SOP-SEC-001) goes through Security Analyst via MK-SecGuard in the normal order. The expedited path (SOP-SEC-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Phishing Email Reporting Procedure",
+      "comparison",
+      "emergency",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-001",
+      "SOP-SEC-001-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-032",
+    "question": "What's the difference between the standard Multi-Factor Authentication (MFA) Enrollment process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SEC-002) goes through Security Analyst via MK-SecGuard in the normal order. The expedited path (SOP-SEC-002-EDGE-B) is only for genuine emergencies: it requi",
+    "detailed_answer": "The standard path (SOP-SEC-002) goes through Security Analyst via MK-SecGuard in the normal order. The expedited path (SOP-SEC-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Multi-Factor Authentication (MFA) Enrollment",
+      "comparison",
+      "emergency",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-002",
+      "SOP-SEC-002-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SEC-033",
+    "question": "What's the difference between the standard Security Incident Response Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SEC-003) goes through Incident Response Lead via MK-SecGuard in the normal order. The expedited path (SOP-SEC-003-EDGE-B) is only for genuine emergencies: it",
+    "detailed_answer": "The standard path (SOP-SEC-003) goes through Incident Response Lead via MK-SecGuard in the normal order. The expedited path (SOP-SEC-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Cybersecurity / Information Security",
+    "department_code": "SEC",
+    "category": "Comparison",
+    "role_applicability": [
+      "Security Analyst"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Security Incident Response Procedure",
+      "comparison",
+      "emergency",
+      "SEC"
+    ],
+    "related_documents": [
+      "SOP-SEC-003",
+      "SOP-SEC-003-EDGE-B"
+    ],
+    "escalation_path": "Security Analyst -> Incident Response Lead -> Security Manager -> CISO",
+    "access_level": "employee"
+  }
+]

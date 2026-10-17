@@ -1,0 +1,72 @@
+# Edge Case: IT Ticket Escalation Procedure — Missing Documentation or Incorrect Submission
+
+```json
+{
+  "document_id": "SOP-IT-012-EDGE-E",
+  "title": "Edge Case: IT Ticket Escalation Procedure \u2014 Missing Documentation or Incorrect Submission",
+  "document_type": "SOP Edge Case",
+  "department": "IT Support / Information Technology",
+  "department_code": "IT",
+  "category": "Support Operations",
+  "subcategory": "Ticket Escalation",
+  "roles": [
+    "IT Support Engineer",
+    "IT Manager"
+  ],
+  "access_level": "employee",
+  "allowed_departments": [
+    "ALL"
+  ],
+  "confidentiality": "Internal",
+  "keywords": [
+    "IT Ticket Escalation Procedure",
+    "edge case",
+    "exception",
+    "IT"
+  ],
+  "created_date": "2026-08-26",
+  "updated_date": "2026-08-26",
+  "version": "1.0",
+  "status": "Active",
+  "owner": "IT Manager",
+  "source": "synthetic-generated",
+  "related_sop": "SOP-IT-012"
+}
+```
+
+**Document ID:** SOP-IT-012-EDGE-E  
+**Related SOP:** SOP-IT-012 (IT Ticket Escalation Procedure)  
+**Department:** IT Support / Information Technology
+
+## Situation
+IT Support Engineer submits a ticket escalation request in MK-ServiceDesk that is missing required supporting information, or contains incorrect details (wrong amount, wrong employee, wrong date).
+
+## Detection
+The IT Manager reviewing the request in MK-ServiceDesk notices a required field is blank, a required attachment is missing, or the details don't reconcile with other records (e.g., an amount that doesn't match the attached receipt).
+
+## Decision Criteria
+The IT Manager decides whether the gap is minor enough to request a quick correction, or serious enough that the request should be rejected outright and resubmitted from scratch.
+
+## Steps
+
+1. The IT Manager does not approve or silently correct the request themselves; they return it to IT Support Engineer in MK-ServiceDesk with a specific note on what's missing or wrong.
+2. IT Support Engineer is notified automatically and has a defined window (typically 5 business days) to correct and resubmit before the request is auto-closed as abandoned.
+3. IT Support Engineer corrects the specific issue identified — not a wholesale re-submission — and resubmits, keeping the same request thread rather than opening a new one.
+4. The IT Manager reviews only the corrected fields on resubmission rather than re-reviewing the entire request from zero, to keep turnaround fast.
+5. If the same requester repeatedly submits incomplete requests (3+ times in a quarter), the IT Manager flags this to the requester's manager for a coaching conversation.
+6. Once complete and accurate, the request proceeds through the standard approval procedure in SOP-IT-012.
+
+## Responsible Role
+IT Support Engineer
+
+## Approval
+IT Manager
+
+## Escalation
+IT Support Engineer -> IT Manager -> IT Director
+
+## Expected Result
+Incomplete or incorrect ticket escalation requests are corrected quickly through the same request thread, without being silently fixed by the approver or endlessly bounced back and forth.
+
+---
+_This edge-case procedure is 100% synthetic content generated for the Agentic-RAG-KnowXAI evaluation dataset._

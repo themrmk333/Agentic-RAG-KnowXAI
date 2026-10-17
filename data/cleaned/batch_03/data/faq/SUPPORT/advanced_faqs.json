@@ -1,0 +1,756 @@
+[
+  {
+    "faq_id": "FAQADV-SUPPORT-001",
+    "question": "Customer Ticket Intake and Categorization: What happens if Support Team Lead is unavailable to approve a support ticket?",
+    "short_answer": "Route it to the Support Team Lead's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Team Lead is not",
+    "detailed_answer": "Route it to the Support Team Lead's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Team Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Intake and Categorization",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-001-EDGE-A"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-002",
+    "question": "Customer Ticket Intake and Categorization: Can a support ticket be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Intake and Categorization",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-001-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-003",
+    "question": "Customer Ticket Intake and Categorization: What do I do if MK-SupportDesk is down and I need to submit a support ticket?",
+    "short_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Team Lead directly with the request details; once MK-SupportDesk is",
+    "detailed_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Team Lead directly with the request details; once MK-SupportDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Intake and Categorization",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-001-EDGE-C"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-004",
+    "question": "Customer Ticket Intake and Categorization: What happens if my support ticket request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and recon",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Intake and Categorization",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-001-EDGE-D"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-005",
+    "question": "Customer Ticket Intake and Categorization: What happens if my support ticket submission is missing required documentation?",
+    "short_answer": "The Support Team Lead returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to ",
+    "detailed_answer": "The Support Team Lead returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Intake and Categorization",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-001-EDGE-E"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-006",
+    "question": "Customer Ticket Escalation Procedure: What happens if Support Team Lead is unavailable to approve a ticket escalation?",
+    "short_answer": "Route it to the Support Team Lead's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Team Lead is not",
+    "detailed_answer": "Route it to the Support Team Lead's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Team Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Escalation Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-002-EDGE-A"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-007",
+    "question": "Customer Ticket Escalation Procedure: Can a ticket escalation be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Team Lead directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Escalation Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-002-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-008",
+    "question": "Customer Ticket Escalation Procedure: What do I do if MK-SupportDesk is down and I need to submit a ticket escalation?",
+    "short_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Team Lead directly with the request details; once MK-SupportDesk is",
+    "detailed_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Team Lead directly with the request details; once MK-SupportDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Escalation Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-002-EDGE-C"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-009",
+    "question": "Customer Ticket Escalation Procedure: What happens if my ticket escalation request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and recon",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Escalation Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-002-EDGE-D"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-010",
+    "question": "Customer Ticket Escalation Procedure: What happens if my ticket escalation submission is missing required documentation?",
+    "short_answer": "The Support Team Lead returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to ",
+    "detailed_answer": "The Support Team Lead returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Team Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Ticket Escalation Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-002-EDGE-E"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-011",
+    "question": "SLA Breach Handling Procedure: What happens if Support Manager is unavailable to approve a sla breach?",
+    "short_answer": "Route it to the Support Manager's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Manager is notifie",
+    "detailed_answer": "Route it to the Support Manager's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Support Team Lead",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SLA Breach Handling Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-003-EDGE-A"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-012",
+    "question": "SLA Breach Handling Procedure: Can a sla breach be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk wi",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Support Team Lead",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SLA Breach Handling Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-003-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-013",
+    "question": "SLA Breach Handling Procedure: What do I do if MK-SupportDesk is down and I need to submit a sla breach?",
+    "short_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Manager directly with the request details; once MK-SupportDesk is b",
+    "detailed_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Manager directly with the request details; once MK-SupportDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Support Team Lead",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SLA Breach Handling Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-003-EDGE-C"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-014",
+    "question": "SLA Breach Handling Procedure: What happens if my sla breach request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and recon",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Support Team Lead",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SLA Breach Handling Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-003-EDGE-D"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-015",
+    "question": "SLA Breach Handling Procedure: What happens if my sla breach submission is missing required documentation?",
+    "short_answer": "The Support Manager returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to co",
+    "detailed_answer": "The Support Manager returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Support Team Lead",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "SLA Breach Handling Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-003-EDGE-E"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-016",
+    "question": "Bug Report Handover to Engineering: What happens if Support Manager is unavailable to approve a bug handover?",
+    "short_answer": "Route it to the Support Manager's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Manager is notifie",
+    "detailed_answer": "Route it to the Support Manager's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Bug Report Handover to Engineering",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-004-EDGE-A"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-017",
+    "question": "Bug Report Handover to Engineering: Can a bug handover be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk wi",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Bug Report Handover to Engineering",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-004-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-018",
+    "question": "Bug Report Handover to Engineering: What do I do if MK-SupportDesk is down and I need to submit a bug handover?",
+    "short_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Manager directly with the request details; once MK-SupportDesk is b",
+    "detailed_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Manager directly with the request details; once MK-SupportDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Bug Report Handover to Engineering",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-004-EDGE-C"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-019",
+    "question": "Bug Report Handover to Engineering: What happens if my bug handover request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and recon",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Bug Report Handover to Engineering",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-004-EDGE-D"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-020",
+    "question": "Bug Report Handover to Engineering: What happens if my bug handover submission is missing required documentation?",
+    "short_answer": "The Support Manager returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to co",
+    "detailed_answer": "The Support Manager returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Bug Report Handover to Engineering",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-004-EDGE-E"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-021",
+    "question": "Customer Refund/Credit Request Procedure: What happens if Support Manager is unavailable to approve a refund request?",
+    "short_answer": "Route it to the Support Manager's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Manager is notifie",
+    "detailed_answer": "Route it to the Support Manager's delegate (typically the next role up the escalation chain) via MK-SupportDesk, tagged 'Delegate Approval Required'; the Support Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Refund/Credit Request Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-005-EDGE-A"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-022",
+    "question": "Customer Refund/Credit Request Procedure: Can a refund request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk wi",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Support Manager directly, proceed with the minimum necessary action, then file the formal request in MK-SupportDesk within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Refund/Credit Request Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-005-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-023",
+    "question": "Customer Refund/Credit Request Procedure: What do I do if MK-SupportDesk is down and I need to submit a refund request?",
+    "short_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Manager directly with the request details; once MK-SupportDesk is b",
+    "detailed_answer": "Non-urgent requests should wait for MK-SupportDesk to be restored. For genuinely urgent cases, email the Support Manager directly with the request details; once MK-SupportDesk is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Refund/Credit Request Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-005-EDGE-C"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-024",
+    "question": "Customer Refund/Credit Request Procedure: What happens if my refund request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and recon",
+    "detailed_answer": "Rejections always come with a documented reason in MK-SupportDesk — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Refund/Credit Request Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-005-EDGE-D"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-025",
+    "question": "Customer Refund/Credit Request Procedure: What happens if my refund request submission is missing required documentation?",
+    "short_answer": "The Support Manager returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to co",
+    "detailed_answer": "The Support Manager returns the request in MK-SupportDesk with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Customer Support Associate",
+      "Support Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Customer Refund/Credit Request Procedure",
+      "what-if",
+      "edge case",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-005-EDGE-E"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-026",
+    "question": "If I find an old reference to the Support SLA Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-SUPPORT-001, is always authoritative going forward. If an older cached or printed copy of the Support SLA Policy disagrees with it, treat the current docum",
+    "detailed_answer": "The current version, POL-SUPPORT-001, is always authoritative going forward. If an older cached or printed copy of the Support SLA Policy disagrees with it, treat the current document as correct and check the POL-SUPPORT-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Support SLA Policy",
+      "version",
+      "policy interpretation",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "POL-SUPPORT-001",
+      "POL-SUPPORT-001-HISTORY"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-027",
+    "question": "What's the difference between the standard Customer Ticket Intake and Categorization process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SUPPORT-001) goes through Support Team Lead via MK-SupportDesk in the normal order. The expedited path (SOP-SUPPORT-001-EDGE-B) is only for genuine emergenci",
+    "detailed_answer": "The standard path (SOP-SUPPORT-001) goes through Support Team Lead via MK-SupportDesk in the normal order. The expedited path (SOP-SUPPORT-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Comparison",
+    "role_applicability": [
+      "Customer Support Associate"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Customer Ticket Intake and Categorization",
+      "comparison",
+      "emergency",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-001",
+      "SOP-SUPPORT-001-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-028",
+    "question": "What's the difference between the standard Customer Ticket Escalation Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SUPPORT-002) goes through Support Team Lead via MK-SupportDesk in the normal order. The expedited path (SOP-SUPPORT-002-EDGE-B) is only for genuine emergenci",
+    "detailed_answer": "The standard path (SOP-SUPPORT-002) goes through Support Team Lead via MK-SupportDesk in the normal order. The expedited path (SOP-SUPPORT-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Comparison",
+    "role_applicability": [
+      "Customer Support Associate"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Customer Ticket Escalation Procedure",
+      "comparison",
+      "emergency",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-002",
+      "SOP-SUPPORT-002-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-SUPPORT-029",
+    "question": "What's the difference between the standard SLA Breach Handling Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-SUPPORT-003) goes through Support Manager via MK-SupportDesk in the normal order. The expedited path (SOP-SUPPORT-003-EDGE-B) is only for genuine emergencies",
+    "detailed_answer": "The standard path (SOP-SUPPORT-003) goes through Support Manager via MK-SupportDesk in the normal order. The expedited path (SOP-SUPPORT-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Customer Support / Helpdesk",
+    "department_code": "SUPPORT",
+    "category": "Comparison",
+    "role_applicability": [
+      "Support Team Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "SLA Breach Handling Procedure",
+      "comparison",
+      "emergency",
+      "SUPPORT"
+    ],
+    "related_documents": [
+      "SOP-SUPPORT-003",
+      "SOP-SUPPORT-003-EDGE-B"
+    ],
+    "escalation_path": "Support Associate -> Support Team Lead -> Support Manager -> Customer Experience Director",
+    "access_level": "employee"
+  }
+]

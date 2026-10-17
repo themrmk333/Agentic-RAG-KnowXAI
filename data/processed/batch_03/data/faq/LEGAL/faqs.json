@@ -1,0 +1,846 @@
+[
+  {
+    "faq_id": "FAQ-LEGAL-001",
+    "question": "How do I complete: Contract Review Request Procedure?",
+    "short_answer": "Follow the 7-step Contract Review Request Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-001 SOP.",
+    "detailed_answer": "The Contract Review Request Procedure process (SOP-LEGAL-001) is owned by the Legal & Compliance department. The requester initiates the request in MK-LegalVault and Senior Legal Counsel is responsible for approval/sign-off. Contracts above INR 50,00,000 in value require General Counsel sign-off.",
+    "step_by_step": [
+      "the requester logs into MK-LegalVault and navigates to the 'Contract Review Request' section.",
+      "the requester selects 'New Contract Review Request' and enters the required details, including counterparty name, contract type, and key commercial terms.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Contract Review Request; MK-LegalVault automatically routes it to the Senior Legal Counsel for review.",
+      "The Senior Legal Counsel reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-LegalVault updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Contract Review Request is processed and the record is retained in MK-LegalVault for audit purposes. Contracts above INR 50,00,000 in value require General Counsel sign-off."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Contract Management",
+    "role_applicability": [
+      "requester",
+      "Senior Legal Counsel"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Contract Review Request Procedure",
+      "Contract Management",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-001"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-002",
+    "question": "How do I complete: NDA Execution Procedure?",
+    "short_answer": "Follow the 7-step NDA Execution Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-002 SOP.",
+    "detailed_answer": "The NDA Execution Procedure process (SOP-LEGAL-002) is owned by the Legal & Compliance department. The legal associate initiates the request in MK-LegalVault and Legal Manager is responsible for approval/sign-off. Non-standard NDA terms require Senior Legal Counsel review before signature.",
+    "step_by_step": [
+      "the Legal Associate confirms eligibility and prerequisites: using the standard MK-Infinite-AI mutual NDA template where possible.",
+      "the Legal Associate raises a request in MK-LegalVault specifying exactly which Non-Disclosure Agreement is required.",
+      "The Legal Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Non-Disclosure Agreement in the relevant system.",
+      "the Legal Associate is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-LegalVault and corrected before sign-off.",
+      "MK-LegalVault marks the request 'Complete' and the configuration is logged for audit and future reference. Non-standard NDA terms require Senior Legal Counsel review before signature."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Contract Management",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "NDA Execution Procedure",
+      "Contract Management",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-002"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-003",
+    "question": "How do I complete: Vendor Contract Negotiation Support?",
+    "short_answer": "Follow the 7-step Vendor Contract Negotiation Support procedure in MK-LegalVault, starting with the SOP-LEGAL-003 SOP.",
+    "detailed_answer": "The Vendor Contract Negotiation Support process (SOP-LEGAL-003) is owned by the Legal & Compliance department. The contracts specialist initiates the request in MK-LegalVault and Legal Manager is responsible for approval/sign-off. Indemnity clauses exceeding standard caps require General Counsel approval.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-LegalVault.",
+      "the Contracts Specialist gathers the required data and documents, including redlining terms against the company's standard risk positions.",
+      "The review team examines the Vendor Contract against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Legal Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-LegalVault with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Indemnity clauses exceeding standard caps require General Counsel approval."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Vendor Contracts",
+    "role_applicability": [
+      "Contracts Specialist",
+      "Legal Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Contract Negotiation Support",
+      "Vendor Contracts",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-003"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-004",
+    "question": "How do I complete: Regulatory Compliance Monitoring Procedure?",
+    "short_answer": "Follow the 7-step Regulatory Compliance Monitoring Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-004 SOP.",
+    "detailed_answer": "The Regulatory Compliance Monitoring Procedure process (SOP-LEGAL-004) is owned by the Legal & Compliance department. The compliance officer initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. Material regulatory changes are reported to Management within 5 business days.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-LegalVault.",
+      "the Compliance Officer gathers the required data and documents, including tracking applicable regulatory changes relevant to company operations.",
+      "The review team examines the Compliance Monitoring Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The General Counsel discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-LegalVault with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Material regulatory changes are reported to Management within 5 business days."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Compliance",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regulatory Compliance Monitoring Procedure",
+      "Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-004"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-005",
+    "question": "How do I complete: Intellectual Property Filing Procedure?",
+    "short_answer": "Follow the 7-step Intellectual Property Filing Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-005 SOP.",
+    "detailed_answer": "The Intellectual Property Filing Procedure process (SOP-LEGAL-005) is owned by the Legal & Compliance department. The requester initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. Filings are prioritised based on business criticality assessed by Legal.",
+    "step_by_step": [
+      "the requester logs into MK-LegalVault and navigates to the 'IP Filing Request' section.",
+      "the requester selects 'New IP Filing Request' and enters the required details, including invention/creative work description and prior art search results.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the IP Filing Request; MK-LegalVault automatically routes it to the General Counsel for review.",
+      "The General Counsel reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-LegalVault updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved IP Filing Request is processed and the record is retained in MK-LegalVault for audit purposes. Filings are prioritised based on business criticality assessed by Legal."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Intellectual Property",
+    "role_applicability": [
+      "requester",
+      "General Counsel"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Intellectual Property Filing Procedure",
+      "Intellectual Property",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-005"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-006",
+    "question": "How do I complete: Data Privacy Impact Assessment (DPIA) Procedure?",
+    "short_answer": "Follow the 7-step Data Privacy Impact Assessment (DPIA) Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-006 SOP.",
+    "detailed_answer": "The Data Privacy Impact Assessment (DPIA) Procedure process (SOP-LEGAL-006) is owned by the Legal & Compliance department. The compliance officer initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. High-risk processing activities are not launched without a completed DPIA.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-LegalVault.",
+      "the Compliance Officer gathers the required data and documents, including data flows, retention periods, and third-party processors involved.",
+      "The review team examines the DPIA against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The General Counsel discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-LegalVault with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. High-risk processing activities are not launched without a completed DPIA."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Data Privacy",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Data Privacy Impact Assessment (DPIA) Procedure",
+      "Data Privacy",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-006"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-007",
+    "question": "How do I complete: Employment Contract Drafting Procedure?",
+    "short_answer": "Follow the 7-step Employment Contract Drafting Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-007 SOP.",
+    "detailed_answer": "The Employment Contract Drafting Procedure process (SOP-LEGAL-007) is owned by the Legal & Compliance department. The legal associate initiates the request in MK-LegalVault and Legal Manager is responsible for approval/sign-off. Non-compete clauses vary by jurisdiction and must be verified before use.",
+    "step_by_step": [
+      "the Legal Associate confirms eligibility and prerequisites: role-specific clauses coordinated with HR.",
+      "the Legal Associate raises a request in MK-LegalVault specifying exactly which Employment Contract is required.",
+      "The Legal Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Employment Contract in the relevant system.",
+      "the Legal Associate is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-LegalVault and corrected before sign-off.",
+      "MK-LegalVault marks the request 'Complete' and the configuration is logged for audit and future reference. Non-compete clauses vary by jurisdiction and must be verified before use."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Employment Law",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Employment Contract Drafting Procedure",
+      "Employment Law",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-007"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-008",
+    "question": "How do I complete: Litigation / Dispute Intake Procedure?",
+    "short_answer": "Follow the 7-step Litigation / Dispute Intake Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-008 SOP.",
+    "detailed_answer": "The Litigation / Dispute Intake Procedure process (SOP-LEGAL-008) is owned by the Legal & Compliance department. The senior legal counsel initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. All litigation matters are reported to the Board via Management summary.",
+    "step_by_step": [
+      "the Senior Legal Counsel confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Senior Legal Counsel performs the standard first-line check: documenting the dispute background and potential exposure.",
+      "If the issue persists, the Senior Legal Counsel applies the documented workaround for this issue type.",
+      "the Senior Legal Counsel checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Senior Legal Counsel raises a ticket in MK-LegalVault categorised under 'Dispute Case', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Senior Legal Counsel confirms the fix works; the ticket is closed in MK-LegalVault with the root cause logged. All litigation matters are reported to the Board via Management summary."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Litigation",
+    "role_applicability": [
+      "Senior Legal Counsel",
+      "General Counsel"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Litigation / Dispute Intake Procedure",
+      "Litigation",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-008"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-009",
+    "question": "How do I complete: Corporate Governance Filing Procedure?",
+    "short_answer": "Follow the 7-step Corporate Governance Filing Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-009 SOP.",
+    "detailed_answer": "The Corporate Governance Filing Procedure process (SOP-LEGAL-009) is owned by the Legal & Compliance department. The compliance officer initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. Missed statutory deadlines are escalated to General Counsel immediately.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-LegalVault.",
+      "the Compliance Officer gathers the required data and documents, including statutory filing deadlines tracked in MK-LegalVault.",
+      "The review team examines the Governance Filing against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The General Counsel discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-LegalVault with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Missed statutory deadlines are escalated to General Counsel immediately."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Corporate Governance",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Corporate Governance Filing Procedure",
+      "Corporate Governance",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-009"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-010",
+    "question": "How do I complete: Customer Contract Renewal Legal Review?",
+    "short_answer": "Follow the 7-step Customer Contract Renewal Legal Review procedure in MK-LegalVault, starting with the SOP-LEGAL-010 SOP.",
+    "detailed_answer": "The Customer Contract Renewal Legal Review process (SOP-LEGAL-010) is owned by the Legal & Compliance department. The contracts specialist initiates the request in MK-LegalVault and Legal Manager is responsible for approval/sign-off. Auto-renewal clauses are flagged to Sales 60 days before trigger.",
+    "step_by_step": [
+      "the Contracts Specialist logs into MK-LegalVault and navigates to the 'Renewal Contract Review' section.",
+      "the Contracts Specialist selects 'New Renewal Contract Review' and enters the required details, including material changes to terms since the prior contract version.",
+      "the Contracts Specialist attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Contracts Specialist submits the Renewal Contract Review; MK-LegalVault automatically routes it to the Legal Manager for review.",
+      "The Legal Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-LegalVault updates the status to 'Approved' and notifies the Contracts Specialist by email/in-app notification.",
+      "The approved Renewal Contract Review is processed and the record is retained in MK-LegalVault for audit purposes. Auto-renewal clauses are flagged to Sales 60 days before trigger."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Contract Management",
+    "role_applicability": [
+      "Contracts Specialist",
+      "Legal Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Customer Contract Renewal Legal Review",
+      "Contract Management",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-010"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-011",
+    "question": "How do I complete: Legal Hold Notification Procedure?",
+    "short_answer": "Follow the 7-step Legal Hold Notification Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-011 SOP.",
+    "detailed_answer": "The Legal Hold Notification Procedure process (SOP-LEGAL-011) is owned by the Legal & Compliance department. The senior legal counsel initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. IT is notified immediately to suspend routine deletion for affected records.",
+    "step_by_step": [
+      "the Senior Legal Counsel logs into MK-LegalVault and navigates to the 'Legal Hold Notice' section.",
+      "the Senior Legal Counsel selects 'New Legal Hold Notice' and enters the required details, including scope of data/documents subject to preservation.",
+      "the Senior Legal Counsel attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Senior Legal Counsel submits the Legal Hold Notice; MK-LegalVault automatically routes it to the General Counsel for review.",
+      "The General Counsel reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-LegalVault updates the status to 'Approved' and notifies the Senior Legal Counsel by email/in-app notification.",
+      "The approved Legal Hold Notice is processed and the record is retained in MK-LegalVault for audit purposes. IT is notified immediately to suspend routine deletion for affected records."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Litigation",
+    "role_applicability": [
+      "Senior Legal Counsel",
+      "General Counsel"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Legal Hold Notification Procedure",
+      "Litigation",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-011"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-012",
+    "question": "How do I complete: Whistleblower Complaint Handling Procedure?",
+    "short_answer": "Follow the 7-step Whistleblower Complaint Handling Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-012 SOP.",
+    "detailed_answer": "The Whistleblower Complaint Handling Procedure process (SOP-LEGAL-012) is owned by the Legal & Compliance department. The compliance officer initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. Retaliation against a whistleblower is treated as a serious disciplinary matter.",
+    "step_by_step": [
+      "the Compliance Officer confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the Compliance Officer performs the standard first-line check: receiving the complaint confidentially through the designated channel.",
+      "If the issue persists, the Compliance Officer applies the documented workaround for this issue type.",
+      "the Compliance Officer checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the Compliance Officer raises a ticket in MK-LegalVault categorised under 'Whistleblower Case', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the Compliance Officer confirms the fix works; the ticket is closed in MK-LegalVault with the root cause logged. Retaliation against a whistleblower is treated as a serious disciplinary matter."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Ethics & Compliance",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Whistleblower Complaint Handling Procedure",
+      "Ethics & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-012"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-013",
+    "question": "How do I complete: Trademark/Brand Usage Clearance Procedure?",
+    "short_answer": "Follow the 7-step Trademark/Brand Usage Clearance Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-013 SOP.",
+    "detailed_answer": "The Trademark/Brand Usage Clearance Procedure process (SOP-LEGAL-013) is owned by the Legal & Compliance department. The requester initiates the request in MK-LegalVault and Legal Manager is responsible for approval/sign-off. Third-party trademark usage requires prior written permission.",
+    "step_by_step": [
+      "the requester logs into MK-LegalVault and navigates to the 'Brand Usage Clearance' section.",
+      "the requester selects 'New Brand Usage Clearance' and enters the required details, including intended use case and target market for the brand asset.",
+      "the requester attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the requester submits the Brand Usage Clearance; MK-LegalVault automatically routes it to the Legal Manager for review.",
+      "The Legal Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-LegalVault updates the status to 'Approved' and notifies the requester by email/in-app notification.",
+      "The approved Brand Usage Clearance is processed and the record is retained in MK-LegalVault for audit purposes. Third-party trademark usage requires prior written permission."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Intellectual Property",
+    "role_applicability": [
+      "requester",
+      "Legal Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Trademark/Brand Usage Clearance Procedure",
+      "Intellectual Property",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-013"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-014",
+    "question": "How do I complete: Legal Onboarding for New Team Members?",
+    "short_answer": "Follow the 7-step Legal Onboarding for New Team Members procedure in MK-LegalVault, starting with the SOP-LEGAL-014 SOP.",
+    "detailed_answer": "The Legal Onboarding for New Team Members process (SOP-LEGAL-014) is owned by the Legal & Compliance department. The legal manager initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. Access to active litigation files is granted on a need-to-know basis only.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-LegalVault owner ahead of the employee's start or end date.",
+      "the Legal Manager prepares the required Legal Onboarding, including MK-LegalVault access and confidentiality/privilege training.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The General Counsel verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the General Counsel for same-day resolution.",
+      "MK-LegalVault is updated to reflect the completed status and the record is archived. Access to active litigation files is granted on a need-to-know basis only."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Legal Manager",
+      "General Counsel"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Legal Onboarding for New Team Members",
+      "Onboarding",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-014"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-015",
+    "question": "How do I complete: Policy Drafting and Approval Procedure?",
+    "short_answer": "Follow the 7-step Policy Drafting and Approval Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-015 SOP.",
+    "detailed_answer": "The Policy Drafting and Approval Procedure process (SOP-LEGAL-015) is owned by the Legal & Compliance department. The compliance officer initiates the request in MK-LegalVault and General Counsel is responsible for approval/sign-off. New or revised policies are version-controlled with an effective date.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-LegalVault.",
+      "the Compliance Officer gathers the required data and documents, including stakeholder input from the owning department and legal risk review.",
+      "The review team examines the Company Policy Draft against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The General Counsel discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-LegalVault with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. New or revised policies are version-controlled with an effective date."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Policy Management",
+    "role_applicability": [
+      "Compliance Officer",
+      "General Counsel"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Policy Drafting and Approval Procedure",
+      "Policy Management",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-015"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-016",
+    "question": "How do I complete: Contract Repository Maintenance Procedure?",
+    "short_answer": "Follow the 7-step Contract Repository Maintenance Procedure procedure in MK-LegalVault, starting with the SOP-LEGAL-016 SOP.",
+    "detailed_answer": "The Contract Repository Maintenance Procedure process (SOP-LEGAL-016) is owned by the Legal & Compliance department. The legal associate initiates the request in MK-LegalVault and Legal Manager is responsible for approval/sign-off. Missing or misfiled contracts are corrected within the same audit cycle.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-LegalVault.",
+      "the Legal Associate gathers the required data and documents, including verifying every executed contract is filed in MK-LegalVault with correct metadata.",
+      "The review team examines the Contract Repository against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Legal Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-LegalVault with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Missing or misfiled contracts are corrected within the same audit cycle."
+    ],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Contract Management",
+    "role_applicability": [
+      "Legal Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Contract Repository Maintenance Procedure",
+      "Contract Management",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "SOP-LEGAL-016"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-017",
+    "question": "What is the Contract Approval Policy?",
+    "short_answer": "All external contracts must be reviewed by Legal before signature; no employee may sign on the company's behalf without delegated authority.",
+    "detailed_answer": "All external contracts must be reviewed by Legal before signature; no employee may sign on the company's behalf without delegated authority. Contracts above INR 50,00,000 require General Counsel and CFO co-approval. Standard NDAs may be executed using the pre-approved template without full Legal review.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Contract Management",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Contract Approval Policy",
+      "Contract Management",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "POL-LEGAL-001"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-018",
+    "question": "What is the Data Privacy Compliance Policy?",
+    "short_answer": "Processing of personal data must have a documented lawful basis and be recorded in the data inventory.",
+    "detailed_answer": "Processing of personal data must have a documented lawful basis and be recorded in the data inventory. High-risk processing activities require a Data Privacy Impact Assessment (DPIA) before launch. Data subject access requests must be responded to within 30 days per applicable regulation.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Data Privacy",
+    "role_applicability": [
+      "Legal",
+      "Data Owners"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Data Privacy Compliance Policy",
+      "Data Privacy",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "POL-LEGAL-002"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-019",
+    "question": "What is the Whistleblower Policy?",
+    "short_answer": "Employees may report suspected misconduct confidentially through the designated whistleblower channel.",
+    "detailed_answer": "Employees may report suspected misconduct confidentially through the designated whistleblower channel. Retaliation against a good-faith whistleblower is strictly prohibited and subject to disciplinary action. All reports are reviewed by the Compliance Officer within 5 business days.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Ethics & Compliance",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Whistleblower Policy",
+      "Ethics & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [
+      "POL-LEGAL-003"
+    ],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-020",
+    "question": "Who do I contact in the Legal & Compliance department for help?",
+    "short_answer": "Reach out to: Gaurav Singh (General Counsel, gaurav.singh@mkinfinite-ai.com); Swati Iyer (Legal Manager, swati.iyer@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Legal & Compliance, use MK-LegalVault to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Gaurav Singh (General Counsel, gaurav.singh@mkinfinite-ai.com); Swati Iyer (Legal Manager, swati.iyer@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Legal & Compliance",
+      "contact",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-021",
+    "question": "What system does the Legal & Compliance department use?",
+    "short_answer": "Legal & Compliance primarily uses MK-LegalVault for its workflows.",
+    "detailed_answer": "MK-LegalVault is the system of record for Legal & Compliance. All requests, approvals, and records for this department's processes should go through MK-LegalVault rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "MK-LegalVault",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-022",
+    "question": "What are the key performance indicators (KPIs) for the Legal & Compliance department?",
+    "short_answer": "Contract turnaround time (target: under 5 business days for standard contracts)",
+    "detailed_answer": "Contract turnaround time (target: under 5 business days for standard contracts) Compliance training completion rate (target: 100% annually) Open litigation matters within risk tolerance (target: reviewed monthly) Statutory filing on-time rate (target: 100%)",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "KPI",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-023",
+    "question": "What is the escalation path within the Legal & Compliance department?",
+    "short_answer": "Escalate in this order: Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel.",
+    "detailed_answer": "If a request or issue with Legal & Compliance is not addressed within the expected timeframe, escalate step by step through: Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "escalation",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-024",
+    "question": "What are common mistakes employees make when working with Legal & Compliance?",
+    "short_answer": "Signing non-standard contract terms without Legal review.",
+    "detailed_answer": "Signing non-standard contract terms without Legal review. Sharing customer data with vendors before a DPIA is completed where required. Missing statutory filing deadlines due to late internal handovers.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "mistakes",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-025",
+    "question": "What does 'MK-LegalVault' mean in the context of Legal & Compliance?",
+    "short_answer": "The internal contract and legal document repository.",
+    "detailed_answer": "The internal contract and legal document repository. This term is commonly used in Legal & Compliance SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "MK-LegalVault",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-026",
+    "question": "What does 'NDA' mean in the context of Legal & Compliance?",
+    "short_answer": "Non-Disclosure Agreement.",
+    "detailed_answer": "Non-Disclosure Agreement. This term is commonly used in Legal & Compliance SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "NDA",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-027",
+    "question": "What does 'DPIA' mean in the context of Legal & Compliance?",
+    "short_answer": "Data Privacy Impact Assessment.",
+    "detailed_answer": "Data Privacy Impact Assessment. This term is commonly used in Legal & Compliance SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "DPIA",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-028",
+    "question": "What does 'Redline' mean in the context of Legal & Compliance?",
+    "short_answer": "Tracked-change edits proposed to a contract during negotiation.",
+    "detailed_answer": "Tracked-change edits proposed to a contract during negotiation. This term is commonly used in Legal & Compliance SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Redline",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-029",
+    "question": "What does 'Legal Hold' mean in the context of Legal & Compliance?",
+    "short_answer": "A directive to preserve documents relevant to actual or anticipated litigation.",
+    "detailed_answer": "A directive to preserve documents relevant to actual or anticipated litigation. This term is commonly used in Legal & Compliance SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Legal Hold",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-LEGAL-030",
+    "question": "Can an employee from a different department ask a Legal & Compliance question?",
+    "short_answer": "Yes. Legal & Compliance knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Legal & Compliance question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Legal & Compliance",
+    "department_code": "LEGAL",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Legal & Compliance",
+      "LEGAL"
+    ],
+    "related_documents": [],
+    "escalation_path": "Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel",
+    "access_level": "general"
+  }
+]

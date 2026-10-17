@@ -1,0 +1,756 @@
+[
+  {
+    "faq_id": "FAQADV-RND-001",
+    "question": "Research Proposal Submission Procedure: What happens if R&D Manager is unavailable to approve a research proposal?",
+    "short_answer": "Route it to the R&D Manager's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the R&D Manager is notified on return and",
+    "detailed_answer": "Route it to the R&D Manager's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the R&D Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "R&D Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research Proposal Submission Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-001-EDGE-A"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-002",
+    "question": "Research Proposal Submission Procedure: Can a research proposal be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the R&D Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 hou",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the R&D Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "R&D Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research Proposal Submission Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-001-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-003",
+    "question": "Research Proposal Submission Procedure: What do I do if MK-Labs is down and I need to submit a research proposal?",
+    "short_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the R&D Manager directly with the request details; once MK-Labs is back, enter the req",
+    "detailed_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the R&D Manager directly with the request details; once MK-Labs is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "R&D Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research Proposal Submission Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-001-EDGE-C"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-004",
+    "question": "Research Proposal Submission Procedure: What happens if my research proposal request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "R&D Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research Proposal Submission Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-001-EDGE-D"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-005",
+    "question": "Research Proposal Submission Procedure: What happens if my research proposal submission is missing required documentation?",
+    "short_answer": "The R&D Manager returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and r",
+    "detailed_answer": "The R&D Manager returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "R&D Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research Proposal Submission Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-001-EDGE-E"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-006",
+    "question": "Experiment Design and Tracking Procedure: What happens if Research Lead is unavailable to approve a research experiment?",
+    "short_answer": "Route it to the Research Lead's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Research Lead is notified on return",
+    "detailed_answer": "Route it to the Research Lead's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Research Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "AI Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Experiment Design and Tracking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-002-EDGE-A"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-007",
+    "question": "Experiment Design and Tracking Procedure: Can a research experiment be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Research Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 h",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Research Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "AI Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Experiment Design and Tracking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-002-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-008",
+    "question": "Experiment Design and Tracking Procedure: What do I do if MK-Labs is down and I need to submit a research experiment?",
+    "short_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Research Lead directly with the request details; once MK-Labs is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Research Lead directly with the request details; once MK-Labs is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "AI Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Experiment Design and Tracking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-002-EDGE-C"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-009",
+    "question": "Experiment Design and Tracking Procedure: What happens if my research experiment request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "AI Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Experiment Design and Tracking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-002-EDGE-D"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-010",
+    "question": "Experiment Design and Tracking Procedure: What happens if my research experiment submission is missing required documentation?",
+    "short_answer": "The Research Lead returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and",
+    "detailed_answer": "The Research Lead returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "AI Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Experiment Design and Tracking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-002-EDGE-E"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-011",
+    "question": "Model Evaluation and Benchmarking Procedure: What happens if Research Lead is unavailable to approve a model benchmark?",
+    "short_answer": "Route it to the Research Lead's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Research Lead is notified on return",
+    "detailed_answer": "Route it to the Research Lead's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Research Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Model Evaluation and Benchmarking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-003-EDGE-A"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-012",
+    "question": "Model Evaluation and Benchmarking Procedure: Can a model benchmark be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Research Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 h",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Research Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Model Evaluation and Benchmarking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-003-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-013",
+    "question": "Model Evaluation and Benchmarking Procedure: What do I do if MK-Labs is down and I need to submit a model benchmark?",
+    "short_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Research Lead directly with the request details; once MK-Labs is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Research Lead directly with the request details; once MK-Labs is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Model Evaluation and Benchmarking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-003-EDGE-C"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-014",
+    "question": "Model Evaluation and Benchmarking Procedure: What happens if my model benchmark request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Model Evaluation and Benchmarking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-003-EDGE-D"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-015",
+    "question": "Model Evaluation and Benchmarking Procedure: What happens if my model benchmark submission is missing required documentation?",
+    "short_answer": "The Research Lead returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and",
+    "detailed_answer": "The Research Lead returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Senior Research Engineer",
+      "Research Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Model Evaluation and Benchmarking Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-003-EDGE-E"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-016",
+    "question": "Research-to-Production Handover Procedure: What happens if Engineering Manager is unavailable to approve a research handover?",
+    "short_answer": "Route it to the Engineering Manager's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Engineering Manager is notifi",
+    "detailed_answer": "Route it to the Engineering Manager's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Engineering Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research-to-Production Handover Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-004-EDGE-A"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-017",
+    "question": "Research-to-Production Handover Procedure: Can a research handover be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Engineering Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Labs withi",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Engineering Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research-to-Production Handover Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-004-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-018",
+    "question": "Research-to-Production Handover Procedure: What do I do if MK-Labs is down and I need to submit a research handover?",
+    "short_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Engineering Manager directly with the request details; once MK-Labs is back, enter",
+    "detailed_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Engineering Manager directly with the request details; once MK-Labs is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research-to-Production Handover Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-004-EDGE-C"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-019",
+    "question": "Research-to-Production Handover Procedure: What happens if my research handover request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research-to-Production Handover Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-004-EDGE-D"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-020",
+    "question": "Research-to-Production Handover Procedure: What happens if my research handover submission is missing required documentation?",
+    "short_answer": "The Engineering Manager returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corre",
+    "detailed_answer": "The Engineering Manager returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Research-to-Production Handover Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-004-EDGE-E"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-021",
+    "question": "Dataset Acquisition and Licensing Procedure: What happens if Legal Manager is unavailable to approve a dataset acquisition request?",
+    "short_answer": "Route it to the Legal Manager's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Legal Manager is notified on return",
+    "detailed_answer": "Route it to the Legal Manager's delegate (typically the next role up the escalation chain) via MK-Labs, tagged 'Delegate Approval Required'; the Legal Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dataset Acquisition and Licensing Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-005-EDGE-A"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-022",
+    "question": "Dataset Acquisition and Licensing Procedure: Can a dataset acquisition request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Legal Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 h",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Legal Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Labs within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dataset Acquisition and Licensing Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-005-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-023",
+    "question": "Dataset Acquisition and Licensing Procedure: What do I do if MK-Labs is down and I need to submit a dataset acquisition request?",
+    "short_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Legal Manager directly with the request details; once MK-Labs is back, enter the r",
+    "detailed_answer": "Non-urgent requests should wait for MK-Labs to be restored. For genuinely urgent cases, email the Legal Manager directly with the request details; once MK-Labs is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dataset Acquisition and Licensing Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-005-EDGE-C"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-024",
+    "question": "Dataset Acquisition and Licensing Procedure: What happens if my dataset acquisition request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Labs — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dataset Acquisition and Licensing Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-005-EDGE-D"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-025",
+    "question": "Dataset Acquisition and Licensing Procedure: What happens if my dataset acquisition request submission is missing required documentation?",
+    "short_answer": "The Legal Manager returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and",
+    "detailed_answer": "The Legal Manager returns the request in MK-Labs with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Research Associate",
+      "Legal Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Dataset Acquisition and Licensing Procedure",
+      "what-if",
+      "edge case",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-005-EDGE-E"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-026",
+    "question": "If I find an old reference to the Responsible AI Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-RND-001, is always authoritative going forward. If an older cached or printed copy of the Responsible AI Policy disagrees with it, treat the current docume",
+    "detailed_answer": "The current version, POL-RND-001, is always authoritative going forward. If an older cached or printed copy of the Responsible AI Policy disagrees with it, treat the current document as correct and check the POL-RND-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "R&D"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Responsible AI Policy",
+      "version",
+      "policy interpretation",
+      "RND"
+    ],
+    "related_documents": [
+      "POL-RND-001",
+      "POL-RND-001-HISTORY"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-027",
+    "question": "What's the difference between the standard Research Proposal Submission Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-RND-001) goes through R&D Manager via MK-Labs in the normal order. The expedited path (SOP-RND-001-EDGE-B) is only for genuine emergencies: it requires verba",
+    "detailed_answer": "The standard path (SOP-RND-001) goes through R&D Manager via MK-Labs in the normal order. The expedited path (SOP-RND-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Comparison",
+    "role_applicability": [
+      "Research Associate"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Research Proposal Submission Procedure",
+      "comparison",
+      "emergency",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-001",
+      "SOP-RND-001-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-028",
+    "question": "What's the difference between the standard Experiment Design and Tracking Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-RND-002) goes through Research Lead via MK-Labs in the normal order. The expedited path (SOP-RND-002-EDGE-B) is only for genuine emergencies: it requires ver",
+    "detailed_answer": "The standard path (SOP-RND-002) goes through Research Lead via MK-Labs in the normal order. The expedited path (SOP-RND-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Comparison",
+    "role_applicability": [
+      "AI Research Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Experiment Design and Tracking Procedure",
+      "comparison",
+      "emergency",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-002",
+      "SOP-RND-002-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-RND-029",
+    "question": "What's the difference between the standard Model Evaluation and Benchmarking Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-RND-003) goes through Research Lead via MK-Labs in the normal order. The expedited path (SOP-RND-003-EDGE-B) is only for genuine emergencies: it requires ver",
+    "detailed_answer": "The standard path (SOP-RND-003) goes through Research Lead via MK-Labs in the normal order. The expedited path (SOP-RND-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Research & Development",
+    "department_code": "RND",
+    "category": "Comparison",
+    "role_applicability": [
+      "Senior Research Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Model Evaluation and Benchmarking Procedure",
+      "comparison",
+      "emergency",
+      "RND"
+    ],
+    "related_documents": [
+      "SOP-RND-003",
+      "SOP-RND-003-EDGE-B"
+    ],
+    "escalation_path": "Research Associate -> Research Lead -> R&D Manager -> R&D Director",
+    "access_level": "employee"
+  }
+]

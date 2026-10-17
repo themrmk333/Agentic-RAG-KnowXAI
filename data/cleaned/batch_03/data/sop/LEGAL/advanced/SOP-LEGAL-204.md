@@ -1,0 +1,77 @@
+# SOP: Legal & Compliance Dependency Failure Recovery Procedure
+
+```json
+{
+  "document_id": "SOP-LEGAL-204",
+  "title": "Legal & Compliance Dependency Failure Recovery Procedure",
+  "document_type": "SOP",
+  "department": "Legal & Compliance",
+  "department_code": "LEGAL",
+  "category": "Dependency Management",
+  "subcategory": "Dependency Failure",
+  "roles": [
+    "Legal Associate",
+    "Legal Manager"
+  ],
+  "access_level": "manager",
+  "allowed_departments": [
+    "ALL"
+  ],
+  "confidentiality": "Internal",
+  "keywords": [
+    "Legal & Compliance Dependency Failure Recovery Procedure",
+    "Dependency Management",
+    "LEGAL",
+    "advanced procedure"
+  ],
+  "created_date": "2026-08-26",
+  "updated_date": "2026-08-26",
+  "version": "1.0",
+  "status": "Active",
+  "owner": "Legal Manager",
+  "source": "synthetic-generated"
+}
+```
+
+**Document ID:** SOP-LEGAL-204
+**Department:** Legal & Compliance
+**Access Level:** manager
+
+## Purpose
+
+This advanced procedure defines how Legal & Compliance handles **legal & compliance dependency failure recovery procedure**, covering a scenario beyond the department's routine day-to-day operations.
+
+## Scope
+
+Applies to Legal Associate and Legal Manager within Legal & Compliance.
+
+## Procedure
+
+**Step 1:** the Legal Associate confirms the exact symptom, when it started, and whether it affects one system or several.
+
+**Step 2:** the Legal Associate performs the standard first-line check: identifying which upstream system or team Legal & Compliance depends on for the affected process.
+
+**Step 3:** If the issue persists, the Legal Associate applies the documented workaround for this issue type.
+
+**Step 4:** the Legal Associate checks whether the issue is isolated to their own account/device or is affecting other users too.
+
+**Step 5:** If still unresolved, the Legal Associate raises a ticket in MK-LegalVault categorised under 'Dependency Failure', attaching screenshots or error logs.
+
+**Step 6:** The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.
+
+**Step 7:** the Legal Associate confirms the fix works; the ticket is closed in MK-LegalVault with the root cause logged. If the dependency is another department, Legal & Compliance notifies that department's escalation contact directly rather than waiting silently.
+
+## Exceptions
+If the dependency is another department, Legal & Compliance notifies that department's escalation contact directly rather than waiting silently.
+
+## Escalation
+Legal Associate -> Contracts Specialist -> Legal Manager -> General Counsel
+
+## Responsible Role
+Legal Associate
+
+## Approval Role
+Legal Manager
+
+---
+_This SOP is 100% synthetic content generated for the Agentic-RAG-KnowXAI evaluation dataset._

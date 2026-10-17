@@ -1,0 +1,332 @@
+[
+  {
+    "faq_id": "FAQ-PRJ-004-001",
+    "question": "What is the architecture of PRJ-004?",
+    "short_answer": "A natural-language-to-SQL translation layer converts business questions into governed queries against MK-DataLake's semantic model; results are auto-visualized; a KPI-governance la",
+    "detailed_answer": "A natural-language-to-SQL translation layer converts business questions into governed queries against MK-DataLake's semantic model; results are auto-visualized; a KPI-governance layer ensures answers use the single agreed definition for each metric.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-002",
+    "question": "Who is the project manager and technical lead for AI-Powered Business Analytics Platform?",
+    "short_answer": "The Project Manager is Riya Agarwal and the Technical Lead is Anjali Rao.",
+    "detailed_answer": "The Project Manager is Riya Agarwal and the Technical Lead is Anjali Rao.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-003",
+    "question": "What technologies are being used in AI-Powered Business Analytics Platform?",
+    "short_answer": "Technologies used: Python query-translation service; MK-DataLake (Snowflake-style warehouse); Semantic layer / metrics store; React-based visualization frontend",
+    "detailed_answer": "Technologies used: Python query-translation service; MK-DataLake (Snowflake-style warehouse); Semantic layer / metrics store; React-based visualization frontend",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-004",
+    "question": "What is the current status of AI-Powered Business Analytics Platform?",
+    "short_answer": "AI-Powered Business Analytics Platform is currently: In Progress - Beta. Current sprint: Sprint 11: Fixing fiscal-calendar date-range interpretation.",
+    "detailed_answer": "AI-Powered Business Analytics Platform is currently: In Progress - Beta. Current sprint: Sprint 11: Fixing fiscal-calendar date-range interpretation.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-005",
+    "question": "What is the deployment procedure for AI-Powered Business Analytics Platform?",
+    "short_answer": "Staged rollout department by department, starting with Data & Analytics power users.",
+    "detailed_answer": "Staged rollout department by department, starting with Data & Analytics power users.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-006",
+    "question": "Which database does AI-Powered Business Analytics Platform use?",
+    "short_answer": "MK-DataLake warehouse with a governed semantic layer defining approved KPIs.",
+    "detailed_answer": "MK-DataLake warehouse with a governed semantic layer defining approved KPIs.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-007",
+    "question": "What is the current sprint goal for AI-Powered Business Analytics Platform?",
+    "short_answer": "Sprint 11: Fixing fiscal-calendar date-range interpretation.",
+    "detailed_answer": "Sprint 11: Fixing fiscal-calendar date-range interpretation.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-008",
+    "question": "What are the known issues in AI-Powered Business Analytics Platform?",
+    "short_answer": "Known issues: Ambiguous date-range questions ('last quarter') sometimes default to the wrong fiscal calendar.; Auto-visualization occasionally picks a suboptimal chart type for cat",
+    "detailed_answer": "Known issues: Ambiguous date-range questions ('last quarter') sometimes default to the wrong fiscal calendar.; Auto-visualization occasionally picks a suboptimal chart type for categorical comparisons.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-009",
+    "question": "What are the key risks for AI-Powered Business Analytics Platform?",
+    "short_answer": "Risks: Users trusting an incorrect auto-generated answer without verifying against the source KPI definition.; Semantic layer maintenance becoming a bottleneck as more KPIs are add",
+    "detailed_answer": "Risks: Users trusting an incorrect auto-generated answer without verifying against the source KPI definition.; Semantic layer maintenance becoming a bottleneck as more KPIs are added.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-010",
+    "question": "How is security handled in AI-Powered Business Analytics Platform?",
+    "short_answer": "Query results are filtered by the requester's data access level; Restricted-classified fields are never returned to unauthorized users.",
+    "detailed_answer": "Query results are filtered by the requester's data access level; Restricted-classified fields are never returned to unauthorized users.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-011",
+    "question": "What departments are involved in AI-Powered Business Analytics Platform?",
+    "short_answer": "Departments involved: Data & Analytics, Engineering, Product Management",
+    "detailed_answer": "Departments involved: Data & Analytics, Engineering, Product Management",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-012",
+    "question": "What is the CI/CD process for AI-Powered Business Analytics Platform?",
+    "short_answer": "MK-CI pipeline with translation-accuracy gating and semantic-layer regression tests.",
+    "detailed_answer": "MK-CI pipeline with translation-accuracy gating and semantic-layer regression tests.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-013",
+    "question": "What is on the backlog for AI-Powered Business Analytics Platform?",
+    "short_answer": "Backlog items: Add proactive anomaly alerts; Support scheduled recurring questions",
+    "detailed_answer": "Backlog items: Add proactive anomaly alerts; Support scheduled recurring questions",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-014",
+    "question": "What is the future roadmap for AI-Powered Business Analytics Platform?",
+    "short_answer": "Integrate with the Enterprise Knowledge Assistant so analytics questions can be asked from the same interface.",
+    "detailed_answer": "Integrate with the Enterprise Knowledge Assistant so analytics questions can be asked from the same interface.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-004-015",
+    "question": "What is the testing workflow for AI-Powered Business Analytics Platform?",
+    "short_answer": "QA validates NL-to-SQL translation accuracy against a curated set of business questions before release.",
+    "detailed_answer": "QA validates NL-to-SQL translation accuracy against a curated set of business questions before release.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "AI-Powered Business Analytics Platform",
+      "PRJ-004"
+    ],
+    "related_documents": [
+      "PRJ-004"
+    ],
+    "escalation_path": "Anjali Rao -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  }
+]

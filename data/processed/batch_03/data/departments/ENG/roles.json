@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Software Engineering Intern",
+    "level": 1,
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "permissions": "Read-only access to standard department tools; cannot approve requests; requires mentor sign-off on deliverables.",
+    "access_level": "general"
+  },
+  {
+    "role": "Junior Software Engineer",
+    "level": 2,
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Software Engineer",
+    "level": 3,
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Senior Software Engineer",
+    "level": 4,
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "permissions": "Standard operational access to department systems; can execute assigned workflows; cannot approve budget or policy exceptions.",
+    "access_level": "general"
+  },
+  {
+    "role": "Tech Lead",
+    "level": 5,
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "general"
+  },
+  {
+    "role": "Engineering Manager",
+    "level": 6,
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "permissions": "Can approve first-line requests within delegated authority limits; escalates high-value or high-risk items upward.",
+    "access_level": "manager"
+  },
+  {
+    "role": "Engineering Director",
+    "level": 7,
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "permissions": "Full department authority including budget approval, policy exceptions, and escalation resolution; reports to the next level of Management.",
+    "access_level": "manager"
+  }
+]

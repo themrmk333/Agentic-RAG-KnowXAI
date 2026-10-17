@@ -1,0 +1,944 @@
+[
+  {
+    "faq_id": "FAQADV-FIN-001",
+    "question": "Expense Reimbursement Procedure: What happens if Finance Lead is unavailable to approve a expense claim?",
+    "short_answer": "Route it to the Finance Lead's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Lead is notified on re",
+    "detailed_answer": "Route it to the Finance Lead's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-001-EDGE-A"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-002",
+    "question": "Expense Reimbursement Procedure: Can a expense claim be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-001-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-003",
+    "question": "Expense Reimbursement Procedure: What do I do if MK-Finance360 is down and I need to submit a expense claim?",
+    "short_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Lead directly with the request details; once MK-Finance360 is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Lead directly with the request details; once MK-Finance360 is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-001-EDGE-C"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-004",
+    "question": "Expense Reimbursement Procedure: What happens if my expense claim request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-001-EDGE-D"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-005",
+    "question": "Expense Reimbursement Procedure: What happens if my expense claim submission is missing required documentation?",
+    "short_answer": "The Finance Lead returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Finance Lead returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-001-EDGE-E"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-006",
+    "question": "Travel Expense Reimbursement Procedure: What happens if Finance Lead is unavailable to approve a travel expense claim?",
+    "short_answer": "Route it to the Finance Lead's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Lead is notified on re",
+    "detailed_answer": "Route it to the Finance Lead's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Travel Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-002-EDGE-A"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-007",
+    "question": "Travel Expense Reimbursement Procedure: Can a travel expense claim be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Travel Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-002-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-008",
+    "question": "Travel Expense Reimbursement Procedure: What do I do if MK-Finance360 is down and I need to submit a travel expense claim?",
+    "short_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Lead directly with the request details; once MK-Finance360 is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Lead directly with the request details; once MK-Finance360 is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Travel Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-002-EDGE-C"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-009",
+    "question": "Travel Expense Reimbursement Procedure: What happens if my travel expense claim request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Travel Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-002-EDGE-D"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-010",
+    "question": "Travel Expense Reimbursement Procedure: What happens if my travel expense claim submission is missing required documentation?",
+    "short_answer": "The Finance Lead returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Finance Lead returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Travel Expense Reimbursement Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-002-EDGE-E"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-011",
+    "question": "Purchase Approval Procedure: What happens if Finance Manager is unavailable to approve a purchase request?",
+    "short_answer": "Route it to the Finance Manager's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Manager is notified",
+    "detailed_answer": "Route it to the Finance Manager's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Approval Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-003-EDGE-A"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-012",
+    "question": "Purchase Approval Procedure: Can a purchase request be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 wit",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Approval Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-003-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-013",
+    "question": "Purchase Approval Procedure: What do I do if MK-Finance360 is down and I need to submit a purchase request?",
+    "short_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Manager directly with the request details; once MK-Finance360 is bac",
+    "detailed_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Manager directly with the request details; once MK-Finance360 is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Approval Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-003-EDGE-C"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-014",
+    "question": "Purchase Approval Procedure: What happens if my purchase request request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Approval Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-003-EDGE-D"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-015",
+    "question": "Purchase Approval Procedure: What happens if my purchase request submission is missing required documentation?",
+    "short_answer": "The Finance Manager returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to cor",
+    "detailed_answer": "The Finance Manager returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Approval Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-003-EDGE-E"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-016",
+    "question": "Invoice Processing Procedure: What happens if Finance Lead is unavailable to approve a vendor invoice?",
+    "short_answer": "Route it to the Finance Lead's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Lead is notified on re",
+    "detailed_answer": "Route it to the Finance Lead's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Invoice Processing Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-004-EDGE-A"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-017",
+    "question": "Invoice Processing Procedure: Can a vendor invoice be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Lead directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Invoice Processing Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-004-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-018",
+    "question": "Invoice Processing Procedure: What do I do if MK-Finance360 is down and I need to submit a vendor invoice?",
+    "short_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Lead directly with the request details; once MK-Finance360 is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Lead directly with the request details; once MK-Finance360 is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Invoice Processing Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-004-EDGE-C"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-019",
+    "question": "Invoice Processing Procedure: What happens if my vendor invoice request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Invoice Processing Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-004-EDGE-D"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-020",
+    "question": "Invoice Processing Procedure: What happens if my vendor invoice submission is missing required documentation?",
+    "short_answer": "The Finance Lead returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correc",
+    "detailed_answer": "The Finance Lead returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Invoice Processing Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-004-EDGE-E"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-021",
+    "question": "Vendor Payment Procedure: What happens if Finance Manager is unavailable to approve a vendor payment?",
+    "short_answer": "Route it to the Finance Manager's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Manager is notified",
+    "detailed_answer": "Route it to the Finance Manager's delegate (typically the next role up the escalation chain) via MK-Finance360, tagged 'Delegate Approval Required'; the Finance Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Payment Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-005-EDGE-A"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-022",
+    "question": "Vendor Payment Procedure: Can a vendor payment be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 wit",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Finance Manager directly, proceed with the minimum necessary action, then file the formal request in MK-Finance360 within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Payment Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-005-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-023",
+    "question": "Vendor Payment Procedure: What do I do if MK-Finance360 is down and I need to submit a vendor payment?",
+    "short_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Manager directly with the request details; once MK-Finance360 is bac",
+    "detailed_answer": "Non-urgent requests should wait for MK-Finance360 to be restored. For genuinely urgent cases, email the Finance Manager directly with the request details; once MK-Finance360 is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Payment Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-005-EDGE-C"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-024",
+    "question": "Vendor Payment Procedure: What happens if my vendor payment request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconc",
+    "detailed_answer": "Rejections always come with a documented reason in MK-Finance360 — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Payment Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-005-EDGE-D"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-025",
+    "question": "Vendor Payment Procedure: What happens if my vendor payment submission is missing required documentation?",
+    "short_answer": "The Finance Manager returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to cor",
+    "detailed_answer": "The Finance Manager returns the request in MK-Finance360 with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Accountant",
+      "Finance Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Payment Procedure",
+      "what-if",
+      "edge case",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-005-EDGE-E"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-026",
+    "question": "If I find an old reference to the Expense Reimbursement Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-001, is always authoritative going forward. If an older cached or printed copy of the Expense Reimbursement Policy disagrees with it, treat the current",
+    "detailed_answer": "The current version, POL-FIN-001, is always authoritative going forward. If an older cached or printed copy of the Expense Reimbursement Policy disagrees with it, treat the current document as correct and check the POL-FIN-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Expense Reimbursement Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-001",
+      "POL-FIN-001-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-027",
+    "question": "If I find an old reference to the Travel Expense Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-002, is always authoritative going forward. If an older cached or printed copy of the Travel Expense Policy disagrees with it, treat the current docume",
+    "detailed_answer": "The current version, POL-FIN-002, is always authoritative going forward. If an older cached or printed copy of the Travel Expense Policy disagrees with it, treat the current document as correct and check the POL-FIN-002-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Travel Expense Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-002",
+      "POL-FIN-002-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-028",
+    "question": "If I find an old reference to the Purchase Approval Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-003, is always authoritative going forward. If an older cached or printed copy of the Purchase Approval Policy disagrees with it, treat the current doc",
+    "detailed_answer": "The current version, POL-FIN-003, is always authoritative going forward. If an older cached or printed copy of the Purchase Approval Policy disagrees with it, treat the current document as correct and check the POL-FIN-003-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees",
+      "Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Purchase Approval Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-003",
+      "POL-FIN-003-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-029",
+    "question": "If I find an old reference to the Invoice Processing Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-004, is always authoritative going forward. If an older cached or printed copy of the Invoice Processing Policy disagrees with it, treat the current do",
+    "detailed_answer": "The current version, POL-FIN-004, is always authoritative going forward. If an older cached or printed copy of the Invoice Processing Policy disagrees with it, treat the current document as correct and check the POL-FIN-004-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Finance"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Invoice Processing Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-004",
+      "POL-FIN-004-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-030",
+    "question": "If I find an old reference to the Vendor Payment Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-005, is always authoritative going forward. If an older cached or printed copy of the Vendor Payment Policy disagrees with it, treat the current docume",
+    "detailed_answer": "The current version, POL-FIN-005, is always authoritative going forward. If an older cached or printed copy of the Vendor Payment Policy disagrees with it, treat the current document as correct and check the POL-FIN-005-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Finance Manager",
+      "Finance Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Payment Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-005",
+      "POL-FIN-005-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQADV-FIN-031",
+    "question": "If I find an old reference to the Budget Approval Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-006, is always authoritative going forward. If an older cached or printed copy of the Budget Approval Policy disagrees with it, treat the current docum",
+    "detailed_answer": "The current version, POL-FIN-006, is always authoritative going forward. If an older cached or printed copy of the Budget Approval Policy disagrees with it, treat the current document as correct and check the POL-FIN-006-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Manager",
+      "Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Budget Approval Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-006",
+      "POL-FIN-006-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQADV-FIN-032",
+    "question": "If I find an old reference to the Payroll Administration Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-007, is always authoritative going forward. If an older cached or printed copy of the Payroll Administration Policy disagrees with it, treat the curren",
+    "detailed_answer": "The current version, POL-FIN-007, is always authoritative going forward. If an older cached or printed copy of the Payroll Administration Policy disagrees with it, treat the current document as correct and check the POL-FIN-007-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Finance Manager",
+      "HR Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Payroll Administration Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-007",
+      "POL-FIN-007-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "restricted"
+  },
+  {
+    "faq_id": "FAQADV-FIN-033",
+    "question": "If I find an old reference to the Executive Compensation Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-FIN-008, is always authoritative going forward. If an older cached or printed copy of the Executive Compensation Policy disagrees with it, treat the curren",
+    "detailed_answer": "The current version, POL-FIN-008, is always authoritative going forward. If an older cached or printed copy of the Executive Compensation Policy disagrees with it, treat the current document as correct and check the POL-FIN-008-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "CEO Office",
+      "HR Director",
+      "Finance Director"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Executive Compensation Policy",
+      "version",
+      "policy interpretation",
+      "FIN"
+    ],
+    "related_documents": [
+      "POL-FIN-008",
+      "POL-FIN-008-HISTORY"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "management"
+  },
+  {
+    "faq_id": "FAQADV-FIN-034",
+    "question": "What's the difference between the standard Expense Reimbursement Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-FIN-001) goes through Finance Lead via MK-Finance360 in the normal order. The expedited path (SOP-FIN-001-EDGE-B) is only for genuine emergencies: it require",
+    "detailed_answer": "The standard path (SOP-FIN-001) goes through Finance Lead via MK-Finance360 in the normal order. The expedited path (SOP-FIN-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Expense Reimbursement Procedure",
+      "comparison",
+      "emergency",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-001",
+      "SOP-FIN-001-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-035",
+    "question": "What's the difference between the standard Travel Expense Reimbursement Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-FIN-002) goes through Finance Lead via MK-Finance360 in the normal order. The expedited path (SOP-FIN-002-EDGE-B) is only for genuine emergencies: it require",
+    "detailed_answer": "The standard path (SOP-FIN-002) goes through Finance Lead via MK-Finance360 in the normal order. The expedited path (SOP-FIN-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Travel Expense Reimbursement Procedure",
+      "comparison",
+      "emergency",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-002",
+      "SOP-FIN-002-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-FIN-036",
+    "question": "What's the difference between the standard Purchase Approval Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-FIN-003) goes through Finance Manager via MK-Finance360 in the normal order. The expedited path (SOP-FIN-003-EDGE-B) is only for genuine emergencies: it requ",
+    "detailed_answer": "The standard path (SOP-FIN-003) goes through Finance Manager via MK-Finance360 in the normal order. The expedited path (SOP-FIN-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Finance & Accounting",
+    "department_code": "FIN",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Purchase Approval Procedure",
+      "comparison",
+      "emergency",
+      "FIN"
+    ],
+    "related_documents": [
+      "SOP-FIN-003",
+      "SOP-FIN-003-EDGE-B"
+    ],
+    "escalation_path": "Accountant -> Finance Lead -> Finance Manager -> Finance Director",
+    "access_level": "employee"
+  }
+]

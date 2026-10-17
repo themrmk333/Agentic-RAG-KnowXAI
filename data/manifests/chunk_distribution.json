@@ -1,0 +1,28 @@
+{
+  "total_chunks": 12730,
+  "total_characters": 51981435,
+  "total_words": 6960479,
+  "total_tokens": 9048553,
+  "average_tokens": 710.81,
+  "median_tokens": 793.0,
+  "min_tokens": 30,
+  "max_tokens": 3401,
+  "stdev_tokens": 237.01,
+  "p25_tokens": 793.0,
+  "p75_tokens": 927.0,
+  "p90_tokens": 956.0,
+  "p95_tokens": 958.0,
+  "p99_tokens": 959.0,
+  "size_distribution": {
+    "NORMAL": 12494,
+    "SMALL": 227,
+    "VERY_SMALL": 6,
+    "VERY_LARGE": 3
+  },
+  "size_distribution_percent": {
+    "NORMAL": 98.15,
+    "SMALL": 1.78,
+    "VERY_SMALL": 0.05,
+    "VERY_LARGE": 0.02
+  }
+}

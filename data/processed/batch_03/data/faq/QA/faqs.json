@@ -1,0 +1,798 @@
+[
+  {
+    "faq_id": "FAQ-QA-001",
+    "question": "How do I complete: Software Defect Reporting Procedure?",
+    "short_answer": "Follow the 7-step Software Defect Reporting Procedure procedure in MK-TestHub, starting with the SOP-QA-001 SOP.",
+    "detailed_answer": "The Software Defect Reporting Procedure process (SOP-QA-001) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Sev-1 defects blocking release are reported to the Engineering Manager immediately.",
+    "step_by_step": [
+      "the QA Engineer logs into MK-TestHub and navigates to the 'Defect Report' section.",
+      "the QA Engineer selects 'New Defect Report' and enters the required details, including steps to reproduce, expected vs actual result, and severity.",
+      "the QA Engineer attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the QA Engineer submits the Defect Report; MK-TestHub automatically routes it to the QA Lead for review.",
+      "The QA Lead reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-TestHub updates the status to 'Approved' and notifies the QA Engineer by email/in-app notification.",
+      "The approved Defect Report is processed and the record is retained in MK-TestHub for audit purposes. Sev-1 defects blocking release are reported to the Engineering Manager immediately."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Defect Management",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Software Defect Reporting Procedure",
+      "Defect Management",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-001"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-002",
+    "question": "How do I complete: Test Case Design and Review?",
+    "short_answer": "Follow the 7-step Test Case Design and Review procedure in MK-TestHub, starting with the SOP-QA-002 SOP.",
+    "detailed_answer": "The Test Case Design and Review process (SOP-QA-002) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Test cases without traceability to a requirement are rejected during review.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-TestHub.",
+      "the QA Engineer gathers the required data and documents, including requirement traceability and edge-case coverage.",
+      "The review team examines the Test Case Suite against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The QA Lead discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-TestHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Test cases without traceability to a requirement are rejected during review."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Test Planning",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Test Case Design and Review",
+      "Test Planning",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-002"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-QA-003",
+    "question": "How do I complete: Regression Test Cycle Execution?",
+    "short_answer": "Follow the 7-step Regression Test Cycle Execution procedure in MK-TestHub, starting with the SOP-QA-003 SOP.",
+    "detailed_answer": "The Regression Test Cycle Execution process (SOP-QA-003) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. A failed regression cycle blocks release sign-off until re-tested.",
+    "step_by_step": [
+      "the QA Engineer confirms eligibility and prerequisites: selecting the regression suite relevant to the changed modules.",
+      "the QA Engineer raises a request in MK-TestHub specifying exactly which Regression Cycle is required.",
+      "The QA Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Regression Cycle in the relevant system.",
+      "the QA Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. A failed regression cycle blocks release sign-off until re-tested."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Test Execution",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Regression Test Cycle Execution",
+      "Test Execution",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-003"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-004",
+    "question": "How do I complete: Test Automation Script Development?",
+    "short_answer": "Follow the 7-step Test Automation Script Development procedure in MK-TestHub, starting with the SOP-QA-004 SOP.",
+    "detailed_answer": "The Test Automation Script Development process (SOP-QA-004) is owned by the QA / Testing department. The qa automation engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Flaky automated tests are quarantined and tracked for a fix within one sprint.",
+    "step_by_step": [
+      "the QA Automation Engineer confirms eligibility and prerequisites: adding the script to the MK-TestHub automation pipeline with tagging.",
+      "the QA Automation Engineer raises a request in MK-TestHub specifying exactly which Automation Script is required.",
+      "The QA Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Automation Script in the relevant system.",
+      "the QA Automation Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. Flaky automated tests are quarantined and tracked for a fix within one sprint."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Test Automation",
+    "role_applicability": [
+      "QA Automation Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Automation Script Development",
+      "Test Automation",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-004"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-005",
+    "question": "How do I complete: Release Sign-off / Go-No-Go Procedure?",
+    "short_answer": "Follow the 7-step Release Sign-off / Go-No-Go Procedure procedure in MK-TestHub, starting with the SOP-QA-005 SOP.",
+    "detailed_answer": "The Release Sign-off / Go-No-Go Procedure process (SOP-QA-005) is owned by the QA / Testing department. The qa lead initiates the request in MK-TestHub and QA Manager is responsible for approval/sign-off. A single open Sev-1 defect is sufficient to block sign-off.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-TestHub.",
+      "the QA Lead gathers the required data and documents, including open defect count by severity and outstanding test coverage gaps.",
+      "The review team examines the Release Readiness Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The QA Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-TestHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. A single open Sev-1 defect is sufficient to block sign-off."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Release Management",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Release Sign-off / Go-No-Go Procedure",
+      "Release Management",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-005"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQ-QA-006",
+    "question": "How do I complete: Performance Test Execution?",
+    "short_answer": "Follow the 7-step Performance Test Execution procedure in MK-TestHub, starting with the SOP-QA-006 SOP.",
+    "detailed_answer": "The Performance Test Execution process (SOP-QA-006) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Performance regressions of more than 15% are reported to Engineering before release.",
+    "step_by_step": [
+      "the QA Engineer confirms eligibility and prerequisites: defining load profile, target throughput, and acceptable latency thresholds.",
+      "the QA Engineer raises a request in MK-TestHub specifying exactly which Performance Test is required.",
+      "The QA Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Performance Test in the relevant system.",
+      "the QA Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. Performance regressions of more than 15% are reported to Engineering before release."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Performance Testing",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Performance Test Execution",
+      "Performance Testing",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-006"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-007",
+    "question": "How do I complete: User Acceptance Testing (UAT) Coordination?",
+    "short_answer": "Follow the 7-step User Acceptance Testing (UAT) Coordination procedure in MK-TestHub, starting with the SOP-QA-007 SOP.",
+    "detailed_answer": "The User Acceptance Testing (UAT) Coordination process (SOP-QA-007) is owned by the QA / Testing department. The qa lead initiates the request in MK-TestHub and Product Manager is responsible for approval/sign-off. UAT sign-off must be obtained in writing via MK-PMTrack before go-live.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-TestHub.",
+      "the QA Lead gathers the required data and documents, including business scenarios and sign-off criteria agreed with stakeholders.",
+      "The review team examines the UAT Cycle against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Product Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-TestHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. UAT sign-off must be obtained in writing via MK-PMTrack before go-live."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "UAT",
+    "role_applicability": [
+      "QA Lead",
+      "Product Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "User Acceptance Testing (UAT) Coordination",
+      "UAT",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-007"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-008",
+    "question": "How do I complete: Test Environment Setup Request?",
+    "short_answer": "Follow the 7-step Test Environment Setup Request procedure in MK-TestHub, starting with the SOP-QA-008 SOP.",
+    "detailed_answer": "The Test Environment Setup Request process (SOP-QA-008) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and DevOps Engineer is responsible for approval/sign-off. Test environments are refreshed weekly to avoid data drift.",
+    "step_by_step": [
+      "the QA Engineer confirms eligibility and prerequisites: the required data set, build version, and configuration.",
+      "the QA Engineer raises a request in MK-TestHub specifying exactly which Test Environment is required.",
+      "The DevOps Engineer reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Test Environment in the relevant system.",
+      "the QA Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. Test environments are refreshed weekly to avoid data drift."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Environment Management",
+    "role_applicability": [
+      "QA Engineer",
+      "DevOps Engineer"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Test Environment Setup Request",
+      "Environment Management",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-008"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-QA-009",
+    "question": "How do I complete: Defect Triage Meeting Procedure?",
+    "short_answer": "Follow the 7-step Defect Triage Meeting Procedure procedure in MK-TestHub, starting with the SOP-QA-009 SOP.",
+    "detailed_answer": "The Defect Triage Meeting Procedure process (SOP-QA-009) is owned by the QA / Testing department. The qa lead initiates the request in MK-TestHub and Engineering Manager is responsible for approval/sign-off. Defects unassigned after triage are escalated to the QA Manager.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-TestHub.",
+      "the QA Lead gathers the required data and documents, including reviewing all newly logged defects and assigning priority.",
+      "The review team examines the Defect Triage against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Engineering Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-TestHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Defects unassigned after triage are escalated to the QA Manager."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Defect Management",
+    "role_applicability": [
+      "QA Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Defect Triage Meeting Procedure",
+      "Defect Management",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-009"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-010",
+    "question": "How do I complete: Mobile App Testing Procedure?",
+    "short_answer": "Follow the 7-step Mobile App Testing Procedure procedure in MK-TestHub, starting with the SOP-QA-010 SOP.",
+    "detailed_answer": "The Mobile App Testing Procedure process (SOP-QA-010) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Critical device coverage gaps are flagged to QA Manager before sign-off.",
+    "step_by_step": [
+      "the QA Engineer confirms eligibility and prerequisites: the device/OS matrix required for the release.",
+      "the QA Engineer raises a request in MK-TestHub specifying exactly which Mobile Test Pass is required.",
+      "The QA Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Mobile Test Pass in the relevant system.",
+      "the QA Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. Critical device coverage gaps are flagged to QA Manager before sign-off."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Test Execution",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Mobile App Testing Procedure",
+      "Test Execution",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-010"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-011",
+    "question": "How do I complete: API Testing Procedure?",
+    "short_answer": "Follow the 7-step API Testing Procedure procedure in MK-TestHub, starting with the SOP-QA-011 SOP.",
+    "detailed_answer": "The API Testing Procedure process (SOP-QA-011) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Breaking API changes without version bump are logged as a defect against Engineering.",
+    "step_by_step": [
+      "the QA Engineer confirms eligibility and prerequisites: validating response schema, status codes, and error handling.",
+      "the QA Engineer raises a request in MK-TestHub specifying exactly which API Test Suite is required.",
+      "The QA Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the API Test Suite in the relevant system.",
+      "the QA Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. Breaking API changes without version bump are logged as a defect against Engineering."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Test Execution",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "API Testing Procedure",
+      "Test Execution",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-011"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-QA-012",
+    "question": "How do I complete: QA Onboarding Procedure?",
+    "short_answer": "Follow the 7-step QA Onboarding Procedure procedure in MK-TestHub, starting with the SOP-QA-012 SOP.",
+    "detailed_answer": "The QA Onboarding Procedure process (SOP-QA-012) is owned by the QA / Testing department. The qa lead initiates the request in MK-TestHub and QA Manager is responsible for approval/sign-off. New QA hires shadow a full regression cycle in week one.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-TestHub owner ahead of the employee's start or end date.",
+      "the QA Lead prepares the required QA Onboarding Plan, including MK-TestHub access, sample test suite walkthrough, and an onboarding buddy.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The QA Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the QA Manager for same-day resolution.",
+      "MK-TestHub is updated to reflect the completed status and the record is archived. New QA hires shadow a full regression cycle in week one."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Onboarding",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "QA Onboarding Procedure",
+      "Onboarding",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-012"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-QA-013",
+    "question": "How do I complete: Security Regression Testing Coordination?",
+    "short_answer": "Follow the 7-step Security Regression Testing Coordination procedure in MK-TestHub, starting with the SOP-QA-013 SOP.",
+    "detailed_answer": "The Security Regression Testing Coordination process (SOP-QA-013) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and Security Analyst is responsible for approval/sign-off. Any new high-severity finding blocks release until remediated.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-TestHub.",
+      "the QA Engineer gathers the required data and documents, including known vulnerability classes to test (OWASP Top 10) for this release.",
+      "The review team examines the Security Test Pass against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Security Analyst discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-TestHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Any new high-severity finding blocks release until remediated."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Security Testing",
+    "role_applicability": [
+      "QA Engineer",
+      "Security Analyst"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Security Regression Testing Coordination",
+      "Security Testing",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-013"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-014",
+    "question": "How do I complete: Test Data Management Procedure?",
+    "short_answer": "Follow the 7-step Test Data Management Procedure procedure in MK-TestHub, starting with the SOP-QA-014 SOP.",
+    "detailed_answer": "The Test Data Management Procedure process (SOP-QA-014) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Real customer data is never used in test environments.",
+    "step_by_step": [
+      "the QA Engineer confirms eligibility and prerequisites: masking any production-like sensitive fields before use.",
+      "the QA Engineer raises a request in MK-TestHub specifying exactly which Test Data Set is required.",
+      "The QA Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Test Data Set in the relevant system.",
+      "the QA Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. Real customer data is never used in test environments."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Test Data",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Test Data Management Procedure",
+      "Test Data",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-014"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-QA-015",
+    "question": "How do I complete: Exploratory Testing Session Procedure?",
+    "short_answer": "Follow the 7-step Exploratory Testing Session Procedure procedure in MK-TestHub, starting with the SOP-QA-015 SOP.",
+    "detailed_answer": "The Exploratory Testing Session Procedure process (SOP-QA-015) is owned by the QA / Testing department. The qa engineer initiates the request in MK-TestHub and QA Lead is responsible for approval/sign-off. Findings from exploratory sessions are logged as defects or improvement notes.",
+    "step_by_step": [
+      "the QA Engineer confirms eligibility and prerequisites: defining a time-boxed charter with a testing focus area.",
+      "the QA Engineer raises a request in MK-TestHub specifying exactly which Exploratory Test Charter is required.",
+      "The QA Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Exploratory Test Charter in the relevant system.",
+      "the QA Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-TestHub and corrected before sign-off.",
+      "MK-TestHub marks the request 'Complete' and the configuration is logged for audit and future reference. Findings from exploratory sessions are logged as defects or improvement notes."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Test Execution",
+    "role_applicability": [
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Exploratory Testing Session Procedure",
+      "Test Execution",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-015"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-016",
+    "question": "How do I complete: QA Metrics Reporting Procedure?",
+    "short_answer": "Follow the 7-step QA Metrics Reporting Procedure procedure in MK-TestHub, starting with the SOP-QA-016 SOP.",
+    "detailed_answer": "The QA Metrics Reporting Procedure process (SOP-QA-016) is owned by the QA / Testing department. The qa lead initiates the request in MK-TestHub and QA Manager is responsible for approval/sign-off. Metrics trending negative for two cycles trigger a QA process review.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-TestHub.",
+      "the QA Lead gathers the required data and documents, including defect leakage rate, test coverage %, and automation pass rate.",
+      "The review team examines the QA Metrics Report against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The QA Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-TestHub with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Metrics trending negative for two cycles trigger a QA process review."
+    ],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Reporting",
+    "role_applicability": [
+      "QA Lead",
+      "QA Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "QA Metrics Reporting Procedure",
+      "Reporting",
+      "QA"
+    ],
+    "related_documents": [
+      "SOP-QA-016"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-QA-017",
+    "question": "What is the Release Sign-off Policy?",
+    "short_answer": "No release proceeds to production with an open Sev-1 defect.",
+    "detailed_answer": "No release proceeds to production with an open Sev-1 defect. Regression suites must pass at 100% before sign-off; failing tests must be triaged, not skipped. QA sign-off is documented in MK-TestHub and referenced in the release notes.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Release Management",
+    "role_applicability": [
+      "QA",
+      "Engineering"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Release Sign-off Policy",
+      "Release Management",
+      "QA"
+    ],
+    "related_documents": [
+      "POL-QA-001"
+    ],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-QA-018",
+    "question": "Who do I contact in the QA / Testing department for help?",
+    "short_answer": "Reach out to: Kavya Iyer (QA Manager, kavya.iyer@mkinfinite-ai.com); Varun Singh (QA Lead, varun.singh@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to QA / Testing, use MK-TestHub to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Kavya Iyer (QA Manager, kavya.iyer@mkinfinite-ai.com); Varun Singh (QA Lead, varun.singh@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "QA / Testing",
+      "contact",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-019",
+    "question": "What system does the QA / Testing department use?",
+    "short_answer": "QA / Testing primarily uses MK-TestHub for its workflows.",
+    "detailed_answer": "MK-TestHub is the system of record for QA / Testing. All requests, approvals, and records for this department's processes should go through MK-TestHub rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MK-TestHub",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-020",
+    "question": "What are the key performance indicators (KPIs) for the QA / Testing department?",
+    "short_answer": "Defect leakage rate to production (target: under 3%)",
+    "detailed_answer": "Defect leakage rate to production (target: under 3%) Test automation coverage (target: above 60% of regression suite) Average defect turnaround time (target: under 3 days for Sev-2) Release sign-off on-time rate (target: above 95%)",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-021",
+    "question": "What is the escalation path within the QA / Testing department?",
+    "short_answer": "Escalate in this order: QA Engineer -> QA Lead -> QA Manager -> QA Director.",
+    "detailed_answer": "If a request or issue with QA / Testing is not addressed within the expected timeframe, escalate step by step through: QA Engineer -> QA Lead -> QA Manager -> QA Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-022",
+    "question": "What are common mistakes employees make when working with QA / Testing?",
+    "short_answer": "Logging defects without clear reproduction steps, causing rework during triage.",
+    "detailed_answer": "Logging defects without clear reproduction steps, causing rework during triage. Skipping regression testing on 'small' changes that later cause production issues. Not tagging defect severity accurately, causing Sev-1 issues to be missed in triage.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "mistakes",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-023",
+    "question": "What does 'MK-TestHub' mean in the context of QA / Testing?",
+    "short_answer": "The internal test case management and automation platform.",
+    "detailed_answer": "The internal test case management and automation platform. This term is commonly used in QA / Testing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-TestHub",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-024",
+    "question": "What does 'Regression Suite' mean in the context of QA / Testing?",
+    "short_answer": "The set of test cases re-run to confirm existing functionality still works.",
+    "detailed_answer": "The set of test cases re-run to confirm existing functionality still works. This term is commonly used in QA / Testing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Regression Suite",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-025",
+    "question": "What does 'UAT' mean in the context of QA / Testing?",
+    "short_answer": "User Acceptance Testing performed by business stakeholders before go-live.",
+    "detailed_answer": "User Acceptance Testing performed by business stakeholders before go-live. This term is commonly used in QA / Testing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "UAT",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-026",
+    "question": "What does 'Sev-1/2/3' mean in the context of QA / Testing?",
+    "short_answer": "Defect severity levels indicating business impact.",
+    "detailed_answer": "Defect severity levels indicating business impact. This term is commonly used in QA / Testing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Sev-1/2/3",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-027",
+    "question": "What does 'Flaky Test' mean in the context of QA / Testing?",
+    "short_answer": "An automated test that passes/fails inconsistently without code changes.",
+    "detailed_answer": "An automated test that passes/fails inconsistently without code changes. This term is commonly used in QA / Testing SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Flaky Test",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-QA-028",
+    "question": "Can an employee from a different department ask a QA / Testing question?",
+    "short_answer": "Yes. QA / Testing knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a QA / Testing question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "QA / Testing",
+    "department_code": "QA",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "QA / Testing",
+      "QA"
+    ],
+    "related_documents": [],
+    "escalation_path": "QA Engineer -> QA Lead -> QA Manager -> QA Director",
+    "access_level": "general"
+  }
+]

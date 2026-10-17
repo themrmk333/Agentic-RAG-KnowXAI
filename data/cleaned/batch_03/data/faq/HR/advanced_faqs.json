@@ -1,0 +1,914 @@
+[
+  {
+    "faq_id": "FAQADV-HR-001",
+    "question": "Leave Application Procedure: What happens if Reporting Manager is unavailable to approve a leave application?",
+    "short_answer": "Route it to the Reporting Manager's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the Reporting Manager is notified o",
+    "detailed_answer": "Route it to the Reporting Manager's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the Reporting Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Leave Application Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-001-EDGE-A"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-002",
+    "question": "Leave Application Procedure: Can a leave application be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Reporting Manager directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within ",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Reporting Manager directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Leave Application Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-001-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-003",
+    "question": "Leave Application Procedure: What do I do if MK-HRMS is down and I need to submit a leave application?",
+    "short_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the Reporting Manager directly with the request details; once MK-HRMS is back, enter t",
+    "detailed_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the Reporting Manager directly with the request details; once MK-HRMS is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Leave Application Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-001-EDGE-C"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-004",
+    "question": "Leave Application Procedure: What happens if my leave application request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Leave Application Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-001-EDGE-D"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-005",
+    "question": "Leave Application Procedure: What happens if my leave application submission is missing required documentation?",
+    "short_answer": "The Reporting Manager returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct",
+    "detailed_answer": "The Reporting Manager returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Reporting Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Leave Application Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-001-EDGE-E"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-006",
+    "question": "New Employee Onboarding Procedure: What happens if HR Manager is unavailable to approve a onboarding plan?",
+    "short_answer": "Route it to the HR Manager's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Manager is notified on return and c",
+    "detailed_answer": "Route it to the HR Manager's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-002-EDGE-A"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-007",
+    "question": "New Employee Onboarding Procedure: Can a onboarding plan be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Manager directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hour",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Manager directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-002-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-008",
+    "question": "New Employee Onboarding Procedure: What do I do if MK-HRMS is down and I need to submit a onboarding plan?",
+    "short_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Manager directly with the request details; once MK-HRMS is back, enter the requ",
+    "detailed_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Manager directly with the request details; once MK-HRMS is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-002-EDGE-C"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-009",
+    "question": "New Employee Onboarding Procedure: What happens if my onboarding plan request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-002-EDGE-D"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-010",
+    "question": "New Employee Onboarding Procedure: What happens if my onboarding plan submission is missing required documentation?",
+    "short_answer": "The HR Manager returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and re",
+    "detailed_answer": "The HR Manager returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Employee Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-002-EDGE-E"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-011",
+    "question": "Employee Exit / Offboarding Procedure: What happens if HR Manager is unavailable to approve a exit formalities?",
+    "short_answer": "Route it to the HR Manager's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Manager is notified on return and c",
+    "detailed_answer": "Route it to the HR Manager's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Employee Exit / Offboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-003-EDGE-A"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-012",
+    "question": "Employee Exit / Offboarding Procedure: Can a exit formalities be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Manager directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hour",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Manager directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Employee Exit / Offboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-003-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-013",
+    "question": "Employee Exit / Offboarding Procedure: What do I do if MK-HRMS is down and I need to submit a exit formalities?",
+    "short_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Manager directly with the request details; once MK-HRMS is back, enter the requ",
+    "detailed_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Manager directly with the request details; once MK-HRMS is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Employee Exit / Offboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-003-EDGE-C"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-014",
+    "question": "Employee Exit / Offboarding Procedure: What happens if my exit formalities request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Employee Exit / Offboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-003-EDGE-D"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-015",
+    "question": "Employee Exit / Offboarding Procedure: What happens if my exit formalities submission is missing required documentation?",
+    "short_answer": "The HR Manager returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and re",
+    "detailed_answer": "The HR Manager returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "HR Executive",
+      "HR Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Employee Exit / Offboarding Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-003-EDGE-E"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-016",
+    "question": "Performance Review Cycle Procedure: What happens if HR Business Partner is unavailable to approve a performance review?",
+    "short_answer": "Route it to the HR Business Partner's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Business Partner is notifi",
+    "detailed_answer": "Route it to the HR Business Partner's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Business Partner is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Business Partner"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Performance Review Cycle Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-004-EDGE-A"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-017",
+    "question": "Performance Review Cycle Procedure: Can a performance review be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Business Partner directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS withi",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Business Partner directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Business Partner"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Performance Review Cycle Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-004-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-018",
+    "question": "Performance Review Cycle Procedure: What do I do if MK-HRMS is down and I need to submit a performance review?",
+    "short_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Business Partner directly with the request details; once MK-HRMS is back, enter",
+    "detailed_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Business Partner directly with the request details; once MK-HRMS is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Business Partner"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Performance Review Cycle Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-004-EDGE-C"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-019",
+    "question": "Performance Review Cycle Procedure: What happens if my performance review request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Business Partner"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Performance Review Cycle Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-004-EDGE-D"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-020",
+    "question": "Performance Review Cycle Procedure: What happens if my performance review submission is missing required documentation?",
+    "short_answer": "The HR Business Partner returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corre",
+    "detailed_answer": "The HR Business Partner returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Business Partner"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Performance Review Cycle Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-004-EDGE-E"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-021",
+    "question": "Promotion Nomination Procedure: What happens if HR Director is unavailable to approve a promotion nomination?",
+    "short_answer": "Route it to the HR Director's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Director is notified on return and",
+    "detailed_answer": "Route it to the HR Director's delegate (typically the next role up the escalation chain) via MK-HRMS, tagged 'Delegate Approval Required'; the HR Director is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Promotion Nomination Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-005-EDGE-A"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-022",
+    "question": "Promotion Nomination Procedure: Can a promotion nomination be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Director directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hou",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the HR Director directly, proceed with the minimum necessary action, then file the formal request in MK-HRMS within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Promotion Nomination Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-005-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-023",
+    "question": "Promotion Nomination Procedure: What do I do if MK-HRMS is down and I need to submit a promotion nomination?",
+    "short_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Director directly with the request details; once MK-HRMS is back, enter the req",
+    "detailed_answer": "Non-urgent requests should wait for MK-HRMS to be restored. For genuinely urgent cases, email the HR Director directly with the request details; once MK-HRMS is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Promotion Nomination Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-005-EDGE-C"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-024",
+    "question": "Promotion Nomination Procedure: What happens if my promotion nomination request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled b",
+    "detailed_answer": "Rejections always come with a documented reason in MK-HRMS — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Promotion Nomination Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-005-EDGE-D"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-025",
+    "question": "Promotion Nomination Procedure: What happens if my promotion nomination submission is missing required documentation?",
+    "short_answer": "The HR Director returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and r",
+    "detailed_answer": "The HR Director returns the request in MK-HRMS with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Reporting Manager",
+      "HR Director"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Promotion Nomination Procedure",
+      "what-if",
+      "edge case",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-005-EDGE-E"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-026",
+    "question": "If I find an old reference to the Leave Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-HR-001, is always authoritative going forward. If an older cached or printed copy of the Leave Policy disagrees with it, treat the current document as corr",
+    "detailed_answer": "The current version, POL-HR-001, is always authoritative going forward. If an older cached or printed copy of the Leave Policy disagrees with it, treat the current document as correct and check the POL-HR-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Leave Policy",
+      "version",
+      "policy interpretation",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-001",
+      "POL-HR-001-HISTORY"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-HR-027",
+    "question": "If I find an old reference to the Attendance Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-HR-002, is always authoritative going forward. If an older cached or printed copy of the Attendance Policy disagrees with it, treat the current document as",
+    "detailed_answer": "The current version, POL-HR-002, is always authoritative going forward. If an older cached or printed copy of the Attendance Policy disagrees with it, treat the current document as correct and check the POL-HR-002-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Attendance Policy",
+      "version",
+      "policy interpretation",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-002",
+      "POL-HR-002-HISTORY"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-HR-028",
+    "question": "If I find an old reference to the Remote / Hybrid Work Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-HR-003, is always authoritative going forward. If an older cached or printed copy of the Remote / Hybrid Work Policy disagrees with it, treat the current d",
+    "detailed_answer": "The current version, POL-HR-003, is always authoritative going forward. If an older cached or printed copy of the Remote / Hybrid Work Policy disagrees with it, treat the current document as correct and check the POL-HR-003-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Remote / Hybrid Work Policy",
+      "version",
+      "policy interpretation",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-003",
+      "POL-HR-003-HISTORY"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-HR-029",
+    "question": "If I find an old reference to the Employee Conduct Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-HR-004, is always authoritative going forward. If an older cached or printed copy of the Employee Conduct Policy disagrees with it, treat the current docum",
+    "detailed_answer": "The current version, POL-HR-004, is always authoritative going forward. If an older cached or printed copy of the Employee Conduct Policy disagrees with it, treat the current document as correct and check the POL-HR-004-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Employee Conduct Policy",
+      "version",
+      "policy interpretation",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-004",
+      "POL-HR-004-HISTORY"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-HR-030",
+    "question": "If I find an old reference to the Promotion Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-HR-005, is always authoritative going forward. If an older cached or printed copy of the Promotion Policy disagrees with it, treat the current document as ",
+    "detailed_answer": "The current version, POL-HR-005, is always authoritative going forward. If an older cached or printed copy of the Promotion Policy disagrees with it, treat the current document as correct and check the POL-HR-005-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees",
+      "Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Promotion Policy",
+      "version",
+      "policy interpretation",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-005",
+      "POL-HR-005-HISTORY"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-HR-031",
+    "question": "If I find an old reference to the Internship Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-HR-006, is always authoritative going forward. If an older cached or printed copy of the Internship Policy disagrees with it, treat the current document as",
+    "detailed_answer": "The current version, POL-HR-006, is always authoritative going forward. If an older cached or printed copy of the Internship Policy disagrees with it, treat the current document as correct and check the POL-HR-006-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees",
+      "Intern"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Internship Policy",
+      "version",
+      "policy interpretation",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-006",
+      "POL-HR-006-HISTORY"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-HR-032",
+    "question": "If I find an old reference to the Exit / Offboarding Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-HR-007, is always authoritative going forward. If an older cached or printed copy of the Exit / Offboarding Policy disagrees with it, treat the current doc",
+    "detailed_answer": "The current version, POL-HR-007, is always authoritative going forward. If an older cached or printed copy of the Exit / Offboarding Policy disagrees with it, treat the current document as correct and check the POL-HR-007-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Exit / Offboarding Policy",
+      "version",
+      "policy interpretation",
+      "HR"
+    ],
+    "related_documents": [
+      "POL-HR-007",
+      "POL-HR-007-HISTORY"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-HR-033",
+    "question": "What's the difference between the standard Leave Application Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-HR-001) goes through Reporting Manager via MK-HRMS in the normal order. The expedited path (SOP-HR-001-EDGE-B) is only for genuine emergencies: it requires v",
+    "detailed_answer": "The standard path (SOP-HR-001) goes through Reporting Manager via MK-HRMS in the normal order. The expedited path (SOP-HR-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Leave Application Procedure",
+      "comparison",
+      "emergency",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-001",
+      "SOP-HR-001-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-034",
+    "question": "What's the difference between the standard New Employee Onboarding Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-HR-002) goes through HR Manager via MK-HRMS in the normal order. The expedited path (SOP-HR-002-EDGE-B) is only for genuine emergencies: it requires verbal p",
+    "detailed_answer": "The standard path (SOP-HR-002) goes through HR Manager via MK-HRMS in the normal order. The expedited path (SOP-HR-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Comparison",
+    "role_applicability": [
+      "HR Executive"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Employee Onboarding Procedure",
+      "comparison",
+      "emergency",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-002",
+      "SOP-HR-002-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-HR-035",
+    "question": "What's the difference between the standard Employee Exit / Offboarding Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-HR-003) goes through HR Manager via MK-HRMS in the normal order. The expedited path (SOP-HR-003-EDGE-B) is only for genuine emergencies: it requires verbal p",
+    "detailed_answer": "The standard path (SOP-HR-003) goes through HR Manager via MK-HRMS in the normal order. The expedited path (SOP-HR-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Human Resources",
+    "department_code": "HR",
+    "category": "Comparison",
+    "role_applicability": [
+      "HR Executive"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Employee Exit / Offboarding Procedure",
+      "comparison",
+      "emergency",
+      "HR"
+    ],
+    "related_documents": [
+      "SOP-HR-003",
+      "SOP-HR-003-EDGE-B"
+    ],
+    "escalation_path": "HR Executive -> HR Business Partner -> HR Manager -> HR Director",
+    "access_level": "employee"
+  }
+]

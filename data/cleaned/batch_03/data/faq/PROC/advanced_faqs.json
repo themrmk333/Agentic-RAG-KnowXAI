@@ -1,0 +1,782 @@
+[
+  {
+    "faq_id": "FAQADV-PROC-001",
+    "question": "New Hardware/Equipment Request Procedure: What happens if Procurement Lead is unavailable to approve a purchase requisition?",
+    "short_answer": "Route it to the Procurement Lead's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Lead is notified",
+    "detailed_answer": "Route it to the Procurement Lead's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Hardware/Equipment Request Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-001-EDGE-A"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-002",
+    "question": "New Hardware/Equipment Request Procedure: Can a purchase requisition be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Lead directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Lead directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Hardware/Equipment Request Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-001-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-003",
+    "question": "New Hardware/Equipment Request Procedure: What do I do if MK-ProcureX is down and I need to submit a purchase requisition?",
+    "short_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Lead directly with the request details; once MK-ProcureX is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Lead directly with the request details; once MK-ProcureX is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Hardware/Equipment Request Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-001-EDGE-C"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-004",
+    "question": "New Hardware/Equipment Request Procedure: What happens if my purchase requisition request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Hardware/Equipment Request Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-001-EDGE-D"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-005",
+    "question": "New Hardware/Equipment Request Procedure: What happens if my purchase requisition submission is missing required documentation?",
+    "short_answer": "The Procurement Lead returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Procurement Lead returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "employee",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "New Hardware/Equipment Request Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-001-EDGE-E"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-006",
+    "question": "Vendor Selection and Onboarding Procedure: What happens if Procurement Manager is unavailable to approve a vendor selection?",
+    "short_answer": "Route it to the Procurement Manager's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Manager is no",
+    "detailed_answer": "Route it to the Procurement Manager's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Selection and Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-002-EDGE-A"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-007",
+    "question": "Vendor Selection and Onboarding Procedure: Can a vendor selection be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Manager directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX w",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Manager directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Selection and Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-002-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-008",
+    "question": "Vendor Selection and Onboarding Procedure: What do I do if MK-ProcureX is down and I need to submit a vendor selection?",
+    "short_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Manager directly with the request details; once MK-ProcureX is bac",
+    "detailed_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Manager directly with the request details; once MK-ProcureX is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Selection and Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-002-EDGE-C"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-009",
+    "question": "Vendor Selection and Onboarding Procedure: What happens if my vendor selection request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Selection and Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-002-EDGE-D"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-010",
+    "question": "Vendor Selection and Onboarding Procedure: What happens if my vendor selection submission is missing required documentation?",
+    "short_answer": "The Procurement Manager returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to c",
+    "detailed_answer": "The Procurement Manager returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Specialist",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Selection and Onboarding Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-002-EDGE-E"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-011",
+    "question": "Purchase Order Issuance Procedure: What happens if Procurement Lead is unavailable to approve a purchase order?",
+    "short_answer": "Route it to the Procurement Lead's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Lead is notified",
+    "detailed_answer": "Route it to the Procurement Lead's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Order Issuance Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-003-EDGE-A"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-012",
+    "question": "Purchase Order Issuance Procedure: Can a purchase order be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Lead directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Lead directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Order Issuance Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-003-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-013",
+    "question": "Purchase Order Issuance Procedure: What do I do if MK-ProcureX is down and I need to submit a purchase order?",
+    "short_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Lead directly with the request details; once MK-ProcureX is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Lead directly with the request details; once MK-ProcureX is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Order Issuance Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-003-EDGE-C"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-014",
+    "question": "Purchase Order Issuance Procedure: What happens if my purchase order request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Order Issuance Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-003-EDGE-D"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-015",
+    "question": "Purchase Order Issuance Procedure: What happens if my purchase order submission is missing required documentation?",
+    "short_answer": "The Procurement Lead returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Procurement Lead returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Purchase Order Issuance Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-003-EDGE-E"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-016",
+    "question": "Vendor Contract Renewal Procedure: What happens if Procurement Manager is unavailable to approve a vendor contract renewal?",
+    "short_answer": "Route it to the Procurement Manager's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Manager is no",
+    "detailed_answer": "Route it to the Procurement Manager's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Manager is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Vendor Manager",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Renewal Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-004-EDGE-A"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-017",
+    "question": "Vendor Contract Renewal Procedure: Can a vendor contract renewal be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Manager directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX w",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Manager directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Vendor Manager",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Renewal Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-004-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-018",
+    "question": "Vendor Contract Renewal Procedure: What do I do if MK-ProcureX is down and I need to submit a vendor contract renewal?",
+    "short_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Manager directly with the request details; once MK-ProcureX is bac",
+    "detailed_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Manager directly with the request details; once MK-ProcureX is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Vendor Manager",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Renewal Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-004-EDGE-C"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-019",
+    "question": "Vendor Contract Renewal Procedure: What happens if my vendor contract renewal request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Vendor Manager",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Renewal Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-004-EDGE-D"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-020",
+    "question": "Vendor Contract Renewal Procedure: What happens if my vendor contract renewal submission is missing required documentation?",
+    "short_answer": "The Procurement Manager returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to c",
+    "detailed_answer": "The Procurement Manager returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Vendor Manager",
+      "Procurement Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Vendor Contract Renewal Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-004-EDGE-E"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-021",
+    "question": "Goods Receipt and Inspection Procedure: What happens if Procurement Lead is unavailable to approve a goods receipt?",
+    "short_answer": "Route it to the Procurement Lead's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Lead is notified",
+    "detailed_answer": "Route it to the Procurement Lead's delegate (typically the next role up the escalation chain) via MK-ProcureX, tagged 'Delegate Approval Required'; the Procurement Lead is notified on return and can flag it for review within 5 business days if needed.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Goods Receipt and Inspection Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-005-EDGE-A"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-022",
+    "question": "Goods Receipt and Inspection Procedure: Can a goods receipt be expedited in a genuine emergency?",
+    "short_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Lead directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX with",
+    "detailed_answer": "Yes, via the expedited path: get verbal pre-approval from the Procurement Lead directly, proceed with the minimum necessary action, then file the formal request in MK-ProcureX within 24 hours marked 'Emergency — Retroactive Approval'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Goods Receipt and Inspection Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-005-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-023",
+    "question": "Goods Receipt and Inspection Procedure: What do I do if MK-ProcureX is down and I need to submit a goods receipt?",
+    "short_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Lead directly with the request details; once MK-ProcureX is back, ",
+    "detailed_answer": "Non-urgent requests should wait for MK-ProcureX to be restored. For genuinely urgent cases, email the Procurement Lead directly with the request details; once MK-ProcureX is back, enter the request and outcome retroactively, tagged 'Entered Retroactively — System Outage'.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Goods Receipt and Inspection Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-005-EDGE-C"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-024",
+    "question": "Goods Receipt and Inspection Procedure: What happens if my goods receipt request is rejected, or I accidentally submit it twice?",
+    "short_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconcil",
+    "detailed_answer": "Rejections always come with a documented reason in MK-ProcureX — correct the issue and resubmit, or escalate once if you disagree. Duplicates are flagged automatically and reconciled by keeping the original and closing the duplicate with a cross-reference.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Goods Receipt and Inspection Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-005-EDGE-D"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-025",
+    "question": "Goods Receipt and Inspection Procedure: What happens if my goods receipt submission is missing required documentation?",
+    "short_answer": "The Procurement Lead returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to corr",
+    "detailed_answer": "The Procurement Lead returns the request in MK-ProcureX with a specific note on what's missing rather than approving or fixing it themselves; you have about 5 business days to correct and resubmit through the same request thread.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Edge Case / What-If",
+    "role_applicability": [
+      "Procurement Executive",
+      "Procurement Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Goods Receipt and Inspection Procedure",
+      "what-if",
+      "edge case",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-005-EDGE-E"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-026",
+    "question": "If I find an old reference to the Vendor Onboarding Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-PROC-001, is always authoritative going forward. If an older cached or printed copy of the Vendor Onboarding Policy disagrees with it, treat the current do",
+    "detailed_answer": "The current version, POL-PROC-001, is always authoritative going forward. If an older cached or printed copy of the Vendor Onboarding Policy disagrees with it, treat the current document as correct and check the POL-PROC-001-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "Procurement"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Onboarding Policy",
+      "version",
+      "policy interpretation",
+      "PROC"
+    ],
+    "related_documents": [
+      "POL-PROC-001",
+      "POL-PROC-001-HISTORY"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-027",
+    "question": "If I find an old reference to the Purchase Requisition Policy that seems to disagree with what's current, which one is right?",
+    "short_answer": "The current version, POL-PROC-002, is always authoritative going forward. If an older cached or printed copy of the Purchase Requisition Policy disagrees with it, treat the current",
+    "detailed_answer": "The current version, POL-PROC-002, is always authoritative going forward. If an older cached or printed copy of the Purchase Requisition Policy disagrees with it, treat the current document as correct and check the POL-PROC-002-HISTORY document to understand exactly what changed and when.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Policy Interpretation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Purchase Requisition Policy",
+      "version",
+      "policy interpretation",
+      "PROC"
+    ],
+    "related_documents": [
+      "POL-PROC-002",
+      "POL-PROC-002-HISTORY"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQADV-PROC-028",
+    "question": "What's the difference between the standard New Hardware/Equipment Request Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-PROC-001) goes through Procurement Lead via MK-ProcureX in the normal order. The expedited path (SOP-PROC-001-EDGE-B) is only for genuine emergencies: it req",
+    "detailed_answer": "The standard path (SOP-PROC-001) goes through Procurement Lead via MK-ProcureX in the normal order. The expedited path (SOP-PROC-001-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Comparison",
+    "role_applicability": [
+      "employee"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Hardware/Equipment Request Procedure",
+      "comparison",
+      "emergency",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-001",
+      "SOP-PROC-001-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-029",
+    "question": "What's the difference between the standard Vendor Selection and Onboarding Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-PROC-002) goes through Procurement Manager via MK-ProcureX in the normal order. The expedited path (SOP-PROC-002-EDGE-B) is only for genuine emergencies: it ",
+    "detailed_answer": "The standard path (SOP-PROC-002) goes through Procurement Manager via MK-ProcureX in the normal order. The expedited path (SOP-PROC-002-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Comparison",
+    "role_applicability": [
+      "Procurement Specialist"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Vendor Selection and Onboarding Procedure",
+      "comparison",
+      "emergency",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-002",
+      "SOP-PROC-002-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQADV-PROC-030",
+    "question": "What's the difference between the standard Purchase Order Issuance Procedure process and the emergency/expedited version?",
+    "short_answer": "The standard path (SOP-PROC-003) goes through Procurement Lead via MK-ProcureX in the normal order. The expedited path (SOP-PROC-003-EDGE-B) is only for genuine emergencies: it req",
+    "detailed_answer": "The standard path (SOP-PROC-003) goes through Procurement Lead via MK-ProcureX in the normal order. The expedited path (SOP-PROC-003-EDGE-B) is only for genuine emergencies: it requires verbal pre-approval first, immediate action, then retroactive formal filing within 24 hours — and repeated use of the expedited path for the same request type triggers a review.",
+    "step_by_step": [],
+    "department": "Procurement / Purchasing",
+    "department_code": "PROC",
+    "category": "Comparison",
+    "role_applicability": [
+      "Procurement Executive"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Purchase Order Issuance Procedure",
+      "comparison",
+      "emergency",
+      "PROC"
+    ],
+    "related_documents": [
+      "SOP-PROC-003",
+      "SOP-PROC-003-EDGE-B"
+    ],
+    "escalation_path": "Procurement Executive -> Procurement Specialist -> Procurement Manager -> Procurement Director",
+    "access_level": "employee"
+  }
+]

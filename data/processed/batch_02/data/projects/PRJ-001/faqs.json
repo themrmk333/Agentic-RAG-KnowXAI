@@ -1,0 +1,332 @@
+[
+  {
+    "faq_id": "FAQ-PRJ-001-001",
+    "question": "What is the architecture of PRJ-001?",
+    "short_answer": "A retrieval-augmented generation pipeline: documents are chunked and embedded into a PostgreSQL + pgvector store; an intent-detection layer classifies the employee's question; spec",
+    "detailed_answer": "A retrieval-augmented generation pipeline: documents are chunked and embedded into a PostgreSQL + pgvector store; an intent-detection layer classifies the employee's question; specialist retrieval agents (HR agent, Finance agent, IT agent, etc.) query only the relevant document partitions; an authorization layer filters results by the employee's role/department against each document's access_level metadata before generation; a grounded-answer generator produces the final response with citations.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-002",
+    "question": "Who is the project manager and technical lead for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "The Project Manager is Riya Agarwal and the Technical Lead is Neel Kapoor.",
+    "detailed_answer": "The Project Manager is Riya Agarwal and the Technical Lead is Neel Kapoor.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-003",
+    "question": "What technologies are being used in Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Technologies used: PostgreSQL + pgvector; Python (FastAPI) backend; React frontend; MK-Auth SSO integration; MK-CloudOps for hosting; Embedding model served via internal inference ",
+    "detailed_answer": "Technologies used: PostgreSQL + pgvector; Python (FastAPI) backend; React frontend; MK-Auth SSO integration; MK-CloudOps for hosting; Embedding model served via internal inference cluster",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-004",
+    "question": "What is the current status of Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Agentic RAG Enterprise Knowledge Assistant is currently: In Progress - Beta. Current sprint: Sprint 14: Improving cross-department answer synthesis and citation accuracy.",
+    "detailed_answer": "Agentic RAG Enterprise Knowledge Assistant is currently: In Progress - Beta. Current sprint: Sprint 14: Improving cross-department answer synthesis and citation accuracy.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-005",
+    "question": "What is the deployment procedure for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Deployed via MK-CI to a staging environment, validated by QA, then promoted to production via the standard Environment Promotion SOP.",
+    "detailed_answer": "Deployed via MK-CI to a staging environment, validated by QA, then promoted to production via the standard Environment Promotion SOP.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-006",
+    "question": "Which database does Agentic RAG Enterprise Knowledge Assistant use?",
+    "short_answer": "PostgreSQL 16 with the pgvector extension for similarity search; row-level metadata for access_level, department, and confidentiality.",
+    "detailed_answer": "PostgreSQL 16 with the pgvector extension for similarity search; row-level metadata for access_level, department, and confidentiality.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-007",
+    "question": "What is the current sprint goal for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Sprint 14: Improving cross-department answer synthesis and citation accuracy.",
+    "detailed_answer": "Sprint 14: Improving cross-department answer synthesis and citation accuracy.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-008",
+    "question": "What are the known issues in Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Known issues: Cross-department questions occasionally retrieve from only one specialist agent instead of merging both.; Answer citations for very long SOPs sometimes reference the ",
+    "detailed_answer": "Known issues: Cross-department questions occasionally retrieve from only one specialist agent instead of merging both.; Answer citations for very long SOPs sometimes reference the wrong step number.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-009",
+    "question": "What are the key risks for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Risks: Retrieval accuracy degrading as the knowledge base grows without periodic re-indexing.; Authorization bugs could expose restricted documents if role mapping is misconfigured",
+    "detailed_answer": "Risks: Retrieval accuracy degrading as the knowledge base grows without periodic re-indexing.; Authorization bugs could expose restricted documents if role mapping is misconfigured.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-010",
+    "question": "How is security handled in Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "All retrieval requests are filtered through the authorization layer using the employee's role and department before any document content is passed to the generation model; audit lo",
+    "detailed_answer": "All retrieval requests are filtered through the authorization layer using the employee's role and department before any document content is passed to the generation model; audit logs capture every query and every document accessed.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-011",
+    "question": "What departments are involved in Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Departments involved: Engineering, Data & Analytics, R&D, Security, PMO",
+    "detailed_answer": "Departments involved: Engineering, Data & Analytics, R&D, Security, PMO",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-012",
+    "question": "What is the CI/CD process for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "MK-CI pipeline: lint -> unit test -> retrieval-accuracy eval -> build container -> deploy to staging -> manual promotion to production.",
+    "detailed_answer": "MK-CI pipeline: lint -> unit test -> retrieval-accuracy eval -> build container -> deploy to staging -> manual promotion to production.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-013",
+    "question": "What is on the backlog for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Backlog items: Add voice input support; Add multi-turn conversation memory; Expand specialist agents to cover Legal & Compliance edge cases",
+    "detailed_answer": "Backlog items: Add voice input support; Add multi-turn conversation memory; Expand specialist agents to cover Legal & Compliance edge cases",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-014",
+    "question": "What is the future roadmap for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "Post-GA: proactive notifications (e.g., policy changes relevant to the employee), integration with MK-ServiceDesk to auto-file tickets when the assistant can't fully resolve a quer",
+    "detailed_answer": "Post-GA: proactive notifications (e.g., policy changes relevant to the employee), integration with MK-ServiceDesk to auto-file tickets when the assistant can't fully resolve a query.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-PRJ-001-015",
+    "question": "What is the testing workflow for Agentic RAG Enterprise Knowledge Assistant?",
+    "short_answer": "QA runs a retrieval-accuracy regression suite (grounded-answer precision/recall against a labeled question set) before every release.",
+    "detailed_answer": "QA runs a retrieval-accuracy regression suite (grounded-answer precision/recall against a labeled question set) before every release.",
+    "step_by_step": [],
+    "department": "Cross-Department",
+    "category": "Project Knowledge",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Agentic RAG Enterprise Knowledge Assistant",
+      "PRJ-001"
+    ],
+    "related_documents": [
+      "PRJ-001"
+    ],
+    "escalation_path": "Neel Kapoor -> Riya Agarwal -> PMO Director",
+    "access_level": "employee"
+  }
+]

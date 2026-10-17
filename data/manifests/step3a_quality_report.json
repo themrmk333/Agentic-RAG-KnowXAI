@@ -1,0 +1,193 @@
+{
+  "timestamp_utc": "2026-09-06T07:45:45.477257+00:00",
+  "source_directories": [
+    "data\\cleaned\\batch_01",
+    "data\\cleaned\\batch_02",
+    "data\\cleaned\\batch_03"
+  ],
+  "input_chunk_files": [
+    {
+      "path": "data\\chunks_repaired\\batch_01\\chunks.jsonl",
+      "batch": "batch_01",
+      "line_count": 1491,
+      "size_bytes": 4715985
+    },
+    {
+      "path": "data\\chunks_repaired\\batch_02\\chunks.jsonl",
+      "batch": "batch_02",
+      "line_count": 6257,
+      "size_bytes": 18289836
+    },
+    {
+      "path": "data\\chunks_repaired\\batch_03\\chunks.jsonl",
+      "batch": "batch_03",
+      "line_count": 13548,
+      "size_bytes": 43742503
+    }
+  ],
+  "total_chunks_discovered": 21296,
+  "total_chunks_expected": 0,
+  "validation_results": {
+    "json_validation": {
+      "valid_json_count": 21296,
+      "invalid_json_count": 0,
+      "blank_lines": 0,
+      "malformed_lines_sample": []
+    },
+    "metadata_validation": {
+      "chunks_missing_required_fields": 0,
+      "type_errors_sample": []
+    },
+    "source_traceability": {
+      "verified_sources": 21296,
+      "missing_sources": 0,
+      "missing_sources_sample": []
+    },
+    "hash_validation": {
+      "hashes_verified": 21296,
+      "hash_mismatches": 0,
+      "chunk_hash_mismatches": 0,
+      "source_hash_mismatches": 0,
+      "mismatches_sample": []
+    },
+    "chunk_id_validation": {
+      "total_unique_ids": 21296,
+      "duplicate_ids": 0,
+      "invalid_id_format": 0,
+      "duplicate_ids_sample": [],
+      "invalid_ids_sample": []
+    },
+    "index_validation": {
+      "files_checked": 5134,
+      "index_errors": 0,
+      "errors_sample": []
+    },
+    "text_validation": {
+      "empty_text": 0,
+      "whitespace_only": 0,
+      "invalid_encoding_indicators": 0,
+      "suspicious_repetitive_content": 0
+    },
+    "content_consistency": {
+      "character_count_mismatches": 0,
+      "word_count_mismatches": 0,
+      "token_count_mismatches": 0,
+      "mismatch_samples": []
+    }
+  },
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "duplicate_analysis": {
+    "unique_chunks": 7361,
+    "duplicate_chunks": 7705,
+    "duplicate_groups": 6230,
+    "duplicate_percentage": 51.14,
+    "cross_batch_duplicate_groups": 6210,
+    "cross_batch_duplicates": 7685,
+    "cross_batch_groups_sample": [
+      {
+        "chunk_sha": "ece192a66eef30f686f8162eb72c3c55a936c00f3d82ab40d1c12b2452f8ab65",
+        "batches": [
+          "batch_01",
+          "batch_02",
+          "batch_03"
+        ],
+        "count": 3
+      },
+      {
+        "chunk_sha": "c39fbc76150a4306a1576c02eb15fae8552928f5a6d3c188f567dc11073226c4",
+        "batches": [
+          "batch_01",
+          "batch_02",
+          "batch_03"
+        ],
+        "count": 3
+      },
+      {
+        "chunk_sha": "0af0e0145c01d2d8de87aad9699070d3ac1ac8bde30d2db01b7cda7fb53b5c59",
+        "batches": [
+          "batch_01",
+          "batch_02",
+          "batch_03"
+        ],
+        "count": 3
+      },
+      {
+        "chunk_sha": "0451ad9b96b99c255b9cd451a65b2432c629a123d67153d25d44b0f5619a816b",
+        "batches": [
+          "batch_01",
+          "batch_02",
+          "batch_03"
+        ],
+        "count": 3
+      },
+      {
+        "chunk_sha": "cc878c83a88b5e30534cd55e1a3ac16f514b2b9d294968eeca1d6087c8cb4f2c",
+        "batches": [
+          "batch_01",
+          "batch_02",
+          "batch_03"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  "token_distribution": {
+    "total_chunks": 21296,
+    "total_characters": 51346431,
+    "total_words": 6881357,
+    "total_tokens": 8945303,
+    "average_tokens": 420.05,
+    "median_tokens": 282.0,
+    "min_tokens": 30,
+    "max_tokens": 3401,
+    "stdev_tokens": 316.02,
+    "p25_tokens": 282.0,
+    "p75_tokens": 676.0,
+    "p90_tokens": 945.0,
+    "p95_tokens": 956.0,
+    "p99_tokens": 958.0,
+    "size_distribution": {
+      "NORMAL": 14676,
+      "SMALL": 6597,
+      "VERY_SMALL": 20,
+      "VERY_LARGE": 3
+    },
+    "size_distribution_percent": {
+      "NORMAL": 68.91,
+      "SMALL": 30.98,
+      "VERY_SMALL": 0.09,
+      "VERY_LARGE": 0.01
+    }
+  },
+  "per_batch": {},
+  "source_coverage": {
+    "total_cleaned_files": 5134,
+    "files_represented_in_chunks": 5134,
+    "files_with_zero_chunks": 0,
+    "coverage_percentage": 100.0,
+    "missing_files_sample": []
+  },
+  "chunking_strategy_distribution": {
+    "strategy_counts": {
+      "MarkdownChunker": 15422,
+      "JSONChunker": 3380,
+      "CSVChunker": 2494
+    },
+    "extension_strategy_map": {
+      ".md": {
+        "MarkdownChunker": 15422
+      },
+      ".json": {
+        "JSONChunker": 3380
+      },
+      ".csv": {
+        "CSVChunker": 2494
+      }
+    }
+  },
+  "quality_score": 100,
+  "final_status": "PASS"
+}

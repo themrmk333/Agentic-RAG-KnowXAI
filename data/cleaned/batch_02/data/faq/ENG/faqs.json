@@ -1,0 +1,797 @@
+[
+  {
+    "faq_id": "FAQ-ENG-001",
+    "question": "How do I complete: Feature Branch Creation and Naming?",
+    "short_answer": "Follow the 7-step Feature Branch Creation and Naming procedure in MK-CodeForge, starting with the SOP-ENG-001 SOP.",
+    "detailed_answer": "The Feature Branch Creation and Naming process (SOP-ENG-001) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Tech Lead is responsible for approval/sign-off. Branch names must follow the pattern feature/MK-<ticket-id>-short-description.",
+    "step_by_step": [
+      "the Software Engineer confirms eligibility and prerequisites: the JIRA-equivalent MK-PMTrack ticket ID and a short kebab-case description.",
+      "the Software Engineer raises a request in MK-CodeForge specifying exactly which Feature Branch is required.",
+      "The Tech Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Feature Branch in the relevant system.",
+      "the Software Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CodeForge and corrected before sign-off.",
+      "MK-CodeForge marks the request 'Complete' and the configuration is logged for audit and future reference. Branch names must follow the pattern feature/MK-<ticket-id>-short-description."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Version Control",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Feature Branch Creation and Naming",
+      "Version Control",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-001"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-002",
+    "question": "How do I complete: Code Review Process?",
+    "short_answer": "Follow the 7-step Code Review Process procedure in MK-CodeForge, starting with the SOP-ENG-002 SOP.",
+    "detailed_answer": "The Code Review Process process (SOP-ENG-002) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Tech Lead is responsible for approval/sign-off. PRs touching shared libraries require two approvals instead of one.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CodeForge.",
+      "the Software Engineer gathers the required data and documents, including unit test coverage, linting results, and a clear PR description.",
+      "The review team examines the Pull Request against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Tech Lead discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CodeForge with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. PRs touching shared libraries require two approvals instead of one."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Code Quality",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Code Review Process",
+      "Code Quality",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-002"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-003",
+    "question": "How do I complete: New Repository Setup?",
+    "short_answer": "Follow the 7-step New Repository Setup procedure in MK-CodeForge, starting with the SOP-ENG-003 SOP.",
+    "detailed_answer": "The New Repository Setup process (SOP-ENG-003) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Engineering Manager is responsible for approval/sign-off. All new repositories must enable required status checks before merge.",
+    "step_by_step": [
+      "the Software Engineer confirms eligibility and prerequisites: repository name, visibility, and initial branch protection rules.",
+      "the Software Engineer raises a request in MK-CodeForge specifying exactly which Repository is required.",
+      "The Engineering Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Repository in the relevant system.",
+      "the Software Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CodeForge and corrected before sign-off.",
+      "MK-CodeForge marks the request 'Complete' and the configuration is logged for audit and future reference. All new repositories must enable required status checks before merge."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Version Control",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "New Repository Setup",
+      "Version Control",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-003"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-004",
+    "question": "How do I complete: Production Hotfix Deployment?",
+    "short_answer": "Follow the 7-step Production Hotfix Deployment procedure in MK-CodeForge, starting with the SOP-ENG-004 SOP.",
+    "detailed_answer": "The Production Hotfix Deployment process (SOP-ENG-004) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Engineering Manager is responsible for approval/sign-off. Hotfixes bypass the normal sprint cycle but still require a peer review.",
+    "step_by_step": [
+      "the Software Engineer logs into MK-CodeForge and navigates to the 'Hotfix Request' section.",
+      "the Software Engineer selects 'New Hotfix Request' and enters the required details, including the incident ID, root cause summary, and rollback plan.",
+      "the Software Engineer attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Software Engineer submits the Hotfix Request; MK-CodeForge automatically routes it to the Engineering Manager for review.",
+      "The Engineering Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CodeForge updates the status to 'Approved' and notifies the Software Engineer by email/in-app notification.",
+      "The approved Hotfix Request is processed and the record is retained in MK-CodeForge for audit purposes. Hotfixes bypass the normal sprint cycle but still require a peer review."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Release Management",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Production Hotfix Deployment",
+      "Release Management",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-004"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-005",
+    "question": "How do I complete: Local Development Environment Setup?",
+    "short_answer": "Follow the 7-step Local Development Environment Setup procedure in MK-CodeForge, starting with the SOP-ENG-005 SOP.",
+    "detailed_answer": "The Local Development Environment Setup process (SOP-ENG-005) is owned by the Software Engineering / Development department. The new software engineer initiates the request in MK-CodeForge and Tech Lead is responsible for approval/sign-off. Environment issues unresolved after 1 day should be escalated to the Tech Lead.",
+    "step_by_step": [
+      "the new Software Engineer confirms eligibility and prerequisites: cloning the onboarding repo and running the setup script documented in MK-CodeForge.",
+      "the new Software Engineer raises a request in MK-CodeForge specifying exactly which Dev Environment is required.",
+      "The Tech Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Dev Environment in the relevant system.",
+      "the new Software Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CodeForge and corrected before sign-off.",
+      "MK-CodeForge marks the request 'Complete' and the configuration is logged for audit and future reference. Environment issues unresolved after 1 day should be escalated to the Tech Lead."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Onboarding",
+    "role_applicability": [
+      "new Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Local Development Environment Setup",
+      "Onboarding",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-005"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-006",
+    "question": "How do I complete: API Key and Secret Rotation?",
+    "short_answer": "Follow the 7-step API Key and Secret Rotation procedure in MK-CodeForge, starting with the SOP-ENG-006 SOP.",
+    "detailed_answer": "The API Key and Secret Rotation process (SOP-ENG-006) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Security Manager is responsible for approval/sign-off. Secrets are never committed to MK-CodeForge; violations trigger an automatic Security alert.",
+    "step_by_step": [
+      "the Software Engineer confirms eligibility and prerequisites: identifying every service referencing the current secret.",
+      "the Software Engineer raises a request in MK-CodeForge specifying exactly which Secret Rotation is required.",
+      "The Security Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Secret Rotation in the relevant system.",
+      "the Software Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CodeForge and corrected before sign-off.",
+      "MK-CodeForge marks the request 'Complete' and the configuration is logged for audit and future reference. Secrets are never committed to MK-CodeForge; violations trigger an automatic Security alert."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Security",
+    "role_applicability": [
+      "Software Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "API Key and Secret Rotation",
+      "Security",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-006"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-007",
+    "question": "How do I complete: Bug Triage and Assignment?",
+    "short_answer": "Follow the 7-step Bug Triage and Assignment procedure in MK-CodeForge, starting with the SOP-ENG-007 SOP.",
+    "detailed_answer": "The Bug Triage and Assignment process (SOP-ENG-007) is owned by the Software Engineering / Development department. The tech lead initiates the request in MK-CodeForge and Engineering Manager is responsible for approval/sign-off. Sev-1 bugs are assigned within 1 business hour of triage.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CodeForge.",
+      "the Tech Lead gathers the required data and documents, including severity, reproducibility, and affected module for each open bug.",
+      "The review team examines the Bug Backlog against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Engineering Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CodeForge with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Sev-1 bugs are assigned within 1 business hour of triage."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Quality",
+    "role_applicability": [
+      "Tech Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Bug Triage and Assignment",
+      "Quality",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-007"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-008",
+    "question": "How do I complete: Third-Party Library Approval?",
+    "short_answer": "Follow the 7-step Third-Party Library Approval procedure in MK-CodeForge, starting with the SOP-ENG-008 SOP.",
+    "detailed_answer": "The Third-Party Library Approval process (SOP-ENG-008) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Security Manager is responsible for approval/sign-off. GPL-licensed libraries require Legal review before approval.",
+    "step_by_step": [
+      "the Software Engineer logs into MK-CodeForge and navigates to the 'Library Approval Request' section.",
+      "the Software Engineer selects 'New Library Approval Request' and enters the required details, including the library name, licence type, and known vulnerability scan results.",
+      "the Software Engineer attaches any supporting documentation and reviews the entry for accuracy before submitting.",
+      "the Software Engineer submits the Library Approval Request; MK-CodeForge automatically routes it to the Security Manager for review.",
+      "The Security Manager reviews the request against company policy and either approves, rejects, or returns it for clarification.",
+      "On approval, MK-CodeForge updates the status to 'Approved' and notifies the Software Engineer by email/in-app notification.",
+      "The approved Library Approval Request is processed and the record is retained in MK-CodeForge for audit purposes. GPL-licensed libraries require Legal review before approval."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Dependency Management",
+    "role_applicability": [
+      "Software Engineer",
+      "Security Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Third-Party Library Approval",
+      "Dependency Management",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-008"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-009",
+    "question": "How do I complete: Sprint Planning Procedure?",
+    "short_answer": "Follow the 7-step Sprint Planning Procedure procedure in MK-CodeForge, starting with the SOP-ENG-009 SOP.",
+    "detailed_answer": "The Sprint Planning Procedure process (SOP-ENG-009) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Engineering Manager is responsible for approval/sign-off. Stories without acceptance criteria are not pulled into a sprint.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CodeForge.",
+      "the Software Engineer gathers the required data and documents, including story point estimates and dependency mapping for each backlog item.",
+      "The review team examines the Sprint Backlog against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Engineering Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CodeForge with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Stories without acceptance criteria are not pulled into a sprint."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Agile Process",
+    "role_applicability": [
+      "Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Sprint Planning Procedure",
+      "Agile Process",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-009"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-010",
+    "question": "How do I complete: Code Freeze Procedure?",
+    "short_answer": "Follow the 7-step Code Freeze Procedure procedure in MK-CodeForge, starting with the SOP-ENG-010 SOP.",
+    "detailed_answer": "The Code Freeze Procedure process (SOP-ENG-010) is owned by the Software Engineering / Development department. The tech lead initiates the request in MK-CodeForge and Engineering Manager is responsible for approval/sign-off. Only critical bug fixes are merged after code freeze, with Engineering Manager sign-off.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CodeForge.",
+      "the Tech Lead gathers the required data and documents, including listing all open PRs targeting the release branch.",
+      "The review team examines the Release Branch against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Engineering Manager discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CodeForge with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Only critical bug fixes are merged after code freeze, with Engineering Manager sign-off."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Release Management",
+    "role_applicability": [
+      "Tech Lead",
+      "Engineering Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Code Freeze Procedure",
+      "Release Management",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-010"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-011",
+    "question": "How do I complete: Technical Design Document Review?",
+    "short_answer": "Follow the 7-step Technical Design Document Review procedure in MK-CodeForge, starting with the SOP-ENG-011 SOP.",
+    "detailed_answer": "The Technical Design Document Review process (SOP-ENG-011) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Tech Lead is responsible for approval/sign-off. Designs impacting more than one service require a cross-team review meeting.",
+    "step_by_step": [
+      "The review is scheduled in advance and stakeholders are notified through MK-CodeForge.",
+      "the Software Engineer gathers the required data and documents, including architecture diagrams, data flow, and rollback/monitoring plan.",
+      "The review team examines the Design Document against the applicable policy or checklist.",
+      "Gaps, risks, or non-conformities are documented with a severity rating and an owner assigned.",
+      "The Tech Lead discusses the findings with the relevant department and agrees remediation actions.",
+      "Remediation actions are tracked in MK-CodeForge with due dates and status.",
+      "The review is closed once all actions are completed, and the outcome is recorded for future audits. Designs impacting more than one service require a cross-team review meeting."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Architecture",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Technical Design Document Review",
+      "Architecture",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-011"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "manager"
+  },
+  {
+    "faq_id": "FAQ-ENG-012",
+    "question": "How do I complete: Engineering Onboarding Procedure?",
+    "short_answer": "Follow the 7-step Engineering Onboarding Procedure procedure in MK-CodeForge, starting with the SOP-ENG-012 SOP.",
+    "detailed_answer": "The Engineering Onboarding Procedure process (SOP-ENG-012) is owned by the Software Engineering / Development department. The engineering manager initiates the request in MK-CodeForge and Tech Lead is responsible for approval/sign-off. New engineers ship their first small PR within the first week wherever possible.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-CodeForge owner ahead of the employee's start or end date.",
+      "the Engineering Manager prepares the required Engineering Onboarding Plan, including repository access, MK-CodeForge SSH keys, and assigning an onboarding buddy.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Tech Lead verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Tech Lead for same-day resolution.",
+      "MK-CodeForge is updated to reflect the completed status and the record is archived. New engineers ship their first small PR within the first week wherever possible."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Onboarding",
+    "role_applicability": [
+      "Engineering Manager",
+      "Tech Lead"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Engineering Onboarding Procedure",
+      "Onboarding",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-012"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-013",
+    "question": "How do I complete: Production Incident Response (Engineering)?",
+    "short_answer": "Follow the 7-step Production Incident Response (Engineering) procedure in MK-CodeForge, starting with the SOP-ENG-013 SOP.",
+    "detailed_answer": "The Production Incident Response (Engineering) process (SOP-ENG-013) is owned by the Software Engineering / Development department. The on-call software engineer initiates the request in MK-CodeForge and Engineering Manager is responsible for approval/sign-off. Sev-1 incidents require a written postmortem within 48 hours.",
+    "step_by_step": [
+      "the on-call Software Engineer confirms the exact symptom, when it started, and whether it affects one system or several.",
+      "the on-call Software Engineer performs the standard first-line check: checking MK-CloudOps dashboards and recent deployments for correlation.",
+      "If the issue persists, the on-call Software Engineer applies the documented workaround for this issue type.",
+      "the on-call Software Engineer checks whether the issue is isolated to their own account/device or is affecting other users too.",
+      "If still unresolved, the on-call Software Engineer raises a ticket in MK-CodeForge categorised under 'Production Incident', attaching screenshots or error logs.",
+      "The assigned specialist reproduces the issue, diagnoses the root cause, and applies a fix or a temporary workaround.",
+      "the on-call Software Engineer confirms the fix works; the ticket is closed in MK-CodeForge with the root cause logged. Sev-1 incidents require a written postmortem within 48 hours."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Incident Management",
+    "role_applicability": [
+      "on-call Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Production Incident Response (Engineering)",
+      "Incident Management",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-013"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-014",
+    "question": "How do I complete: Database Schema Migration?",
+    "short_answer": "Follow the 7-step Database Schema Migration procedure in MK-CodeForge, starting with the SOP-ENG-014 SOP.",
+    "detailed_answer": "The Database Schema Migration process (SOP-ENG-014) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Tech Lead is responsible for approval/sign-off. Migrations on production databases require a DevOps engineer present during execution.",
+    "step_by_step": [
+      "the Software Engineer confirms eligibility and prerequisites: a backward-compatible migration script and rollback script.",
+      "the Software Engineer raises a request in MK-CodeForge specifying exactly which Schema Migration is required.",
+      "The Tech Lead reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Schema Migration in the relevant system.",
+      "the Software Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CodeForge and corrected before sign-off.",
+      "MK-CodeForge marks the request 'Complete' and the configuration is logged for audit and future reference. Migrations on production databases require a DevOps engineer present during execution."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Data Management",
+    "role_applicability": [
+      "Software Engineer",
+      "Tech Lead"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "Database Schema Migration",
+      "Data Management",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-014"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-015",
+    "question": "How do I complete: Feature Flag Rollout Procedure?",
+    "short_answer": "Follow the 7-step Feature Flag Rollout Procedure procedure in MK-CodeForge, starting with the SOP-ENG-015 SOP.",
+    "detailed_answer": "The Feature Flag Rollout Procedure process (SOP-ENG-015) is owned by the Software Engineering / Development department. The software engineer initiates the request in MK-CodeForge and Product Manager is responsible for approval/sign-off. Flags are removed from the codebase within 60 days of full rollout.",
+    "step_by_step": [
+      "the Software Engineer confirms eligibility and prerequisites: the target user percentage and success metrics to monitor.",
+      "the Software Engineer raises a request in MK-CodeForge specifying exactly which Feature Flag is required.",
+      "The Product Manager reviews and approves the request, applying least-privilege / need-basis principles.",
+      "Once approved, the assigned engineer provisions or configures the Feature Flag in the relevant system.",
+      "the Software Engineer is notified and asked to test and verify the access or functionality.",
+      "Any issues found during verification are logged in MK-CodeForge and corrected before sign-off.",
+      "MK-CodeForge marks the request 'Complete' and the configuration is logged for audit and future reference. Flags are removed from the codebase within 60 days of full rollout."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Release Management",
+    "role_applicability": [
+      "Software Engineer",
+      "Product Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Feature Flag Rollout Procedure",
+      "Release Management",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-015"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-016",
+    "question": "How do I complete: Engineering Exit Handover?",
+    "short_answer": "Follow the 7-step Engineering Exit Handover procedure in MK-CodeForge, starting with the SOP-ENG-016 SOP.",
+    "detailed_answer": "The Engineering Exit Handover process (SOP-ENG-016) is owned by the Software Engineering / Development department. The departing software engineer initiates the request in MK-CodeForge and Engineering Manager is responsible for approval/sign-off. Handover documents are stored in MK-CodeForge wiki for team reference.",
+    "step_by_step": [
+      "HR notifies the relevant department and the MK-CodeForge owner ahead of the employee's start or end date.",
+      "the departing Software Engineer prepares the required Knowledge Handover, including documenting owned services, open PRs, and pending on-call responsibilities.",
+      "Access, equipment, or accounts are provisioned (onboarding) or scheduled for deactivation (offboarding).",
+      "The Engineering Manager verifies that every item on the checklist is complete.",
+      "The employee, or their manager for offboarding cases, confirms receipt or completion.",
+      "Any exceptions or missing items are escalated to the Engineering Manager for same-day resolution.",
+      "MK-CodeForge is updated to reflect the completed status and the record is archived. Handover documents are stored in MK-CodeForge wiki for team reference."
+    ],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Offboarding",
+    "role_applicability": [
+      "departing Software Engineer",
+      "Engineering Manager"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Engineering Exit Handover",
+      "Offboarding",
+      "ENG"
+    ],
+    "related_documents": [
+      "SOP-ENG-016"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-017",
+    "question": "What is the Code Review Policy?",
+    "short_answer": "No code is merged to the main branch without at least one approving review.",
+    "detailed_answer": "No code is merged to the main branch without at least one approving review. Changes to shared libraries or authentication code require two approvals. Automated test coverage for new code must not fall below the team's agreed threshold (typically 80%).",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Code Quality",
+    "role_applicability": [
+      "Engineering"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Code Review Policy",
+      "Code Quality",
+      "ENG"
+    ],
+    "related_documents": [
+      "POL-ENG-001"
+    ],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "employee"
+  },
+  {
+    "faq_id": "FAQ-ENG-018",
+    "question": "Who do I contact in the Software Engineering / Development department for help?",
+    "short_answer": "Reach out to: Aditya Rao (Engineering Manager, aditya.rao@mkinfinite-ai.com); Neel Kapoor (Tech Lead, neel.kapoor@mkinfinite-ai.com).",
+    "detailed_answer": "For general queries to Software Engineering / Development, use MK-CodeForge to log a request so it is tracked; for urgent matters, contact one of the department contacts directly: Aditya Rao (Engineering Manager, aditya.rao@mkinfinite-ai.com); Neel Kapoor (Tech Lead, neel.kapoor@mkinfinite-ai.com).",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Department Contacts",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Software Engineering / Development",
+      "contact",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-019",
+    "question": "What system does the Software Engineering / Development department use?",
+    "short_answer": "Software Engineering / Development primarily uses MK-CodeForge for its workflows.",
+    "detailed_answer": "MK-CodeForge is the system of record for Software Engineering / Development. All requests, approvals, and records for this department's processes should go through MK-CodeForge rather than informal channels, so they are tracked and auditable.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Systems & Tools",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "MK-CodeForge",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-020",
+    "question": "What are the key performance indicators (KPIs) for the Software Engineering / Development department?",
+    "short_answer": "Sprint velocity consistency (target: within 15% variance across sprints)",
+    "detailed_answer": "Sprint velocity consistency (target: within 15% variance across sprints) Code review turnaround time (target: under 24 hours) Production incident rate (target: fewer than 2 Sev-1 incidents per quarter) Test coverage on new code (target: above 80%)",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "KPIs",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "KPI",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-021",
+    "question": "What is the escalation path within the Software Engineering / Development department?",
+    "short_answer": "Escalate in this order: Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director.",
+    "detailed_answer": "If a request or issue with Software Engineering / Development is not addressed within the expected timeframe, escalate step by step through: Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director. Always reference the original ticket/request ID when escalating.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Escalation",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "escalation",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-022",
+    "question": "What are common mistakes employees make when working with Software Engineering / Development?",
+    "short_answer": "Merging a PR without the required second approval on shared libraries.",
+    "detailed_answer": "Merging a PR without the required second approval on shared libraries. Committing secrets or API keys directly into MK-CodeForge repositories. Skipping the technical design review for changes that impact multiple services.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Best Practices",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "mistakes",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-023",
+    "question": "What does 'MK-CodeForge' mean in the context of Software Engineering / Development?",
+    "short_answer": "The internal Git-based source code hosting and review platform.",
+    "detailed_answer": "The internal Git-based source code hosting and review platform. This term is commonly used in Software Engineering / Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "MK-CodeForge",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-024",
+    "question": "What does 'PR' mean in the context of Software Engineering / Development?",
+    "short_answer": "Pull Request, a proposed code change submitted for review before merging.",
+    "detailed_answer": "Pull Request, a proposed code change submitted for review before merging. This term is commonly used in Software Engineering / Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Advanced",
+    "keywords": [
+      "PR",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-025",
+    "question": "What does 'Tech Debt' mean in the context of Software Engineering / Development?",
+    "short_answer": "Deferred engineering work accepted for short-term speed, tracked for future remediation.",
+    "detailed_answer": "Deferred engineering work accepted for short-term speed, tracked for future remediation. This term is commonly used in Software Engineering / Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Tech Debt",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-026",
+    "question": "What does 'Hotfix' mean in the context of Software Engineering / Development?",
+    "short_answer": "An urgent, out-of-cycle production fix.",
+    "detailed_answer": "An urgent, out-of-cycle production fix. This term is commonly used in Software Engineering / Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Basic",
+    "keywords": [
+      "Hotfix",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-027",
+    "question": "What does 'Feature Flag' mean in the context of Software Engineering / Development?",
+    "short_answer": "A toggle allowing a feature to be enabled/disabled without a new deployment.",
+    "detailed_answer": "A toggle allowing a feature to be enabled/disabled without a new deployment. This term is commonly used in Software Engineering / Development SOPs, FAQs, and reports at MK-Infinite-AI.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Terminology",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "Feature Flag",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  },
+  {
+    "faq_id": "FAQ-ENG-028",
+    "question": "Can an employee from a different department ask a Software Engineering / Development question?",
+    "short_answer": "Yes. Software Engineering / Development knowledge is retrievable company-wide; only documents marked restricted or management-level require extra authorization.",
+    "detailed_answer": "MK-Infinite-AI's knowledge base does not gate department knowledge behind the requester's own department. An employee from any department can ask a Software Engineering / Development question (for example, an IT employee asking about the leave policy). Access is instead controlled per-document via the 'access_level' and 'allowed_departments' metadata, so general employee-facing knowledge remains available company-wide while restricted or management-level documents stay protected.",
+    "step_by_step": [],
+    "department": "Software Engineering / Development",
+    "department_code": "ENG",
+    "category": "Cross-Department Access",
+    "role_applicability": [
+      "All Employees"
+    ],
+    "difficulty": "Intermediate",
+    "keywords": [
+      "cross-department",
+      "authorization",
+      "Software Engineering / Development",
+      "ENG"
+    ],
+    "related_documents": [],
+    "escalation_path": "Software Engineer -> Tech Lead -> Engineering Manager -> Engineering Director",
+    "access_level": "general"
+  }
+]
