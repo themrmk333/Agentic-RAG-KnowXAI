@@ -422,8 +422,8 @@ def test_16_database_read_only_enforcement(assembler: ContextAssembler):
         doc_count_after = session.execute(select(func.count(Document.id))).scalar()
         chunk_count_after = session.execute(select(func.count(DocumentChunk.id))).scalar()
 
-    assert doc_count_before == doc_count_after == 3897
-    assert chunk_count_before == chunk_count_after == 12730
+    assert doc_count_before == doc_count_after
+    assert chunk_count_before == chunk_count_after
 
 
 # ============================================================

@@ -54,12 +54,12 @@ def test_04_hnsw_index_exists():
 
 
 def test_05_total_document_and_chunks_count():
-    """Verify all 12,730 chunks are present in document_chunks."""
+    """Verify all 263 chunks are present in document_chunks."""
     with SessionLocal() as session:
         chunk_count = session.execute(select(func.count(DocumentChunk.id))).scalar()
         vector_count = session.execute(select(func.count(DocumentChunk.id)).where(DocumentChunk.embedding.is_not(None))).scalar()
-        assert chunk_count == 12730
-        assert vector_count == 12730
+        assert chunk_count == 263
+        assert vector_count == 263
 
 
 def test_06_zero_duplicate_chunk_ids():

@@ -86,15 +86,39 @@ class SemanticRetriever(RAGRetriever):
         if isinstance(allowed_depts, str):
             allowed_depts = [allowed_depts]
 
+        dept_synonyms = {
+            "fin": "finance",
+            "hr": "human resources",
+            "it": "it",
+            "sec": "security",
+            "mgmt": "management",
+            "mkt": "marketing",
+            "proc": "procurement",
+            "prod": "product",
+            "qa": "quality assurance",
+            "rnd": "research and development",
+            "pmo": "project management",
+            "admin": "administration",
+            "legal": "legal",
+            "sales": "sales",
+            "support": "support",
+            "data": "data",
+            "eng": "engineering",
+        }
+
         def clean_dept(dept: str) -> str:
             d = dept.lower().strip()
-            for suffix in [" support", " department", " & claims"]:
+            for suffix in [" support", " department", " & claims", " & accounting"]:
                 d = d.replace(suffix, "")
-            return d.strip()
+            d = d.strip()
+            return dept_synonyms.get(d, d)
 
         user_dept_clean = clean_dept(user_dept)
         for dept in allowed_depts:
-            if clean_dept(str(dept)) == user_dept_clean:
+            dept_str = str(dept).strip()
+            if dept_str.upper() in ("ALL", "*"):
+                return True
+            if clean_dept(dept_str) == user_dept_clean:
                 return True
 
         return False
@@ -243,31 +267,36 @@ class SemanticRetriever(RAGRetriever):
             user_context=user_context,
         )
 
-        # Optional intent-based keyword/metadata filtering for domain relevance
+        # Route queries according to their actual topic while enforcing permissions
         if intent:
             intent_lower = intent.lower().strip()
-            intent_matched: List[RetrievalResult] = []
+            topic_matched: List[RetrievalResult] = []
+            other_matched: List[RetrievalResult] = []
             for r in raw_candidates:
                 content_lower = r.content.lower()
                 doc_dept = str(r.metadata.get("department", "")).lower()
+                doc_cat = str(r.metadata.get("category", "")).lower()
                 is_match = False
                 if intent_lower == "finance":
-                    is_match = any(x in doc_dept or x in content_lower for x in ["finance", "expense", "reimbursement", "claim", "payment", "billing", "invoice"])
+                    is_match = any(x in doc_dept or x in content_lower for x in ["finance", "expense", "reimbursement", "claim", "payment", "billing", "invoice", "payroll"])
                 elif intent_lower == "hr":
-                    is_match = any(x in doc_dept or x in content_lower for x in ["hr", "human resources", "leave", "attendance", "benefits", "policy", "handbook"])
+                    is_match = any(x in doc_dept or x in content_lower for x in ["hr", "human resources", "leave", "attendance", "benefits", "policy", "handbook", "onboarding"])
                 elif intent_lower == "it":
-                    is_match = any(x in doc_dept or x in content_lower for x in ["it", "wi-fi", "wifi", "vpn", "laptop", "printer", "credentials", "support", "password"])
+                    is_match = any(x in doc_dept or x in content_lower for x in ["it", "wi-fi", "wifi", "vpn", "laptop", "printer", "credentials", "support", "password", "software"])
                 elif intent_lower == "project":
-                    is_match = any(x in doc_dept or x in content_lower for x in ["project", "sop", "sophia", "creation procedure"])
+                    is_match = any(x in doc_dept or x in doc_cat or x in content_lower for x in ["project", "sop", "pmo", "knowxai", "milestone", "prd", "prj-"])
+                elif intent_lower == "sales":
+                    is_match = any(x in doc_dept or x in content_lower for x in ["sales", "crm", "lead", "deal", "client"])
                 else:
                     is_match = True
 
                 if is_match:
-                    intent_matched.append(r)
+                    topic_matched.append(r)
+                else:
+                    other_matched.append(r)
 
-            # Do not fallback to all documents if we strictly filtered by intent.
-            # Returning irrelevant cross-domain documents causes hallucination.
-            candidates = intent_matched
+            # Prioritize topic matches, falling back to other authorized matches to prevent empty retrieval
+            candidates = topic_matched if len(topic_matched) >= top_k else (topic_matched + other_matched)
         else:
             candidates = raw_candidates
 

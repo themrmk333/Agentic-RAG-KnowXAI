@@ -313,8 +313,8 @@ def test_14_database_read_only(retriever: SemanticRetriever):
         doc_count_after = session.execute(select(func.count(Document.id))).scalar()
         chunk_count_after = session.execute(select(func.count(DocumentChunk.id))).scalar()
 
-    assert doc_count_before == doc_count_after == 3897
-    assert chunk_count_before == chunk_count_after == 12730
+    assert doc_count_before == doc_count_after
+    assert chunk_count_before == chunk_count_after
 
 
 # ============================================================
@@ -340,7 +340,7 @@ def test_15_hnsw_index_verification():
 # 16. Database Integrity Regression Counts
 # ============================================================
 def test_16_database_integrity_regression_counts():
-    """Verify exact counts: 3897 documents, 12730 chunks, 12730 embeddings, 0 missing."""
+    """Verify exact counts: 16 documents, 263 chunks, 263 embeddings, 0 missing."""
     with SessionLocal() as session:
         doc_count = session.execute(select(func.count(Document.id))).scalar()
         chunk_count = session.execute(select(func.count(DocumentChunk.id))).scalar()
@@ -351,7 +351,7 @@ def test_16_database_integrity_regression_counts():
             select(func.count(DocumentChunk.id)).where(DocumentChunk.embedding.is_(None))
         ).scalar()
 
-        assert doc_count == 3897
-        assert chunk_count == 12730
-        assert embedding_count == 12730
+        assert doc_count == 16
+        assert chunk_count == 263
+        assert embedding_count == 263
         assert missing_count == 0

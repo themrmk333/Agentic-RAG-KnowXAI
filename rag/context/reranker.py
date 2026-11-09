@@ -242,7 +242,30 @@ class ContextReranker:
                 + self.config.phrase_weight * phrase_score
                 + self.config.quality_weight * qual_score
             )
-            composite = round(min(1.0, max(0.0, composite)), 4)
+
+            # Procedural & Document Type Relevance Tuning
+            is_procedural_query = any(
+                w in cleaned_query.lower()
+                for w in [
+                    "how to", "how do i", "how can i", "step", "steps",
+                    "setup", "connect", "fix", "unable to connect",
+                    "configure", "claim", "request", "urgent", "procedure"
+                ]
+            )
+            content_lower = cand.content.lower()
+            doc_type = (cand.content_type or str(cand.metadata.get("document_type", ""))).lower()
+            src = (cand.source_path or "").lower()
+
+            doc_boost = 0.0
+            if is_procedural_query:
+                # Strong boost for authoritative SOPs, policies, and step-by-step procedures
+                if "sop" in doc_type or "sop" in src or "policy" in doc_type or "## procedure" in content_lower or "**step 1:" in content_lower or "step 1" in content_lower:
+                    doc_boost += 0.15
+                # Slightly de-prioritize individual bug tickets when authoritative SOPs exist
+                elif "ticket" in doc_type or "ticket" in src:
+                    doc_boost -= 0.08
+
+            composite = round(min(1.0, max(0.0, composite + doc_boost)), 4)
 
             reranked.append(
                 RerankedResult(

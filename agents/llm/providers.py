@@ -193,6 +193,17 @@ class OpenAICompatibleProvider(LLMProvider):
     def chat(self, messages: Sequence[Message], *, temperature: float = 0.2) -> LLMResponse:
         return self._complete(messages, temperature=temperature)
 
+    def health_check(self) -> tuple[bool, str]:
+        try:
+            response = self._complete(
+                [{"role": "user", "content": "Reply with exactly: ok"}],
+                temperature=0.0,
+                timeout=2.0,
+            )
+            return bool(response.text.strip()), "ok"
+        except Exception:
+            return False, "inference request failed"
+
     def structured(
         self,
         messages: Sequence[Message],
@@ -208,7 +219,7 @@ class OpenAICompatibleProvider(LLMProvider):
         fallback_messages = inject_schema_instructions(messages, schema_json)
 
         current_messages = list(messages)
-        try_native = True
+        try_native = getattr(self, "supports_native_json_schema", True)
         response_format_arg: Any = None
         max_attempts = 3
         attempt = 0
@@ -349,6 +360,7 @@ class LocalProvider(OpenAICompatibleProvider):
 
     def __init__(self, *, base_url: str, model: str) -> None:
         super().__init__(api_key="ollama", base_url=base_url, model=model)
+        self.supports_native_json_schema = False
 
     def _complete(
         self,

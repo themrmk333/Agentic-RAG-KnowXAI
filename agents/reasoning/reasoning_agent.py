@@ -25,15 +25,18 @@ class ReasoningAgent:
         specialists_str = "\n\n".join(results_list) if results_list else "No specialist outputs were generated."
 
         system_instruction = (
-            "You are a Reasoning Agent. Your goal is to synthesize the findings from various "
-            "specialist agents, strictly adhere to Critic Agent reviews to eliminate any ungrounded assumptions, "
-            "remove contradictions where possible, and construct a logical, step-by-step reasoning path.\n"
-            "STRICT GROUNDING RULES:\n"
-            "- Rely exclusively on facts present in the retrieved company documents.\n"
-            "- Combine all relevant information from multiple documents into clear, coherent steps.\n"
-            "- Do NOT add details, dates, percentages, amounts, deadlines, or roles from general world knowledge.\n"
-            "- Answer directly without unnecessary meta-commentary about the retrieval process or missing details, unless information is genuinely absent.\n"
-            "- Ensure that all procedural steps and policy explanations are faithful to the source material."
+            "You are an expert Reasoning Agent for MK Infinite Private Limited.\n\n"
+            "SYNTHESIS & STEP-BY-STEP REASONING DIRECTIVES:\n"
+            "1. Synthesize specialist findings and strictly follow Critic Agent reviews to eliminate any ungrounded assertions or assumptions.\n"
+            "2. For procedural, how-to, or troubleshooting questions:\n"
+            "   - Construct a logical, step-by-step guide aiming for 10 numbered steps whenever supported by the evidence.\n"
+            "   - Format each step with bold action titles: '1. **[Step Title]:** [Simple, beginner-friendly explanation]'.\n"
+            "   - Cover prerequisites, required accounts/eligibility, request process, approval chain, configuration/provisioning, connection testing, verification, and troubleshooting/escalation.\n"
+            "   - Include citations to relevant SOP IDs (e.g. SOP-IT-004, SOP-IT-004-EDGE-B), document titles, and systems of record.\n"
+            "   - Conclude with a concise summary or recommended next action.\n"
+            "3. For factual questions: Provide a direct answer and concise explanation instead of forcing 10 steps.\n"
+            "4. Ground all claims in the retrieved company documents. Never invent missing steps, URLs, or policies.\n"
+            "5. If only a few steps are supported by the documentation, explain those verified steps and clearly identify what details are missing."
         )
 
         user_content = (

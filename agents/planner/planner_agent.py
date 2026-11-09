@@ -29,11 +29,22 @@ class PlannerAgent:
         intent = state.get("intent", "general")
         context_str = "\n".join(state.get("relevant_context", []))
 
-        # Fast-path bypass for general greetings or out-of-domain queries
-        if intent == "general":
+        # Fast-path routing for deterministic single-domain intents to eliminate redundant LLM inference
+        deterministic_plans = {
+            "general": ([], "General intent requires no specialist routing."),
+            "it": (["it", "critic"], "IT queries route to IT specialist and Critic for verification."),
+            "hr": (["hr", "critic"], "HR queries route to HR specialist and Critic for verification."),
+            "finance": (["finance", "critic"], "Finance queries route to Finance specialist and Critic for verification."),
+            "coding": (["coding", "critic"], "Coding tasks route to Coding specialist and Critic for verification."),
+            "mathematics": (["mathematics", "critic"], "Mathematical tasks route to Mathematics specialist and Critic for verification."),
+            "project": (["project", "critic"], "Project tasks route to Project specialist and Critic for verification."),
+        }
+
+        if intent in deterministic_plans:
+            plan, just = deterministic_plans[intent]
             return {
-                "plan": [],
-                "metadata": {"plan_justification": "General intent requires no specialist routing."},
+                "plan": plan,
+                "metadata": {"plan_justification": just},
             }
 
         messages = [

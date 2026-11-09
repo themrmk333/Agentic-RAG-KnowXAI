@@ -58,7 +58,10 @@ class PGVectorRetriever(RAGRetriever):
             
         user_dept_clean = clean_dept(user_dept)
         for dept in allowed_depts:
-            if clean_dept(dept) == user_dept_clean:
+            dept_str = str(dept).strip()
+            if dept_str in ("*", "all", "ALL"):
+                return True
+            if clean_dept(dept_str) == user_dept_clean:
                 return True
                 
         return False
@@ -80,44 +83,51 @@ class PGVectorRetriever(RAGRetriever):
         if hasattr(self.vector_store, "similarity_search_with_scores"):
             raw_chunks = self.vector_store.similarity_search_with_scores(query_vector, limit=top_k * 4)
             filtered = []
-            intent_filtered = []
+            topic_matched = []
+            other_authorized = []
             
             for chunk, distance in raw_chunks:
                 meta = chunk.chunk_metadata or {}
-                if self.check_document_access(meta, user_context):
-                    filtered.append(chunk.content)
-                    
-                    # Apply intent classification filters to check domain relevance
-                    if intent:
-                        intent_lower = intent.lower().strip()
-                        
-                        from rag.chunking.models import normalize_department
-                        doc_dept = normalize_department(str(meta.get("department_code") or meta.get("department") or "UNKNOWN"))
-                        
-                        # Normalize intent to department code if possible
-                        is_match = False
-                        if intent_lower == "finance":
-                            is_match = (doc_dept == "FINANCE")
-                        elif intent_lower == "hr":
-                            is_match = (doc_dept == "HR")
-                        elif intent_lower == "it":
-                            is_match = (doc_dept == "IT")
-                        elif intent_lower == "project":
-                            is_match = (doc_dept == "PROJECT")
-                        elif intent_lower == "sales":
-                            is_match = (doc_dept == "SALES")
-                        else:
-                            # For general, research, coding, or math intents, we don't strict-filter by department
-                            is_match = True
-                            
-                        if is_match:
-                            intent_filtered.append(chunk.content)
+                if not self.check_document_access(meta, user_context):
+                    continue
+
+                filtered.append(chunk.content)
+                
+                # Apply topic alignment when intent is specified, but route according to actual topic
+                # without hard-dropping authorized evidence
+                if intent:
+                    intent_lower = intent.lower().strip()
+                    doc_dept = str(meta.get("department_code") or meta.get("department") or "").lower()
+                    doc_cat = str(meta.get("category", "")).lower()
+                    content_lower = chunk.content.lower()
+
+                    is_match = False
+                    if intent_lower == "finance":
+                        is_match = any(k in doc_dept or k in content_lower for k in ["finance", "fin", "expense", "reimbursement", "claim", "billing", "invoice", "payroll"])
+                    elif intent_lower == "hr":
+                        is_match = any(k in doc_dept or k in content_lower for k in ["hr", "human resources", "leave", "onboarding", "attendance", "benefits", "handbook"])
+                    elif intent_lower == "it":
+                        is_match = any(k in doc_dept or k in content_lower for k in ["it", "vpn", "password", "laptop", "wifi", "network", "software", "ticket", "hardware"])
+                    elif intent_lower == "project":
+                        is_match = any(k in doc_dept or k in doc_cat or k in content_lower for k in ["project", "milestone", "pmo", "knowxai", "sprint", "prj-"])
+                    elif intent_lower == "sales":
+                        is_match = any(k in doc_dept or k in content_lower for k in ["sales", "crm", "lead", "deal", "client"])
                     else:
-                        intent_filtered.append(chunk.content)
-            
-            # Do not fallback if intent-based filtering is used.
-            # Returning irrelevant cross-domain documents causes hallucination.
-            final_docs = intent_filtered if intent else filtered
+                        is_match = True
+
+                    if is_match:
+                        topic_matched.append(chunk.content)
+                    else:
+                        other_authorized.append(chunk.content)
+                else:
+                    topic_matched.append(chunk.content)
+
+            # Prioritize topic-matched results, gracefully falling back to other authorized matches
+            if intent:
+                final_docs = topic_matched if len(topic_matched) >= top_k else (topic_matched + other_authorized)
+            else:
+                final_docs = filtered
+
             raw_len = len(raw_chunks)
         else:
             chunks = self.vector_store.similarity_search(query_vector, limit=top_k)

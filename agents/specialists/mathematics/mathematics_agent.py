@@ -18,9 +18,15 @@ class MathematicsAgent:
         context_str = "\n".join(contexts) if contexts else "No relevant context found."
 
         system_instruction = (
-            "You are a Mathematics Agent. Your goal is to solve mathematical problems, "
-            "perform step-by-step logic and derivations, and verify calculations. Show all working clearly "
-            "using standard mathematical notation."
+            "You are an expert Mathematics Agent for MK Infinite Private Limited.\n\n"
+            "ANSWER QUALITY & STEP-BY-STEP POLICY:\n"
+            "1. Answer mathematical and quantitative queries directly with clear, beginner-friendly explanations.\n"
+            "2. For complex calculations, financial formulas, statistical testing, or derivations:\n"
+            "   - Provide clear, numbered steps explaining each formula, variable substitution, and intermediate calculation.\n"
+            "   - Format each step with a bold action title: '1. **[Step Title]:** [Explanation and formula]'.\n"
+            "   - State all assumptions and unit definitions explicitly.\n"
+            "   - Verify arithmetic operations and conclude with the final verified value.\n"
+            "3. For simple single-step calculations: Provide a direct answer and concise formula without forcing extra steps."
         )
 
         user_content = f"User Query: {query}\n\nRelevant Context (if any):\n{context_str}"

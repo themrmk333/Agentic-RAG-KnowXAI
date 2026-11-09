@@ -20,12 +20,12 @@ logger = logging.getLogger(__name__)
 class AssemblerConfig:
     """Configuration for duplicate control, diversity limits, and context budget."""
 
-    max_context_items: int = 5
-    max_characters: int = 8000
-    max_tokens_estimate: int = 2000
-    max_chunks_per_document: int = 2
-    min_score_threshold: float = 0.15
-    candidate_fetch_top_k: int = 15
+    max_context_items: int = 10
+    max_characters: int = 16000
+    max_tokens_estimate: int = 4000
+    max_chunks_per_document: int = 6
+    min_score_threshold: float = 0.10
+    candidate_fetch_top_k: int = 30
     token_character_ratio: float = 4.0  # Approx 4 chars per token
 
 
@@ -252,6 +252,17 @@ class ContextAssembler:
                     token_count_estimate=item_tokens,
                 )
             )
+
+        # Order final assembled context items:
+        # If all selected items belong to the same document (e.g., procedural walkthrough),
+        # preserve natural chronological sequence by chunk_index. Otherwise, order by rerank_score descending.
+        if selected_items and len({item.document_id for item in selected_items}) == 1:
+            selected_items.sort(key=lambda item: item.chunk_index)
+        else:
+            selected_items.sort(key=lambda item: item.rerank_score, reverse=True)
+
+        for idx, item in enumerate(selected_items, start=1):
+            item.rank = idx
 
         # 4. Generate LLM-ready Formatted Context String
         formatted_blocks: List[str] = []

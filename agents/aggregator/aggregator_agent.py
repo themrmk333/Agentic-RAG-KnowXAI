@@ -25,34 +25,37 @@ class AggregatorAgent:
             {
                 "role": "system",
                 "content": (
-                    "You are the Aggregator and final answer generation agent for an Enterprise AI Knowledge Assistant.\n"
-                    "The retrieved company documents are the ONLY source of truth.\n\n"
-                    "CORE DIRECTIVE:\n"
-                    "- MAXIMUM INFORMATION FROM THE RETRIEVED COMPANY DATA + ZERO INVENTED INFORMATION.\n"
-                    "- Answer the employee's question directly using the retrieved company documents.\n"
-                    "- Do NOT invent, assume, estimate, infer, or fabricate dates, deadlines, amounts, percentages, approval levels, employee categories, eligibility rules, policies, procedures, responsibilities, departments, names, contacts, URLs, penalties, exceptions, tax rules, payment methods, timeframes, or steps.\n"
-                    "- Do NOT use general world knowledge or add standard/common practices.\n\n"
-                    "USE ALL RELEVANT RETRIEVED INFORMATION:\n"
-                    "- When multiple retrieved documents answer the question, combine all relevant information, eliminate duplicates, and organize the content cleanly.\n"
-                    "- Do NOT unnecessarily claim that information is missing when the retrieved documents provide enough details to answer the user's question.\n\n"
-                    "NO META-COMMENTARY:\n"
-                    "- Answer the employee's question directly without introductory disclaimers, discussion of the retrieval process, or descriptions of what documents failed to contain.\n"
-                    "- Do NOT start with 'The available company knowledge base does not contain enough information...' unless the retrieved context genuinely lacks the information requested.\n\n"
-                    "ANSWER FORMAT:\n"
-                    "- For procedural questions: Start with a brief direct explanation, then provide the supported steps (using numbered lists), and include relevant conditions/exceptions ONLY if explicitly stated in the retrieved documents.\n"
-                    "- Never return only a document title or heading.\n"
-                    "- If information is genuinely missing to answer the core question, state briefly: 'The available company knowledge base does not contain enough information to provide a complete answer to this question.' Then provide ONLY the supported facts that are available.\n\n"
-                    "METRICS & REFERENCES:\n"
-                    "- Compute a confidence score (0.0 to 1.0) strictly based on context alignment.\n"
-                    "- List the specific context/source descriptions used under 'references'."
+                    "You are the Aggregator and final answer generation agent for MK Infinite Private Limited.\n\n"
+                    "CORE ANSWER QUALITY DIRECTIVE:\n"
+                    "- Provide clear, simple, practical explanations rather than short answers that merely cite document titles or SOP IDs.\n"
+                    "- Never shorten detailed specialist procedures into generic high-level summaries. RETAIN the actual steps, preconditions, configuration details, and troubleshooting.\n\n"
+                    "STEP-BY-STEP ANSWER POLICY:\n"
+                    "1. For procedural questions, troubleshooting requests, and how-to queries (e.g. corporate VPN access, IT setup, HR/Finance procedures):\n"
+                    "   - Aim to provide 10 useful, numbered steps whenever the available information supports them.\n"
+                    "   - Explain each step in simple, beginner-friendly English.\n"
+                    "   - Format each step with a bold action title: '1. **[Step Name]:** [Clear, simple explanation]'.\n"
+                    "   - Include prerequisites, required permissions/eligibility, request process, approvals, client setup/connection, verification, and troubleshooting/escalation.\n"
+                    "   - Use headings and short paragraphs to maximize readability.\n"
+                    "   - Cite relevant source documents, SOP IDs (e.g., SOP-IT-004, SOP-IT-004-EDGE-B), sections, and systems (e.g., MK-ServiceDesk).\n"
+                    "   - Conclude with a brief summary or recommended next action.\n"
+                    "2. For simple factual questions:\n"
+                    "   - Provide a direct answer and concise explanation instead of forcing 10 steps.\n"
+                    "3. Zero Fabrication & Honest Missing Information:\n"
+                    "   - Never invent missing instructions, URLs, or fake software names just to reach 10 steps.\n"
+                    "   - If documentation supports only a few steps, provide those verified steps and clearly explain what information is missing.\n"
+                    "4. If edge cases or urgent paths are requested (e.g. urgent access):\n"
+                    "   - Detail the documented exception procedure (e.g. verbal pre-approval, 24h retroactive filing, 2-day sign-off) and escalation hierarchy.\n"
+                    "5. Confidence & References:\n"
+                    "   - Compute confidence score (0.0 to 1.0) strictly based on context alignment.\n"
+                    "   - List all cited SOP IDs and source documents in references."
                 ),
             },
             {
                 "role": "user",
                 "content": (
-                    f"Original Query: {query}\n\n"
-                    f"Synthesized Reasoning:\n{reasoning}\n\n"
-                    f"References Available:\n" + "\n".join(contexts)
+                    f"Original User Query: {query}\n\n"
+                    f"Synthesized Reasoning & Findings:\n{reasoning}\n\n"
+                    f"Available Retrieved Context:\n" + "\n".join(contexts)
                 ),
             },
         ]
@@ -64,22 +67,40 @@ class AggregatorAgent:
                 temperature=0.1,
             )
             
+            final_refs = list(structured_ans.references) if structured_ans.references else []
+            for ctx in contexts:
+                first_line = ctx.split("\n", 1)[0]
+                if "Document:" in first_line:
+                    doc_name = first_line.split("Document:")[1].split("|")[0].strip()
+                    if doc_name and doc_name not in final_refs:
+                        final_refs.append(doc_name)
+
+            final_text = structured_ans.answer.strip()
+            # Quality Validation: Detect if answer was truncated to an incomplete introductory header ending with colon
+            is_intro_header = final_text.endswith(":") or any(final_text.lower().rstrip().endswith(p) for p in ["follow these steps", "following steps", "as follows"])
+            if is_intro_header and "1." not in final_text and "step 1" not in final_text.lower():
+                if reasoning and len(reasoning.strip()) > 50:
+                    final_text = f"{final_text}\n\n{reasoning.strip()}"
+                elif reasoning:
+                    final_text = reasoning.strip()
+
             # Map FinalAnswer to dict for state storage
             result_dict = {
-                "answer": structured_ans.answer,
+                "answer": final_text,
                 "confidence": structured_ans.confidence,
-                "references": structured_ans.references,
+                "references": final_refs,
                 "errors_encountered": errors + structured_ans.errors_encountered,
             }
             
             return {"final_answer": result_dict}
         except Exception as e:
             # Fallback output in case structured generation fails
+            fallback_text = reasoning.strip() if reasoning else "No detailed procedure could be retrieved."
             fallback_dict = {
-                "answer": f"Failed to structure final answer. Raw Reasoning:\n\n{reasoning}",
-                "confidence": 0.5,
-                "references": contexts,
-                "errors_encountered": errors + [f"Aggregator structured generation failed: {str(e)}"],
+                "answer": fallback_text,
+                "confidence": 0.75 if reasoning else 0.4,
+                "references": [ctx.split("\n", 1)[0].replace("[", "").replace("]", "") for ctx in contexts[:5]],
+                "errors_encountered": errors + [f"Aggregator structured generation fallback: {str(e)}"],
             }
             return {"final_answer": fallback_dict}
 

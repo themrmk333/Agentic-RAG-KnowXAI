@@ -1,5 +1,6 @@
 """Authentication endpoints for registration, login, and user profile verification."""
 
+from datetime import datetime, timedelta, timezone
 import logging
 from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException, Request, status
@@ -8,9 +9,10 @@ from sqlalchemy import func, or_, select
 from sqlalchemy.exc import DBAPIError, OperationalError
 from sqlalchemy.orm import Session
 
-from api.auth import create_access_token, get_current_user, hash_password, verify_password
+from api.auth import create_access_token, get_current_user, hash_password, normalize_role, verify_password
 from database.connection import get_db
 from database.models import User
+from services.audit_service import log_audit_event
 
 logger = logging.getLogger(__name__)
 
@@ -27,6 +29,9 @@ SUPPORTED_DEPARTMENTS = {
     "project": "Project Department",
     "project department": "Project Department",
     "management": "Management",
+    "admin": "Admin",
+    "adm": "Admin",
+    "administration": "Admin",
 }
 
 
@@ -44,6 +49,7 @@ class UserRegisterSchema(BaseModel):
     full_name: str
     employee_id: str
     department: str
+    job_title: Optional[str] = None
 
     @field_validator("password")
     @classmethod
@@ -75,7 +81,7 @@ class UserRegisterSchema(BaseModel):
         if not norm:
             raise ValueError(
                 "Invalid department. Supported departments are: "
-                "IT Support, Human Resources, Finance & Claims, Project Department, Management."
+                "IT Support, Human Resources, Finance & Claims, Project Department, Management, Admin."
             )
         return norm
 
@@ -89,10 +95,13 @@ class UserProfileSchema(BaseModel):
     id: int
     email: str
     username: str
-    full_name: Optional[str]
+    full_name: Optional[str] = None
     role: str
-    employee_id: Optional[str]
-    department: Optional[str]
+    employee_id: Optional[str] = None
+    department: Optional[str] = None
+    job_title: Optional[str] = None
+    is_active: bool = True
+    last_login_at: Optional[datetime] = None
 
 
 class TokenResponseSchema(BaseModel):
@@ -102,7 +111,7 @@ class TokenResponseSchema(BaseModel):
 
 
 @router.post("/register", response_model=UserProfileSchema)
-def register(data: UserRegisterSchema, db: Session = Depends(get_db)):
+def register(data: UserRegisterSchema, request: Request, db: Session = Depends(get_db)):
     """Register a new employee. Password will be securely hashed with bcrypt."""
     clean_email = data.email.strip().lower()
     clean_emp_id = data.employee_id.strip()
@@ -146,14 +155,32 @@ def register(data: UserRegisterSchema, db: Session = Depends(get_db)):
             hashed_password=hashed,
             employee_id=clean_emp_id,
             department=data.department,
+            job_title=data.job_title.strip() if data.job_title else None,
             role="Employee",  # Default role
+            is_active=True,
+            failed_login_attempts=0,
+            token_version=1,
         )
         db.add(user)
         db.commit()
         db.refresh(user)
+
+        client_ip = request.client.host if request.client else "Unknown"
+        log_audit_event(
+            db=db,
+            action="USER_REGISTERED",
+            target_user=user,
+            resource_type="USER",
+            resource_id=str(user.id),
+            summary=f"New employee registered: {user.full_name} ({user.email}) in {user.department}",
+            ip_address=client_ip,
+        )
+
         logger.info(f"Successfully registered new user: {clean_email} (Employee ID: {clean_emp_id})")
         return user
 
+    except HTTPException:
+        raise
     except (OperationalError, DBAPIError) as db_exc:
         db.rollback()
         logger.error(f"Database error during registration: {db_exc}", exc_info=True)
@@ -196,6 +223,7 @@ async def login(
 
     clean_identifier = str(identifier).strip()
     clean_lower = clean_identifier.lower()
+    client_ip = request.client.host if request.client else "Unknown"
 
     try:
         # Search for user across email (case-insensitive), employee_id, and username (case-insensitive)
@@ -216,15 +244,113 @@ async def login(
             detail="Database service is currently unavailable. Please try again shortly.",
         )
 
-    if not user or not verify_password(password, user.hashed_password):
+    if not user:
+        log_audit_event(
+            db=db,
+            action="USER_LOGIN_FAILED",
+            resource_type="AUTH",
+            summary=f"Login failed: Account '{clean_identifier}' not found",
+            status="FAILED",
+            ip_address=client_ip,
+        )
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email, Employee ID, or password.",
             headers={"WWW-Authenticate": "Bearer"},
         )
 
-    # Issue token containing stable user email claim
-    access_token = create_access_token(data={"sub": user.email})
+    # Check if account is deactivated
+    if getattr(user, "is_active", True) is False:
+        log_audit_event(
+            db=db,
+            action="USER_LOGIN_FAILED",
+            target_user=user,
+            resource_type="AUTH",
+            summary=f"Login blocked for deactivated account: {user.email}",
+            status="FAILED",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="This employee account has been deactivated. Please contact your company administrator.",
+        )
+
+    # Check account lockout
+    now = datetime.now(timezone.utc)
+    if user.locked_until and user.locked_until > now:
+        remaining_secs = int((user.locked_until - now).total_seconds())
+        remaining_mins = max(1, remaining_secs // 60)
+        log_audit_event(
+            db=db,
+            action="USER_LOGIN_FAILED",
+            target_user=user,
+            resource_type="AUTH",
+            summary=f"Login rejected: Account is locked for {remaining_mins} more minute(s)",
+            status="FAILED",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail=f"Account is temporarily locked due to excessive failed attempts. Please retry in {remaining_mins} minute(s) or contact administrator.",
+        )
+
+    # Verify password
+    if not verify_password(password, user.hashed_password):
+        user.failed_login_attempts = (getattr(user, "failed_login_attempts", 0) or 0) + 1
+        if user.failed_login_attempts >= 5:
+            user.locked_until = now + timedelta(minutes=15)
+            db.commit()
+            log_audit_event(
+                db=db,
+                action="USER_ACCOUNT_LOCKED",
+                target_user=user,
+                resource_type="SECURITY",
+                summary=f"Account locked for 15 minutes following 5 consecutive failed login attempts ({user.email})",
+                status="ALERT",
+                ip_address=client_ip,
+            )
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="Account has been temporarily locked for 15 minutes due to multiple failed login attempts.",
+            )
+        db.commit()
+        log_audit_event(
+            db=db,
+            action="USER_LOGIN_FAILED",
+            target_user=user,
+            resource_type="AUTH",
+            summary=f"Invalid password attempt ({user.failed_login_attempts}/5) for {user.email}",
+            status="FAILED",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid email, Employee ID, or password.",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    # Successful login: reset failed counters and update last login timestamp
+    user.failed_login_attempts = 0
+    user.locked_until = None
+    user.last_login_at = now
+    db.commit()
+
+    log_audit_event(
+        db=db,
+        action="USER_LOGIN_SUCCESS",
+        actor=user,
+        target_user=user,
+        resource_type="AUTH",
+        summary=f"Employee logged in successfully: {user.email} (Method: Password)",
+        status="SUCCESS",
+        ip_address=client_ip,
+    )
+
+    # Issue token containing stable user email claim and token version
+    access_token = create_access_token(
+        data={"sub": user.email},
+        token_version=getattr(user, "token_version", 1),
+    )
     return {
         "access_token": access_token,
         "token_type": "bearer",
@@ -236,3 +362,204 @@ async def login(
 def get_me(current_user: User = Depends(get_current_user)):
     """Fetch current employee session user profile."""
     return current_user
+
+
+@router.post("/admin-login", response_model=TokenResponseSchema)
+async def admin_login(
+    request: Request,
+    db: Session = Depends(get_db),
+):
+    """
+    Authenticate corporate Super Admin / Company Owner for MK Infinite Private Limited.
+    Validates credentials, enforces lockout protection, and strictly verifies super_admin role server-side.
+    Standard employees attempting to authenticate through this endpoint receive a 403 Forbidden access denial.
+    """
+    identifier = None
+    password = None
+
+    content_type = request.headers.get("content-type", "")
+    if "application/json" in content_type:
+        try:
+            body = await request.json()
+            identifier = body.get("email") or body.get("username") or body.get("employee_id") or body.get("identifier")
+            password = body.get("password")
+        except Exception:
+            pass
+    else:
+        try:
+            form_data = await request.form()
+            identifier = form_data.get("username") or form_data.get("email") or form_data.get("employee_id")
+            password = form_data.get("password")
+        except Exception:
+            pass
+
+    if not identifier or not password:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Administrator email/username and password are required.",
+        )
+
+    clean_identifier = str(identifier).strip()
+    clean_lower = clean_identifier.lower()
+    client_ip = request.client.host if request.client else "Unknown"
+
+    try:
+        user = db.execute(
+            select(User).where(
+                or_(
+                    func.lower(User.email) == clean_lower,
+                    User.employee_id == clean_identifier,
+                    func.lower(User.username) == clean_lower,
+                )
+            )
+        ).scalar_one_or_none()
+    except (OperationalError, DBAPIError) as db_exc:
+        logger.error(f"Database error during admin login: {db_exc}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Database service is currently unavailable. Please try again shortly.",
+        )
+
+    if not user:
+        log_audit_event(
+            db=db,
+            action="ADMIN_LOGIN_FAILED",
+            resource_type="AUTH",
+            summary=f"Admin login failed: Account '{clean_identifier}' not found",
+            status="FAILED",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid administrator email, username, or password.",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    if getattr(user, "is_active", True) is False:
+        log_audit_event(
+            db=db,
+            action="ADMIN_LOGIN_FAILED",
+            target_user=user,
+            resource_type="AUTH",
+            summary=f"Admin login blocked for deactivated account: {user.email}",
+            status="FAILED",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="This administrator account has been deactivated. Please contact MK Infinite IT administration.",
+        )
+
+    now = datetime.now(timezone.utc)
+    if user.locked_until and user.locked_until > now:
+        remaining_secs = int((user.locked_until - now).total_seconds())
+        remaining_mins = max(1, remaining_secs // 60)
+        log_audit_event(
+            db=db,
+            action="ADMIN_LOGIN_FAILED",
+            target_user=user,
+            resource_type="AUTH",
+            summary=f"Admin login rejected: Account is locked for {remaining_mins} more minute(s)",
+            status="FAILED",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail=f"Account is temporarily locked due to excessive failed attempts. Please retry in {remaining_mins} minute(s) or contact administration.",
+        )
+
+    if not verify_password(password, user.hashed_password):
+        user.failed_login_attempts = (getattr(user, "failed_login_attempts", 0) or 0) + 1
+        if user.failed_login_attempts >= 5:
+            user.locked_until = now + timedelta(minutes=15)
+            db.commit()
+            log_audit_event(
+                db=db,
+                action="USER_ACCOUNT_LOCKED",
+                target_user=user,
+                resource_type="SECURITY",
+                summary=f"Admin account locked for 15 minutes following 5 consecutive failed login attempts ({user.email})",
+                status="ALERT",
+                ip_address=client_ip,
+            )
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="Account has been temporarily locked for 15 minutes due to multiple failed login attempts.",
+            )
+        db.commit()
+        log_audit_event(
+            db=db,
+            action="ADMIN_LOGIN_FAILED",
+            target_user=user,
+            resource_type="AUTH",
+            summary=f"Invalid admin password attempt ({user.failed_login_attempts}/5) for {user.email}",
+            status="FAILED",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid administrator email, username, or password.",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    # STRICT SERVER-SIDE ROLE ENFORCEMENT: Only super_admin / company owner can authenticate
+    norm_role = normalize_role(user.role)
+    if norm_role != "super_admin":
+        log_audit_event(
+            db=db,
+            action="ADMIN_LOGIN_DENIED_UNAUTHORIZED_ROLE",
+            actor=user,
+            target_user=user,
+            resource_type="SECURITY",
+            summary=f"Unauthorized admin login attempt: User {user.email} with role '{user.role}' is not a Super Admin",
+            status="ALERT",
+            ip_address=client_ip,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Access Denied: This administrative portal is strictly reserved for authorized MK Infinite Company Owners & Super Admins only. Standard employee credentials are not permitted.",
+        )
+
+    # Reset counters on success
+    user.failed_login_attempts = 0
+    user.locked_until = None
+    user.last_login_at = now
+    db.commit()
+
+    log_audit_event(
+        db=db,
+        action="SUPER_ADMIN_LOGIN_SUCCESS",
+        actor=user,
+        target_user=user,
+        resource_type="AUTH",
+        summary=f"Super Admin authenticated successfully: {user.email} (Method: Password)",
+        status="SUCCESS",
+        ip_address=client_ip,
+    )
+
+    access_token = create_access_token(
+        data={"sub": user.email},
+        token_version=getattr(user, "token_version", 1),
+    )
+    return {
+        "access_token": access_token,
+        "token_type": "bearer",
+        "user": user,
+    }
+
+
+# Dynamic registration to prevent circular import at module load time
+from api.routes.biometrics import BiometricAdminVerifySchema, verify_admin_face_login
+from services.biometric_service import get_biometric_service
+
+
+@router.post("/admin-face-login", response_model=TokenResponseSchema)
+def admin_face_login(
+    request: Request,
+    data: BiometricAdminVerifySchema,
+    db: Session = Depends(get_db),
+    service=Depends(get_biometric_service),
+):
+    """Authenticate Super Admin via Face ID verification (alias for /auth/biometrics/admin-verify)."""
+    return verify_admin_face_login(request=request, data=data, db=db, service=service)
+

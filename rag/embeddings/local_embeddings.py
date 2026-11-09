@@ -15,6 +15,9 @@ from .models import EXPECTED_VECTOR_DIMENSION, validate_vector
 logger = logging.getLogger(__name__)
 
 
+_MODEL_CACHE: dict[tuple[str, str], SentenceTransformer] = {}
+
+
 class LocalEmbeddingService:
     """
     Local embedding service executing on NVIDIA GPU via CUDA (or CPU fallback if explicitly allowed).
@@ -43,20 +46,48 @@ class LocalEmbeddingService:
                 f"torch.cuda.is_available()={torch.cuda.is_available()}"
             )
 
-        logger.info(
-            "Initializing LocalEmbeddingService with model=%s on device=%s",
-            self.model_name,
-            self.device,
-        )
-
-        # Disabling low_cpu_mem_usage prevents transformers from loading weights onto the 'meta' device,
-        # which causes the "Cannot copy out of meta tensor; no data!" error during .to(device).
-        self._model = SentenceTransformer(
-            self.model_name, 
-            device=self.device,
-            model_kwargs={"low_cpu_mem_usage": False}
-        )
-        self._model.eval()
+        cache_key = (self.model_name, self.device)
+        if cache_key in _MODEL_CACHE:
+            self._model = _MODEL_CACHE[cache_key]
+        else:
+            logger.info(
+                "Initializing LocalEmbeddingService with model=%s on device=%s",
+                self.model_name,
+                self.device,
+            )
+            load_kwargs = {
+                "low_cpu_mem_usage": False,
+                "torch_dtype": torch.float32,
+            }
+            try:
+                try:
+                    model = SentenceTransformer(
+                        self.model_name,
+                        device=self.device,
+                        model_kwargs=load_kwargs,
+                        local_files_only=True,
+                    )
+                except Exception:
+                    model = SentenceTransformer(
+                        self.model_name,
+                        device=self.device,
+                        model_kwargs=load_kwargs,
+                    )
+            except Exception as initial_err:
+                logger.warning(
+                    "Primary device load on %s failed (%s). Retrying with CPU fallback and full weight loading.",
+                    self.device,
+                    initial_err,
+                )
+                model = SentenceTransformer(
+                    self.model_name,
+                    device="cpu",
+                    model_kwargs=load_kwargs,
+                )
+                self.device = "cpu"
+            model.eval()
+            _MODEL_CACHE[cache_key] = model
+            self._model = model
 
     @property
     def model(self) -> str:

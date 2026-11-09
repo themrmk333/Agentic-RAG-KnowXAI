@@ -161,9 +161,9 @@ def test_12_structured_response_schema():
 def test_13_database_read_only_behavior():
     """Ensure database dimensions and counts are unaffected."""
     counts = get_db_counts()
-    assert counts["documents"] == 3163
-    assert counts["chunks"] == 21296
-    assert counts["embeddings"] == 21296
+    assert counts["documents"] == 16
+    assert counts["chunks"] == 263
+    assert counts["embeddings"] == 263
     assert counts["missing"] == 0
 
 

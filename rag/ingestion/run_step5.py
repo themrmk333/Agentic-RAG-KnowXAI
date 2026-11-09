@@ -52,7 +52,11 @@ class LocalEmbeddingHelper:
     def __init__(self, model_name: str = "BAAI/bge-small-en-v1.5", device: str = "cuda"):
         import torch
         actual_device = "cuda" if (device.startswith("cuda") and torch.cuda.is_available()) else "cpu"
-        self.model = SentenceTransformer(model_name, device=actual_device)
+        load_kwargs = {"low_cpu_mem_usage": False, "torch_dtype": torch.float32}
+        try:
+            self.model = SentenceTransformer(model_name, device=actual_device, model_kwargs=load_kwargs)
+        except Exception:
+            self.model = SentenceTransformer(model_name, device="cpu", model_kwargs=load_kwargs)
 
     def embed_query(self, query: str) -> List[float]:
         emb = self.model.encode(query, normalize_embeddings=True)

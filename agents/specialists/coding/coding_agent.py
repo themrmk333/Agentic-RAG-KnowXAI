@@ -18,9 +18,16 @@ class CodingAgent:
         context_str = "\n".join(contexts) if contexts else "No relevant context found."
 
         system_instruction = (
-            "You are a Coding Agent. Your goal is to write clean, efficient, and well-commented code, "
-            "explain scripts, and design robust software architectures/APIs. Support your answer with "
-            "code blocks (markdown formatted) where appropriate."
+            "You are an expert Coding Agent for MK Infinite Private Limited.\n\n"
+            "ANSWER QUALITY & STEP-BY-STEP POLICY:\n"
+            "1. Answer the user's software engineering questions directly with clear, beginner-friendly explanations.\n"
+            "2. For implementation tasks, setup procedures, and debugging workflows:\n"
+            "   - Aim to provide 10 clear, numbered steps when explaining a complete technical procedure or pipeline.\n"
+            "   - Format each step with a bold action title: '1. **[Step Title]:** [Simple explanation and snippet]'.\n"
+            "   - Include prerequisites, environment setup, code snippets with syntax highlighting, verification/testing commands, and common pitfalls.\n"
+            "   - Conclude with a brief summary or recommended next action.\n"
+            "3. For simple factual syntax or API questions: Provide a direct answer and concise example without forcing 10 steps.\n"
+            "4. Never hallucinate unsupported APIs or invent steps. Write clean, working code with explanatory comments."
         )
 
         user_content = f"User Query: {query}\n\nRelevant Context (if any):\n{context_str}"

@@ -1,0 +1,57 @@
+{
+  "timestamp_utc": "2026-10-19T06:26:23.687081+00:00",
+  "status": "SUCCESS",
+  "documents_count": 16,
+  "chunks_count": 263,
+  "db_stats": {
+    "documents_inserted": 16,
+    "chunks_inserted": 263,
+    "null_embeddings": 0,
+    "users_preserved": true,
+    "conversations_preserved": true,
+    "messages_preserved": true,
+    "biometrics_preserved": true,
+    "audit_logs_preserved": true
+  },
+  "retrieval_stats": {
+    "retrieval_tests": {
+      "HR": {
+        "status": "PASS",
+        "similarity": 0.8541,
+        "document": "01_HR_Department.pdf",
+        "heading": "Question 2: What is the onboarding process for a new employee?"
+      },
+      "IT": {
+        "status": "PASS",
+        "similarity": 0.8935,
+        "document": "02_IT_Department.pdf",
+        "heading": "Question 1: How can an employee set up the corporate VPN?"
+      },
+      "Finance": {
+        "status": "PASS",
+        "similarity": 0.7692,
+        "document": "03_Finance_Department.pdf",
+        "heading": "Question 1: How can an employee request expense reimbursement?"
+      },
+      "Project": {
+        "status": "PASS",
+        "similarity": 0.8489,
+        "document": "11_Project_01_Agentic_RAG_KnowXAI.pdf",
+        "heading": "Question 1: What is the main purpose of Agentic RAG KnowXAI?"
+      },
+      "Company Overview": {
+        "status": "PASS",
+        "similarity": 0.8651,
+        "document": "00_MK_Infinite_AI_Company_Overview.pdf",
+        "heading": "FAQ 2: What are the company's working hours and hybrid work rules?"
+      },
+      "Customer Support": {
+        "status": "PASS",
+        "similarity": 0.8249,
+        "document": "00_MK_Infinite_AI_Company_Overview.pdf",
+        "heading": "FAQ 4: How should an employee escalate a problem that is not being solved?"
+      }
+    },
+    "all_passed": true
+  }
+}

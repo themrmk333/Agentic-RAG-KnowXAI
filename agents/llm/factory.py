@@ -46,6 +46,8 @@ def build_provider(provider: str, *, model: str | None = None, settings: Setting
                 base_url=resolved.openrouter_base_url,
                 model=model or resolved.gemini_openrouter_model,
             )
+        if "/" in selected_model or "llama" in selected_model.lower():
+            selected_model = "gemini-2.0-flash"
         return GeminiProvider(api_key=api_key, model=selected_model)
 
     if provider_name == "nvidia":
@@ -72,8 +74,17 @@ def build_provider(provider: str, *, model: str | None = None, settings: Setting
     raise ProviderConfigurationError(f"Unsupported provider: {provider_name}")
 
 
+_HEALTH_CACHE: dict[str, dict[str, str | bool]] = {}
+_HEALTH_CACHE_TIME: float = 0.0
+
+
 def provider_health(*, settings: Settings | None = None) -> dict[str, dict[str, str | bool]]:
     """Run minimal inference checks for configured providers without leaking secrets."""
+    global _HEALTH_CACHE, _HEALTH_CACHE_TIME
+    import time
+    now = time.time()
+    if _HEALTH_CACHE and (now - _HEALTH_CACHE_TIME < 30.0):
+        return _HEALTH_CACHE
 
     resolved = settings or get_settings()
     results: dict[str, dict[str, str | bool]] = {}
@@ -86,4 +97,9 @@ def provider_health(*, settings: Settings | None = None) -> dict[str, dict[str, 
             results[name] = {"configured": True, "healthy": healthy, "detail": detail}
         except ProviderConfigurationError:
             results[name] = {"configured": True, "healthy": False, "detail": "invalid configuration"}
+        except Exception:
+            results[name] = {"configured": True, "healthy": False, "detail": "inference request failed"}
+
+    _HEALTH_CACHE = results
+    _HEALTH_CACHE_TIME = now
     return results

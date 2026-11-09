@@ -293,13 +293,14 @@ def test_13_department_validation(client):
     res = client.post("/auth/register", json=invalid_payload)
     assert res.status_code == 422  # Pydantic validation failure
 
-    # Test all 5 supported departments
+    # Test all supported departments including Admin
     supported_depts = [
         ("IT Support", "emp.it@knowx.ai", "EMP-IT-1"),
         ("Human Resources", "emp.hr@knowx.ai", "EMP-HR-1"),
         ("Finance & Claims", "emp.fin@knowx.ai", "EMP-FIN-1"),
         ("Project Department", "emp.proj@knowx.ai", "EMP-PROJ-1"),
         ("Management", "emp.mgmt@knowx.ai", "EMP-MGMT-1"),
+        ("Admin", "emp.admin@knowx.ai", "EMP-ADM-1"),
     ]
     for dept, email, emp_id in supported_depts:
         payload = {
@@ -311,7 +312,10 @@ def test_13_department_validation(client):
         }
         res_ok = client.post("/auth/register", json=payload)
         assert res_ok.status_code == 200, res_ok.text
-        assert res_ok.json()["department"] == dept
+        user_resp = res_ok.json()
+        assert user_resp["department"] == dept
+        # Crucial requirement: Admin department does NOT grant administrator role or privileges
+        assert user_resp["role"] == "Employee"
 
 
 # --- Requirement 14: Existing User Compatibility ---

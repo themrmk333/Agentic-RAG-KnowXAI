@@ -38,6 +38,7 @@ class QueryEmbedder:
         self.model_name = model_name
         self.dimensions = dimensions
         self.normalize_embeddings = normalize_embeddings
+        self._query_vector_cache: dict[str, list[float]] = {}
 
         if device is None:
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -51,17 +52,53 @@ class QueryEmbedder:
             self.dimensions,
         )
 
-        try:
-            # Pass model_kwargs to prevent accelerate meta tensor bugs
-            self._model = SentenceTransformer(
-                self.model_name, 
-                device=self.device,
-                model_kwargs={"torch_dtype": torch.float32}
-            )
-            self._model.eval()
-        except Exception as e:
-            logger.error("Failed to load local embedding model '%s': %s", self.model_name, e)
-            raise RuntimeError(f"Failed to load embedding model '{self.model_name}': {e}") from e
+        from rag.embeddings.local_embeddings import _MODEL_CACHE
+
+        cache_key = (self.model_name, self.device)
+        if cache_key in _MODEL_CACHE:
+            self._model = _MODEL_CACHE[cache_key]
+        else:
+            model = None
+            # Standard model_kwargs ensuring full weight loading in RAM, preventing meta tensor allocation
+            load_kwargs = {
+                "low_cpu_mem_usage": False,
+                "torch_dtype": torch.float32,
+            }
+            try:
+                # 1. Try loading with specified device and local_files_only
+                try:
+                    model = SentenceTransformer(
+                        self.model_name,
+                        device=self.device,
+                        model_kwargs=load_kwargs,
+                        local_files_only=True,
+                    )
+                except Exception:
+                    model = SentenceTransformer(
+                        self.model_name,
+                        device=self.device,
+                        model_kwargs=load_kwargs,
+                    )
+            except Exception as initial_err:
+                logger.warning(
+                    "Primary device load on %s failed (%s). Retrying with CPU fallback and full weight loading.",
+                    self.device,
+                    initial_err,
+                )
+                try:
+                    model = SentenceTransformer(
+                        self.model_name,
+                        device="cpu",
+                        model_kwargs=load_kwargs,
+                    )
+                    self.device = "cpu"
+                except Exception as fallback_err:
+                    logger.error("Failed to load local embedding model '%s': %s", self.model_name, fallback_err)
+                    raise RuntimeError(f"Failed to load embedding model '{self.model_name}': {fallback_err}") from fallback_err
+
+            model.eval()
+            _MODEL_CACHE[cache_key] = model
+            self._model = model
 
     @classmethod
     def get_instance(
@@ -126,6 +163,8 @@ class QueryEmbedder:
             RuntimeError: On embedding failure.
         """
         validated_text = self.validate_query_text(query)
+        if hasattr(self, "_query_vector_cache") and validated_text in self._query_vector_cache:
+            return list(self._query_vector_cache[validated_text])
 
         try:
             with torch.inference_mode():
@@ -150,6 +189,12 @@ class QueryEmbedder:
         if not is_valid:
             logger.error("Query vector failed validation: %s", msg)
             raise ValueError(f"Query vector validation failed: {msg}")
+
+        if not hasattr(self, "_query_vector_cache"):
+            self._query_vector_cache = {}
+        if len(self._query_vector_cache) >= 512:
+            self._query_vector_cache.pop(next(iter(self._query_vector_cache)))
+        self._query_vector_cache[validated_text] = list(vector)
 
         return vector
 

@@ -1,5 +1,4 @@
-"""Chat endpoints to invoke the Agentic RAG workflow and manage user conversations."""
-
+import time
 from typing import Any, Dict, List, Optional
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel
@@ -7,7 +6,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from api.auth import get_current_user
-from database.connection import get_db
+from database.connection import get_db, SessionLocal
 from database.models import Conversation, Message, User
 from database.vector_store import PGVectorStore
 
@@ -15,9 +14,22 @@ from agents.llm.factory import build_provider
 from config.settings import get_settings
 from rag.embeddings.factory import build_embedding_service
 from rag.retrieval.pgvector_retriever import PGVectorRetriever
+from rag.retrieval.semantic_retriever import SemanticRetriever
 from agents.graph.workflow import create_workflow
 
 router = APIRouter(prefix="/chat", tags=["chat"])
+
+_WORKFLOW_CACHE: Dict[str, Any] = {}
+
+
+def get_or_create_workflow(provider_name: str) -> Any:
+    """Cache compiled LangGraph workflows per provider to eliminate repeated graph compilation overhead."""
+    if provider_name not in _WORKFLOW_CACHE:
+        settings = get_settings()
+        llm = build_provider(provider_name)
+        retriever = SemanticRetriever(session_factory=SessionLocal)
+        _WORKFLOW_CACHE[provider_name] = create_workflow(llm, retriever)
+    return _WORKFLOW_CACHE[provider_name]
 
 
 class ChatRequestSchema(BaseModel):
@@ -34,6 +46,7 @@ class ChatResponseSchema(BaseModel):
     intent: str
     agent: Optional[str] = None
     user_department: Optional[str] = None
+    timings: Optional[Dict[str, float]] = None
 
 
 class MessageSchema(BaseModel):
@@ -98,7 +111,19 @@ def ask_question(
         db.commit()
         db.refresh(conversation)
 
-    # 2. Save user message to database
+    # 2. Fetch recent conversation history prior to current message for follow-up disambiguation
+    prior_messages = db.execute(
+        select(Message)
+        .where(Message.conversation_id == conversation.id)
+        .order_by(Message.id.desc())
+        .limit(8)
+    ).scalars().all()
+    conversation_history = [
+        {"role": m.role, "content": m.content}
+        for m in reversed(prior_messages)
+    ]
+
+    # Save user message to database
     user_msg = Message(
         conversation_id=conversation.id,
         role="user",
@@ -107,18 +132,15 @@ def ask_question(
     db.add(user_msg)
     db.commit()
 
+    t_start = time.perf_counter()
     # 3. Initialize and run RAG workflow
     try:
         settings = get_settings()
-        llm = build_provider(settings.llm_provider)
-        
-        from rag.retrieval.semantic_retriever import SemanticRetriever
-        retriever = SemanticRetriever(session_factory=lambda: db)
-        
-        workflow = create_workflow(llm, retriever)
+        workflow = get_or_create_workflow(settings.llm_provider)
         
         initial_state = {
             "original_query": query_text,
+            "conversation_history": conversation_history,
             "errors": [],
             "specialist_results": {},
             "user_context": {
@@ -130,40 +152,60 @@ def ask_question(
             }
         }
         
+        t_invoke_start = time.perf_counter()
         final_state = workflow.invoke(initial_state)
+        t_invoke_ms = (time.perf_counter() - t_invoke_start) * 1000.0
+        total_time_ms = (time.perf_counter() - t_start) * 1000.0
         
         user_dept = current_user.department or "General"
         intent = final_state.get("intent", "general")
         plan = final_state.get("plan") or []
 
         # Determine specialist agent name
+        def format_agent_name(name: str) -> str:
+            n = name.lower().strip()
+            if n == "it":
+                return "IT Agent"
+            if n == "hr":
+                return "HR Agent"
+            if n == "general":
+                return "General Assistant"
+            return f"{n.capitalize()} Agent"
+
         specialist_names = [p for p in plan if p not in ("critic", "decision")]
         if specialist_names:
-            primary_agent = f"{specialist_names[0].capitalize()} Agent"
+            primary_agent = format_agent_name(specialist_names[0])
         elif intent and intent != "general":
-            primary_agent = f"{intent.capitalize()} Agent"
+            primary_agent = format_agent_name(intent)
         else:
             primary_agent = "General Assistant"
 
-        # Log safe debugging info
+        meta = final_state.get("metadata") or {}
+        retrieved_count = meta.get("retrieved_count", 0)
+        authorized_count = meta.get("authorized_count", 0)
+        timing_qu = meta.get("timing_query_understanding_ms", 0.0)
+        timing_ret = meta.get("timing_retrieval_ms", 0.0)
+
+        # Log safe debugging info with stage timings
         if settings.debug:
-            selected_agents = ", ".join([f"{p.upper()} Agent" for p in plan]) or primary_agent
+            selected_agents = ", ".join([format_agent_name(p) for p in plan]) or primary_agent
             
-            meta = final_state.get("metadata") or {}
-            retrieved_count = meta.get("retrieved_count", 0)
-            authorized_count = meta.get("authorized_count", 0)
-            
-            print("\n[DEBUG LOG]", flush=True)
+            print("\n[DEBUG LOG - STAGE TIMINGS]", flush=True)
             print(f"User department:      {user_dept}", flush=True)
             print(f"Question domain:      {intent.upper()}", flush=True)
             print(f"Selected agent:       {selected_agents}", flush=True)
-            print(f"RAG domain:           {intent.upper()}", flush=True)
-            print(f"Documents retrieved:  {retrieved_count}", flush=True)
-            print(f"Authorized documents: {authorized_count}\n", flush=True)
+            print(f"Documents retrieved:  {retrieved_count} (authorized: {authorized_count})", flush=True)
+            print(f"Stage 1: Query Underst. {timing_qu:.1f}ms", flush=True)
+            print(f"Stage 2: Vector Search  {timing_ret:.1f}ms", flush=True)
+            print(f"Workflow Invoke Time:   {t_invoke_ms:.1f}ms", flush=True)
+            print(f"Total Request Time:     {total_time_ms:.1f}ms\n", flush=True)
 
         final_ans = final_state.get("final_answer") or {}
         answer = final_ans.get("answer", "No answer could be compiled.")
-        confidence = final_ans.get("confidence", 0.0)
+        confidence = final_ans.get("confidence")
+        if confidence is None or confidence <= 0.0:
+            confidence = meta.get("intent_confidence", 0.85)
+
         references = final_ans.get("references", [])
         errors = final_state.get("errors", [])
         
@@ -184,11 +226,22 @@ def ask_question(
             "errors": errors,
             "intent": intent,
             "agent": primary_agent,
-            "user_department": user_dept
+            "user_department": user_dept,
+            "timings": {
+                "total_request_ms": round(total_time_ms, 1),
+                "workflow_invoke_ms": round(t_invoke_ms, 1),
+                "query_understanding_ms": timing_qu,
+                "retrieval_ms": timing_ret,
+            },
         }
     except Exception as e:
-        # Save error message so the chat UI isn't broken
-        error_msg = f"An error occurred while compiling your answer: {str(e)}"
+        # Determine intent gracefully via domain classifier
+        from agents.query.understanding import classify_intent_rules
+        fallback_intent, fallback_conf, _, _, _ = classify_intent_rules(query_text, conversation_history)
+        
+        fallback_agent = "IT Agent" if fallback_intent == "it" else ("HR Agent" if fallback_intent == "hr" else ("General Assistant" if fallback_intent == "general" else f"{fallback_intent.capitalize()} Agent"))
+        
+        error_msg = f"We encountered a temporary issue processing your request: {str(e)}. Please verify your connection or try again shortly."
         assistant_msg = Message(
             conversation_id=conversation.id,
             role="assistant",
@@ -200,11 +253,11 @@ def ask_question(
         return {
             "conversation_id": conversation.id,
             "answer": error_msg,
-            "confidence": 0.0,
+            "confidence": round(fallback_conf * 0.5, 2) if fallback_conf else 0.40,
             "references": [],
             "errors": [str(e)],
-            "intent": "general",
-            "agent": "General Assistant",
+            "intent": fallback_intent,
+            "agent": fallback_agent,
             "user_department": current_user.department or "General"
         }
 

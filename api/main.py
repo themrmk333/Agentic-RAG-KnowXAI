@@ -12,10 +12,13 @@ from .logging import configure_logging
 import logging
 from .routes.system import router as system_router
 from .routes.auth import router as auth_router
+from .routes.biometrics import router as biometrics_router
+from .routes.oauth import router as oauth_router
 from .routes.chat import router as chat_router
 from .routes.documents import router as documents_router
 from .routes.admin import router as admin_router
 from .routes.rag import router as rag_router
+
 
 
 API_VERSION = "0.1.0"
@@ -67,9 +70,13 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         )
     application.include_router(system_router)
     application.include_router(auth_router)
+    application.include_router(auth_router, prefix="/api")
+    application.include_router(biometrics_router)
+    application.include_router(oauth_router)
     application.include_router(chat_router)
     application.include_router(documents_router)
     application.include_router(admin_router)
+    application.include_router(admin_router, prefix="/api")
     application.include_router(rag_router)
     return application
 

@@ -56,35 +56,29 @@ def is_port_in_use(port: int, host: str = "localhost") -> bool:
     return False
 
 def check_backend_is_ours() -> bool:
-    try:
-        req = urllib.request.Request("http://127.0.0.1:8000/")
-        with urllib.request.urlopen(req, timeout=2) as response:
-            if response.status == 200:
-                data = json.loads(response.read().decode('utf-8'))
-                return data.get("status") == "ok"
-    except Exception:
-        pass
+    for url in ("http://127.0.0.1:8000/", "http://localhost:8000/"):
+        try:
+            req = urllib.request.Request(url)
+            with urllib.request.urlopen(req, timeout=1) as response:
+                if response.status == 200:
+                    data = json.loads(response.read().decode('utf-8'))
+                    return data.get("status") == "ok"
+        except Exception:
+            pass
     return False
 
 
 def check_frontend_is_ours() -> bool:
-    try:
-        req = urllib.request.Request("http://localhost:5173")
-        with urllib.request.urlopen(req, timeout=2) as response:
-            if response.status == 200:
-                content = response.read().decode('utf-8').lower()
-                return "vite" in content or "react" in content or 'id="root"' in content
-    except Exception:
-        pass
+    for url in ("http://127.0.0.1:5173/", "http://localhost:5173/"):
+        try:
+            req = urllib.request.Request(url)
+            with urllib.request.urlopen(req, timeout=1) as response:
+                if response.status == 200:
+                    content = response.read().decode('utf-8', errors='ignore').lower()
+                    return "vite" in content or "react" in content or 'id="root"' in content or "<html" in content
+        except Exception:
+            pass
     return False
-
-try:
-    from sqlalchemy import text
-    from database.connection import engine
-    from config.settings import get_settings
-except ImportError as e:
-    print(f"ERROR: Missing Python dependencies ({e}). Please make sure you are running with the project's virtual environment.")
-    sys.exit(1)
 
 def check_python_env():
     # Verify .venv/Scripts/python.exe exists
@@ -108,6 +102,7 @@ def check_node_env():
 
 def check_env_vars():
     try:
+        from config.settings import get_settings
         settings = get_settings()
         
         db_ok = settings.database_url is not None and bool(settings.database_url.get_secret_value().strip())
@@ -131,6 +126,8 @@ def check_env_vars():
 
 def check_db_connectivity():
     try:
+        from database.connection import engine
+        from sqlalchemy import text
         with engine.connect() as connection:
             connection.execute(text("SELECT 1"))
             ext_check = connection.execute(text("SELECT extname FROM pg_extension WHERE extname = 'vector'")).scalar()
@@ -190,23 +187,26 @@ def start_frontend_proc():
 def cleanup():
     print("\n[BOOT] Stopping child processes...")
     global backend_proc, frontend_proc
-    if backend_proc:
-        try:
-            backend_proc.terminate()
-            backend_proc.wait(timeout=2)
-        except Exception:
-            pass
-    if frontend_proc:
-        try:
-            frontend_proc.terminate()
-            frontend_proc.wait(timeout=2)
-        except Exception:
-            pass
+    for proc in (backend_proc, frontend_proc):
+        if proc:
+            try:
+                if sys.platform == "win32":
+                    subprocess.run(
+                        ["taskkill", "/F", "/T", "/PID", str(proc.pid)],
+                        stdout=subprocess.DEVNULL,
+                        stderr=subprocess.DEVNULL,
+                        check=False,
+                    )
+                else:
+                    proc.terminate()
+                    proc.wait(timeout=2)
+            except Exception:
+                pass
 
 def check_detailed_health():
     try:
         req = urllib.request.Request("http://127.0.0.1:8000/health")
-        with urllib.request.urlopen(req, timeout=15) as response:
+        with urllib.request.urlopen(req, timeout=4) as response:
             if response.status == 200:
                 data = json.loads(response.read().decode('utf-8'))
                 
@@ -313,12 +313,17 @@ def main():
         cleanup()
         sys.exit(1)
 
-    # Poll frontend port
+    # Poll frontend HTTP readiness
     frontend_ready = False
     for _ in range(30):
-        if is_port_in_use(5173):
+        if check_frontend_is_ours():
             frontend_ready = True
             break
+        if is_port_in_use(5173):
+            time.sleep(0.5)
+            if check_frontend_is_ours():
+                frontend_ready = True
+                break
         if not frontend_already_running and frontend_proc and frontend_proc.poll() is not None:
             print("✗ (Frontend crashed during startup)")
             cleanup()
@@ -343,7 +348,13 @@ def main():
     print("Opening KNOWXAI...\n")
     print("STATUS: ONLINE 🟢\n")
 
-    # Detailed status card
+    # Open browser immediately once HTTP readiness is confirmed
+    try:
+        webbrowser.open("http://localhost:5173/")
+    except Exception as e:
+        print(f"[BOOT] Failed to open browser: {e}")
+
+    # Detailed status card (retrieved after browser launch to avoid any UI delay)
     detailed_status = check_detailed_health()
     
     print("╔════════════════════════════════════════════════════════════╗")
@@ -357,12 +368,6 @@ def main():
     print(f"║ Authentication{'✓ READY     ' if detailed_status['auth'] else '✗ FAILED    '}                                 ║")
     print("╚════════════════════════════════════════════════════════════╝")
     print()
-
-    # Open browser
-    try:
-        webbrowser.open("http://localhost:5173/")
-    except Exception as e:
-        print(f"[BOOT] Failed to open browser: {e}")
 
     # Monitor child processes
     global backend_restarts, frontend_restarts

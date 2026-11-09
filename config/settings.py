@@ -49,6 +49,9 @@ class Settings(BaseSettings):
     jwt_secret_key: SecretStr = SecretStr("mk-infinite-ai-enterprise-secret-key-987654321")
     jwt_algorithm: str = "HS256"
     access_token_expire_minutes: int = 1440
+    biometric_encryption_key: SecretStr = SecretStr("mk-infinite-biometric-key-32bytes-secret-12345")
+    face_similarity_threshold: float = 0.75  # Provisional baseline threshold
+    google_client_id: str | None = None
 
     @model_validator(mode="after")
     def validate_gemini_api_key(self) -> "Settings":

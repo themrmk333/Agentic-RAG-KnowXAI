@@ -8,3 +8,12 @@ __pycache__/
 data/chroma/
 data/company/
 *.zip
+
+# Local backups and generated RAG data
+data/backups/
+data/chunks/
+data/embeddings/
+new_knowledge_base/
+
+# Runtime logs
+*.log

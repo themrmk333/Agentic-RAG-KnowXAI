@@ -77,7 +77,28 @@ class ResilientEmbeddingClient:
             self._model = model_instance
         else:
             logger.info("Loading local embedding model '%s' on %s...", self.model, self.device)
-            self._model = SentenceTransformer(self.model, device=self.device)
+            load_kwargs = {
+                "low_cpu_mem_usage": False,
+                "torch_dtype": torch.float32,
+            }
+            try:
+                self._model = SentenceTransformer(
+                    self.model,
+                    device=self.device,
+                    model_kwargs=load_kwargs,
+                )
+            except Exception as initial_err:
+                logger.warning(
+                    "Primary device load on %s failed (%s). Retrying with CPU fallback.",
+                    self.device,
+                    initial_err,
+                )
+                self._model = SentenceTransformer(
+                    self.model,
+                    device="cpu",
+                    model_kwargs=load_kwargs,
+                )
+                self.device = "cpu"
             self._model.eval()
 
     def test_dimension(self, sample_text: str = "Dimension validation test") -> tuple[bool, int, str]:

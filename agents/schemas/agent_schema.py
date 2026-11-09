@@ -1,7 +1,5 @@
-"""Structured output and Pydantic schemas for Agentic RAG agents."""
-
-from typing import List, Optional
-from pydantic import BaseModel, Field
+from typing import Any, List, Optional
+from pydantic import BaseModel, Field, field_validator
 
 
 class UnderstoodQuery(BaseModel):
@@ -20,6 +18,25 @@ class UnderstoodQuery(BaseModel):
         default_factory=list,
         description="Key search terms extracted from the query for RAG retrieval."
     )
+    alternative_queries: List[str] = Field(
+        default_factory=list,
+        description="2-4 alternative faceted search queries to improve document retrieval (e.g. troubleshooting, requirements, setup, escalation)."
+    )
+    is_procedural: bool = Field(
+        default=False,
+        description="True if the query asks for how-to instructions, procedural steps, troubleshooting, or workflow steps."
+    )
+
+    @field_validator("intent", mode="before")
+    @classmethod
+    def normalize_intent(cls, v: Any) -> str:
+        if isinstance(v, str):
+            val = v.lower().strip()
+            for valid in ("finance", "coding", "mathematics", "research", "it", "hr", "project", "management", "sales", "greeting", "general"):
+                if valid in val:
+                    return valid
+            return val
+        return "general"
 
 
 class AgentPlan(BaseModel):

@@ -201,6 +201,8 @@ def test_provider_health_check_local(mock_create, mock_settings):
     assert health["local"]["healthy"] is False
     
     # When it succeeds
+    from agents.llm import factory as llm_factory
+    llm_factory._HEALTH_CACHE.clear()
     mock_choice = mock.Mock()
     mock_choice.message.content = "ok"
     mock_response = mock.Mock()
