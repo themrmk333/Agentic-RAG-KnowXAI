@@ -11,6 +11,7 @@ from database.models import Conversation, Message, User
 from database.vector_store import PGVectorStore
 
 from agents.llm.factory import build_provider
+from agents.llm.fallback import FallbackProvider
 from config.settings import get_settings
 from rag.embeddings.factory import build_embedding_service
 from rag.retrieval.pgvector_retriever import PGVectorRetriever
@@ -27,6 +28,13 @@ def get_or_create_workflow(provider_name: str) -> Any:
     if provider_name not in _WORKFLOW_CACHE:
         settings = get_settings()
         llm = build_provider(provider_name)
+
+        if provider_name.lower() == "groq":
+            local_llm = build_provider("local")
+            llm = FallbackProvider(
+                primary=llm,
+                secondary=local_llm,
+            )
         retriever = SemanticRetriever(session_factory=SessionLocal)
         _WORKFLOW_CACHE[provider_name] = create_workflow(llm, retriever)
     return _WORKFLOW_CACHE[provider_name]

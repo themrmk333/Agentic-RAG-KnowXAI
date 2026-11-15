@@ -29,6 +29,18 @@ def build_provider(provider: str, *, model: str | None = None, settings: Setting
     resolved = settings or get_settings()
     provider_name = provider.lower().strip()
 
+    if provider_name == "groq":
+        api_key = _secret(resolved.groq_api_key)
+        if not api_key:
+            raise ProviderConfigurationError(
+                "GROQ_API_KEY is not configured"
+            )
+        return OpenAICompatibleProvider(
+            api_key=api_key,
+            base_url=resolved.groq_base_url,
+            model=model or resolved.groq_model,
+        )
+
     if provider_name == "local":
         return LocalProvider(
             base_url=resolved.local_llm_base_url,
