@@ -384,6 +384,12 @@ class LocalProvider(OpenAICompatibleProvider):
 
     def health_check(self) -> tuple[bool, str]:
         try:
-            return super().health_check()
+            response = self._complete(
+                [{"role": "user", "content": "Reply with exactly: ok"}],
+                temperature=0.0,
+                timeout=30.0,
+                max_tokens=32,
+            )
+            return bool(response.text.strip()), "ok"
         except Exception:
-            return False, "Local LLM service is unavailable"
+            return False, "local inference request failed"
