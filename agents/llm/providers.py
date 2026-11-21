@@ -40,6 +40,15 @@ def _messages_to_prompt(messages: Sequence[Message]) -> str:
     return "\n".join(f"{message.get('role', 'user')}: {message.get('content', '')}" for message in messages)
 
 
+def _track_processing(provider_name: str):
+    try:
+        from services.health_service import track_provider_processing
+        return track_provider_processing(provider_name)
+    except Exception:
+        from contextlib import nullcontext
+        return nullcontext()
+
+
 class LLMProvider(ABC):
     """Interface consumed by planner and specialist agents."""
 
@@ -183,7 +192,17 @@ class OpenAICompatibleProvider(LLMProvider):
         if max_tokens is not None:
             request["max_tokens"] = max_tokens
             
-        result = self._client.chat.completions.create(**request)
+        base_url_str = str(getattr(self._client, "base_url", "")).lower()
+        provider_name = (
+            "groq" if "groq" in base_url_str
+            else ("nvidia" if "nvidia" in base_url_str
+            else ("openrouter" if "openrouter" in base_url_str
+            else ("ollama" if ("11434" in base_url_str or "ollama" in base_url_str)
+            else "local")))
+        )
+
+        with _track_processing(provider_name):
+            result = self._client.chat.completions.create(**request)
         message = result.choices[0].message
         return LLMResponse(text=message.content or "", raw=result)
 
@@ -326,11 +345,12 @@ class GeminiProvider(LLMProvider):
         self._client = genai.Client(api_key=api_key)
 
     def generate(self, prompt: str, *, temperature: float = 0.2) -> LLMResponse:
-        result = self._client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=genai_types.GenerateContentConfig(temperature=temperature),
-        )
+        with _track_processing("gemini"):
+            result = self._client.models.generate_content(
+                model=self.model,
+                contents=prompt,
+                config=genai_types.GenerateContentConfig(temperature=temperature),
+            )
         return LLMResponse(text=result.text or "", raw=result)
 
     def chat(self, messages: Sequence[Message], *, temperature: float = 0.2) -> LLMResponse:

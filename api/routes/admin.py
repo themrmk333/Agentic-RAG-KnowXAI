@@ -47,6 +47,7 @@ from database.models import (
     User,
 )
 from services.audit_service import log_audit_event
+from api.schemas.health import InfrastructureHealthResponse
 
 logger = logging.getLogger(__name__)
 
@@ -1691,3 +1692,22 @@ def get_company_settings(
             {"code": "employee", "label": "Employee", "description": "Standard company user with knowledge RAG chat and documents access"},
         ],
     }
+
+
+# ============================================================================
+# 11. Infrastructure Health
+# ============================================================================
+
+@router.get("/health", response_model=InfrastructureHealthResponse)
+def get_admin_infrastructure_health(
+    force_refresh: bool = False,
+    current_user: User = Depends(require_admin),
+    db: Session = Depends(get_db),
+):
+    """Retrieve detailed real-time health telemetry for all infrastructure components.
+    
+    Protected: Restricted strictly to authenticated enterprise administrators.
+    """
+    from services.health_service import get_system_infrastructure_health
+
+    return get_system_infrastructure_health(db, force_refresh=force_refresh)

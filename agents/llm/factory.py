@@ -86,31 +86,79 @@ def build_provider(provider: str, *, model: str | None = None, settings: Setting
     raise ProviderConfigurationError(f"Unsupported provider: {provider_name}")
 
 
-_HEALTH_CACHE: dict[str, dict[str, str | bool]] = {}
+_HEALTH_CACHE: dict[str, dict[str, Any]] = {}
 _HEALTH_CACHE_TIME: float = 0.0
 
 
-def provider_health(*, settings: Settings | None = None) -> dict[str, dict[str, str | bool]]:
-    """Run minimal inference checks for configured providers without leaking secrets."""
+def provider_health(*, settings: Settings | None = None, force_refresh: bool = False) -> dict[str, dict[str, Any]]:
+    """Run lightweight checks for configured providers without leaking secrets."""
     global _HEALTH_CACHE, _HEALTH_CACHE_TIME
     import time
     now = time.time()
-    if _HEALTH_CACHE and (now - _HEALTH_CACHE_TIME < 30.0):
+    if _HEALTH_CACHE and not force_refresh and (now - _HEALTH_CACHE_TIME < 20.0):
         return _HEALTH_CACHE
 
     resolved = settings or get_settings()
-    results: dict[str, dict[str, str | bool]] = {}
-    for name, configured in (("gemini", resolved.gemini_api_key), ("openrouter", resolved.gemini_api_key), ("nvidia", resolved.nvidia_api_key), ("local", "always_configured")):
-        if name != "local" and not _secret(configured):
-            results[name] = {"configured": False, "healthy": False, "detail": "not configured"}
+    results: dict[str, dict[str, Any]] = {}
+
+    providers_to_check = [
+        ("groq", resolved.groq_api_key, resolved.groq_model),
+        ("local", "always_configured" if resolved.local_llm_base_url else None, resolved.local_llm_model),
+        ("gemini", resolved.gemini_api_key, resolved.gemini_model),
+        ("nvidia", resolved.nvidia_api_key, resolved.nvidia_model),
+        ("openrouter", resolved.gemini_api_key if is_openrouter_key(_secret(resolved.gemini_api_key) or "") else None, resolved.gemini_openrouter_model),
+    ]
+
+    for name, configured, default_model in providers_to_check:
+        is_configured = bool(_secret(configured) if name not in ("local",) else configured)
+        if not is_configured:
+            results[name] = {
+                "name": name,
+                "configured": False,
+                "healthy": False,
+                "status": "not_configured",
+                "detail": "not configured",
+                "model": default_model,
+            }
             continue
+
         try:
+            t0 = time.perf_counter()
             healthy, detail = build_provider(name, settings=resolved).health_check()
-            results[name] = {"configured": True, "healthy": healthy, "detail": detail}
+            latency_ms = round((time.perf_counter() - t0) * 1000, 1)
+            results[name] = {
+                "name": name,
+                "configured": True,
+                "healthy": healthy,
+                "status": "online" if healthy else "offline",
+                "detail": detail,
+                "model": default_model,
+                "latency_ms": latency_ms if healthy else None,
+            }
         except ProviderConfigurationError:
-            results[name] = {"configured": True, "healthy": False, "detail": "invalid configuration"}
+            results[name] = {
+                "name": name,
+                "configured": True,
+                "healthy": False,
+                "status": "not_configured",
+                "detail": "invalid configuration",
+                "model": default_model,
+            }
         except Exception:
-            results[name] = {"configured": True, "healthy": False, "detail": "inference request failed"}
+            results[name] = {
+                "name": name,
+                "configured": True,
+                "healthy": False,
+                "status": "offline",
+                "detail": "inference request failed",
+                "model": default_model,
+            }
+
+    # Ensure "ollama" key is present as an alias to "local"
+    if "local" in results:
+        results["ollama"] = dict(results["local"])
+        results["ollama"]["name"] = "ollama"
+        results["ollama"]["display_name"] = "Ollama (Local LLM)"
 
     _HEALTH_CACHE = results
     _HEALTH_CACHE_TIME = now
