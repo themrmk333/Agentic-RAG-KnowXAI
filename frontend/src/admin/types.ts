@@ -7,7 +7,8 @@ export type AdminSection =
   | "activity"
   | "security"
   | "reports"
-  | "settings";
+  | "settings"
+  | "system-health";
 
 export interface OverviewMetrics {
   total_employees: number;

@@ -17,3 +17,15 @@ new_knowledge_base/
 
 # Runtime logs
 *.log
+
+# Sensitive files and local backups
+.env
+.env.*
+!.env.example
+*.bak
+data/embeddings_backup/
+.venv/
+node_modules/
+*.log
+/tatus
+/tore --staged -- .

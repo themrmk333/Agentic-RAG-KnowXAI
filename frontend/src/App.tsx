@@ -18,7 +18,6 @@ import {
   Database,
   Cpu,
   Brain,
-  Search,
   BookOpen,
   Camera,
   Scan,
@@ -36,6 +35,7 @@ import {
 } from "lucide-react";
 import { AdminDashboard } from "./admin/AdminDashboard";
 import { AdminLoginForm } from "./admin/AdminLoginForm";
+import { SystemHealthSection } from "./admin/sections/SystemHealthSection";
 import { triggerAdminVoiceGreeting } from "./admin/adminVoiceGreeting";
 
 // API Base URL (FastAPI backend local address)
@@ -2296,106 +2296,9 @@ export default function App() {
                       initial={{ opacity: 0, x: 10 }}
                       animate={{ opacity: 1, x: 0 }}
                       exit={{ opacity: 0, x: -10 }}
-                      className="flex-1 overflow-y-auto p-6 space-y-8"
+                      className="flex-1 overflow-y-auto p-6 md:p-8"
                     >
-                      <div>
-                        <h3 className="font-display font-bold text-xl text-white">System Infrastructure Health</h3>
-                        <p className="text-gray-400 text-xs mt-0.5">Monitor databases, index storage, and active LLM NIM gateways.</p>
-                      </div>
-
-                      {health ? (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
-                          {/* PostgreSQL Status Card */}
-                          <div className="bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col justify-between">
-                            <div className="flex justify-between items-start mb-4">
-                              <div className="flex items-center space-x-3">
-                                <div className="p-3 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-2xl">
-                                  <Database className="w-6 h-6" />
-                                </div>
-                                <div>
-                                  <h4 className="font-semibold text-sm">PostgreSQL + pgvector</h4>
-                                  <p className="text-[10px] text-gray-500 font-mono">Store: Document Indexes & Vectors</p>
-                                </div>
-                              </div>
-                              <span className={`text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded ${health.database.healthy ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "bg-red-500/10 text-red-400 border border-red-500/20"}`}>
-                                {health.database.healthy ? "Online" : "Offline"}
-                              </span>
-                            </div>
-                            <div className="space-y-2 mt-4 text-xs font-mono">
-                              <div className="flex justify-between">
-                                <span className="text-gray-500">Status Detail:</span>
-                                <span className="text-gray-300">{health.database.detail}</span>
-                              </div>
-                              <div className="flex justify-between">
-                                <span className="text-gray-500">pgvector Extension:</span>
-                                <span className={health.database.pgvector_enabled ? "text-emerald-400" : "text-red-400"}>
-                                  {health.database.pgvector_enabled ? "Enabled" : "Missing"}
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-
-                          {/* Embeddings Status Card */}
-                          <div className="bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col justify-between">
-                            <div className="flex justify-between items-start mb-4">
-                              <div className="flex items-center space-x-3">
-                                <div className="p-3 bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 rounded-2xl">
-                                  <Search className="w-6 h-6" />
-                                </div>
-                                <div>
-                                  <h4 className="font-semibold text-sm">Embedding Engine</h4>
-                                  <p className="text-[10px] text-gray-500 font-mono">Store: OpenAI text-embedding-3-small</p>
-                                </div>
-                              </div>
-                              <span className={`text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded ${health.embedding_service.healthy ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "bg-red-500/10 text-red-400 border border-red-500/20"}`}>
-                                {health.embedding_service.healthy ? "Online" : "Offline"}
-                              </span>
-                            </div>
-                            <div className="space-y-2 mt-4 text-xs font-mono">
-                              <div className="flex justify-between">
-                                <span className="text-gray-500">Dimentionality:</span>
-                                <span className="text-gray-300">1536 Float32</span>
-                              </div>
-                              <div className="flex justify-between">
-                                <span className="text-gray-500">Model Name:</span>
-                                <span className="text-gray-300">text-embedding-3-small</span>
-                              </div>
-                            </div>
-                          </div>
-
-                          {/* LLM NIM Providers Status Cards */}
-                          {Object.entries(health.llm_providers).map(([providerName, pdata]) => (
-                            <div key={providerName} className="bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col justify-between">
-                              <div className="flex justify-between items-start mb-4">
-                                <div className="flex items-center space-x-3">
-                                  <div className="p-3 bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 rounded-2xl">
-                                    <Cpu className="w-6 h-6" />
-                                  </div>
-                                  <div>
-                                    <h4 className="font-semibold text-sm uppercase">{providerName} NIM</h4>
-                                    <p className="text-[10px] text-gray-500 font-mono">Gateway API</p>
-                                  </div>
-                                </div>
-                                <span className={`text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded ${pdata.healthy ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "bg-red-500/10 text-red-400 border border-red-500/20"}`}>
-                                  {pdata.healthy ? "Ready" : "Unreachable"}
-                                </span>
-                              </div>
-                              <div className="space-y-2 mt-4 text-xs font-mono">
-                                <div className="flex justify-between">
-                                  <span className="text-gray-500">Configured:</span>
-                                  <span className={pdata.configured ? "text-emerald-400" : "text-red-400"}>{pdata.configured ? "Yes" : "No"}</span>
-                                </div>
-                                <div className="flex justify-between">
-                                  <span className="text-gray-500">Status Check:</span>
-                                  <span className="text-gray-300 truncate max-w-[200px]" title={pdata.detail}>{pdata.detail}</span>
-                                </div>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      ) : (
-                        <p className="text-xs text-gray-500 animate-pulse">Running diagnostic checks...</p>
-                      )}
+                      <SystemHealthSection apiUrl={API_URL} token={token} />
                     </motion.div>
                   )}
 

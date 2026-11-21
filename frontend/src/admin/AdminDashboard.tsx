@@ -40,6 +40,7 @@ import { ActivitySection } from "./sections/ActivitySection";
 import { SecuritySection } from "./sections/SecuritySection";
 import { ReportsSection } from "./sections/ReportsSection";
 import { SettingsSection } from "./sections/SettingsSection";
+import { SystemHealthSection } from "./sections/SystemHealthSection";
 import { EditEmployeeModal } from "./modals/EditEmployeeModal";
 import { ChangeRoleModal } from "./modals/ChangeRoleModal";
 import { ResetPasswordModal } from "./modals/ResetPasswordModal";
@@ -542,6 +543,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
     { id: "access-roles", label: "Access & Roles", icon: Shield },
     { id: "activity", label: "Company Activity", icon: Activity },
     { id: "security", label: "Security & Login Risk", icon: ShieldAlert },
+    { id: "system-health", label: "Infrastructure Health", icon: Activity },
     { id: "reports", label: "Reports & Export", icon: FileText },
     { id: "settings", label: "Admin Settings", icon: Sliders },
   ];
@@ -921,6 +923,10 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
 
           {currentSection === "reports" && (
             <ReportsSection metrics={overviewMetrics} onExportCSV={handleExportCSV} />
+          )}
+
+          {currentSection === "system-health" && (
+            <SystemHealthSection apiUrl={apiUrl} token={token} />
           )}
 
           {currentSection === "settings" && <SettingsSection />}
